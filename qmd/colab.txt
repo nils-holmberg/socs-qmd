@@ -1,0 +1,39 @@
+---
+execute:
+  eval: true
+  echo: true
+  output: true
+#  warning: false
+#engine: jupyter
+#engine: knitr
+#jupyter: python3
+format:
+  html:
+    toc: false
+    number-sections: false
+    colorlinks: true
+    theme: default
+title: scom-skom12 colab
+#subtitle: "Inclusive organizational communication and cognitive effects in online users"
+#bibliography: "../log/refs/refs.bib"
+#csl: "/home/sol-nhl/rnd/d/cca-cce/log/ref/apa-single-spaced.csl"
+#link-citations: yes
+---
+#| echo: false
+#| output: asis
+import numpy as np
+import pandas as pd
+#from tabulate import tabulate
+#from IPython.display import display
+#from IPython.display import Markdown
+
+# get dataset
+#df = pd.read_csv("~/res/teaching/sfac/simm71/tmp/grades_num", sep="\t", header=None)
+#df = pd.read_spss("csv/data-230328.sav")
+print("some..")
+
+# display data
+#print(df.to_markdown())
+
+# write to csv
+#dfa.to_csv("../tmp/passed.csv", sep="\t", header=False)

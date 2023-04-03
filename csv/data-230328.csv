@@ -1,0 +1,89 @@
+condition	Tidstämpel	Jagförstårattminmedverkanärfrivilligochanonymochattjagharfrih	Angedinkönsidentitet	Ålder	Vilkenärdenhögstaexamenduharavslutat	Angedinsysselsättning	AngeårlighushållsinkomstföreskattSek	Jagharerfarenhetnärdetkommertillfinansiellaprodukter	Jagharerfarenhetavlånochliknandefinansiellaproduktersedantidiga	Jagharenpositivsynpåminegnaekonomiskaprognosfördekommandetioå	Jagserpositivtpåminegnaekonomiskaförutsättningardennärmastet	Jagharenpositivsynpådenekonomiskaprognosenfördekommandetioåre	Jagtrorattflerafaktorerkommerattförbättraekonominpåkortochlå	Jaglitarpåbanker	Jagpåverkasavfamiljochvännernärjagtarfinansiellabeslut	Dinuppfattningomvadsomansesnormaltinomsamhälletpåverkardinaeko	Påverkardinavännerellerkollegorsåsikterdittvalavrådgivareell	Normerfrånsamhälletpåverkardinaekonomiskabeslut	Dinuppfattningomdinförmågaattbetalaavbolånetamorteringpåverk	Dinkänslaavkontrollöverdinekonomiskasituationpåverkardittbesl	Dinupplevdaförmågaatthanterariskerpåverkardittbeslutattinvest	Informationeniwebbannonsenvarinformativ	Informationeniwebbannonsenvartillhjälp	JagskulleviljaköpabolånfrånSvenskaLånebanken	Deninformationsomwebbannonsengavomproduktenvarvärdefull	Deninformationsomwebbannonsengavomhurbolånfungerarvarvärdefull	Jagskulleviljaköpadetbolånsombeskrivsiwebbannonsen	JagskulleviljaköpabolånfrånSvenskaLånebanken_A	Jagskulleförmodligenköpadenhärprodukten	Jagskulleförmodligenrekommenderadennaprodukttillenvän	DetärtroligtattjagköperettbolånfrånSvenskaLånebankennästag
+control.tsv	2023-03-03 09.36.23	JA	Icke-binär	19-29	Kandidatexamen	Student	100.000-200.000	4.0	4.0	6.0	6.0	4.0	3.0	3.0	5.0	3.0	5.0	4.0	7.0	5.0	5.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	1.0	1.0	1.0
+control.tsv	2023-03-03 09.59.33	JA	Man	19-29	Mastersexamen	Arbetande	400.000-500.000	5.0	3.0	6.0	5.0	4.0	3.0	6.0	6.0	7.0	4.0	4.0	6.0	6.0	6.0	5.0	5.0	4.0	6.0	3.0	4.0	4.0	4.0	6.0	3.0
+control.tsv	2023-03-03 10.19.15	JA	Kvinna	19-29	Kandidatexamen	Arbetande	300.000-400.000	4.0	5.0	5.0	2.0	5.0	3.0	5.0	6.0	3.0	1.0	5.0	5.0	6.0	5.0	4.0	4.0	3.0	3.0	2.0	3.0	3.0	3.0	3.0	3.0
+control.tsv	2023-03-03 10.25.50	JA	Kvinna	19-29	Kandidatexamen	Student	100.000-200.000	3.0	4.0	5.0	6.0	3.0	3.0	7.0	6.0	6.0	7.0	6.0	3.0	7.0	7.0	4.0	5.0	5.0	3.0	3.0	3.0	3.0	3.0	1.0	1.0
+control.tsv	2023-03-03 10.26.48	JA	Man	19-29	Kandidatexamen	Arbetande	700.000-800.000	7.0	7.0	7.0	7.0	4.0	4.0	6.0	5.0	5.0	5.0	5.0	6.0	6.0	6.0	2.0	2.0	2.0	2.0	3.0	2.0	2.0	2.0	1.0	2.0
+control.tsv	2023-03-03 10.51.36	JA	Kvinna	19-29	Kandidatexamen	Student	0-100.000	1.0	1.0	5.0	3.0	4.0	2.0	6.0	7.0	7.0	7.0	7.0	3.0	7.0	7.0	5.0	5.0	1.0	5.0	5.0	3.0	3.0	1.0	1.0	1.0
+control.tsv	2023-03-03 11.28.50	JA	Kvinna	40-49	Kandidatexamen	Arbetande	600.000-700.000	3.0	3.0	6.0	6.0	5.0	5.0	4.0	7.0	6.0	6.0	7.0	7.0	3.0	5.0	5.0	6.0	6.0	5.0	3.0	3.0	5.0	2.0	5.0	4.0
+control.tsv	2023-03-03 11.50.53	JA	Man	19-29	Mastersexamen	Arbetande	300.000-400.000	6.0	5.0	7.0	7.0	3.0	3.0	4.0	1.0	1.0	1.0	4.0	7.0	6.0	7.0	6.0	6.0	4.0	2.0	4.0	4.0	4.0	4.0	4.0	4.0
+control.tsv	2023-03-03 13.17.19	JA	Man	19-29	Mastersexamen	Arbetande	800.000-900.000	7.0	7.0	7.0	6.0	5.0	5.0	6.0	5.0	5.0	3.0	1.0	7.0	6.0	6.0	6.0	5.0	2.0	5.0	5.0	3.0	3.0	1.0	1.0	1.0
+control.tsv	2023-03-04 21.59.04	JA	Man	19-29	Kandidatexamen	Arbetande	500.000-600.000	6.0	5.0	7.0	6.0	6.0	4.0	6.0	2.0	2.0	2.0	2.0	6.0	5.0	4.0	3.0	3.0	2.0	3.0	1.0	1.0	2.0	1.0	1.0	1.0
+control.tsv	2023-03-05 19.39.19	JA	Kvinna	40-49	Gymnasieutbildning	Arbetande	200.000-300.000	4.0	4.0	5.0	5.0	3.0	3.0	4.0	6.0	6.0	5.0	6.0	3.0	4.0	5.0	5.0	5.0	5.0	5.0	5.0	6.0	6.0	6.0	5.0	5.0
+control.tsv	2023-03-06 10.32.15	JA	Kvinna	19-29	Gymnasieutbildning	Student	0-100.000	5.0	5.0	6.0	6.0	4.0	4.0	3.0	7.0	4.0	1.0	4.0	7.0	7.0	5.0	7.0	6.0	3.0	6.0	2.0	4.0	5.0	5.0	2.0	3.0
+control.tsv	2023-03-06 10.34.22	JA	Kvinna	19-29	Gymnasieutbildning	Student	0-100.000	5.0	2.0	4.0	5.0	5.0	5.0	5.0	6.0	5.0	3.0	5.0	4.0	6.0	5.0	4.0	3.0	3.0	4.0	4.0	5.0	4.0	5.0	4.0	3.0
+control.tsv	2023-03-06 10.55.06	JA	Man	60-69	Gymnasieutbildning	Pensionär	1.000 000 eller mer	6.0	6.0	6.0	6.0	6.0	3.0	5.0	6.0	6.0	6.0	6.0	7.0	6.0	7.0	4.0	4.0	4.0	4.0	4.0	4.0	4.0	4.0	4.0	4.0
+control.tsv	2023-03-06 11.30.01	JA	Man	19-29	Kandidatexamen	Arbetande	300.000-400.000	4.0	3.0	5.0	5.0	5.0	5.0	4.0	6.0	3.0	5.0	3.0	6.0	6.0	5.0	4.0	2.0	4.0	4.0	2.0	4.0	5.0	2.0	2.0	1.0
+control.tsv	2023-03-06 11.39.29	JA	Man	19-29	Mastersexamen	Student	0-100.000	5.0	6.0	7.0	4.0	6.0	6.0	7.0	5.0	6.0	4.0	4.0	6.0	7.0	6.0	6.0	6.0	4.0	6.0	4.0	4.0	4.0	3.0	5.0	2.0
+control.tsv	2023-03-06 13.54.46	JA	Kvinna	30-39	Kandidatexamen	Arbetande	700.000-800.000	7.0	7.0	5.0	3.0	5.0	4.0	4.0	4.0	4.0	2.0	2.0	6.0	6.0	5.0	3.0	2.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+control.tsv	2023-03-06 13.57.04	JA	Kvinna	30-39	Kandidatexamen	Arbetande	900.000-1.000 000	7.0	7.0	6.0	6.0	3.0	5.0	6.0	2.0	3.0	4.0	3.0	4.0	6.0	6.0	3.0	3.0	1.0	4.0	3.0	2.0	2.0	2.0	2.0	2.0
+control.tsv	2023-03-06 14.27.34	JA	Kvinna	40-49	Kandidatexamen	Arbetande	1.000 000 eller mer	4.0	3.0	4.0	4.0	3.0	3.0	3.0	5.0	5.0	6.0	5.0	5.0	6.0	5.0	4.0	4.0	4.0	5.0	5.0	4.0	4.0	4.0	4.0	4.0
+control.tsv	2023-03-06 15.09.32	JA	Kvinna	50-59	Gymnasieutbildning	Arbetande	900.000-1.000 000	6.0	6.0	7.0	6.0	5.0	5.0	4.0	5.0	5.0	2.0	3.0	7.0	7.0	5.0	3.0	3.0	2.0	3.0	4.0	3.0	2.0	2.0	2.0	2.0
+control.tsv	2023-03-06 16.01.04	JA	Man	40-49	Gymnasieutbildning	Arbetande	1.000 000 eller mer	6.0	6.0	6.0	7.0	5.0	6.0	6.0	7.0	6.0	3.0	5.0	5.0	5.0	6.0	3.0	3.0	1.0	2.0	3.0	3.0	3.0	3.0	2.0	2.0
+control.tsv	2023-03-07 07.37.53	JA	Man	60-69	Kandidatexamen	Pensionär	500.000-600.000	7.0	7.0	4.0	4.0	5.0	5.0	2.0	4.0	6.0	5.0	6.0	3.0	6.0	6.0	5.0	5.0	4.0	4.0	4.0	4.0	4.0	1.0	4.0	4.0
+control.tsv	2023-03-07 09.32.16	JA	Kvinna	19-29	Gymnasieutbildning	Student	0-100.000	3.0	1.0	5.0	4.0	4.0	7.0	7.0	7.0	1.0	1.0	1.0	1.0	7.0	1.0	4.0	4.0	1.0	1.0	1.0	3.0	2.0	1.0	1.0	1.0
+control.tsv	2023-03-09 10.23.07	JA	Man	40-49	Mastersexamen	Arbetande	1.000 000 eller mer	7.0	7.0	7.0	7.0	5.0	4.0	5.0	5.0	4.0	4.0	4.0	4.0	7.0	5.0	3.0	3.0	4.0	4.0	3.0	3.0	3.0	2.0	2.0	1.0
+control.tsv	2023-03-15 10.47.13	JA	Kvinna	40-49	Gymnasieutbildning	Arbetande	800.000-900.000	7.0	7.0	5.0	5.0	3.0	3.0	4.0	5.0	5.0	4.0	4.0	5.0	5.0	5.0	4.0	4.0	2.0	3.0	2.0	3.0	3.0	2.0	2.0	2.0
+control.tsv	2023-03-15 13.48.50	JA	Man	40-49	Mastersexamen	Arbetande	Vill inte uppge	5.0	5.0	4.0	4.0	3.0	3.0	4.0	5.0	4.0	5.0	5.0	4.0	5.0	7.0	4.0	3.0	3.0	2.0	4.0	3.0	4.0	3.0	3.0	3.0
+control.tsv	2023-03-15 13.54.30	JA	Man	60-69	Mastersexamen	Arbetande	1.000 000 eller mer	7.0	7.0	5.0	5.0	5.0	3.0	4.0	1.0	5.0	1.0	5.0	7.0	7.0	7.0	4.0	4.0	1.0	4.0	4.0	1.0	1.0	1.0	1.0	1.0
+control.tsv	2023-03-15 17.14.18	JA	Man	70-79	Kandidatexamen	Pensionär	Vill inte uppge	4.0	5.0	5.0	5.0	4.0	5.0	6.0	5.0	2.0	4.0	4.0	1.0	5.0	5.0	3.0	3.0	2.0	4.0	3.0	1.0	1.0	1.0	1.0	1.0
+control.tsv	2023-03-15 18.42.51	JA	Man	50-59	Mastersexamen	Arbetande	1.000 000 eller mer	6.0	7.0	6.0	6.0	6.0	5.0	4.0	5.0	4.0	2.0	2.0	7.0	6.0	6.0	5.0	4.0	4.0	4.0	2.0	4.0	4.0	3.0	2.0	3.0
+control.tsv	2023-03-15 21.59.01	JA	Man	30-39	Kandidatexamen	Arbetande	500.000-600.000	4.0	7.0	7.0	7.0	5.0	5.0	5.0	6.0	5.0	4.0	4.0	5.0	3.0	3.0	3.0	3.0	1.0	2.0	1.0	1.0	1.0	1.0	1.0	1.0
+control.tsv	2023-03-16 20.46.45	JA	Man	70-79	Mastersexamen	Pensionär	1.000 000 eller mer	5.0	7.0	7.0	7.0	4.0	4.0	5.0	2.0	3.0	2.0	2.0	5.0	6.0	7.0	4.0	4.0	3.0	2.0	2.0	2.0	2.0	2.0	1.0	1.0
+control.tsv	2023-03-17 11.07.28	JA	Man	50-59	Mastersexamen	Arbetande	1.000 000 eller mer	7.0	7.0	6.0	7.0	4.0	4.0	3.0	5.0	5.0	3.0	4.0	4.0	6.0	6.0	6.0	5.0	2.0	5.0	2.0	4.0	2.0	4.0	2.0	1.0
+control.tsv	2023-03-20 10.18.05	JA	Kvinna	30-39	Kandidatexamen	Arbetande	300.000-400.000	3.0	2.0	4.0	5.0	3.0	5.0	7.0	6.0	6.0	6.0	6.0	6.0	4.0	5.0	5.0	4.0	5.0	4.0	5.0	5.0	3.0	1.0	2.0	2.0
+control.tsv	2023-03-20 10.21.44	JA	Kvinna	19-29	Gymnasieutbildning	Student	200.000-300.000	6.0	4.0	6.0	7.0	6.0	5.0	6.0	7.0	6.0	6.0	6.0	5.0	6.0	4.0	5.0	6.0	3.0	3.0	3.0	3.0	5.0	3.0	3.0	5.0
+control.tsv	2023-03-20 10.30.04	JA	Man	70-79	Kandidatexamen	Pensionär	600.000-700.000	5.0	5.0	5.0	5.0	4.0	4.0	3.0	4.0	6.0	4.0	5.0	4.0	6.0	5.0	4.0	4.0	3.0	4.0	2.0	2.0	2.0	2.0	2.0	2.0
+control.tsv	2023-03-20 10.38.38	JA	Man	70-79	Mastersexamen	Pensionär	400.000-500.000	6.0	5.0	5.0	5.0	6.0	5.0	5.0	6.0	3.0	6.0	5.0	5.0	5.0	6.0	6.0	5.0	3.0	3.0	2.0	3.0	3.0	3.0	3.0	3.0
+control.tsv	2023-03-20 10.47.22	JA	Kvinna	40-49	Kandidatexamen	Arbetande	500.000-600.000	6.0	7.0	5.0	5.0	4.0	6.0	5.0	6.0	6.0	5.0	6.0	5.0	5.0	5.0	2.0	3.0	3.0	3.0	3.0	3.0	3.0	2.0	3.0	3.0
+control.tsv	2023-03-20 11.42.59	JA	Man	30-39	Gymnasieutbildning	Arbetande	300.000-400.000	3.0	3.0	3.0	4.0	3.0	4.0	3.0	3.0	4.0	3.0	4.0	3.0	4.0	4.0	3.0	3.0	3.0	3.0	4.0	4.0	5.0	3.0	3.0	4.0
+control.tsv	2023-03-21 12.28.23	JA	Kvinna	50-59	Gymnasieutbildning	Arbetande	300.000-400.000	3.0	5.0	2.0	2.0	2.0	2.0	2.0	4.0	3.0	3.0	3.0	3.0	3.0	2.0	2.0	3.0	3.0	1.0	1.0	2.0	2.0	2.0	2.0	2.0
+control.tsv	2023-03-21 12.39.36	JA	Man	30-39	Gymnasieutbildning	Arbetande	200.000-300.000	2.0	6.0	4.0	4.0	4.0	4.0	3.0	3.0	3.0	4.0	3.0	5.0	4.0	4.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0
+control.tsv	2023-03-22 09.55.35	JA	Man	30-39	Kandidatexamen	Arbetande	400.000-500.000	7.0	7.0	7.0	7.0	4.0	4.0	5.0	5.0	4.0	5.0	4.0	7.0	7.0	7.0	3.0	3.0	2.0	2.0	1.0	2.0	2.0	2.0	2.0	1.0
+control.tsv	2023-03-22 11.35.39	JA	Kvinna	40-49	Gymnasieutbildning	Arbetande	200.000-300.000	2.0	4.0	2.0	2.0	2.0	2.0	2.0	5.0	5.0	4.0	5.0	6.0	5.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	1.0	1.0	1.0	1.0
+control.tsv	2023-03-24 06.21.30	JA	Kvinna	50-59	Mastersexamen	Arbetande	500.000-600.000	7.0	7.0	7.0	7.0	3.0	3.0	5.0	4.0	4.0	4.0	3.0	7.0	7.0	7.0	3.0	3.0	1.0	1.0	1.0	1.0	1.0	1.0	3.0	1.0
+control.tsv	2023-03-24 08.09.58	JA	Kvinna	19-29	Gymnasieutbildning	Arbetande	200.000-300.000	3.0	3.0	2.0	2.0	2.0	2.0	2.0	6.0	6.0	5.0	6.0	7.0	7.0	7.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+control.tsv	2023-03-24 12.59.52	JA	Man	30-39	Mastersexamen	Arbetande	500.000-600.000	7.0	7.0	7.0	7.0	4.0	4.0	5.0	4.0	4.0	6.0	4.0	7.0	7.0	7.0	3.0	1.0	2.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+control.tsv	2023-03-24 13.03.09	JA	Icke-binär	19-29	Gymnasieutbildning	Student	100.000-200.000	5.0	5.0	7.0	3.0	3.0	3.0	4.0	4.0	1.0	4.0	3.0	7.0	7.0	7.0	2.0	2.0	2.0	2.0	1.0	1.0	1.0	1.0	1.0	1.0
+control.tsv	2023-03-24 13.22.34	JA	Kvinna	30-39	Gymnasieutbildning	Arbetande	300.000-400.000	4.0	6.0	2.0	2.0	2.0	2.0	1.0	7.0	7.0	7.0	7.0	6.0	6.0	4.0	2.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+control.tsv	2023-03-24 14.33.49	JA	Man	40-49	Kandidatexamen	Arbetande	400.000-500.000	7.0	7.0	7.0	7.0	3.0	3.0	5.0	5.0	3.0	3.0	1.0	7.0	7.0	7.0	2.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0	1.0
+control.tsv	2023-03-24 14.36.20	JA	Kvinna	40-49	Kandidatexamen	Arbetande	400.000-500.000	7.0	7.0	7.0	7.0	4.0	4.0	4.0	3.0	3.0	3.0	3.0	7.0	7.0	7.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	1.0	1.0	1.0
+control.tsv	2023-03-24 14.39.25	JA	Man	30-39	Gymnasieutbildning	Arbetande	300.000-400.000	5.0	7.0	6.0	6.0	2.0	2.0	4.0	3.0	3.0	3.0	3.0	7.0	7.0	7.0	2.0	2.0	2.0	1.0	1.0	1.0	2.0	2.0	1.0	2.0
+treatment.tsv	2023-03-03 08.51.31	JA	Kvinna	50-59	Kandidatexamen	Pensionär	400.000-500.000	7.0	7.0	4.0	4.0	4.0	3.0	4.0	7.0	6.0	6.0	5.0	7.0	7.0	7.0	5.0	5.0	5.0	5.0	2.0	4.0	4.0	4.0	4.0	3.0
+treatment.tsv	2023-03-03 09.09.30	JA	Man	60-69	Kandidatexamen	Pensionär	100.00000 eller mer	6.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	2.0	3.0	2.0
+treatment.tsv	2023-03-03 09.51.21	JA	Man	19-29	Gymnasieutbildning	Student	100.000-200.000	4.0	4.0	7.0	5.0	3.0	4.0	5.0	6.0	5.0	6.0	6.0	4.0	5.0	5.0	5.0	5.0	4.0	5.0	3.0	4.0	4.0	4.0	4.0	4.0
+treatment.tsv	2023-03-03 11.56.35	JA	Man	19-29	Kandidatexamen	Arbetande	0-100.000	2.0	5.0	6.0	3.0	3.0	1.0	3.0	6.0	6.0	5.0	5.0	7.0	7.0	6.0	3.0	3.0	4.0	1.0	1.0	4.0	4.0	3.0	3.0	1.0
+treatment.tsv	2023-03-03 13.07.01	JA	Kvinna	19-29	Gymnasieutbildning	Student	300.000-400.000	3.0	1.0	4.0	4.0	2.0	2.0	5.0	5.0	6.0	4.0	5.0	6.0	6.0	6.0	1.0	2.0	1.0	1.0	1.0	1.0	2.0	1.0	1.0	1.0
+treatment.tsv	2023-03-03 13.21.01	JA	Man	19-29	Kandidatexamen	Student	100.000-200.000	2.0	2.0	5.0	4.0	3.0	4.0	3.0	2.0	5.0	3.0	5.0	7.0	5.0	6.0	2.0	2.0	4.0	2.0	2.0	4.0	4.0	4.0	4.0	4.0
+treatment.tsv	2023-03-03 15.22.49	JA	Man	50-59	Gymnasieutbildning	Arbetande	100.00000 eller mer	6.0	6.0	7.0	7.0	5.0	5.0	3.0	1.0	1.0	1.0	1.0	6.0	6.0	4.0	4.0	4.0	2.0	3.0	3.0	3.0	3.0	3.0	1.0	1.0
+treatment.tsv	2023-03-03 15.46.04	JA	Man	19-29	Gymnasieutbildning	Student	0-100.000	3.0	3.0	1.0	3.0	3.0	4.0	2.0	3.0	4.0	4.0	3.0	4.0	7.0	5.0	5.0	3.0	3.0	5.0	4.0	3.0	3.0	3.0	4.0	2.0
+treatment.tsv	2023-03-04 02.22.14	JA	Man	19-29	Gymnasieutbildning	Arbetande	400.000-500.000	7.0	4.0	5.0	5.0	3.0	3.0	3.0	2.0	2.0	6.0	5.0	6.0	7.0	6.0	6.0	6.0	5.0	6.0	6.0	3.0	5.0	5.0	5.0	2.0
+treatment.tsv	2023-03-04 02.44.46	JA	Kvinna	19-29	Kandidatexamen	Arbetande	0-100.000	7.0	7.0	5.0	5.0	4.0	4.0	4.0	3.0	3.0	6.0	3.0	7.0	7.0	7.0	4.0	4.0	2.0	4.0	2.0	2.0	1.0	1.0	1.0	1.0
+treatment.tsv	2023-03-06 10.21.57	JA	Kvinna	19-29	Kandidatexamen	Student	100.000-200.000	3.0	2.0	4.0	6.0	3.0	3.0	2.0	4.0	5.0	7.0	4.0	3.0	5.0	4.0	5.0	4.0	3.0	4.0	4.0	3.0	3.0	3.0	2.0	4.0
+treatment.tsv	2023-03-06 10.32.45	JA	Kvinna	19-29	Gymnasieutbildning	Student	0-100.000	2.0	2.0	4.0	5.0	3.0	3.0	6.0	7.0	5.0	4.0	6.0	4.0	5.0	5.0	5.0	5.0	6.0	6.0	3.0	5.0	3.0	5.0	4.0	5.0
+treatment.tsv	2023-03-06 11.19.19	JA	Man	19-29	Kandidatexamen	Student	0-100.000	5.0	5.0	5.0	4.0	4.0	5.0	4.0	3.0	5.0	5.0	4.0	6.0	5.0	6.0	5.0	4.0	4.0	5.0	4.0	3.0	4.0	4.0	4.0	4.0
+treatment.tsv	2023-03-06 11.36.42	JA	Man	19-29	Gymnasieutbildning	Student	0-100.000	5.0	2.0	7.0	5.0	2.0	4.0	6.0	7.0	7.0	1.0	1.0	7.0	5.0	7.0	4.0	4.0	1.0	5.0	5.0	1.0	1.0	1.0	4.0	1.0
+treatment.tsv	2023-03-06 11.38.11	JA	Kvinna	19-29	Gymnasieutbildning	Student	100.000-200.000	6.0	6.0	4.0	5.0	3.0	2.0	5.0	7.0	6.0	6.0	5.0	6.0	7.0	6.0	5.0	5.0	4.0	6.0	5.0	6.0	4.0	4.0	5.0	4.0
+treatment.tsv	2023-03-06 11.39.48	JA	Man	19-29	Gymnasieutbildning	Student	100.000-200.000	4.0	2.0	6.0	5.0	5.0	5.0	4.0	7.0	3.0	5.0	3.0	4.0	6.0	3.0	2.0	2.0	1.0	4.0	2.0	1.0	1.0	1.0	1.0	1.0
+treatment.tsv	2023-03-06 13.44.56	JA	Kvinna	40-49	Mastersexamen	Arbetande	1.000 000 eller mer	7.0	7.0	5.0	5.0	4.0	4.0	5.0	3.0	4.0	3.0	4.0	5.0	5.0	5.0	3.0	3.0	4.0	3.0	3.0	4.0	4.0	4.0	3.0	4.0
+treatment.tsv	2023-03-06 14.03.11	JA	Man	30-39	Gymnasieutbildning	Arbetande	800.000-900.000	5.0	5.0	7.0	7.0	3.0	3.0	4.0	5.0	5.0	5.0	5.0	5.0	7.0	6.0	5.0	5.0	3.0	5.0	6.0	5.0	3.0	1.0	1.0	1.0
+treatment.tsv	2023-03-06 14.07.56	JA	Man	40-49	Kandidatexamen	Arbetande	600.000-700.000	6.0	6.0	6.0	4.0	4.0	4.0	4.0	5.0	3.0	2.0	3.0	2.0	6.0	6.0	4.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0
+treatment.tsv	2023-03-06 16.08.38	JA	Man	40-49	Mastersexamen	Arbetande	500.000-600.000	7.0	5.0	5.0	7.0	2.0	2.0	5.0	5.0	5.0	2.0	5.0	2.0	4.0	6.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0	2.0
+treatment.tsv	2023-03-06 17.31.51	JA	Man	19-29	Kandidatexamen	Student	100.000-200.000	3.0	3.0	5.0	2.0	2.0	3.0	5.0	6.0	6.0	7.0	6.0	7.0	7.0	5.0	6.0	6.0	6.0	6.0	7.0	5.0	7.0	5.0	5.0	5.0
+treatment.tsv	2023-03-07 15.40.46	JA	Kvinna	19-29	Kandidatexamen	Student	400.000-500.000	3.0	3.0	6.0	5.0	2.0	2.0	4.0	6.0	3.0	4.0	3.0	5.0	4.0	3.0	3.0	3.0	2.0	2.0	2.0	2.0	3.0	1.0	1.0	1.0
+treatment.tsv	2023-03-10 15.18.05	JA	Kvinna	50-59	Kandidatexamen	Arbetande	500.000-600.000	7.0	7.0	5.0	3.0	2.0	3.0	6.0	4.0	6.0	5.0	6.0	6.0	6.0	4.0	4.0	4.0	4.0	4.0	4.0	4.0	4.0	4.0	3.0	3.0
+treatment.tsv	2023-03-15 14.58.49	JA	Man	30-39	Mastersexamen	Arbetande	600.000-700.000	6.0	6.0	6.0	6.0	3.0	3.0	5.0	4.0	4.0	5.0	5.0	2.0	5.0	6.0	3.0	2.0	1.0	4.0	3.0	2.0	2.0	1.0	2.0	1.0
+treatment.tsv	2023-03-16 12.45.48	JA	Man	50-59	Vill inte uppge	Arbetande	Vill inte uppge	7.0	7.0	6.0	6.0	4.0	4.0	4.0	2.0	4.0	1.0	1.0	5.0	7.0	7.0	4.0	4.0	5.0	5.0	2.0	4.0	4.0	2.0	3.0	1.0
+treatment.tsv	2023-03-19 15.30.28	JA	Man	60-69	Kandidatexamen	Arbetande	900.000-1.000 000	2.0	3.0	6.0	6.0	3.0	3.0	5.0	2.0	3.0	1.0	2.0	1.0	6.0	2.0	2.0	2.0	2.0	2.0	1.0	2.0	2.0	1.0	1.0	1.0
+treatment.tsv	2023-03-20 10.03.17	JA	Man	19-29	Kandidatexamen	Student	100.000-200.000	5.0	3.0	6.0	5.0	5.0	7.0	7.0	5.0	6.0	6.0	5.0	6.0	6.0	7.0	7.0	7.0	6.0	6.0	5.0	6.0	6.0	6.0	7.0	7.0
+treatment.tsv	2023-03-20 11.40.04	JA	Man	60-69	Mastersexamen	Pensionär	600.000-700.000	4.0	5.0	3.0	4.0	4.0	4.0	5.0	6.0	5.0	5.0	5.0	5.0	5.0	3.0	6.0	6.0	5.0	7.0	7.0	6.0	7.0	5.0	7.0	6.0
+treatment.tsv	2023-03-20 11.48.26	JA	Man	30-39	Gymnasieutbildning	Arbetande	500.000-600.000	5.0	4.0	5.0	3.0	5.0	5.0	4.0	4.0	5.0	5.0	4.0	4.0	4.0	4.0	6.0	6.0	5.0	5.0	4.0	6.0	6.0	5.0	5.0	7.0
+treatment.tsv	2023-03-21 12.03.25	JA	Kvinna	40-49	Kandidatexamen	Arbetande	400.000-500.000	4.0	6.0	5.0	3.0	5.0	4.0	2.0	7.0	7.0	4.0	4.0	7.0	7.0	7.0	5.0	6.0	6.0	6.0	5.0	5.0	5.0	5.0	6.0	5.0
+treatment.tsv	2023-03-21 13.38.31	JA	Man	60-69	Gymnasieutbildning	Arbetande	1.000 000 eller mer	6.0	7.0	7.0	7.0	6.0	7.0	6.0	4.0	6.0	4.0	4.0	6.0	6.0	7.0	6.0	7.0	5.0	6.0	7.0	6.0	7.0	6.0	7.0	6.0
+treatment.tsv	2023-03-21 13.39.55	JA	Man	60-69	Kandidatexamen	Pensionär	500.000-600.000	5.0	6.0	5.0	6.0	5.0	6.0	6.0	4.0	4.0	3.0	5.0	4.0	5.0	4.0	6.0	7.0	6.0	6.0	6.0	6.0	7.0	5.0	6.0	6.0
+treatment.tsv	2023-03-21 14.57.29	JA	Man	30-39	Mastersexamen	Arbetande	400.000-500.000	7.0	7.0	7.0	7.0	4.0	4.0	3.0	5.0	2.0	5.0	2.0	7.0	7.0	7.0	5.0	6.0	6.0	6.0	6.0	6.0	6.0	6.0	7.0	5.0
+treatment.tsv	2023-03-21 15.58.21	JA	Man	19-29	Mastersexamen	Arbetande	700.000-800.000	6.0	3.0	3.0	1.0	4.0	1.0	2.0	3.0	2.0	4.0	5.0	4.0	3.0	6.0	5.0	5.0	7.0	7.0	6.0	6.0	5.0	6.0	5.0	6.0
+treatment.tsv	2023-03-21 16.00.02	JA	Kvinna	30-39	Doktorsexamen	Arbetande	900.000-1.000 000	5.0	3.0	6.0	3.0	4.0	4.0	5.0	4.0	4.0	5.0	4.0	4.0	6.0	6.0	7.0	5.0	5.0	6.0	6.0	5.0	6.0	6.0	6.0	6.0
+treatment.tsv	2023-03-24 06.25.17	JA	Kvinna	40-49	Kandidatexamen	Arbetande	300.000-400.000	6.0	6.0	5.0	5.0	2.0	2.0	3.0	7.0	2.0	7.0	3.0	6.0	6.0	6.0	7.0	7.0	5.0	6.0	5.0	6.0	6.0	6.0	7.0	6.0
+treatment.tsv	2023-03-24 13.09.50	JA	Man	60-69	Kandidatexamen	Arbetande	500.000-600.000	7.0	7.0	7.0	7.0	3.0	3.0	4.0	4.0	2.0	4.0	2.0	7.0	7.0	7.0	6.0	6.0	6.0	6.0	6.0	6.0	5.0	5.0	6.0	5.0
+treatment.tsv	2023-03-27 10.15.59	JA	Man	19-29	Kandidatexamen	Student	200.000-300.000	5.0	4.0	4.0	5.0	3.0	5.0	7.0	6.0	6.0	6.0	5.0	6.0	5.0	5.0	7.0	6.0	6.0	6.0	5.0	6.0	7.0	5.0	7.0	5.0

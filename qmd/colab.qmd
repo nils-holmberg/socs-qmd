@@ -1,0 +1,89 @@
+---
+execute:
+  eval: true
+  echo: true
+  output: true
+#  warning: false
+jupyter: python3
+#engine: jupyter
+#engine: knitr
+format:
+  html:
+    toc: false
+    number-sections: false
+    colorlinks: true
+    theme: default
+title: scom-skom12 colab
+#subtitle: "Inclusive organizational communication and cognitive effects in online users"
+#bibliography: "../log/refs/refs.bib"
+#csl: "/home/sol-nhl/rnd/d/cca-cce/log/ref/apa-single-spaced.csl"
+#link-citations: yes
+---
+
+```{python}
+#| echo: true
+#| output: true
+#import os
+#if not "/qmd" in os.getcwd(): os.chdir("qmd/")
+
+import numpy as np
+import pandas as pd
+pd.set_option("display.max_rows", 5)
+
+#conda install -c conda-forge tabulate
+from tabulate import tabulate
+#from IPython.display import display
+#from IPython.display import Markdown
+
+#conda install -c conda-forge siuba plotnine
+#pip install siuba plotnine
+#from siuba import *
+#from siuba.dply.vector import row_number, n, lag
+#from siuba.dply.vector import *
+import siuba as si
+from plotnine import *
+
+# read csv
+df = pd.read_csv("../csv/data-230328.csv", sep="\t", header=0)
+
+# display data
+dfa = df >> si.select(si._.condition, 1) >> si.head(5)
+
+# plot counts
+ggplot(df) + \
+geom_bar(
+    mapping = aes(x = 'condition'), 
+    stat = 'count'
+  )
+```
+
+## 230403
+
+```{python}
+#| echo: false
+#| output: asis
+# get dataset
+#conda install -c conda-forge pyreadstat
+df = pd.read_spss("../csv/data-230328.sav")
+
+# column names
+#print(list(df))
+
+# display data
+dfa = df >> si.select(si._.condition, 1) >> si.head(5)
+print(dfa.to_markdown())
+
+# write to csv
+df.to_csv("../csv/data-230328.csv", sep="\t", header=True, index=False)
+
+# read csv
+#df = pd.read_csv("../csv/data-230328.csv", sep="\t", header=None)
+```
+
+## 230402
+
+
+
+
+
+
