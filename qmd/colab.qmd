@@ -28,7 +28,7 @@ title: scom-skom12 colab
 
 import numpy as np
 import pandas as pd
-pd.set_option("display.max_rows", 5)
+pd.set_option("display.max_rows", 10)
 
 #conda install -c conda-forge tabulate
 from tabulate import tabulate
@@ -41,7 +41,8 @@ from tabulate import tabulate
 #from siuba.dply.vector import row_number, n, lag
 #from siuba.dply.vector import *
 import siuba as si
-from plotnine import *
+#from plotnine import *
+import plotnine as p9
 
 # read csv
 df = pd.read_csv("../csv/data-230328.csv", sep="\t", header=0)
@@ -50,11 +51,46 @@ df = pd.read_csv("../csv/data-230328.csv", sep="\t", header=0)
 dfa = df >> si.select(si._.condition, 1) >> si.head(5)
 
 # plot counts
-ggplot(df) + \
-geom_bar(
-    mapping = aes(x = 'condition'), 
+p9.ggplot(df) + \
+p9.geom_bar(
+    mapping = p9.aes(x = 'condition'), 
     stat = 'count'
   )
+```
+
+## 230404
+
+```{python}
+#| eval: true
+#| echo: true
+#| output: true
+##| include: false
+from scipy.stats import ttest_ind
+from scipy.stats import sem
+
+# fix column name
+#df["JagskulleviljaköpabolånfrånSvenskaLånebanken"]
+df.rename(columns={df.columns[24]:"pi_some"}, inplace=True)
+
+# get descriptive stats for variable
+df["pi_some"].describe()
+df >> si.select(0,24) >> si.head()
+
+# select columns
+tmp = df >> si.select(0,24)
+tmp = df.groupby(['condition'])['pi_some'].agg([np.mean, sem]).reset_index()
+tmp >> si.head()
+
+#ggplot(df) + geom_point(aes("Distance", "Force"), size=2) + geom_errorbar(aes(x="Distance", ymin="Force-yerr",ymax="Force+yerr"))
+
+# bar plot means
+#bp = (p9.ggplot(data=tmp, mapping=p9.aes(x="condition", y="pi_some"))
+#+ p9.geom_col())
+#+ p9.geom_bar())
+#+ p9.geom_bar(alpha=0.5, width=0.2, color='blue') 
+#+ stat_summary(fun_y=np.mean))
+#+ geom_errorbar(aes(ymin = 'mean - sem', ymax = 'mean + sem'))
+#bp
 ```
 
 ## 230403
