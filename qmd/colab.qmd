@@ -47,15 +47,25 @@ import plotnine as p9
 # read csv
 df = pd.read_csv("../csv/data-230328.csv", sep="\t", header=0)
 
-# display data
-dfa = df >> si.select(si._.condition, 1) >> si.head(5)
+# dependent variable, fix column name
+#df["JagskulleviljaköpabolånfrånSvenskaLånebanken"]
+df.rename(columns={df.columns[24]:"pi_some"}, inplace=True)
 
-# plot counts
-p9.ggplot(df) + \
-p9.geom_bar(
-    mapping = p9.aes(x = 'condition'), 
-    stat = 'count'
-  )
+# get descriptive stats for variable
+df["pi_some"].describe()
+#df >> si.select(0,24) >> si.head()
+```
+
+```{python}
+#| eval: true
+#| echo: true
+#| output: true
+# get histogram plot
+hp = (
+p9.ggplot(data=df)
++ p9.geom_histogram(p9.aes(x='pi_some'), fill='#c22d6d', bins=7)
+)
+hp
 ```
 
 ## 230404
@@ -68,29 +78,34 @@ p9.geom_bar(
 from scipy.stats import ttest_ind
 from scipy.stats import sem
 
-# fix column name
-#df["JagskulleviljaköpabolånfrånSvenskaLånebanken"]
-df.rename(columns={df.columns[24]:"pi_some"}, inplace=True)
+# display data
+dfa = df >> si.select(si._.condition, 1) >> si.head(5)
 
-# get descriptive stats for variable
-df["pi_some"].describe()
-df >> si.select(0,24) >> si.head()
+# plot counts
+p9.ggplot(df) + \
+p9.geom_bar(
+    mapping = p9.aes(x = 'condition'), 
+    stat = 'count'
+  )
 
-# select columns
+# select, aggregate columns
 tmp = df >> si.select(0,24)
 tmp = df.groupby(['condition'])['pi_some'].agg([np.mean, sem]).reset_index()
 tmp >> si.head()
+```
 
-#ggplot(df) + geom_point(aes("Distance", "Force"), size=2) + geom_errorbar(aes(x="Distance", ymin="Force-yerr",ymax="Force+yerr"))
-
+```{python}
+#| eval: true
+#| echo: true
+#| output: true
 # bar plot means
-#bp = (p9.ggplot(data=tmp, mapping=p9.aes(x="condition", y="pi_some"))
-#+ p9.geom_col())
-#+ p9.geom_bar())
-#+ p9.geom_bar(alpha=0.5, width=0.2, color='blue') 
-#+ stat_summary(fun_y=np.mean))
-#+ geom_errorbar(aes(ymin = 'mean - sem', ymax = 'mean + sem'))
-#bp
+bp = (
+p9.ggplot(data=tmp)
++ p9.geom_bar(mapping=p9.aes(x="condition", y="mean"), stat='identity', fill=np.where(tmp['condition']=='control.tsv', '#80797c', '#c22d6d'))
++ p9.geom_errorbar(mapping=p9.aes(x="condition", ymin='mean-sem', ymax='mean+sem'))
++ p9.labs(title="purchase intent by condition", x='condition', y='mean pi')
+)
+bp
 ```
 
 ## 230403
