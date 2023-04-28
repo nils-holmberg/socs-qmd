@@ -2650,7 +2650,7 @@ Loading required package: lpSolve</code></pre>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load dataset</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> readxl<span class="sc">::</span><span class="fu">read_excel</span>(<span class="st">&#39;../csv/some.xlsx&#39;</span>, <span class="at">sheet=</span><span class="st">&quot;Blad1&quot;</span>, <span class="at">col_names=</span><span class="fu">paste0</span>(<span class="st">&quot;x&quot;</span>, <span class="fu">seq</span>(<span class="dv">34</span>)))</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># select data</span></span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> data <span class="sc">|&gt;</span> </span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">mutate</span>(<span class="at">coder_id=</span><span class="fu">c</span>(<span class="fu">rep</span>(<span class="st">&quot;a&quot;</span>,<span class="dv">5</span>), <span class="fu">rep</span>(<span class="st">&quot;b&quot;</span>,<span class="dv">5</span>)), <span class="at">content_id=</span><span class="fu">rep</span>(<span class="fu">seq</span>(<span class="dv">5</span>), <span class="dv">2</span>)) <span class="sc">|&gt;</span> </span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(<span class="st">&quot;coder_id&quot;</span>,<span class="st">&quot;content_id&quot;</span>,<span class="dv">1</span>,<span class="dv">3</span>,<span class="dv">9</span>,<span class="dv">10</span>) <span class="sc">|&gt;</span> <span class="fu">print</span>(<span class="at">n=</span><span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -2672,36 +2672,59 @@ Loading required package: lpSolve</code></pre>
 </div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># transform data</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>data <span class="sc">|&gt;</span> <span class="fu">pivot_wider</span>(<span class="at">id_cols=</span>coder_id, <span class="at">names_from=</span>content_id, <span class="at">values_from=</span>x3)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> data <span class="sc">|&gt;</span> </span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">pivot_wider</span>(<span class="at">id_cols=</span>coder_id, <span class="at">names_from=</span>content_id, <span class="at">values_from=</span>x3) <span class="sc">|&gt;</span> </span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(<span class="sc">-</span>coder_id)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># https://rpubs.com/jacoblong/content-analysis-krippendorff-alpha-R</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 2 × 6
-  coder_id   `1`   `2`   `3`   `4`   `5`
-  &lt;chr&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
-1 a          102   103   102   101   104
-2 b          102   103   101   101   105</code></pre>
+<pre><code># A tibble: 2 × 5
+    `1`   `2`   `3`   `4`   `5`
+  &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+1   102   103   102   101   104
+2   102   103   101   101   105</code></pre>
 </div>
 </div>
+</section>
+<section id="analyze-data" class="level2">
+<h2 class="anchored" data-anchor-id="analyze-data">230427: analyze data</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># inter rater reliability</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> <span class="fu">as.matrix</span>(data)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># specify data type: nominal, ordinal, interval, ratio </span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="fu">kripp.alpha</span>(data, <span class="at">method=</span><span class="st">&quot;nominal&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> Krippendorff&#39;s alpha
+
+ Subjects = 5 
+   Raters = 2 
+    alpha = 0.526 </code></pre>
+</div>
+</div>
+<ul>
+<li>Krippendorff’s Alpha values range from -1 to 1, with 1 representing unanimous agreement between the raters, 0 indicating they’re guessing randomly, and negative values suggesting the raters are systematically disagreeing. As suggested by Krippendorff, alphas above 0.8 are considered very good agreement, and tentative conclusions can be made with data where α≥0.667</li>
+</ul>
 </section>
 <section id="sample-data" class="level2">
 <h2 class="anchored" data-anchor-id="sample-data">sample data</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get some data</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tribble</span>(</span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="sc">~</span>content_id, <span class="sc">~</span>coder_id, <span class="sc">~</span>var1, <span class="sc">~</span>var2,   <span class="sc">~</span>var3,</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">1</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Blue&quot;</span>,  <span class="cn">TRUE</span>,</span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">3</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">5</span>,     <span class="st">&quot;Blue&quot;</span>,  <span class="cn">TRUE</span>,</span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    <span class="dv">4</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">7</span>,     <span class="st">&quot;Green&quot;</span>, <span class="cn">TRUE</span>,</span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    <span class="dv">5</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">1</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">1</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Blue&quot;</span>,  <span class="cn">FALSE</span>,</span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    <span class="dv">3</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Green&quot;</span>, <span class="cn">FALSE</span>,</span>
-<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>    <span class="dv">4</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">7</span>,     <span class="st">&quot;Green&quot;</span>, <span class="cn">TRUE</span>,</span>
-<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>    <span class="dv">5</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
-<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>data <span class="sc">|&gt;</span> <span class="fu">print</span>(<span class="at">n=</span><span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get some data</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tribble</span>(</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="sc">~</span>content_id, <span class="sc">~</span>coder_id, <span class="sc">~</span>var1, <span class="sc">~</span>var2,   <span class="sc">~</span>var3,</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">1</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Blue&quot;</span>,  <span class="cn">TRUE</span>,</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">3</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">5</span>,     <span class="st">&quot;Blue&quot;</span>,  <span class="cn">TRUE</span>,</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    <span class="dv">4</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">7</span>,     <span class="st">&quot;Green&quot;</span>, <span class="cn">TRUE</span>,</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>    <span class="dv">5</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">1</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">1</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Blue&quot;</span>,  <span class="cn">FALSE</span>,</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>    <span class="dv">3</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Green&quot;</span>, <span class="cn">FALSE</span>,</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    <span class="dv">4</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">7</span>,     <span class="st">&quot;Green&quot;</span>, <span class="cn">TRUE</span>,</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>    <span class="dv">5</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>data <span class="sc">|&gt;</span> <span class="fu">print</span>(<span class="at">n=</span><span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 10 × 5
    content_id coder_id  var1 var2  var3 
@@ -2722,9 +2745,9 @@ Loading required package: lpSolve</code></pre>
 <section id="exclude" class="level2">
 <h2 class="anchored" data-anchor-id="exclude">exclude</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (T) {</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">knit_exit</span>()</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (T) {</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">knit_exit</span>()</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 
