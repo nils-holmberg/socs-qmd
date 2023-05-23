@@ -3043,28 +3043,124 @@ vertical-align: -.125em;
 Loading required package: lpSolve</code></pre>
 </div>
 </div>
-<section id="real-dataset" class="level2">
-<h2 class="anchored" data-anchor-id="real-dataset">230515: real dataset</h2>
+<section id="danish-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="danish-dataset">230523: danish dataset</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load dataset</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>fn <span class="ot">=</span> <span class="st">&quot;../csv/some.tsv&quot;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>fn <span class="ot">=</span> <span class="st">&quot;../csv/haidi-wp1-coding-dk.tsv&quot;</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> <span class="fu">read.table</span>(fn, <span class="at">sep=</span><span class="st">&#39;</span><span class="sc">\t</span><span class="st">&#39;</span>, <span class="at">header=</span>F, <span class="at">strip.white=</span><span class="cn">TRUE</span>, <span class="at">stringsAsFactors=</span><span class="cn">FALSE</span>)</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> <span class="fu">read.table</span>(fn, <span class="at">sep=</span><span class="st">&#39;</span><span class="sc">\t</span><span class="st">&#39;</span>, <span class="at">header=</span>F, <span class="at">quote=</span><span class="st">&quot;&quot;</span>, <span class="at">strip.white=</span><span class="cn">TRUE</span>, <span class="at">stringsAsFactors=</span><span class="cn">FALSE</span>)</span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># select data</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> data <span class="sc">|&gt;</span> <span class="fu">as_tibble</span>() <span class="sc">|&gt;</span> <span class="fu">select</span>(<span class="sc">-</span><span class="fu">c</span>(<span class="dv">2</span>,<span class="dv">10</span>,<span class="dv">11</span>,<span class="dv">16</span>,<span class="dv">17</span>)) <span class="sc">|&gt;</span> <span class="fu">select</span>(<span class="fu">last_col</span>(), <span class="dv">1</span><span class="sc">:</span><span class="dv">29</span>) <span class="sc">|&gt;</span> <span class="fu">rename</span>(<span class="at">coder_id=</span>V35, <span class="at">content_id=</span>V1)</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># duplicate content_id for both coders</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>data<span class="sc">$</span>some <span class="ot">=</span> <span class="fu">rep</span>(data<span class="sc">$</span>content_id[data<span class="sc">$</span>coder_id<span class="sc">==</span><span class="st">&quot;A&quot;</span>], <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> data <span class="sc">|&gt;</span> </span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">as_tibble</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">na.omit</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(<span class="sc">-</span><span class="fu">c</span>(<span class="dv">2</span>,<span class="dv">10</span>,<span class="dv">11</span>,<span class="dv">16</span>,<span class="dv">17</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(<span class="fu">last_col</span>(), <span class="dv">1</span><span class="sc">:</span><span class="dv">29</span>) <span class="sc">|&gt;</span> </span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="fu">rename</span>(<span class="at">coder_id=</span>V35, <span class="at">content_id=</span>V1)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co"># content_id for both coders</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>data<span class="sc">$</span>some <span class="ot">=</span> data<span class="sc">$</span>content_id</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 20 × 31
+   coder_id conten…¹    V3    V4    V5    V6    V7    V8    V9   V12   V13   V14
+   &lt;chr&gt;    &lt;chr&gt;    &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;
+ 1 A        DK001      208     4     3     2     1     0    99     0     0     0
+ 2 A        DK002      206     4     3     2     4     0    99     0     0     0
+ 3 A        DK003      208     1     2     0    99     0    99     0     0     0
+ 4 A        DK004      206     1     3     1     3     0    99     0     0     1
+ 5 A        DK005      206     1     2     0    99     0    99     0     0     0
+ 6 A        DK006      206     1     3     1     3     0    99     0     0     0
+ 7 A        DK007      206     1     3     0    99     0    99     0     0     0
+ 8 A        DK008      206     1     2     1     3     0    99     0     0     0
+ 9 A        DK009      206     1     2     1     3     0    99     1     0     0
+10 A        DK010      206     1     1     0    99    99    99     0     0     0
+11 B        DK001      208     3     2     2     4     0    99     0     0     0
+12 B        DK002      206     4     3     2     4     0    99     0     0     0
+13 B        DK003      208     1     2     1     1     0    99     0     0     0
+14 B        DK004      206     1     2     2     5     0    99     0     0     1
+15 B        DK005      206     1     2     1     1     0    99     0     0     0
+16 B        DK006      206     1     2     2     5     0    99     0     0     0
+17 B        DK007      206     1     2     1     1     0    99     0     0     0
+18 B        DK008      206     1     3     1     1     0    99     0     0     0
+19 B        DK009      206     1     2     2     5     0    99     1     0     0
+20 B        DK010      206     1     1     0    99    99    99     0     0     1
+# … with 19 more variables: V15 &lt;int&gt;, V18 &lt;chr&gt;, V19 &lt;int&gt;, V20 &lt;int&gt;,
+#   V21 &lt;int&gt;, V22 &lt;int&gt;, V23 &lt;int&gt;, V24 &lt;int&gt;, V25 &lt;int&gt;, V26 &lt;int&gt;,
+#   V27 &lt;int&gt;, V28 &lt;int&gt;, V29 &lt;int&gt;, V30 &lt;int&gt;, V31 &lt;int&gt;, V32 &lt;int&gt;,
+#   V33 &lt;int&gt;, V34 &lt;int&gt;, some &lt;chr&gt;, and abbreviated variable name ¹​content_id</code></pre>
+</div>
+</div>
+<section id="analyze-data" class="level3">
+<h3 class="anchored" data-anchor-id="analyze-data">analyze data</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># transform data to wide (10 content units * 28 content vars)</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> data <span class="sc">|&gt;</span> </span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">pivot_wider</span>(<span class="at">id_cols=</span>coder_id, <span class="at">names_from=</span>some, <span class="at">values_from=</span><span class="fu">c</span>(<span class="dv">3</span><span class="sc">:</span><span class="dv">30</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(<span class="sc">-</span>coder_id)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 280
+  V3_DK001 V3_DK002 V3_DK003 V3_DK004 V3_DK005 V3_DK006 V3_DK007 V3_DK…¹ V3_DK…²
+     &lt;int&gt;    &lt;int&gt;    &lt;int&gt;    &lt;int&gt;    &lt;int&gt;    &lt;int&gt;    &lt;int&gt;   &lt;int&gt;   &lt;int&gt;
+1      208      206      208      206      206      206      206     206     206
+2      208      206      208      206      206      206      206     206     206
+# … with 271 more variables: V3_DK010 &lt;int&gt;, V4_DK001 &lt;int&gt;, V4_DK002 &lt;int&gt;,
+#   V4_DK003 &lt;int&gt;, V4_DK004 &lt;int&gt;, V4_DK005 &lt;int&gt;, V4_DK006 &lt;int&gt;,
+#   V4_DK007 &lt;int&gt;, V4_DK008 &lt;int&gt;, V4_DK009 &lt;int&gt;, V4_DK010 &lt;int&gt;,
+#   V5_DK001 &lt;int&gt;, V5_DK002 &lt;int&gt;, V5_DK003 &lt;int&gt;, V5_DK004 &lt;int&gt;,
+#   V5_DK005 &lt;int&gt;, V5_DK006 &lt;int&gt;, V5_DK007 &lt;int&gt;, V5_DK008 &lt;int&gt;,
+#   V5_DK009 &lt;int&gt;, V5_DK010 &lt;int&gt;, V6_DK001 &lt;int&gt;, V6_DK002 &lt;int&gt;,
+#   V6_DK003 &lt;int&gt;, V6_DK004 &lt;int&gt;, V6_DK005 &lt;int&gt;, V6_DK006 &lt;int&gt;, …</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># inter rater reliability</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> <span class="fu">as.matrix</span>(data)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># specify data type: nominal, ordinal, interval, ratio </span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="fu">kripp.alpha</span>(data, <span class="at">method=</span><span class="st">&quot;nominal&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in kripp.alpha(data, method = &quot;nominal&quot;): NAs introduced by coercion</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code> Krippendorff&#39;s alpha
+
+ Subjects = 280 
+   Raters = 2 
+    alpha = 0.64 </code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># write data</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>fn <span class="ot">=</span> <span class="st">&quot;../csv/haidi-wp1-coding-dk-wide.csv&quot;</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="fu">write.table</span>(data, fn, <span class="at">sep=</span><span class="st">&quot;</span><span class="sc">\t</span><span class="st">&quot;</span>, <span class="at">quot=</span>T, <span class="at">row.names=</span>F)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
+<li>dataset wide format <a href="../csv/haidi-wp1-coding-dk-wide.csv">link</a></li>
+</ul>
+</section>
+</section>
+<section id="swedish-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="swedish-dataset">230515: swedish dataset</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load dataset</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>fn <span class="ot">=</span> <span class="st">&quot;../csv/some.tsv&quot;</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> <span class="fu">read.table</span>(fn, <span class="at">sep=</span><span class="st">&#39;</span><span class="sc">\t</span><span class="st">&#39;</span>, <span class="at">header=</span>F, <span class="at">strip.white=</span><span class="cn">TRUE</span>, <span class="at">stringsAsFactors=</span><span class="cn">FALSE</span>)</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> <span class="fu">read.table</span>(fn, <span class="at">sep=</span><span class="st">&#39;</span><span class="sc">\t</span><span class="st">&#39;</span>, <span class="at">header=</span>F, <span class="at">quote=</span><span class="st">&quot;&quot;</span>, <span class="at">strip.white=</span><span class="cn">TRUE</span>, <span class="at">stringsAsFactors=</span><span class="cn">FALSE</span>)</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="co"># select data</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> data <span class="sc">|&gt;</span> <span class="fu">as_tibble</span>() <span class="sc">|&gt;</span> <span class="fu">select</span>(<span class="sc">-</span><span class="fu">c</span>(<span class="dv">2</span>,<span class="dv">10</span>,<span class="dv">11</span>,<span class="dv">16</span>,<span class="dv">17</span>)) <span class="sc">|&gt;</span> <span class="fu">select</span>(<span class="fu">last_col</span>(), <span class="dv">1</span><span class="sc">:</span><span class="dv">29</span>) <span class="sc">|&gt;</span> <span class="fu">rename</span>(<span class="at">coder_id=</span>V35, <span class="at">content_id=</span>V1)</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="co"># duplicate content_id for both coders</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>data<span class="sc">$</span>some <span class="ot">=</span> <span class="fu">rep</span>(data<span class="sc">$</span>content_id[data<span class="sc">$</span>coder_id<span class="sc">==</span><span class="st">&quot;A&quot;</span>], <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="analyze-data" class="level2">
-<h2 class="anchored" data-anchor-id="analyze-data">230516: analyze data</h2>
+<section id="analyze-data-1" class="level2">
+<h2 class="anchored" data-anchor-id="analyze-data-1">230516: analyze data</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># transform data to wide (10 content_id * 28 vars)</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> data <span class="sc">|&gt;</span> </span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">pivot_wider</span>(<span class="at">id_cols=</span>coder_id, <span class="at">names_from=</span>some, <span class="at">values_from=</span><span class="fu">c</span>(<span class="dv">3</span><span class="sc">:</span><span class="dv">30</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(<span class="sc">-</span>coder_id)</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># transform data to wide (10 content units * 28 content vars)</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> data <span class="sc">|&gt;</span> </span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="fu">pivot_wider</span>(<span class="at">id_cols=</span>coder_id, <span class="at">names_from=</span>some, <span class="at">values_from=</span><span class="fu">c</span>(<span class="dv">3</span><span class="sc">:</span><span class="dv">30</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(<span class="sc">-</span>coder_id)</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 2 × 280
   V3_S001 V3_S002 V3_S003 V3_S004 V3_S005 V3_S006 V3_S007 V3_S008 V3_S009
@@ -3081,10 +3177,10 @@ Loading required package: lpSolve</code></pre>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># inter rater reliability</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> <span class="fu">as.matrix</span>(data)</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co"># specify data type: nominal, ordinal, interval, ratio </span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">kripp.alpha</span>(data, <span class="at">method=</span><span class="st">&quot;nominal&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># inter rater reliability</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> <span class="fu">as.matrix</span>(data)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="co"># specify data type: nominal, ordinal, interval, ratio </span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="fu">kripp.alpha</span>(data, <span class="at">method=</span><span class="st">&quot;nominal&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> Krippendorff&#39;s alpha
 
@@ -3092,9 +3188,9 @@ Loading required package: lpSolve</code></pre>
    Raters = 2 
     alpha = 0.784 </code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># write data</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>fn <span class="ot">=</span> <span class="st">&quot;../csv/test.csv&quot;</span></span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="fu">write.table</span>(data, fn, <span class="at">sep=</span><span class="st">&quot;</span><span class="sc">\t</span><span class="st">&quot;</span>, <span class="at">quot=</span>T, <span class="at">row.names=</span>F)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># write data</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>fn <span class="ot">=</span> <span class="st">&quot;../csv/test.csv&quot;</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="fu">write.table</span>(data, fn, <span class="at">sep=</span><span class="st">&quot;</span><span class="sc">\t</span><span class="st">&quot;</span>, <span class="at">quot=</span>T, <span class="at">row.names=</span>F)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li>dataset wide format <a href="../csv/test.csv">link</a></li>
@@ -3103,12 +3199,12 @@ Loading required package: lpSolve</code></pre>
 <section id="sample-dataset" class="level2">
 <h2 class="anchored" data-anchor-id="sample-dataset">230426: sample dataset</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load dataset</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> readxl<span class="sc">::</span><span class="fu">read_excel</span>(<span class="st">&#39;../csv/some.xlsx&#39;</span>, <span class="at">sheet=</span><span class="st">&quot;Blad1&quot;</span>, <span class="at">col_names=</span><span class="fu">paste0</span>(<span class="st">&quot;x&quot;</span>, <span class="fu">seq</span>(<span class="dv">34</span>)))</span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co"># select data</span></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> data <span class="sc">|&gt;</span> </span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu">mutate</span>(<span class="at">coder_id=</span><span class="fu">c</span>(<span class="fu">rep</span>(<span class="st">&quot;a&quot;</span>,<span class="dv">5</span>), <span class="fu">rep</span>(<span class="st">&quot;b&quot;</span>,<span class="dv">5</span>)), <span class="at">content_id=</span><span class="fu">rep</span>(<span class="fu">seq</span>(<span class="dv">5</span>), <span class="dv">2</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(<span class="st">&quot;coder_id&quot;</span>,<span class="st">&quot;content_id&quot;</span>,<span class="dv">1</span>,<span class="dv">3</span>,<span class="dv">9</span>,<span class="dv">10</span>) <span class="sc">|&gt;</span> <span class="fu">print</span>(<span class="at">n=</span><span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load dataset</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> readxl<span class="sc">::</span><span class="fu">read_excel</span>(<span class="st">&#39;../csv/some.xlsx&#39;</span>, <span class="at">sheet=</span><span class="st">&quot;Blad1&quot;</span>, <span class="at">col_names=</span><span class="fu">paste0</span>(<span class="st">&quot;x&quot;</span>, <span class="fu">seq</span>(<span class="dv">34</span>)))</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="co"># select data</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> data <span class="sc">|&gt;</span> </span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="fu">mutate</span>(<span class="at">coder_id=</span><span class="fu">c</span>(<span class="fu">rep</span>(<span class="st">&quot;a&quot;</span>,<span class="dv">5</span>), <span class="fu">rep</span>(<span class="st">&quot;b&quot;</span>,<span class="dv">5</span>)), <span class="at">content_id=</span><span class="fu">rep</span>(<span class="fu">seq</span>(<span class="dv">5</span>), <span class="dv">2</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(<span class="st">&quot;coder_id&quot;</span>,<span class="st">&quot;content_id&quot;</span>,<span class="dv">1</span>,<span class="dv">3</span>,<span class="dv">9</span>,<span class="dv">10</span>) <span class="sc">|&gt;</span> <span class="fu">print</span>(<span class="at">n=</span><span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 10 × 6
    coder_id content_id x1       x3    x9 x10                                    
@@ -3126,12 +3222,12 @@ Loading required package: lpSolve</code></pre>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># transform data</span></span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> data <span class="sc">|&gt;</span> </span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="fu">pivot_wider</span>(<span class="at">id_cols=</span>coder_id, <span class="at">names_from=</span>content_id, <span class="at">values_from=</span>x3) <span class="sc">|&gt;</span> </span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(<span class="sc">-</span>coder_id)</span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="co"># https://rpubs.com/jacoblong/content-analysis-krippendorff-alpha-R</span></span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># transform data</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> data <span class="sc">|&gt;</span> </span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="fu">pivot_wider</span>(<span class="at">id_cols=</span>coder_id, <span class="at">names_from=</span>content_id, <span class="at">values_from=</span>x3) <span class="sc">|&gt;</span> </span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="fu">select</span>(<span class="sc">-</span>coder_id)</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a><span class="co"># https://rpubs.com/jacoblong/content-analysis-krippendorff-alpha-R</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 2 × 5
     `1`   `2`   `3`   `4`   `5`
@@ -3141,13 +3237,13 @@ Loading required package: lpSolve</code></pre>
 </div>
 </div>
 </section>
-<section id="analyze-data-1" class="level2">
-<h2 class="anchored" data-anchor-id="analyze-data-1">230427: analyze data</h2>
+<section id="analyze-data-2" class="level2">
+<h2 class="anchored" data-anchor-id="analyze-data-2">230427: analyze data</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># inter rater reliability</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> <span class="fu">as.matrix</span>(data)</span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="co"># specify data type: nominal, ordinal, interval, ratio </span></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="fu">kripp.alpha</span>(data, <span class="at">method=</span><span class="st">&quot;nominal&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># inter rater reliability</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">=</span> <span class="fu">as.matrix</span>(data)</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="co"># specify data type: nominal, ordinal, interval, ratio </span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a><span class="fu">kripp.alpha</span>(data, <span class="at">method=</span><span class="st">&quot;nominal&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code> Krippendorff&#39;s alpha
 
@@ -3163,23 +3259,23 @@ Loading required package: lpSolve</code></pre>
 <section id="sample-data" class="level2">
 <h2 class="anchored" data-anchor-id="sample-data">sample data</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get some data</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span></span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tribble</span>(</span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    <span class="sc">~</span>content_id, <span class="sc">~</span>coder_id, <span class="sc">~</span>var1, <span class="sc">~</span>var2,   <span class="sc">~</span>var3,</span>
-<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">1</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
-<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Blue&quot;</span>,  <span class="cn">TRUE</span>,</span>
-<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">3</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">5</span>,     <span class="st">&quot;Blue&quot;</span>,  <span class="cn">TRUE</span>,</span>
-<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>    <span class="dv">4</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">7</span>,     <span class="st">&quot;Green&quot;</span>, <span class="cn">TRUE</span>,</span>
-<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>    <span class="dv">5</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">1</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
-<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">1</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
-<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Blue&quot;</span>,  <span class="cn">FALSE</span>,</span>
-<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>    <span class="dv">3</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Green&quot;</span>, <span class="cn">FALSE</span>,</span>
-<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>    <span class="dv">4</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">7</span>,     <span class="st">&quot;Green&quot;</span>, <span class="cn">TRUE</span>,</span>
-<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>    <span class="dv">5</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
-<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>data <span class="sc">|&gt;</span> <span class="fu">print</span>(<span class="at">n=</span><span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># get some data</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tribble</span>(</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>    <span class="sc">~</span>content_id, <span class="sc">~</span>coder_id, <span class="sc">~</span>var1, <span class="sc">~</span>var2,   <span class="sc">~</span>var3,</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">1</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Blue&quot;</span>,  <span class="cn">TRUE</span>,</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>    <span class="dv">3</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">5</span>,     <span class="st">&quot;Blue&quot;</span>,  <span class="cn">TRUE</span>,</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>    <span class="dv">4</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">7</span>,     <span class="st">&quot;Green&quot;</span>, <span class="cn">TRUE</span>,</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>    <span class="dv">5</span>,           <span class="st">&quot;A&quot;</span>,       <span class="dv">1</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>    <span class="dv">1</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">1</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>    <span class="dv">2</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Blue&quot;</span>,  <span class="cn">FALSE</span>,</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>    <span class="dv">3</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Green&quot;</span>, <span class="cn">FALSE</span>,</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>    <span class="dv">4</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">7</span>,     <span class="st">&quot;Green&quot;</span>, <span class="cn">TRUE</span>,</span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>    <span class="dv">5</span>,           <span class="st">&quot;B&quot;</span>,       <span class="dv">3</span>,     <span class="st">&quot;Red&quot;</span>,   <span class="cn">FALSE</span>,</span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>data <span class="sc">|&gt;</span> <span class="fu">print</span>(<span class="at">n=</span><span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 10 × 5
    content_id coder_id  var1 var2  var3 
@@ -3200,9 +3296,9 @@ Loading required package: lpSolve</code></pre>
 <section id="exclude" class="level2">
 <h2 class="anchored" data-anchor-id="exclude">exclude</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (T) {</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">knit_exit</span>()</span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (T) {</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">knit_exit</span>()</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 
