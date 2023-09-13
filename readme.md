@@ -6,7 +6,7 @@
 
 # social sciences using quarto publishing
 
-- some bullet point
+- [open science methods, python workshop](https://nils-holmberg.github.io/socs-qmd/web/osm-py/)
 
 ---
 
