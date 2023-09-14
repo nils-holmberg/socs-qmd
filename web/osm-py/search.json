@@ -1,16 +1,212 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Workshop schedule",
     "section": "",
-    "text": "About this site"
+    "text": "The following info is fetched from timeedit:"
+  },
+  {
+    "objectID": "materials.html",
+    "href": "materials.html",
+    "title": "Materials",
+    "section": "",
+    "text": "d1-python.ipynb\nd2-analysis.ipynb\nd3-report.ipynb\nd4-text.ipynb\nd5-collect.ipynb"
+  },
+  {
+    "objectID": "materials.html#jupyter-notebooks",
+    "href": "materials.html#jupyter-notebooks",
+    "title": "Materials",
+    "section": "",
+    "text": "d1-python.ipynb\nd2-analysis.ipynb\nd3-report.ipynb\nd4-text.ipynb\nd5-collect.ipynb"
+  },
+  {
+    "objectID": "d5-collect.html",
+    "href": "d5-collect.html",
+    "title": "Day 5: Getting started with data collections",
+    "section": "",
+    "text": "As researchers we not only need to analyze data, but the first step is usually to collect empirical data. Day 5 of the workshop we will turn our attention towards this challenge, and we will explore a couple of packages that can help with this. First off, there is Beautiful Soup which can be used to scrape and analyze web pages. Second, we will have a look at solutions for collecting survey data using python!"
+  },
+  {
+    "objectID": "d5-collect.html#web-scraping",
+    "href": "d5-collect.html#web-scraping",
+    "title": "Day 5: Getting started with data collections",
+    "section": "Web scraping",
+    "text": "Web scraping\n\nUpcoming"
+  },
+  {
+    "objectID": "d5-collect.html#survey-experiments",
+    "href": "d5-collect.html#survey-experiments",
+    "title": "Day 5: Getting started with data collections",
+    "section": "Survey experiments",
+    "text": "Survey experiments\n\nUpcoming"
+  },
+  {
+    "objectID": "d3-report.html",
+    "href": "d3-report.html",
+    "title": "Day 3: Visualizing and reporting data",
+    "section": "",
+    "text": "Analyzing data is often only half of a data scientist’s work. The other half is about using graphs and diagrams to visualize data in ways that will allow us to report our results as intuitive and compelling stories. On day 3 of the workshop we are going to focus on packages such as matplotlib and seaborn to produce various types of diagrams rangning from simple frquency diagrams to time series and heatmaps."
+  },
+  {
+    "objectID": "d3-report.html#frequency-diagrams",
+    "href": "d3-report.html#frequency-diagrams",
+    "title": "Day 3: Visualizing and reporting data",
+    "section": "Frequency diagrams",
+    "text": "Frequency diagrams\n\nUpcoming"
+  },
+  {
+    "objectID": "d3-report.html#bar-plots",
+    "href": "d3-report.html#bar-plots",
+    "title": "Day 3: Visualizing and reporting data",
+    "section": "Bar plots",
+    "text": "Bar plots\n\nUpcoming"
+  },
+  {
+    "objectID": "d3-report.html#scatter-plots",
+    "href": "d3-report.html#scatter-plots",
+    "title": "Day 3: Visualizing and reporting data",
+    "section": "Scatter plots",
+    "text": "Scatter plots\n\nUpcoming"
+  },
+  {
+    "objectID": "d3-report.html#heatmaps",
+    "href": "d3-report.html#heatmaps",
+    "title": "Day 3: Visualizing and reporting data",
+    "section": "Heatmaps",
+    "text": "Heatmaps\n\nUpcoming"
+  },
+  {
+    "objectID": "d1-python.html",
+    "href": "d1-python.html",
+    "title": "Day 1: Setting up a python environment",
+    "section": "",
+    "text": "There are many ways of setting up a python environment. Day 1 of the workshop we are going to have a look at some of the most common use cases, and discuss pros and cons with different setups depending on the specific research tasks you are trying to solve. We will also have a look at basic python syntax and write some simple python programs. In order to prepare for the workshop you can explore workshop website!"
+  },
+  {
+    "objectID": "d1-python.html#base-python-prompt",
+    "href": "d1-python.html#base-python-prompt",
+    "title": "Day 1: Setting up a python environment",
+    "section": "Base python prompt",
+    "text": "Base python prompt\nThis is python without any bells or wistles, only the vanilla version of the python programming language with no extra packages. Python is open source, which is an important part of open science. python"
+  },
+  {
+    "objectID": "d1-python.html#integrated-development-environments",
+    "href": "d1-python.html#integrated-development-environments",
+    "title": "Day 1: Setting up a python environment",
+    "section": "Integrated development environments",
+    "text": "Integrated development environments\nThis setup is sometimes abbreviated as IDE. An important feature of this approach is that it seeks to make python programming more user-friendly compared to base python. A prominent example is Anaconda . Interactive python and\nPackage manager and virtual environments\nNB! If you are on a LU work computer, you should consult with IT support () to istall from Software center"
+  },
+  {
+    "objectID": "d1-python.html#jupyter-notebooks",
+    "href": "d1-python.html#jupyter-notebooks",
+    "title": "Day 1: Setting up a python environment",
+    "section": "Jupyter notebooks",
+    "text": "Jupyter notebooks\nThis is the python setup we are going to use the most on this workshop. Data science. Transparency, replicability, collaboration. try jupyter notebooks on (Anaconda cloud)(https://nb.anaconda.cloud)"
+  },
+  {
+    "objectID": "d1-python.html#python-in-the-cloud",
+    "href": "d1-python.html#python-in-the-cloud",
+    "title": "Day 1: Setting up a python environment",
+    "section": "Python in the cloud",
+    "text": "Python in the cloud\nGoogle colab."
+  },
+  {
+    "objectID": "about.html#python-workshops",
+    "href": "about.html#python-workshops",
+    "title": "About",
+    "section": "Python workshops",
+    "text": "Python workshops"
+  },
+  {
+    "objectID": "about.html#workshop-instructor",
+    "href": "about.html#workshop-instructor",
+    "title": "About",
+    "section": "Workshop instructor",
+    "text": "Workshop instructor\nNils Holmberg"
+  },
+  {
+    "objectID": "d2-analysis.html",
+    "href": "d2-analysis.html",
+    "title": "Day 2: Getting started with data analysis",
+    "section": "",
+    "text": "One of the most common use cases for python is data analysis. On day 2 of the workshop we are going to focus on a package called pandas. This package will allow us to import structured data such as excel files and other quantitative tabular data, and perform transformations and summary statistics on them. We will also introduce the package scikit-learn for inferential statistical analysis. Datasets will be provided at the workshop, but participants are also invited to bring their own data files."
+  },
+  {
+    "objectID": "d2-analysis.html#import-data-files",
+    "href": "d2-analysis.html#import-data-files",
+    "title": "Day 2: Getting started with data analysis",
+    "section": "Import data files",
+    "text": "Import data files\n\nUpcoming"
+  },
+  {
+    "objectID": "d2-analysis.html#filtering-and-subsetting",
+    "href": "d2-analysis.html#filtering-and-subsetting",
+    "title": "Day 2: Getting started with data analysis",
+    "section": "Filtering and subsetting",
+    "text": "Filtering and subsetting\n\nUpcoming"
+  },
+  {
+    "objectID": "d2-analysis.html#aggregating-as-summarizing",
+    "href": "d2-analysis.html#aggregating-as-summarizing",
+    "title": "Day 2: Getting started with data analysis",
+    "section": "Aggregating as summarizing",
+    "text": "Aggregating as summarizing\n\nUpcoming"
+  },
+  {
+    "objectID": "d2-analysis.html#statistical-analysis",
+    "href": "d2-analysis.html#statistical-analysis",
+    "title": "Day 2: Getting started with data analysis",
+    "section": "Statistical analysis",
+    "text": "Statistical analysis\n\nUpcoming"
+  },
+  {
+    "objectID": "d4-text.html",
+    "href": "d4-text.html",
+    "title": "Day 4: Processing natural language texts",
+    "section": "",
+    "text": "The opposite of structured data is natural language texts. However, as social scientists, we often encounter data in this unstructured format. The challenge of managing and analyzing natural language data will be the main focus on day 3. To our help we will utilize both classical packages for data cleaning and tokenization such as NLTK, and more modern packages such as spaCy that relies on machine learning models to analyze language."
+  },
+  {
+    "objectID": "d4-text.html#tokenization",
+    "href": "d4-text.html#tokenization",
+    "title": "Day 4: Processing natural language texts",
+    "section": "Tokenization",
+    "text": "Tokenization\n\nUpcoming"
+  },
+  {
+    "objectID": "d4-text.html#parts-of-speech",
+    "href": "d4-text.html#parts-of-speech",
+    "title": "Day 4: Processing natural language texts",
+    "section": "Parts of speech",
+    "text": "Parts of speech\n\nUpcoming"
+  },
+  {
+    "objectID": "d4-text.html#topic-modeling",
+    "href": "d4-text.html#topic-modeling",
+    "title": "Day 4: Processing natural language texts",
+    "section": "Topic modeling",
+    "text": "Topic modeling\n\nUpcoming"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "open science methods, python workshop",
+    "title": "Introduction to Python",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "The Python programming language (logo: Figure 1) has gained popularity in all types of data science in recent years. On this introductory workshop, we are aiming at getting acquainted with the basic syntax of Python, as well as learning how to extend this basic functionality by calling powerful modules built by members of the large Python user community. Thus, we take a “standing on the shoulders of giants” approach to Python!\n\n\n\nFigure 1: Official logo of the Python programming language\n\n\nAnother principle that has guided the design of this course is that participants should gain an understanding of how Python can be used to accomplish fairly common research tasks within the social sciences more effectively and more transparently. Such applications of Python include collecting and analyzing survey data, performing content analyses on textual and visual material, and using charts to visualize results.\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#social-science-methods-workshops-2023-lund-university",
+    "href": "index.html#social-science-methods-workshops-2023-lund-university",
+    "title": "Introduction to Python",
+    "section": "",
+    "text": "The Python programming language (logo: Figure 1) has gained popularity in all types of data science in recent years. On this introductory workshop, we are aiming at getting acquainted with the basic syntax of Python, as well as learning how to extend this basic functionality by calling powerful modules built by members of the large Python user community. Thus, we take a “standing on the shoulders of giants” approach to Python!\n\n\n\nFigure 1: Official logo of the Python programming language\n\n\nAnother principle that has guided the design of this course is that participants should gain an understanding of how Python can be used to accomplish fairly common research tasks within the social sciences more effectively and more transparently. Such applications of Python include collecting and analyzing survey data, performing content analyses on textual and visual material, and using charts to visualize results.\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   }
 ]
