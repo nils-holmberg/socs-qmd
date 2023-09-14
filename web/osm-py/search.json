@@ -2,7 +2,7 @@
   {
     "objectID": "schedule.html",
     "href": "schedule.html",
-    "title": "Workshop schedule",
+    "title": "Schedule",
     "section": "",
     "text": "The following info is fetched from timeedit:"
   },
@@ -42,36 +42,36 @@
     "text": "Survey experiments\n\nUpcoming"
   },
   {
-    "objectID": "d3-report.html",
-    "href": "d3-report.html",
+    "objectID": "d3-visualization.html",
+    "href": "d3-visualization.html",
     "title": "Day 3: Visualizing and reporting data",
     "section": "",
     "text": "Analyzing data is often only half of a data scientist’s work. The other half is about using graphs and diagrams to visualize data in ways that will allow us to report our results as intuitive and compelling stories. On day 3 of the workshop we are going to focus on packages such as matplotlib and seaborn to produce various types of diagrams rangning from simple frquency diagrams to time series and heatmaps."
   },
   {
-    "objectID": "d3-report.html#frequency-diagrams",
-    "href": "d3-report.html#frequency-diagrams",
+    "objectID": "d3-visualization.html#frequency-diagrams",
+    "href": "d3-visualization.html#frequency-diagrams",
     "title": "Day 3: Visualizing and reporting data",
     "section": "Frequency diagrams",
     "text": "Frequency diagrams\n\nUpcoming"
   },
   {
-    "objectID": "d3-report.html#bar-plots",
-    "href": "d3-report.html#bar-plots",
+    "objectID": "d3-visualization.html#bar-plots",
+    "href": "d3-visualization.html#bar-plots",
     "title": "Day 3: Visualizing and reporting data",
     "section": "Bar plots",
     "text": "Bar plots\n\nUpcoming"
   },
   {
-    "objectID": "d3-report.html#scatter-plots",
-    "href": "d3-report.html#scatter-plots",
+    "objectID": "d3-visualization.html#scatter-plots",
+    "href": "d3-visualization.html#scatter-plots",
     "title": "Day 3: Visualizing and reporting data",
     "section": "Scatter plots",
     "text": "Scatter plots\n\nUpcoming"
   },
   {
-    "objectID": "d3-report.html#heatmaps",
-    "href": "d3-report.html#heatmaps",
+    "objectID": "d3-visualization.html#heatmaps",
+    "href": "d3-visualization.html#heatmaps",
     "title": "Day 3: Visualizing and reporting data",
     "section": "Heatmaps",
     "text": "Heatmaps\n\nUpcoming"
@@ -88,7 +88,7 @@
     "href": "d1-python.html#base-python-prompt",
     "title": "Day 1: Setting up a python environment",
     "section": "Base python prompt",
-    "text": "Base python prompt\nThis is python without any bells or wistles, only the vanilla version of the python programming language with no extra packages. Python is open source, which is an important part of open science. python"
+    "text": "Base python prompt\nThis is python without any bells or wistles, only the official vanilla version of the python programming language with no extra packages. Python is open source, which is an important part of open science."
   },
   {
     "objectID": "d1-python.html#integrated-development-environments",
@@ -161,29 +161,29 @@
     "text": "Statistical analysis\n\nUpcoming"
   },
   {
-    "objectID": "d4-text.html",
-    "href": "d4-text.html",
+    "objectID": "d4-texts.html",
+    "href": "d4-texts.html",
     "title": "Day 4: Processing natural language texts",
     "section": "",
     "text": "The opposite of structured data is natural language texts. However, as social scientists, we often encounter data in this unstructured format. The challenge of managing and analyzing natural language data will be the main focus on day 3. To our help we will utilize both classical packages for data cleaning and tokenization such as NLTK, and more modern packages such as spaCy that relies on machine learning models to analyze language."
   },
   {
-    "objectID": "d4-text.html#tokenization",
-    "href": "d4-text.html#tokenization",
+    "objectID": "d4-texts.html#tokenization",
+    "href": "d4-texts.html#tokenization",
     "title": "Day 4: Processing natural language texts",
     "section": "Tokenization",
     "text": "Tokenization\n\nUpcoming"
   },
   {
-    "objectID": "d4-text.html#parts-of-speech",
-    "href": "d4-text.html#parts-of-speech",
+    "objectID": "d4-texts.html#parts-of-speech",
+    "href": "d4-texts.html#parts-of-speech",
     "title": "Day 4: Processing natural language texts",
     "section": "Parts of speech",
     "text": "Parts of speech\n\nUpcoming"
   },
   {
-    "objectID": "d4-text.html#topic-modeling",
-    "href": "d4-text.html#topic-modeling",
+    "objectID": "d4-texts.html#topic-modeling",
+    "href": "d4-texts.html#topic-modeling",
     "title": "Day 4: Processing natural language texts",
     "section": "Topic modeling",
     "text": "Topic modeling\n\nUpcoming"
@@ -203,10 +203,24 @@
     "text": "The Python programming language (logo: Figure 1) has gained popularity in all types of data science in recent years. On this introductory workshop, we are aiming at getting acquainted with the basic syntax of Python, as well as learning how to extend this basic functionality by calling powerful modules built by members of the large Python user community. Thus, we take a “standing on the shoulders of giants” approach to Python!\n\n\n\nFigure 1: Official logo of the Python programming language\n\n\nAnother principle that has guided the design of this course is that participants should gain an understanding of how Python can be used to accomplish fairly common research tasks within the social sciences more effectively and more transparently. Such applications of Python include collecting and analyzing survey data, performing content analyses on textual and visual material, and using charts to visualize results.\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "objectID": "resources.html#articles",
+    "href": "resources.html#articles",
+    "title": "Resources",
+    "section": "Articles",
+    "text": "Articles"
+  },
+  {
+    "objectID": "resources.html#websites",
+    "href": "resources.html#websites",
+    "title": "Resources",
+    "section": "Websites",
+    "text": "Websites"
+  },
+  {
+    "objectID": "resources.html#notebooks",
+    "href": "resources.html#notebooks",
+    "title": "Resources",
+    "section": "Notebooks",
+    "text": "Notebooks"
   }
 ]
