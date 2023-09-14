@@ -11,14 +11,14 @@
     "href": "materials.html",
     "title": "Materials",
     "section": "",
-    "text": "d1-python.ipynb\nd2-analysis.ipynb\nd3-report.ipynb\nd4-text.ipynb\nd5-collect.ipynb"
+    "text": "d1-python.ipynb\nd2-analysis.ipynb\nd3-visualization.ipynb\nd4-language.ipynb\nd5-collect.ipynb"
   },
   {
     "objectID": "materials.html#jupyter-notebooks",
     "href": "materials.html#jupyter-notebooks",
     "title": "Materials",
     "section": "",
-    "text": "d1-python.ipynb\nd2-analysis.ipynb\nd3-report.ipynb\nd4-text.ipynb\nd5-collect.ipynb"
+    "text": "d1-python.ipynb\nd2-analysis.ipynb\nd3-visualization.ipynb\nd4-language.ipynb\nd5-collect.ipynb"
   },
   {
     "objectID": "d5-collect.html",
@@ -161,29 +161,29 @@
     "text": "Statistical analysis\n\nUpcoming"
   },
   {
-    "objectID": "d4-texts.html",
-    "href": "d4-texts.html",
+    "objectID": "d4-language.html",
+    "href": "d4-language.html",
     "title": "Day 4: Processing natural language texts",
     "section": "",
     "text": "The opposite of structured data is natural language texts. However, as social scientists, we often encounter data in this unstructured format. The challenge of managing and analyzing natural language data will be the main focus on day 3. To our help we will utilize both classical packages for data cleaning and tokenization such as NLTK, and more modern packages such as spaCy that relies on machine learning models to analyze language."
   },
   {
-    "objectID": "d4-texts.html#tokenization",
-    "href": "d4-texts.html#tokenization",
+    "objectID": "d4-language.html#tokenization",
+    "href": "d4-language.html#tokenization",
     "title": "Day 4: Processing natural language texts",
     "section": "Tokenization",
     "text": "Tokenization\n\nUpcoming"
   },
   {
-    "objectID": "d4-texts.html#parts-of-speech",
-    "href": "d4-texts.html#parts-of-speech",
+    "objectID": "d4-language.html#parts-of-speech",
+    "href": "d4-language.html#parts-of-speech",
     "title": "Day 4: Processing natural language texts",
     "section": "Parts of speech",
     "text": "Parts of speech\n\nUpcoming"
   },
   {
-    "objectID": "d4-texts.html#topic-modeling",
-    "href": "d4-texts.html#topic-modeling",
+    "objectID": "d4-language.html#topic-modeling",
+    "href": "d4-language.html#topic-modeling",
     "title": "Day 4: Processing natural language texts",
     "section": "Topic modeling",
     "text": "Topic modeling\n\nUpcoming"
