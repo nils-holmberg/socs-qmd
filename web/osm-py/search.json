@@ -165,7 +165,7 @@
     "href": "d4-language.html",
     "title": "Day 4: Processing natural language texts",
     "section": "",
-    "text": "The opposite of structured data is natural language texts. However, as social scientists, we often encounter such unstructured texts. The challenge of managing and analyzing natural language data will be the main focus on day 4. To our help we will utilize both classical packages for data cleaning and tokenization such as NLTK, and more modern packages such as spaCy that relies on machine learning models to analyze language."
+    "text": "The opposite of structured data is natural language texts. However, as social scientists, we often encounter such unstructured text data. The challenge of managing and analyzing natural language data will be the main focus on day 4. To our help we will utilize both classical packages for data cleaning and tokenization such as NLTK, and more modern packages such as spaCy that relies on machine learning models to analyze language."
   },
   {
     "objectID": "d4-language.html#tokenization",
