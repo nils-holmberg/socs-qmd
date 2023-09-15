@@ -46,7 +46,7 @@
     "href": "d3-visualization.html",
     "title": "Day 3: Visualizing and reporting data",
     "section": "",
-    "text": "Analyzing data is often only half of a data scientist’s work. The other half is about using graphs and diagrams to visualize data in ways that will allow us to report our results as intuitive and compelling stories. On day 3 of the workshop we are going to focus on packages such as matplotlib and seaborn to produce various types of diagrams rangning from simple frquency diagrams to time series and heatmaps."
+    "text": "Analyzing data is only half of a data scientist’s work. The other half is about using graphs and diagrams to visualize data in ways that will allow us to report our results as intuitive and compelling stories. On day 3 of the workshop we are going to focus on packages such as matplotlib and seaborn to produce various types of diagrams ranging from simple frequency diagrams to time series and heatmaps."
   },
   {
     "objectID": "d3-visualization.html#frequency-diagrams",
@@ -81,7 +81,7 @@
     "href": "d1-python.html",
     "title": "Day 1: Setting up a python environment",
     "section": "",
-    "text": "There are many ways of setting up a python environment. Day 1 of the workshop we are going to have a look at some of the most common use cases, and discuss pros and cons with different setups depending on the specific research tasks you are trying to solve. We will also have a look at basic python syntax and write some simple python programs. In order to prepare for the workshop you can explore workshop website!"
+    "text": "There are many ways of setting up a python environment. Day 1 of the workshop we are going to have a look at some of the most common use cases, and discuss pros and cons with different setups depending on the specific research tasks you are trying to solve. We will also have a look at basic python syntax and write some simple python programs. The main format of instruction will be Jupyter notebooks. In order to prepare for the workshop you can explore workshop website!"
   },
   {
     "objectID": "d1-python.html#base-python-prompt",
@@ -130,7 +130,7 @@
     "href": "d2-analysis.html",
     "title": "Day 2: Getting started with data analysis",
     "section": "",
-    "text": "One of the most common use cases for python is data analysis. On day 2 of the workshop we are going to focus on a package called pandas. This package will allow us to import structured data such as excel files and other quantitative tabular data, and perform transformations and summary statistics on them. We will also introduce the package scikit-learn for inferential statistical analysis. Datasets will be provided at the workshop, but participants are also invited to bring their own data files."
+    "text": "One of the most common use cases for python is data analysis. On day 2 of the workshop we are going to focus on a package called pandas. This package will allow us to import structured data such as excel files and other quantitative tabular data, and transform and summarize such data. We will also introduce scikit-learn for statistical analysis. Participants are invited to bring their own data files."
   },
   {
     "objectID": "d2-analysis.html#import-data-files",
@@ -165,7 +165,7 @@
     "href": "d4-language.html",
     "title": "Day 4: Processing natural language texts",
     "section": "",
-    "text": "The opposite of structured data is natural language texts. However, as social scientists, we often encounter data in this unstructured format. The challenge of managing and analyzing natural language data will be the main focus on day 3. To our help we will utilize both classical packages for data cleaning and tokenization such as NLTK, and more modern packages such as spaCy that relies on machine learning models to analyze language."
+    "text": "The opposite of structured data is natural language texts. However, as social scientists, we often encounter such unstructured texts. The challenge of managing and analyzing natural language data will be the main focus on day 4. To our help we will utilize both classical packages for data cleaning and tokenization such as NLTK, and more modern packages such as spaCy that relies on machine learning models to analyze language."
   },
   {
     "objectID": "d4-language.html#tokenization",
@@ -193,14 +193,14 @@
     "href": "index.html",
     "title": "Introduction to Python",
     "section": "",
-    "text": "The Python programming language (logo: Figure 1) has gained popularity in all types of data science in recent years. On this introductory workshop, we are aiming at getting acquainted with the basic syntax of Python, as well as learning how to extend this basic functionality by calling powerful modules built by members of the large Python user community. Thus, we take a “standing on the shoulders of giants” approach to Python!\n\n\n\nFigure 1: Official logo of the Python programming language\n\n\nAnother principle that has guided the design of this course is that participants should gain an understanding of how Python can be used to accomplish fairly common research tasks within the social sciences more effectively and more transparently. Such applications of Python include collecting and analyzing survey data, performing content analyses on textual and visual material, and using charts to visualize results.\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "The Python programming language (logo: Figure 1) has gained popularity in all types of data science in recent years. On this introductory workshop, we are aiming at getting acquainted with the basic syntax of Python, as well as learning how to extend this basic functionality by calling powerful modules built by members of the large Python user community. Thus, we take a “standing on the shoulders of giants” approach to Python!\n\n\n\nFigure 1: Official logo of the Python programming language\n\n\nAnother principle that has guided the design of this course is that participants should gain an understanding of how Python can be used to accomplish fairly common research tasks within the social sciences more effectively and more transparently. Such applications of Python include collecting and analyzing survey data, performing content analyses on textual and visual material, and using charts to visualize results. (workshop syllabus)\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "index.html#social-science-methods-workshops-2023-lund-university",
     "href": "index.html#social-science-methods-workshops-2023-lund-university",
     "title": "Introduction to Python",
     "section": "",
-    "text": "The Python programming language (logo: Figure 1) has gained popularity in all types of data science in recent years. On this introductory workshop, we are aiming at getting acquainted with the basic syntax of Python, as well as learning how to extend this basic functionality by calling powerful modules built by members of the large Python user community. Thus, we take a “standing on the shoulders of giants” approach to Python!\n\n\n\nFigure 1: Official logo of the Python programming language\n\n\nAnother principle that has guided the design of this course is that participants should gain an understanding of how Python can be used to accomplish fairly common research tasks within the social sciences more effectively and more transparently. Such applications of Python include collecting and analyzing survey data, performing content analyses on textual and visual material, and using charts to visualize results.\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "The Python programming language (logo: Figure 1) has gained popularity in all types of data science in recent years. On this introductory workshop, we are aiming at getting acquainted with the basic syntax of Python, as well as learning how to extend this basic functionality by calling powerful modules built by members of the large Python user community. Thus, we take a “standing on the shoulders of giants” approach to Python!\n\n\n\nFigure 1: Official logo of the Python programming language\n\n\nAnother principle that has guided the design of this course is that participants should gain an understanding of how Python can be used to accomplish fairly common research tasks within the social sciences more effectively and more transparently. Such applications of Python include collecting and analyzing survey data, performing content analyses on textual and visual material, and using charts to visualize results. (workshop syllabus)\n\nThis is a Quarto website. To learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "resources.html#articles",
