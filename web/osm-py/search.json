@@ -88,21 +88,21 @@
     "href": "d1-python.html#base-python-prompt",
     "title": "Day 1: Setting up a python environment",
     "section": "Base python prompt",
-    "text": "Base python prompt\nThis is python without any bells or wistles, only the official vanilla version of the python programming language with no extra packages. Python is open source, which is an important part of open science."
+    "text": "Base python prompt\nThis is python without any bells or wistles, only the official vanilla version of the python programming language with no extra packages. Python is open source, which is an important part of open science. Working with python in this environment can be improved with a good cross-platform code editor, e.g. Visual Studio Code."
   },
   {
     "objectID": "d1-python.html#integrated-development-environments",
     "href": "d1-python.html#integrated-development-environments",
     "title": "Day 1: Setting up a python environment",
     "section": "Integrated development environments",
-    "text": "Integrated development environments\nThis setup is sometimes abbreviated as IDE. An important feature of this approach is that it seeks to make python programming more user-friendly compared to base python. A prominent example is Anaconda . Interactive python and\nPackage manager and virtual environments\nNB! If you are on a LU work computer, you should consult with IT support () to istall from Software center"
+    "text": "Integrated development environments\nThis setup is sometimes abbreviated as an IDE. An important feature of this approach is that it seeks to make python programming more user-friendly compared to base python. A prominent example is Anaconda . Interactive python and\nPackage manager and virtual environments.\nNB! If you are on a LU work computer, you should consult with IT support () to istall from Software center"
   },
   {
     "objectID": "d1-python.html#jupyter-notebooks",
     "href": "d1-python.html#jupyter-notebooks",
     "title": "Day 1: Setting up a python environment",
     "section": "Jupyter notebooks",
-    "text": "Jupyter notebooks\nThis is the python setup we are going to use the most on this workshop. Data science. Transparency, replicability, collaboration. try jupyter notebooks on Anaconda cloud"
+    "text": "Jupyter notebooks\nThis is the python setup we are going to use the most on this workshop. Data science. Transparency, replicability, collaboration. Try jupyter notebooks on Anaconda cloud."
   },
   {
     "objectID": "d1-python.html#python-in-the-cloud",
