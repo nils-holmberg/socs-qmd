@@ -21,60 +21,60 @@
     "text": "d1-python.ipynb\nd2-analysis.ipynb\nd3-visualization.ipynb\nd4-language.ipynb\nd5-collect.ipynb"
   },
   {
-    "objectID": "d5-collect.html",
-    "href": "d5-collect.html",
-    "title": "Day 5: Getting started with data collections",
+    "objectID": "d5-collection.html",
+    "href": "d5-collection.html",
+    "title": "Day 5: Finishing with data collections",
     "section": "",
-    "text": "As researchers we not only need to analyze data, but the first step is usually to collect empirical data. Day 5 of the workshop we will turn our attention towards this challenge, and we will explore a couple of packages that can help with this. First off, there is Beautiful Soup which can be used to scrape and analyze web pages. Second, we will have a look at solutions for collecting survey data using python!"
+    "text": "As researchers we not only need to analyze data, but the first step is usually to collect empirical data. Day 5 of the workshop we will turn our attention towards this challenge, and we will explore a couple of packages that can help with this. First off, there is Beautiful Soup which can be used to scrape and analyze web pages. Second, we will have a look at solutions for collecting survey responses using python!"
   },
   {
-    "objectID": "d5-collect.html#web-scraping",
-    "href": "d5-collect.html#web-scraping",
-    "title": "Day 5: Getting started with data collections",
+    "objectID": "d5-collection.html#web-scraping",
+    "href": "d5-collection.html#web-scraping",
+    "title": "Day 5: Finishing with data collections",
     "section": "Web scraping",
     "text": "Web scraping\n\nUpcoming"
   },
   {
-    "objectID": "d5-collect.html#survey-experiments",
-    "href": "d5-collect.html#survey-experiments",
-    "title": "Day 5: Getting started with data collections",
+    "objectID": "d5-collection.html#survey-experiments",
+    "href": "d5-collection.html#survey-experiments",
+    "title": "Day 5: Finishing with data collections",
     "section": "Survey experiments",
     "text": "Survey experiments\n\nUpcoming"
   },
   {
     "objectID": "d3-visualization.html",
     "href": "d3-visualization.html",
-    "title": "Day 3: Visualizing and reporting data",
+    "title": "Day 3: Visualizing and reporting results",
     "section": "",
     "text": "Analyzing data is only half of a data scientist’s work. The other half is about using graphs and diagrams to visualize data in ways that will allow us to report our results as intuitive and compelling stories. On day 3 of the workshop we are going to focus on packages such as matplotlib and seaborn to produce various types of diagrams ranging from simple frequency diagrams to time series and heatmaps."
   },
   {
     "objectID": "d3-visualization.html#frequency-diagrams",
     "href": "d3-visualization.html#frequency-diagrams",
-    "title": "Day 3: Visualizing and reporting data",
+    "title": "Day 3: Visualizing and reporting results",
     "section": "Frequency diagrams",
-    "text": "Frequency diagrams\n\nUpcoming"
+    "text": "Frequency diagrams\nThe frequency diagram, or histogram, visually represents the distribution of the “sepal_length” variable from the df DataFrame. In the example, we used Seaborn’s histplot function to plot the diagram with 20 bins. The kernel density estimation (KDE) curve is also overlaid on the histogram to give a smoother representation of the data distribution. The x-axis represents the range of “sepal_length” values, while the y-axis shows the frequency of occurrences for each bin.\nHere’s the code snippet to generate the frequency diagram:\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Create a frequency diagram for 'sepal_length'\nsns.histplot(df['sepal_length'], bins=20, kde=True)\n\n# Add labels and title\nplt.xlabel('Sepal Length')\nplt.ylabel('Frequency')\nplt.title('Frequency Diagram of Sepal Length')\n\n# Show the plot\nplt.show()\n\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1119: FutureWarning: use_inf_as_na option is deprecated and will be removed in a future version. Convert inf values to NaN before operating instead.\n  with pd.option_context('mode.use_inf_as_na', True):\n\n\n\n\n\nThis visualization allows you to quickly grasp the shape, center, and spread of the “sepal_length” data."
   },
   {
     "objectID": "d3-visualization.html#bar-plots",
     "href": "d3-visualization.html#bar-plots",
-    "title": "Day 3: Visualizing and reporting data",
+    "title": "Day 3: Visualizing and reporting results",
     "section": "Bar plots",
-    "text": "Bar plots\n\nUpcoming"
+    "text": "Bar plots\nBar plots are useful for displaying the relationship between a categorical variable and a numerical variable. In the example, we use Seaborn’s barplot function to visualize the average “sepal_length” for each species in the df DataFrame. The x-axis represents the different species, and the y-axis shows the average “sepal_length” for each.\nHere’s the code snippet to generate the bar plot:\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Create a barplot for the 'species' column showing the average 'sepal_length'\nsns.barplot(x='species', y='sepal_length', data=df, ci=None)\n\n# Add labels and title\nplt.xlabel('Species')\nplt.ylabel('Average Sepal Length')\nplt.title('Average Sepal Length by Species')\n\n# Show the plot\nplt.show()\n\n/tmp/ipykernel_44114/4094272089.py:5: FutureWarning: \n\nThe `ci` parameter is deprecated. Use `errorbar=None` for the same effect.\n\n  sns.barplot(x='species', y='sepal_length', data=df, ci=None)\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n\n\n\n\n\nIn this case, the ci=None parameter removes the confidence interval bars, focusing solely on the mean values. The plot provides a quick way to compare the average “sepal_length” across different species."
   },
   {
     "objectID": "d3-visualization.html#scatter-plots",
     "href": "d3-visualization.html#scatter-plots",
-    "title": "Day 3: Visualizing and reporting data",
+    "title": "Day 3: Visualizing and reporting results",
     "section": "Scatter plots",
-    "text": "Scatter plots\n\nUpcoming"
+    "text": "Scatter plots\nScatter plots are excellent tools for visualizing relationships between two numerical variables. In the given example, we use Seaborn’s scatterplot function to create a scatter plot of “sepal_length” against “sepal_width” from the df DataFrame. The points are colored based on the “species” category, providing an additional layer of information.\nHere’s the code snippet to generate the scatter plot:\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Create a scatter plot for 'sepal_length' and 'sepal_width' colored by 'species'\nsns.scatterplot(x='sepal_length', y='sepal_width', hue='species', data=df)\n\n# Add labels and title\nplt.xlabel('Sepal Length')\nplt.ylabel('Sepal Width')\nplt.title('Scatter Plot of Sepal Dimensions by Species')\n\n# Show the plot\nplt.show()\n\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n\n\n\n\n\nThis scatter plot allows you to identify patterns or relationships between “sepal_length” and “sepal_width” while also considering the species. It’s a powerful way to explore multidimensional data."
   },
   {
     "objectID": "d3-visualization.html#heatmaps",
     "href": "d3-visualization.html#heatmaps",
-    "title": "Day 3: Visualizing and reporting data",
+    "title": "Day 3: Visualizing and reporting results",
     "section": "Heatmaps",
-    "text": "Heatmaps\n\nUpcoming"
+    "text": "Heatmaps\nHeatmaps are excellent tools for visualizing complex relationships between numerical variables. In Python, the Seaborn library provides an easy-to-use heatmap function for this purpose. For instance, you can create a heatmap of the correlation matrix of numerical features in the df DataFrame. The color gradients in the heatmap represent the strength and direction of correlation, making it easier to identify highly or weakly correlated variables.\nHere’s an inline code example to generate the heatmap:\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Drop the 'species' column to only keep numerical columns\nnumerical_df = df.drop('species', axis=1)\n\n# Calculate the correlation matrix for the numerical columns\ncorrelation_matrix = numerical_df.corr()\n\n# Create a heatmap to visualize the correlation matrix\nsns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')\n\n# Add title\nplt.title('Heatmap of Feature Correlations')\n\n# Show the plot\nplt.show()\n\n\n\n\nThis heatmap makes it easier to understand the relationships between different numerical features, aiding in feature selection and further data analysis."
   },
   {
     "objectID": "d1-python.html",
@@ -84,11 +84,11 @@
     "text": "There are many ways of setting up a python environment. Day 1 of the workshop we are going to have a look at some of the most common use cases, and discuss pros and cons with different setups depending on the specific research tasks you are trying to solve. We will also have a look at basic python syntax and write some simple python programs. The main format of instruction will be Jupyter notebooks."
   },
   {
-    "objectID": "d1-python.html#base-python-prompt",
-    "href": "d1-python.html#base-python-prompt",
+    "objectID": "d1-python.html#base-python-interpreter",
+    "href": "d1-python.html#base-python-interpreter",
     "title": "Day 1: Setting up a python environment",
-    "section": "Base python prompt",
-    "text": "Base python prompt\nThis is python without any bells or wistles, only the official vanilla version of the python programming language with no extra packages. Python is open source, which is an important part of open science. Working with python in this environment can be improved with a good cross-platform code editor, e.g. Visual Studio Code."
+    "section": "Base python interpreter",
+    "text": "Base python interpreter\nThis is python without any bells or wistles, only the official vanilla version of the python programming language with no extra packages. Python is open source, which is an important part of open science. Working with python in this environment can be improved with a good cross-platform code editor, e.g. Visual Studio Code."
   },
   {
     "objectID": "d1-python.html#integrated-development-environments",
@@ -112,11 +112,25 @@
     "text": "Python in the cloud\nGoogle colab."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Transparency, replicability, collaboration, and open source are four pivotal pillars of open science. Transparency ensures that research processes and findings are openly shared, fostering trust and accountability. Replicability emphasizes the importance of detailed documentation, enabling others to reproduce experiments and validate results, thereby enhancing the reliability of scientific discoveries. Collaboration encourages interdisciplinary and international teamwork, harnessing diverse expertise for more comprehensive insights."
+  },
+  {
+    "objectID": "about.html#open-science-methods",
+    "href": "about.html#open-science-methods",
+    "title": "About",
+    "section": "",
+    "text": "Transparency, replicability, collaboration, and open source are four pivotal pillars of open science. Transparency ensures that research processes and findings are openly shared, fostering trust and accountability. Replicability emphasizes the importance of detailed documentation, enabling others to reproduce experiments and validate results, thereby enhancing the reliability of scientific discoveries. Collaboration encourages interdisciplinary and international teamwork, harnessing diverse expertise for more comprehensive insights."
+  },
+  {
     "objectID": "about.html#python-workshops",
     "href": "about.html#python-workshops",
     "title": "About",
     "section": "Python workshops",
-    "text": "Python workshops"
+    "text": "Python workshops\nOpen source practices promote the development and sharing of accessible research tools and software, making science more accessible and cost-effective. Together, these principles redefine how science is conducted, making it more rigorous, inclusive, and efficient, ultimately benefiting both researchers and society at large."
   },
   {
     "objectID": "about.html#workshop-instructor",
@@ -137,42 +151,42 @@
     "href": "d2-analysis.html#import-data-files",
     "title": "Day 2: Getting started with data analysis",
     "section": "Import data files",
-    "text": "Import data files\n\nUpcoming"
+    "text": "Import data files\nTo read a CSV file into a Pandas DataFrame, you’ll first need to install the Pandas library if you haven’t already. You can install it using pip with the command pip install pandas. Once installed, you can use the read_csv() function to load the data from the file into a DataFrame. The function takes the file path as an argument and returns a DataFrame containing the data. Here’s how you can read the uploaded file, “iris.csv”, into a Pandas DataFrame:\nimport pandas as pd\n\n# Read the CSV file into a DataFrame\ndf = pd.read_csv('/path/to/your/iris.csv')\n\n# Display the first few rows of the DataFrame\nprint(df.head())\nReplace '/path/to/your/iris.csv' with the actual path where your file is located. This will give you a DataFrame df that contains all the data from “iris.csv”."
   },
   {
-    "objectID": "d2-analysis.html#filtering-and-subsetting",
-    "href": "d2-analysis.html#filtering-and-subsetting",
+    "objectID": "d2-analysis.html#selecting-and-filtering",
+    "href": "d2-analysis.html#selecting-and-filtering",
     "title": "Day 2: Getting started with data analysis",
-    "section": "Filtering and subsetting",
-    "text": "Filtering and subsetting\n\nUpcoming"
+    "section": "Selecting and filtering",
+    "text": "Selecting and filtering\nIn Pandas, two basic yet powerful operations are selecting specific columns and filtering rows. To select columns, you can use the syntax df[['column1', 'column2']], which creates a new DataFrame containing only the selected columns. For example:\n\n# To select 'sepal_length' and 'species' columns\nselected_columns = df[['sepal_length', 'species']]\n# Show the first few rows of the resulting DataFrame\nselected_columns.head()\n\n\n\n\n\n\n\n\nsepal_length\nspecies\n\n\n\n\n0\n5.1\nsetosa\n\n\n1\n4.9\nsetosa\n\n\n2\n4.7\nsetosa\n\n\n3\n4.6\nsetosa\n\n\n4\n5.0\nsetosa\n\n\n\n\n\n\n\nTo filter rows based on a condition, boolean indexing can be employed. The syntax df[df['column'] &gt; value] filters rows where the values in the specified column meet the condition. For instance:\n\n# To filter rows where 'sepal_length' is greater than 5\nfiltered_rows = df[df['sepal_length'] &gt; 5]\n# Show the first few rows of the resulting DataFrame\nfiltered_rows.head()\n\n\n\n\n\n\n\n\nsepal_length\nsepal_width\npetal_length\npetal_width\nspecies\n\n\n\n\n0\n5.1\n3.5\n1.4\n0.2\nsetosa\n\n\n5\n5.4\n3.9\n1.7\n0.4\nsetosa\n\n\n10\n5.4\n3.7\n1.5\n0.2\nsetosa\n\n\n14\n5.8\n4.0\n1.2\n0.2\nsetosa\n\n\n15\n5.7\n4.4\n1.5\n0.4\nsetosa\n\n\n\n\n\n\n\nBoth operations return new DataFrames, which can then be used for further analysis."
   },
   {
-    "objectID": "d2-analysis.html#aggregating-as-summarizing",
-    "href": "d2-analysis.html#aggregating-as-summarizing",
+    "objectID": "d2-analysis.html#grouping-and-summarizing",
+    "href": "d2-analysis.html#grouping-and-summarizing",
     "title": "Day 2: Getting started with data analysis",
-    "section": "Aggregating as summarizing",
-    "text": "Aggregating as summarizing\n\nUpcoming"
+    "section": "Grouping and summarizing",
+    "text": "Grouping and summarizing\nGrouping and summarizing data in Pandas is primarily achieved using the groupby() function. This function allows you to group rows based on one or multiple columns, and then you can apply aggregation methods like mean(), sum(), or count() to summarize the data. For instance, if you want to find the average measurements for each species in the df DataFrame, you can group by the ‘species’ column and then apply the mean() function to get the average for each numerical column.\nHere’s an inline code example:\n\n# Group by 'species' and calculate the mean for each numerical column\ngrouped_by_species_mean = df.groupby('species').mean()\n# Show the first few rows of the resulting DataFrame\ngrouped_by_species_mean.head()\n\n\n\n\n\n\n\n\nsepal_length\nsepal_width\npetal_length\npetal_width\n\n\nspecies\n\n\n\n\n\n\n\n\nsetosa\n5.006\n3.428\n1.462\n0.246\n\n\nversicolor\n5.936\n2.770\n4.260\n1.326\n\n\nvirginica\n6.588\n2.974\n5.552\n2.026\n\n\n\n\n\n\n\nThis will give you a new DataFrame that contains the summarized data, facilitating easier comparisons between different groups."
   },
   {
     "objectID": "d2-analysis.html#statistical-analysis",
     "href": "d2-analysis.html#statistical-analysis",
     "title": "Day 2: Getting started with data analysis",
     "section": "Statistical analysis",
-    "text": "Statistical analysis\n\nUpcoming"
+    "text": "Statistical analysis\nRegression analysis is used to explore the relationship between dependent and independent variables. In Python, Scikit-learn is a popular library for performing regression. You typically use the LinearRegression class to create a regression model. After separating your features and target variables, you can fit the model using the fit() method and make predictions with predict(). For example, if you want to predict ‘petal_length’ based on ‘sepal_length’ in the df DataFrame:\n\nfrom sklearn.linear_model import LinearRegression\nimport pandas as pd\n\n# Prepare the features and target variable\nX = df[['sepal_length']]  # Feature (independent variable)\ny = df['petal_length']  # Target (dependent variable)\n\n# Create a LinearRegression object\nmodel = LinearRegression()\n\n# Fit the model to the data\nmodel.fit(X, y)\n\n# Make predictions\npredictions = model.predict(X)\n\n# Create a DataFrame to display the analysis result\nresult_df = pd.DataFrame({'Actual': y, 'Predicted': predictions})\n# Show the first few rows of the result DataFrame\nresult_df.head()\n\n\n\n\n\n\n\n\nActual\nPredicted\n\n\n\n\n0\n1.4\n2.376565\n\n\n1\n1.4\n2.004878\n\n\n2\n1.3\n1.633192\n\n\n3\n1.5\n1.447348\n\n\n4\n1.4\n2.190722\n\n\n\n\n\n\n\nThis will create a DataFrame result_df that contains both the actual and predicted ‘petal_length’, facilitating the evaluation of the model’s performance."
   },
   {
     "objectID": "d4-language.html",
     "href": "d4-language.html",
     "title": "Day 4: Processing natural language texts",
     "section": "",
-    "text": "The opposite of structured data is natural language texts. However, as social scientists, we often encounter such unstructured text data. The challenge of managing and analyzing natural language data will be the main focus on day 4. To our help we will utilize both classical packages for data cleaning and tokenization such as NLTK, and more modern packages such as spaCy that relies on machine learning models to analyze language."
+    "text": "The opposite of structured data is natural language texts. However, as social scientists, we often encounter such unstructured text data. The challenge of managing and analyzing natural language data will be the main focus on day 4. To our help we will utilize both classical packages for data cleaning and tokenization such as NLTK, and more modern packages such as spaCy that relies on machine learning models to infer syntactic function and named entities."
   },
   {
     "objectID": "d4-language.html#tokenization",
     "href": "d4-language.html#tokenization",
     "title": "Day 4: Processing natural language texts",
     "section": "Tokenization",
-    "text": "Tokenization\n\nUpcoming"
+    "text": "Tokenization\nLet’s assume the following text data:\n\nimport pandas as pd\n# Read the uploaded TSV file into a Pandas DataFrame named 'df'\ndf = pd.read_csv('../../txt/zen_of_python.tsv', sep='\\t')\n\n# Display the first few rows of the DataFrame\ndf.head()\n\n\n\n\n\n\n\n\nid\ntext\n\n\n\n\n0\n1\nBeautiful is better than ugly.\n\n\n1\n2\nExplicit is better than implicit.\n\n\n2\n3\nSimple is better than complex.\n\n\n3\n4\nComplex is better than complicated.\n\n\n4\n5\nFlat is better than nested.\n\n\n\n\n\n\n\nTo tokenize the text data using the Natural Language Toolkit (NLTK) package, you can follow these steps:\n\nFirst, import the necessary NLTK library: from nltk.tokenize import word_tokenize.\nCreate an empty DataFrame to store the tokenized words along with their corresponding ‘id’ from the original text.\nLoop through each row of the original DataFrame (df), tokenize the text in the ‘text’ column using word_tokenize(), and append the tokens along with their ‘id’ to the new DataFrame.\n\nHere’s an inline code example:\n\nfrom nltk.tokenize import word_tokenize\nimport pandas as pd\n\n# Create an empty DataFrame to store tokens and ids\ntokens_df = pd.DataFrame(columns=['id', 'token'])\n\n# Loop through each row in the original DataFrame\nfor index, row in df.iterrows():\n    id_value = row['id']\n    text_value = row['text']\n    \n    # Tokenize the text\n    tokens = word_tokenize(text_value)\n    \n    # Create a temporary DataFrame to hold tokens and ids\n    temp_df = pd.DataFrame({'id': [id_value]*len(tokens), 'token': tokens})\n    \n    # Append to the main DataFrame\n    tokens_df = pd.concat([tokens_df, temp_df], ignore_index=True)\n\n# Show the first few rows of the resulting DataFrame\ntokens_df.head()\n\n\n\n\n\n\n\n\nid\ntoken\n\n\n\n\n0\n1\nBeautiful\n\n\n1\n1\nis\n\n\n2\n1\nbetter\n\n\n3\n1\nthan\n\n\n4\n1\nugly\n\n\n\n\n\n\n\nRunning this code will create a new DataFrame tokens_df that contains one token per row, along with the original ‘id’ to associate each token with its originating text."
   },
   {
     "objectID": "d4-language.html#parts-of-speech",
