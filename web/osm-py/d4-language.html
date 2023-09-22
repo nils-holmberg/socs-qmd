@@ -4722,9 +4722,100 @@ vertical-align: -.125em;
 </section>
 <section id="parts-of-speech" class="level2">
 <h2 class="anchored" data-anchor-id="parts-of-speech">Parts of speech</h2>
-<ul>
-<li>Upcoming</li>
-</ul>
+<p>Spacy is a prominent Python library for natural language processing. To analyze the Zen of Python with Spacy, one must first install the package and its English model. After loading the model, the Zen text can be processed to tokenize it. For a visual syntactic analysis of the first sentence, Spacy’s <code>displacy</code> module can be employed.</p>
+<div class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> spacy</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> spacy <span class="im">import</span> displacy</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Open the file in read mode</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;../../txt/zen_of_python.txt&#39;</span>, <span class="st">&#39;r&#39;</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    zen_text <span class="op">=</span> <span class="bu">file</span>.read()</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the English model</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>nlp <span class="op">=</span> spacy.load(<span class="st">&#39;en_core_web_sm&#39;</span>)</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co">#nlp._path</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Process the Zen of Python text</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>doc <span class="op">=</span> nlp(zen_text)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize the syntactic structure of the first sentence</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>displacy.render(<span class="bu">list</span>(doc.sents)[<span class="dv">0</span>], style<span class="op">=</span><span class="st">&#39;dep&#39;</span>, jupyter<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<span class="tex2jax_ignore"><svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" lang="en" id="a538c4db19734274b2b168041a494668-0" class="displacy" width="1100" height="312.0" direction="ltr" style="max-width: none; height: 312.0px; color: #000000; background: #ffffff; font-family: Arial; direction: ltr">
+<text class="displacy-token" fill="currentColor" text-anchor="middle" y="222.0">
+    <tspan class="displacy-word" fill="currentColor" x="50">Beautiful</tspan>
+    <tspan class="displacy-tag" dy="2em" fill="currentColor" x="50">PROPN</tspan>
+</text>
+
+<text class="displacy-token" fill="currentColor" text-anchor="middle" y="222.0">
+    <tspan class="displacy-word" fill="currentColor" x="225">is</tspan>
+    <tspan class="displacy-tag" dy="2em" fill="currentColor" x="225">AUX</tspan>
+</text>
+
+<text class="displacy-token" fill="currentColor" text-anchor="middle" y="222.0">
+    <tspan class="displacy-word" fill="currentColor" x="400">better</tspan>
+    <tspan class="displacy-tag" dy="2em" fill="currentColor" x="400">ADJ</tspan>
+</text>
+
+<text class="displacy-token" fill="currentColor" text-anchor="middle" y="222.0">
+    <tspan class="displacy-word" fill="currentColor" x="575">than</tspan>
+    <tspan class="displacy-tag" dy="2em" fill="currentColor" x="575">ADP</tspan>
+</text>
+
+<text class="displacy-token" fill="currentColor" text-anchor="middle" y="222.0">
+    <tspan class="displacy-word" fill="currentColor" x="750">ugly.</tspan>
+    <tspan class="displacy-tag" dy="2em" fill="currentColor" x="750">PUNCT</tspan>
+</text>
+
+<text class="displacy-token" fill="currentColor" text-anchor="middle" y="222.0">
+    <tspan class="displacy-word" fill="currentColor" x="925">
+</tspan>
+    <tspan class="displacy-tag" dy="2em" fill="currentColor" x="925">SPACE</tspan>
+</text>
+
+<g class="displacy-arrow">
+    <path class="displacy-arc" id="arrow-a538c4db19734274b2b168041a494668-0-0" stroke-width="2px" d="M70,177.0 C70,89.5 220.0,89.5 220.0,177.0" fill="none" stroke="currentColor"></path>
+    <text dy="1.25em" style="font-size: 0.8em; letter-spacing: 1px">
+        <textpath href="#arrow-a538c4db19734274b2b168041a494668-0-0" class="displacy-label" startoffset="50%" side="left" fill="currentColor" text-anchor="middle">nsubj</textpath>
+    </text>
+    <path class="displacy-arrowhead" d="M70,179.0 L62,167.0 78,167.0" fill="currentColor"></path>
+</g>
+
+<g class="displacy-arrow">
+    <path class="displacy-arc" id="arrow-a538c4db19734274b2b168041a494668-0-1" stroke-width="2px" d="M245,177.0 C245,89.5 395.0,89.5 395.0,177.0" fill="none" stroke="currentColor"></path>
+    <text dy="1.25em" style="font-size: 0.8em; letter-spacing: 1px">
+        <textpath href="#arrow-a538c4db19734274b2b168041a494668-0-1" class="displacy-label" startoffset="50%" side="left" fill="currentColor" text-anchor="middle">acomp</textpath>
+    </text>
+    <path class="displacy-arrowhead" d="M395.0,179.0 L403.0,167.0 387.0,167.0" fill="currentColor"></path>
+</g>
+
+<g class="displacy-arrow">
+    <path class="displacy-arc" id="arrow-a538c4db19734274b2b168041a494668-0-2" stroke-width="2px" d="M420,177.0 C420,89.5 570.0,89.5 570.0,177.0" fill="none" stroke="currentColor"></path>
+    <text dy="1.25em" style="font-size: 0.8em; letter-spacing: 1px">
+        <textpath href="#arrow-a538c4db19734274b2b168041a494668-0-2" class="displacy-label" startoffset="50%" side="left" fill="currentColor" text-anchor="middle">prep</textpath>
+    </text>
+    <path class="displacy-arrowhead" d="M570.0,179.0 L578.0,167.0 562.0,167.0" fill="currentColor"></path>
+</g>
+
+<g class="displacy-arrow">
+    <path class="displacy-arc" id="arrow-a538c4db19734274b2b168041a494668-0-3" stroke-width="2px" d="M245,177.0 C245,2.0 750.0,2.0 750.0,177.0" fill="none" stroke="currentColor"></path>
+    <text dy="1.25em" style="font-size: 0.8em; letter-spacing: 1px">
+        <textpath href="#arrow-a538c4db19734274b2b168041a494668-0-3" class="displacy-label" startoffset="50%" side="left" fill="currentColor" text-anchor="middle">punct</textpath>
+    </text>
+    <path class="displacy-arrowhead" d="M750.0,179.0 L758.0,167.0 742.0,167.0" fill="currentColor"></path>
+</g>
+
+<g class="displacy-arrow">
+    <path class="displacy-arc" id="arrow-a538c4db19734274b2b168041a494668-0-4" stroke-width="2px" d="M770,177.0 C770,89.5 920.0,89.5 920.0,177.0" fill="none" stroke="currentColor"></path>
+    <text dy="1.25em" style="font-size: 0.8em; letter-spacing: 1px">
+        <textpath href="#arrow-a538c4db19734274b2b168041a494668-0-4" class="displacy-label" startoffset="50%" side="left" fill="currentColor" text-anchor="middle">dep</textpath>
+    </text>
+    <path class="displacy-arrowhead" d="M920.0,179.0 L928.0,167.0 912.0,167.0" fill="currentColor"></path>
+</g>
+</svg></span>
+</div>
+</div>
+<p>This code provides a graphical representation of the sentence’s grammatical relationships.</p>
 </section>
 <section id="topic-modeling" class="level2">
 <h2 class="anchored" data-anchor-id="topic-modeling">Topic modeling</h2>

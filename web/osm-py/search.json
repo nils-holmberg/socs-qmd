@@ -32,14 +32,14 @@
     "href": "d5-collection.html#web-scraping",
     "title": "Day 5: Finishing with data collections",
     "section": "Web scraping",
-    "text": "Web scraping\n\nUpcoming"
+    "text": "Web scraping\nThe content of the webpage “https://books.toscrape.com/catalogue/page-2.html” was fetched using the requests library. Once retrieved, the content was saved as an HTML file named “books_page_2.html”. The Beautiful Soup library was then employed to parse and analyze the HTML structure. The analysis focused on identifying all article tags with the class product_pod. Within each of these tags, the title and link attributes from the nested h3 and a tags were extracted. This extracted data was subsequently organized into a pandas dataframe, displaying the title of each book alongside its corresponding link.\n\nimport requests\nfrom bs4 import BeautifulSoup\nimport pandas as pd\n\n# URL to fetch\nbooks_url = 'https://books.toscrape.com/catalogue/page-2.html'\n\n# Make a request to the website using the requests library\nbooks_response = requests.get(books_url)\nbooks_content = books_response.content\n\n# Save the content to an HTML file\nbooks_filename = '../../xml/books_page_2.html'\nwith open(books_filename, 'wb') as file:\n    file.write(books_content)\n\n# Parse the content with BeautifulSoup\nbooks_soup = BeautifulSoup(books_content, 'lxml')\n\n# Look for all article tags of class 'product_pod'\nproduct_pods = books_soup.find_all('article', class_='product_pod')\n\n# Extract the h3 child tag and its a tag attributes as text\nbooks_data = []\nfor pod in product_pods:\n    h3_tag = pod.find('h3')\n    a_tag = h3_tag.find('a') if h3_tag else None\n    books_data.append({\n        'title': a_tag.attrs.get('title') if a_tag else None,\n        'link': a_tag.attrs.get('href') if a_tag else None\n    })\n\n# Convert the data to a pandas dataframe\nbooks_df = pd.DataFrame(books_data)\nbooks_df.head()\n\n\n\n\n\n\n\n\ntitle\nlink\n\n\n\n\n0\nIn Her Wake\nin-her-wake_980/index.html\n\n\n1\nHow Music Works\nhow-music-works_979/index.html\n\n\n2\nFoolproof Preserving: A Guide to Small Batch J...\nfoolproof-preserving-a-guide-to-small-batch-ja...\n\n\n3\nChase Me (Paris Nights #2)\nchase-me-paris-nights-2_977/index.html\n\n\n4\nBlack Dust\nblack-dust_976/index.html"
   },
   {
     "objectID": "d5-collection.html#survey-experiments",
     "href": "d5-collection.html#survey-experiments",
     "title": "Day 5: Finishing with data collections",
     "section": "Survey experiments",
-    "text": "Survey experiments\n\nUpcoming"
+    "text": "Survey experiments\n\nUpcoming, streamlit ? pyscript ? shiny ?"
   },
   {
     "objectID": "d3-visualization.html",
@@ -60,7 +60,7 @@
     "href": "d3-visualization.html#bar-plots",
     "title": "Day 3: Visualizing and reporting results",
     "section": "Bar plots",
-    "text": "Bar plots\nBar plots are useful for displaying the relationship between a categorical variable and a numerical variable. In the example, we use Seaborn’s barplot function to visualize the average “sepal_length” for each species in the df DataFrame. The x-axis represents the different species, and the y-axis shows the average “sepal_length” for each.\nHere’s the code snippet to generate the bar plot:\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Create a barplot for the 'species' column showing the average 'sepal_length'\nsns.barplot(x='species', y='sepal_length', data=df, ci=None)\n\n# Add labels and title\nplt.xlabel('Species')\nplt.ylabel('Average Sepal Length')\nplt.title('Average Sepal Length by Species')\n\n# Show the plot\nplt.show()\n\n/tmp/ipykernel_44114/4094272089.py:5: FutureWarning: \n\nThe `ci` parameter is deprecated. Use `errorbar=None` for the same effect.\n\n  sns.barplot(x='species', y='sepal_length', data=df, ci=None)\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n\n\n\n\n\nIn this case, the ci=None parameter removes the confidence interval bars, focusing solely on the mean values. The plot provides a quick way to compare the average “sepal_length” across different species."
+    "text": "Bar plots\nBar plots are useful for displaying the relationship between a categorical variable and a numerical variable. In the example, we use Seaborn’s barplot function to visualize the average “sepal_length” for each species in the df DataFrame. The x-axis represents the different species, and the y-axis shows the average “sepal_length” for each.\nHere’s the code snippet to generate the bar plot:\n\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\n# Create a barplot for the 'species' column showing the average 'sepal_length'\nsns.barplot(x='species', y='sepal_length', data=df, ci=None)\n\n# Add labels and title\nplt.xlabel('Species')\nplt.ylabel('Average Sepal Length')\nplt.title('Average Sepal Length by Species')\n\n# Show the plot\nplt.show()\n\n/tmp/ipykernel_79333/4094272089.py:5: FutureWarning: \n\nThe `ci` parameter is deprecated. Use `errorbar=None` for the same effect.\n\n  sns.barplot(x='species', y='sepal_length', data=df, ci=None)\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n/tmp/scom/envp-nlp/lib/python3.11/site-packages/seaborn/_oldcore.py:1498: FutureWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, CategoricalDtype) instead\n  if pd.api.types.is_categorical_dtype(vector):\n\n\n\n\n\nIn this case, the ci=None parameter removes the confidence interval bars, focusing solely on the mean values. The plot provides a quick way to compare the average “sepal_length” across different species."
   },
   {
     "objectID": "d3-visualization.html#scatter-plots",
@@ -84,32 +84,32 @@
     "text": "There are many ways of setting up a python environment. Day 1 of the workshop we are going to have a look at some of the most common use cases, and discuss pros and cons with different setups depending on the specific research tasks you are trying to solve. We will also have a look at basic python syntax and write some simple python programs. The main format of instruction will be Jupyter notebooks."
   },
   {
-    "objectID": "d1-python.html#base-python-interpreter",
-    "href": "d1-python.html#base-python-interpreter",
+    "objectID": "d1-python.html#the-python-interpreter",
+    "href": "d1-python.html#the-python-interpreter",
     "title": "Day 1: Setting up a python environment",
-    "section": "Base python interpreter",
-    "text": "Base python interpreter\nThis is python without any bells or wistles, only the official vanilla version of the python programming language with no extra packages. Python is open source, which is an important part of open science. Working with python in this environment can be improved with a good cross-platform code editor, e.g. Visual Studio Code."
+    "section": "The python interpreter",
+    "text": "The python interpreter\nThe Python interpreter is a tool that allows for the execution of Python code directly. To install, one typically downloads the appropriate version from the official Python website and follows the installation instructions. Once installed, the interpreter can be launched by typing python in the command line or terminal. To open a file on disk, use file = open('filename.txt', 'r'). To run a simple script, save the code to a .py file, like script.py, and execute it with python script.py from the command line. From the Python prompt, scripts can be run using exec(open('script.py').read()). Working with python in this environment can be improved with a good cross-platform code editor, e.g. Visual Studio Code."
   },
   {
     "objectID": "d1-python.html#integrated-development-environments",
     "href": "d1-python.html#integrated-development-environments",
     "title": "Day 1: Setting up a python environment",
     "section": "Integrated development environments",
-    "text": "Integrated development environments\nThis setup is sometimes abbreviated as an IDE. An important feature of this approach is that it seeks to make python programming more user-friendly compared to base python. A prominent example is Anaconda . Interactive python and\nPackage manager and virtual environments.\nNB! If you are on a LU work computer, you should consult with IT support () to istall from Software center"
+    "text": "Integrated development environments\nAnaconda is a distribution that simplifies Python and R data science and machine learning on Linux, Windows, and Mac OS X. It bundles a suite of tools, including an IDE called Spyder. To use Python in Spyder, one installs Anaconda3, launches Spyder, and begins coding in its interactive editor. Spyder offers features like variable exploration, integrated IPython console, and a multi-language editor. Compared to a standalone Python interpreter, which offers a basic environment for script execution, Spyder provides a more comprehensive development experience with debugging tools, code completion, and an integrated documentation viewer, streamlining the coding and analysis process. NB! If you are on a LU work computer, you should consult with IT support () to istall from Software center."
   },
   {
     "objectID": "d1-python.html#jupyter-notebooks",
     "href": "d1-python.html#jupyter-notebooks",
     "title": "Day 1: Setting up a python environment",
     "section": "Jupyter notebooks",
-    "text": "Jupyter notebooks\nThis is the python setup we are going to use the most on this workshop. Data science. Transparency, replicability, collaboration. Try jupyter notebooks on Anaconda cloud."
+    "text": "Jupyter notebooks\nJupyter Notebooks offer an interactive environment to write and execute Python code. Accessible via a web browser, users can combine code, text, and visualizations in a single document. To use Python in Jupyter, one installs Jupyter via pip or conda, then launches it, creating or opening notebooks. Each notebook cell can be executed independently, allowing iterative development. Compared to a Python interpreter, Jupyter provides a more visual and structured approach. While Python IDEs offer robust development tools and debugging capabilities, Jupyter excels in data exploration, analysis, and presenting results, making it a favorite among data scientists and researchers. Try jupyter notebooks on Anaconda cloud."
   },
   {
     "objectID": "d1-python.html#python-in-the-cloud",
     "href": "d1-python.html#python-in-the-cloud",
     "title": "Day 1: Setting up a python environment",
     "section": "Python in the cloud",
-    "text": "Python in the cloud\nGoogle colab."
+    "text": "Python in the cloud\nGoogle colab is a cloud-based platform that allows users to write and execute Python code in a web-based environment. To use Python in Google Colab, one simply navigates to the Colab website, starts a new notebook, and begins coding. The platform provides free access to GPUs, making it suitable for machine learning tasks. Unlike local Python installations, there’s no setup required, and notebooks are easily shareable. However, while Colab offers the convenience of working in the cloud, using Python locally provides more control over the environment, dependencies, and data storage. In contrast, Colab sessions are ephemeral, and prolonged inactivity can lead to disconnection."
   },
   {
     "objectID": "about.html",
@@ -193,7 +193,7 @@
     "href": "d4-language.html#parts-of-speech",
     "title": "Day 4: Processing natural language texts",
     "section": "Parts of speech",
-    "text": "Parts of speech\n\nUpcoming"
+    "text": "Parts of speech\nSpacy is a prominent Python library for natural language processing. To analyze the Zen of Python with Spacy, one must first install the package and its English model. After loading the model, the Zen text can be processed to tokenize it. For a visual syntactic analysis of the first sentence, Spacy’s displacy module can be employed.\n\nimport spacy\nfrom spacy import displacy\n\n# Open the file in read mode\nwith open('../../txt/zen_of_python.txt', 'r') as file:\n    zen_text = file.read()\n\n# Load the English model\nnlp = spacy.load('en_core_web_sm')\n#nlp._path\n\n# Process the Zen of Python text\ndoc = nlp(zen_text)\n\n# Visualize the syntactic structure of the first sentence\ndisplacy.render(list(doc.sents)[0], style='dep', jupyter=True)\n\n\n\n    Beautiful\n    PROPN\n\n\n\n    is\n    AUX\n\n\n\n    better\n    ADJ\n\n\n\n    than\n    ADP\n\n\n\n    ugly.\n    PUNCT\n\n\n\n    \n\n    SPACE\n\n\n\n    \n    \n        nsubj\n    \n    \n\n\n\n    \n    \n        acomp\n    \n    \n\n\n\n    \n    \n        prep\n    \n    \n\n\n\n    \n    \n        punct\n    \n    \n\n\n\n    \n    \n        dep\n    \n    \n\n\n\n\nThis code provides a graphical representation of the sentence’s grammatical relationships."
   },
   {
     "objectID": "d4-language.html#topic-modeling",
