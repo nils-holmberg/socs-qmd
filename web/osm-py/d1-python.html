@@ -4568,6 +4568,7 @@ vertical-align: -.125em;
   <li><a href="#python-control-statements" id="toc-python-control-statements" class="nav-link" data-scroll-target="#python-control-statements">Python Control Statements</a></li>
   <li><a href="#python-functions" id="toc-python-functions" class="nav-link" data-scroll-target="#python-functions">Python Functions</a></li>
   <li><a href="#some-python-tasks" id="toc-some-python-tasks" class="nav-link" data-scroll-target="#some-python-tasks">Some python tasks</a></li>
+  <li><a href="#object-oriented-programming-in-python" id="toc-object-oriented-programming-in-python" class="nav-link" data-scroll-target="#object-oriented-programming-in-python">Object-Oriented Programming in Python</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -4661,7 +4662,8 @@ vertical-align: -.125em;
 <li><strong>Continue</strong>: Skips the rest of the current loop iteration, moving to the next one.</li>
 </ol>
 <p>These tools provide the foundation for complex decision-making and repetitive tasks in Python programs. Here’s a code example showcasing these control statements:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># If, Elif, and Else statements</span></span>
+<div class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># If, Elif, and Else statements</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">10</span></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> x <span class="op">&gt;</span> <span class="dv">5</span>:</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;x is greater than 5&quot;</span>)</span>
@@ -4687,6 +4689,7 @@ vertical-align: -.125em;
 <span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> num <span class="op">==</span> <span class="dv">1</span>:</span>
 <span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
 <span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Value after applying break and continue: </span><span class="sc">{</span>num<span class="sc">}</span><span class="ss">&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="python-functions" class="level3">
 <h3 class="anchored" data-anchor-id="python-functions">Python Functions</h3>
@@ -4700,7 +4703,8 @@ vertical-align: -.125em;
 <li><strong>Variable-Length Arguments</strong>: <code>*args</code> and <code>**kwargs</code> allow for arbitrary numbers of positional and keyword arguments, respectively.</li>
 </ol>
 <p>Functions enhance code reusability and structure, making complex programs more manageable. Here’s a code example showcasing a function with named and positional arguments:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> example_function(positional_arg, named_arg<span class="op">=</span><span class="st">&quot;default&quot;</span>, <span class="op">*</span>args, <span class="op">**</span>kwargs):</span>
+<div class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> example_function(positional_arg, named_arg<span class="op">=</span><span class="st">&quot;default&quot;</span>, <span class="op">*</span>args, <span class="op">**</span>kwargs):</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Positional Argument: </span><span class="sc">{</span>positional_arg<span class="sc">}</span><span class="ss">&quot;</span>)</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Named Argument: </span><span class="sc">{</span>named_arg<span class="sc">}</span><span class="ss">&quot;</span>)</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> index, value <span class="kw">in</span> <span class="bu">enumerate</span>(args):</span>
@@ -4711,6 +4715,7 @@ vertical-align: -.125em;
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> example_function(<span class="dv">1</span>, <span class="st">&quot;test&quot;</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, key1<span class="op">=</span><span class="st">&quot;value1&quot;</span>, key2<span class="op">=</span><span class="st">&quot;value2&quot;</span>)</span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Returned Value:&quot;</span>, result)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
 <section id="some-python-tasks" class="level3">
 <h3 class="anchored" data-anchor-id="some-python-tasks">Some python tasks</h3>
@@ -4756,8 +4761,35 @@ vertical-align: -.125em;
 <span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> sum_function(numbers):</span>
 <span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span></span>
 <span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(sum_function([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<hr>
 <p>For each task, students should modify the Python code to achieve the described goal.</p>
+</section>
+<section id="object-oriented-programming-in-python" class="level3">
+<h3 class="anchored" data-anchor-id="object-oriented-programming-in-python">Object-Oriented Programming in Python</h3>
+<p>Object-Oriented Programming (OOP) in Python revolves around the concept of objects, which represent both data and functions. Key aspects include:</p>
+<ol type="1">
+<li><strong>Classes</strong>: Blueprints for creating objects.</li>
+<li><strong>Objects</strong>: Instances of classes.</li>
+<li><strong>Attributes</strong>: Variables associated with a class.</li>
+<li><strong>Methods</strong>: Functions defined within a class.</li>
+<li><strong>Inheritance</strong>: Allows a class to inherit attributes and methods from another class.</li>
+<li><strong>Encapsulation</strong>: Bundling data and methods into a single unit (class).</li>
+<li><strong>Polymorphism</strong>: Using a single interface for different data types.</li>
+</ol>
+<p>OOP in Python facilitates organizing complex programs by modeling real-world entities and their interactions. Here’s a code example showcasing a Python class with named arguments:</p>
+<div class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> SampleClass:</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, arg1, arg2<span class="op">=</span><span class="st">&quot;default&quot;</span>):</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.arg1 <span class="op">=</span> arg1</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.arg2 <span class="op">=</span> arg2</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> get_values(<span class="va">self</span>):</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> [<span class="va">self</span>.arg1, <span class="va">self</span>.arg2]</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Instantiating the class with named arguments</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>obj <span class="op">=</span> SampleClass(arg1<span class="op">=</span><span class="st">&quot;value1&quot;</span>, arg2<span class="op">=</span><span class="st">&quot;value2&quot;</span>)</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> obj.get_values()</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(result)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
 </section>
