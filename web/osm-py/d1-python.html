@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
 width: 0.8em;
 margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
 }
+
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+}
+pre.numberSource { margin-left: 3em; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -4528,6 +4562,13 @@ vertical-align: -.125em;
   <li><a href="#integrated-development-environments" id="toc-integrated-development-environments" class="nav-link" data-scroll-target="#integrated-development-environments">Integrated development environments</a></li>
   <li><a href="#jupyter-notebooks" id="toc-jupyter-notebooks" class="nav-link" data-scroll-target="#jupyter-notebooks">Jupyter notebooks</a></li>
   <li><a href="#python-in-the-cloud" id="toc-python-in-the-cloud" class="nav-link" data-scroll-target="#python-in-the-cloud">Python in the cloud</a></li>
+  <li><a href="#basic-python-syntax" id="toc-basic-python-syntax" class="nav-link" data-scroll-target="#basic-python-syntax">Basic python syntax</a>
+  <ul class="collapse">
+  <li><a href="#python-data-types" id="toc-python-data-types" class="nav-link" data-scroll-target="#python-data-types">Python Data Types</a></li>
+  <li><a href="#python-control-statements" id="toc-python-control-statements" class="nav-link" data-scroll-target="#python-control-statements">Python Control Statements</a></li>
+  <li><a href="#python-functions" id="toc-python-functions" class="nav-link" data-scroll-target="#python-functions">Python Functions</a></li>
+  <li><a href="#some-python-tasks" id="toc-some-python-tasks" class="nav-link" data-scroll-target="#some-python-tasks">Some python tasks</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -4567,8 +4608,159 @@ vertical-align: -.125em;
 <section id="python-in-the-cloud" class="level2">
 <h2 class="anchored" data-anchor-id="python-in-the-cloud">Python in the cloud</h2>
 <p><a href="https://colab.research.google.com/">Google colab</a> is a cloud-based platform that allows users to write and execute Python code in a web-based environment. To use Python in Google Colab, one simply navigates to the Colab website, starts a new notebook, and begins coding. The platform provides free access to GPUs, making it suitable for machine learning tasks. Unlike local Python installations, there’s no setup required, and notebooks are easily shareable. However, while Colab offers the convenience of working in the cloud, using Python locally provides more control over the environment, dependencies, and data storage. In contrast, Colab sessions are ephemeral, and prolonged inactivity can lead to disconnection.</p>
+</section>
+<section id="basic-python-syntax" class="level2">
+<h2 class="anchored" data-anchor-id="basic-python-syntax">Basic python syntax</h2>
+<section id="python-data-types" class="level3">
+<h3 class="anchored" data-anchor-id="python-data-types">Python Data Types</h3>
+<p>Python, a versatile and powerful programming language, boasts several built-in data types. Among the most fundamental are:</p>
+<ol type="1">
+<li><strong>Integers (<code>int</code>)</strong>: Whole numbers like 3 or -11.</li>
+<li><strong>Floating Point (<code>float</code>)</strong>: Numbers with a decimal point, e.g., 3.14.</li>
+<li><strong>Strings (<code>str</code>)</strong>: Sequences of characters, like “Hello”.</li>
+<li><strong>Lists</strong>: Ordered collections, e.g., [1, 2, “a”].</li>
+<li><strong>Tuples</strong>: Immutable ordered collections, e.g., (1, 2, “b”).</li>
+<li><strong>Dictionaries (<code>dict</code>)</strong>: Key-value pairs, e.g., {“name”: “John”, “age”: 30}.</li>
+</ol>
+<p>Each type has its unique properties and methods, catering to diverse programming needs. Now, here’s a code example showcasing these data types:</p>
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Integer</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>my_int <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Integer:&quot;</span>, my_int)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Float</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>my_float <span class="op">=</span> <span class="fl">5.5</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Float:&quot;</span>, my_float)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># String</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>my_string <span class="op">=</span> <span class="st">&quot;Hello, World!&quot;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;String:&quot;</span>, my_string)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># List</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>my_list <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="st">&quot;three&quot;</span>, <span class="fl">4.0</span>]</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;List:&quot;</span>, my_list)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Tuple</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>my_tuple <span class="op">=</span> (<span class="dv">1</span>, <span class="st">&quot;two&quot;</span>, <span class="fl">3.0</span>)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Tuple:&quot;</span>, my_tuple)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Dictionary</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>my_dict <span class="op">=</span> {<span class="st">&quot;first_name&quot;</span>: <span class="st">&quot;John&quot;</span>, <span class="st">&quot;last_name&quot;</span>: <span class="st">&quot;Doe&quot;</span>, <span class="st">&quot;age&quot;</span>: <span class="dv">30</span>}</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Dictionary:&quot;</span>, my_dict)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="python-control-statements" class="level3">
+<h3 class="anchored" data-anchor-id="python-control-statements">Python Control Statements</h3>
+<p>Here’s a concise explanation of Python’s most important control statements, followed by a code example. Control statements in Python determine the flow of execution in a program. The primary ones include:</p>
+<ol type="1">
+<li><strong>If Statement</strong>: Tests a condition and executes a block of code if true.</li>
+<li><strong>Elif and Else</strong>: Supplements the <code>if</code> statement, allowing for multiple conditions or a default action.</li>
+<li><strong>For Loop</strong>: Iterates over sequences like lists or strings.</li>
+<li><strong>While Loop</strong>: Continues execution as long as a condition remains true.</li>
+<li><strong>Break</strong>: Exits the current loop.</li>
+<li><strong>Continue</strong>: Skips the rest of the current loop iteration, moving to the next one.</li>
+</ol>
+<p>These tools provide the foundation for complex decision-making and repetitive tasks in Python programs. Here’s a code example showcasing these control statements:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># If, Elif, and Else statements</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">10</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> x <span class="op">&gt;</span> <span class="dv">5</span>:</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;x is greater than 5&quot;</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="cf">elif</span> x <span class="op">==</span> <span class="dv">5</span>:</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;x is equal to 5&quot;</span>)</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;x is less than 5&quot;</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># For Loop</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">3</span>):</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;For Loop iteration </span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="co"># While Loop</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>count <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> count <span class="op">&lt;</span> <span class="dv">3</span>:</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;While Loop iteration </span><span class="sc">{</span>count<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    count <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Break and Continue</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> num <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">5</span>):</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> num <span class="op">==</span> <span class="dv">2</span>:</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> num <span class="op">==</span> <span class="dv">1</span>:</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>        <span class="cf">continue</span></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Value after applying break and continue: </span><span class="sc">{</span>num<span class="sc">}</span><span class="ss">&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="python-functions" class="level3">
+<h3 class="anchored" data-anchor-id="python-functions">Python Functions</h3>
+<p>Python functions are modular blocks of code designed to perform a specific task. Their key aspects include:</p>
+<ol type="1">
+<li><strong>Definition</strong>: Using the <code>def</code> keyword, functions are declared, followed by their name and parameters.</li>
+<li><strong>Positional Arguments</strong>: Values passed based on their position in the function call.</li>
+<li><strong>Named (or Keyword) Arguments</strong>: Values passed by explicitly naming the parameter.</li>
+<li><strong>Return Statement</strong>: Outputs a value from the function.</li>
+<li><strong>Default Values</strong>: Assigns a default value to a parameter if no argument is provided.</li>
+<li><strong>Variable-Length Arguments</strong>: <code>*args</code> and <code>**kwargs</code> allow for arbitrary numbers of positional and keyword arguments, respectively.</li>
+</ol>
+<p>Functions enhance code reusability and structure, making complex programs more manageable. Here’s a code example showcasing a function with named and positional arguments:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> example_function(positional_arg, named_arg<span class="op">=</span><span class="st">&quot;default&quot;</span>, <span class="op">*</span>args, <span class="op">**</span>kwargs):</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Positional Argument: </span><span class="sc">{</span>positional_arg<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f&quot;Named Argument: </span><span class="sc">{</span>named_arg<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> index, value <span class="kw">in</span> <span class="bu">enumerate</span>(args):</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Additional positional argument </span><span class="sc">{</span>index<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>value<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> key, value <span class="kw">in</span> kwargs.items():</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Keyword argument </span><span class="sc">{</span>key<span class="sc">}</span><span class="ss">: </span><span class="sc">{</span>value<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> [positional_arg, named_arg, args, kwargs]</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>result <span class="op">=</span> example_function(<span class="dv">1</span>, <span class="st">&quot;test&quot;</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, key1<span class="op">=</span><span class="st">&quot;value1&quot;</span>, key2<span class="op">=</span><span class="st">&quot;value2&quot;</span>)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Returned Value:&quot;</span>, result)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="some-python-tasks" class="level3">
+<h3 class="anchored" data-anchor-id="some-python-tasks">Some python tasks</h3>
+<p>Here are 10 tasks to test students’ understanding of Python data types, control statements, and functions:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Task 1: Change the string to output &quot;Hello, Python!&quot;.</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>string_task <span class="op">=</span> <span class="st">&quot;Hello, World!&quot;</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(string_task)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Task 2: Add a floating point number to the integer to get a result of 15.5.</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>integer_task <span class="op">=</span> <span class="dv">10</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(integer_task)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Task 3: Update the list to have a fifth element &quot;apple&quot;.</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>list_task <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>]</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(list_task)</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Task 4: Use a control statement to print &quot;Positive&quot; if number_task is greater than zero.</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>number_task <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Task 5: Modify the function to return the product of a and b.</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> function_task(a, b):</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> a <span class="op">+</span> b</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(function_task(<span class="dv">3</span>, <span class="dv">4</span>))</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Task 6: Call the function above with named arguments in reverse order (b first, then a).</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(function_task(a<span class="op">=</span><span class="dv">1</span>, b<span class="op">=</span><span class="dv">2</span>))</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Task 7: Modify the loop to print numbers from 1 to 5.</span></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">3</span>):</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(i)</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Task 8: Use a control statement in the function below to return &quot;Even&quot; for even numbers and &quot;Odd&quot; for odd numbers.</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> even_odd(num):</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="st">&quot;Number&quot;</span></span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(even_odd(<span class="dv">3</span>))</span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Task 9: Add a default value to the function parameter so that calling function_default() returns &quot;Hello, World!&quot;.</span></span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> function_default(message):</span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> message</span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(function_default())</span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Task 10: Correct the function to return the sum of all numbers in the list, use a control statement.</span></span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> sum_function(numbers):</span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">0</span></span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(sum_function([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+<p>For each task, students should modify the Python code to achieve the described goal.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
