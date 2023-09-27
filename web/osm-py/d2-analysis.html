@@ -4569,6 +4569,7 @@ vertical-align: -.125em;
   <li><a href="#statistical-analysis" id="toc-statistical-analysis" class="nav-link" data-scroll-target="#statistical-analysis">Statistical analysis</a></li>
   <li><a href="#write-data-files" id="toc-write-data-files" class="nav-link" data-scroll-target="#write-data-files">Write data files</a></li>
   <li><a href="#try-it-yourself" id="toc-try-it-yourself" class="nav-link" data-scroll-target="#try-it-yourself">Try it yourself!</a></li>
+  <li><a href="#some-more-analysis" id="toc-some-more-analysis" class="nav-link" data-scroll-target="#some-more-analysis">Some more analysis</a></li>
   </ul>
 </nav>
     </div>
@@ -4930,6 +4931,45 @@ Name: sepal_length, dtype: float64</code></pre>
 <li>Count the number of penguins on each island.</li>
 </ol>
 <p>These tasks and their solutions offer a comprehensive introduction to basic data analysis functionalities in Pandas.</p>
+</section>
+<section id="some-more-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="some-more-analysis">Some more analysis</h2>
+<p><strong>Sample Data from Iris Dataset:</strong></p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Sample data mimicking a portion of the Iris dataset structure</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;sepal_length&#39;</span>: [<span class="fl">5.1</span>, <span class="fl">4.9</span>, <span class="fl">5.8</span>, <span class="fl">6.4</span>, <span class="fl">5.7</span>],</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;sepal_width&#39;</span>: [<span class="fl">3.5</span>, <span class="fl">3.0</span>, <span class="fl">2.7</span>, <span class="fl">3.2</span>, <span class="fl">3.0</span>],</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;species&#39;</span>: [<span class="st">&#39;setosa&#39;</span>, <span class="st">&#39;setosa&#39;</span>, <span class="st">&#39;virginica&#39;</span>, <span class="st">&#39;virginica&#39;</span>, <span class="st">&#39;versicolor&#39;</span>]</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>iris_df <span class="op">=</span> pd.DataFrame(data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+<p><strong>Selecting and Filtering Data using <code>loc</code>, <code>iloc</code>, and dot notation:</strong></p>
+<ol type="1">
+<li><p><strong>Dot Notation:</strong> Access a column directly by its name.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>sepal_lengths <span class="op">=</span> iris_df.sepal_length</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p><strong>Using <code>loc</code>:</strong> Select and filter data based on labels.</p>
+<ul>
+<li><p>Select all rows and the <code>sepal_length</code> column:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>sepal_lengths_loc <span class="op">=</span> iris_df.loc[:, <span class="st">&#39;sepal_length&#39;</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Filter rows where species is <code>setosa</code>:</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>setosa_rows <span class="op">=</span> iris_df.loc[iris_df.species <span class="op">==</span> <span class="st">&#39;setosa&#39;</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul></li>
+<li><p><strong>Using <code>iloc</code>:</strong> Select and filter data based on integer index positions.</p>
+<ul>
+<li><p>Select the first row and first two columns:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>first_row <span class="op">=</span> iris_df.iloc[<span class="dv">0</span>, :<span class="dv">2</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>Select the first three rows and all columns:</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>first_three_rows <span class="op">=</span> iris_df.iloc[:<span class="dv">3</span>, :]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul></li>
+<li><p><strong>Simultaneously Select and Filter:</strong></p>
+<ul>
+<li><p>Select <code>sepal_width</code> for rows where species is <code>virginica</code>:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>virginica_sepal_width <span class="op">=</span> iris_df.loc[iris_df.species <span class="op">==</span> <span class="st">&#39;virginica&#39;</span>, <span class="st">&#39;sepal_width&#39;</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ul></li>
+</ol>
+<p>Let’s execute these operations and display the results.</p>
 
 
 </section>
