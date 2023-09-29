@@ -4649,6 +4649,7 @@ Disallow: /temp/</code></pre>
 <section id="put-it-together" class="level2">
 <h2 class="anchored" data-anchor-id="put-it-together">Put it together!</h2>
 <ul>
+<li>website data collection</li>
 <li>nlp</li>
 <li>data analysis</li>
 <li>summarize results</li>
@@ -4665,23 +4666,35 @@ Disallow: /temp/</code></pre>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!pip install streamlit</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>conditions <span class="op">=</span> [<span class="st">&quot;a&quot;</span>, <span class="st">&quot;b&quot;</span>]</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>selected_condition <span class="op">=</span> random.choice(conditions)</span>
-<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> selected_condition <span class="op">==</span> <span class="st">&quot;a&quot;</span>:</span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    st.image(<span class="st">&quot;img/exps-stim-c.png&quot;</span>)</span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    st.image(<span class="st">&quot;img/exps-stim-t.png&quot;</span>)</span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="co">#!streamlit hello</span></span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="co">#!streamlit run app.py</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>st.title(<span class="st">&quot;ab test, random assignment..&quot;</span>)</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>conditions <span class="op">=</span> [<span class="st">&quot;a&quot;</span>, <span class="st">&quot;b&quot;</span>]</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>selected_condition <span class="op">=</span> random.choice(conditions)</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> selected_condition <span class="op">==</span> <span class="st">&quot;a&quot;</span>:</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    st.image(<span class="st">&quot;img/exps-stim-c.png&quot;</span>)</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>    st.image(<span class="st">&quot;img/exps-stim-t.png&quot;</span>)</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>genre <span class="op">=</span> st.radio(</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;What&#39;s your favorite movie genre&quot;</span>,</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>    [<span class="st">&quot;:rainbow[Comedy]&quot;</span>, <span class="st">&quot;***Drama***&quot;</span>, <span class="st">&quot;Documentary :movie_camera:&quot;</span>],</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>    captions <span class="op">=</span> [<span class="st">&quot;Laugh out loud.&quot;</span>, <span class="st">&quot;Get the popcorn.&quot;</span>, <span class="st">&quot;Never stop learning.&quot;</span>], horizontal<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> genre <span class="op">==</span> <span class="st">&#39;:rainbow[Comedy]&#39;</span>:</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    st.write(<span class="st">&#39;You selected comedy.&#39;</span>)</span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>    st.write(<span class="st">&quot;You didn</span><span class="ch">\&#39;</span><span class="st">t select comedy.&quot;</span>)</span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="co">#!streamlit hello</span></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="co">#!streamlit run app.py</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
-<li><a href="https://osm-exp-vetchcj6ybl.streamlit.app/">https://osm-exp-vetchcj6ybl.streamlit.app/</a></li>
+<li><a href="https://osm-exp.streamlit.app/">https://osm-exp.streamlit.app/</a></li>
 </ul>
 <p><strong>Django vs. Flask: Python Web Frameworks</strong></p>
 <p>Django and Flask are two prominent web frameworks in Python, but they serve different philosophies. Django, often termed the “framework for perfectionists with deadlines”, is a high-level, all-inclusive framework. It follows the “batteries-included” approach, offering a built-in admin panel, ORM, and directory structure, making it suitable for larger applications and rapid development. In contrast, Flask is a micro-framework. It’s lightweight, flexible, and gives developers more control over components they wish to use. Flask doesn’t prescribe a directory structure or include extras like Django does, making it more suitable for small applications or microservices. Both have their merits, and the choice depends on the project’s needs.</p>
