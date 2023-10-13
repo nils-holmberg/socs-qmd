@@ -1,0 +1,34 @@
+ID	ID of unit of analysis 																
+date	xxxxxxx																
+News source	101=DN	102=AB	103=VK	104=GP	105=SDS	206=PO	207=EB	208=FS	209=JV	210=NJ	311=HS	312=IS	313=K	314=LK	315=TS	förkortningar på tidningar	
+Article type	1=Opinion	2=News	3=Feature	4=Other													
+Article size	1=Small	2=Medium	3=Large														
+Illustrated	1=Yes, 1 illustration	0=No	2=Yes 2 or more														
+Type of illustration	1=Photo showing face	2=Photo not showing face	3=Cartoon, drawing, painting	4=Mix of photos showing faces and not showing faces	5= Mix of illustrations types	99=Not applicable (NA)											
+Target group in illustration	1=Yes 	0=No	99=N A														
+Agency of target group in illustration	1=Active	0=Passive	99=N A														
+Heading	text: svensk rubrik																
+HeadENG	text: eng rubrik																
+Heading content_health	1=Yes	0=No															
+Heading content_old	1=Yes	0=No															
+Heading content_digital/tekn	1=Yes	0=No															
+Heading content_ill	1=Yes	0=No															
+Digital media and technology	text: förekomst av medier																
+Digital health technologies	text: förekomst av hälsoteknologi																
+Article content/Dominant theme	1=Medicine and health (incl Covid)	2=Science and research	3=Politics/decision making	4=Business/Industry	5=Education	6=Working life	7=Crime and law	8=Leisure and private sphere	9=Entertainment and culture	10=Health services and social care (Incl home care)	11=Banking	12=Other topics	99=Mix no clear dominant topic				
+Subject positioning	1=older/senior	2=Citizen	3=Patient	4=User/client	5=Risk group/Vulnerable	6=Problem/Burden	7=Experienced/Resource	8=Other position	9=Mix of positions								
+Agency of target group in article (Voice)	1=Yes	0=No															
+Gender (visible/mentioned)	1=Yes	0=No															
+Actors mentioned/given voice_ State/Gov	1=Yes	0=No															
+Actors mentioned/given voice_ Region	1=Yes	0=No															
+Actors mentioned/given voice_Municipality	1=Yes	0=No															
+Actors mentioned/given voice_Agency	1=Yes	0=No															
+Actors mentioned/given voice_Politician/Party	1=Yes	0=No															
+Actors mentioned/given voice_Physician, nurse, health staff	1=Yes	0=No															
+Actors mentioned/given voice_Organ. Health care service	1=Yes	0=No															
+Actors mentioned/given voice_Scientist	1=Yes	0=No															
+Actors mentioned/given voice_NGO	1=Yes	0=No															
+Actors mentioned/given voice_Industry	1=Yes	0=No															
+Actors mentioned/given voice_Other Citizen (family relatives)	1=Yes	0=No															
+Power dynamics (additive power index, sum of stakeholders in article= variabel 22-32)	1,2,3,4 osv																
+Tonality of article	1=Primarily negative/alarmist	2=Primarily positive/reassuring	3= Can't tell														
