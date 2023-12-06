@@ -1,0 +1,690 @@
+the-content-analysis-guidebook-2e-1	00	Sage Research Methods The Content Analysis Guidebook For the most optimal reading experience we recommend using our website.
+the-content-analysis-guidebook-2e-1	00	A free-to-view version of this content is available by clicking on this link, which includes an easy-to-navigate-and-search-entry, and may also include videos, embedded datasets, downloadable datasets, interactive questions, audio content, and downloadable tables and resources.
+the-content-analysis-guidebook-2e-1	00	Author: Kimberly A Neuendorf Pub.
+the-content-analysis-guidebook-2e-1	00	Date: 2019 Product: Sage Research Methods DOI: https://doi.org/10.4135/9781071802878 Methods: Content analysis, Measurement, Coding Disciplines: Business and Management, Communication and Media Studies, Political Science and International Relations, Psychology, Social Policy and Public Policy, Sociology Access Date: November 21, 2023 Publishing Company: SAGE Publications, Inc City: Thousand Oaks Online ISBN: 9781071802878 © 2019 SAGE Publications, Inc All Rights Reserved.
+the-content-analysis-guidebook-2e-1	01	pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	01	Defining Content Analysis An Introduction Content analysis is one of the most popular and rapidly expanding techniques for quantitative research.
+the-content-analysis-guidebook-2e-1	01	Advances in computer applications and in digital media have made the organized study of messages quicker and easier .
+the-content-analysis-guidebook-2e-1	01	.
+the-content-analysis-guidebook-2e-1	01	.
+the-content-analysis-guidebook-2e-1	01	but not automatically better.
+the-content-analysis-guidebook-2e-1	01	This book explores the current options for quantitative analyses of messages.
+the-content-analysis-guidebook-2e-1	01	Content analysis may be briefly defined as the systematic, objective, quantitative analysis of message characteristics.
+the-content-analysis-guidebook-2e-1	01	It includes both human-coded analyses and computer-aided text analysis (CATA).
+the-content-analysis-guidebook-2e-1	01	Its applications can include the careful examination of face-to-face human interactions; the analysis of character portrayals in media venues ranging from novels to online videos; the computer-driven analysis of word usage in news media and political speeches, advertising, and blogs; the examination of interactive content such as video gaming and social media exchanges; and so much more.
+the-content-analysis-guidebook-2e-1	01	Content analysis has been applied to many areas of inquiry.
+the-content-analysis-guidebook-2e-1	01	It has been used to investigate naturally occurring language (Markel, 1998), newspaper coverage of the greenhouse effect (Miller, Boone, & Fowler, 1992), letters to the editor (Perrin & Vaisey, 2008), and how characters of different genders are shown on TV (Greenberg, 1980).
+the-content-analysis-guidebook-2e-1	01	It has been used in such highly specific studies as those analyzing Turkish elementary school math books (Özgeldi & Esen, 2010), greenway plans in northwest Indiana (Floress et al., 2009), questions asked by patients and companions in physician–patient interactions (Eggly et al., 2006), web page hits and Google Group threadedness for living and dead public intellectuals (Danowski & Park, 2009), the emotional tone of social networking comments (i.e., sentiment analysis; Thelwall, Wilkinson, & Uppal, 2010), the linguistic substance of the writings of a 19th-century explorer leading up to his suicide (Baddeley, Daniel, & Pennebaker, 2011), and the substance of Canadian winery web sites (Zhu, Basil, & Hunter, 2009).
+the-content-analysis-guidebook-2e-1	01	Content analyses have resulted in eclectic and often surprising findings.
+the-content-analysis-guidebook-2e-1	01	A study analyzing Hollywood actresses’ facial features predicted good economic times from the prevalence of neonate (babylike) features among top movie stars (Pettijohn & Tesser, 1999).
+the-content-analysis-guidebook-2e-1	01	Johnson (1987) analyzed Porky Pig’s vocalics from a clinical speech therapy standpoint, finding stuttering in 11.6% to 51.4% of words uttered (per cartoon), with certain behaviors statistically associated with the stuttering (e.g., eye blinks, grimaces).
+the-content-analysis-guidebook-2e-1	02	Hirdes, Woods, and BadzinPage 2 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	02	ski (2009) examined the prevalence of persuasive appeals associated with a wide range of types of “Jesus merchandise.” Atkinson and Herro (2010) discovered that The New York Times mentioned tennis star Andre Agassi’s age much more often when he was atypically young or atypically old for competitive tennis.
+the-content-analysis-guidebook-2e-1	02	And Wansink and Wansink (2010) measured the food-to-head ratio in 52 Last Supper paintings produced over a millennium, finding that the relative sizes of the main dish, bread, and plates have all increased linearly and significantly over the past thousand years.
+the-content-analysis-guidebook-2e-1	02	Chapter 9 presents an overview of some of the major areas of study—the main “contexts” of content analysis research—but the above examples show that the range of applications is limited only by the researcher’s imagination.
+the-content-analysis-guidebook-2e-1	02	Content-analytic measures may be combined with other types of measurement, as in Pian, Khoo, and Chang’s (2014) study of users’ attention to an online health discussion forum.
+the-content-analysis-guidebook-2e-1	02	They used an eye-tracking system to first identify text segments that users’ attention was focused on (via eye fixations) and then used content analysis to identify the types of information attended to.
+the-content-analysis-guidebook-2e-1	02	Himelboim, McCreery, and Smith (2013) combined network analysis and content analyses to examine exposure to cross-ideological political views on Twitter.
+the-content-analysis-guidebook-2e-1	02	They mapped the Twitter networks of 10 controversial political topics, identifying user clusters (groups of highly connected individuals) and content analyzed messages for political orientation, finding that Twitter users were unlikely to be exposed to cross-ideological content from the user clusters they followed; the within-cluster content was likely to be quite homogenous.
+the-content-analysis-guidebook-2e-1	02	Content-analytic data may be more broadly combined with survey or experimental data about message sources or receivers as well.
+the-content-analysis-guidebook-2e-1	02	Chapter 2 elaborates on this “integrative” approach to content analysis.
+the-content-analysis-guidebook-2e-1	02	This book will explore the expansion and variety of the techniques of content analysis.
+the-content-analysis-guidebook-2e-1	02	In this chapter, we will follow the development of a full definition of content analysis—how one attempts to ensure objectivity, how the scientific method provides a means of achieving systematic study, and how the various scientific criteria (e.g., validity, reliability) are met.
+the-content-analysis-guidebook-2e-1	02	Furthermore, standards are established, extending the expectations of readers who may hold a view of content analysis as necessarily simplistic.
+the-content-analysis-guidebook-2e-1	02	The Growing Popularity of Content Analysis The repertoire of techniques that make up the methodology of content analysis has been growing in range and usage.
+the-content-analysis-guidebook-2e-1	02	In the field of mass communication research, content analysis has been the fastest-growing technique over the past 40 years or so (Yale & Gilly, 1988).
+the-content-analysis-guidebook-2e-1	03	Riffe and Freitag (1997) noted a nearly sixfold inPage 3 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	03	crease in the number of content analyses published in Journalism & Mass Communication Quarterly over a 24-year period—from 6.3% of all articles in 1971 to 34.8% in 1995, making this journal one of the primary outlets for content analyses of mass media.
+the-content-analysis-guidebook-2e-1	03	Kamhawi and Weaver (2003) studied articles in 10 major mass communication journals for the period 1980 through 1999, finding content analysis to be the second-most popular method reported, after surveys (30% and 33% of all studies, respectively).
+the-content-analysis-guidebook-2e-1	03	Freimuth, Massett, and Meltzer (2006) examined the first 10 years of The Journal of Health Communication, finding that a fifth of all quantitative studies presented in the journal were content analyses.
+the-content-analysis-guidebook-2e-1	03	Manganello and Blake (2010) looked at the frequency and types of content analyses in the interdisciplinary health literature between 1985 and 2005, finding a steady increase in the number of studies of health-related media messages over the period.
+the-content-analysis-guidebook-2e-1	03	One great expansion in analysis capability has been the rapid advancement in computer-aided text analysis (CATA) software (see Chapter 5 of this volume), with a corresponding proliferation of online archives and databases (Evans, 1996; Gottschalk & Bechtel, 2008; see also Chapter 7 of this volume).
+the-content-analysis-guidebook-2e-1	03	There has never been such ready access to archived electronic messages, and it has never been easier to perform at least basic analyses with computer-based speed and precision.
+the-content-analysis-guidebook-2e-1	03	Further, scholars and practitioners alike have begun to merge the traditions of content analysis, especially CATA, with such expanding fields of endeavor as natural language processing (bringing to bear some of the capabilities of machine learning of language to the analysis of text and even images; Indurkhya & Damerau, 2010), computational linguistics, text mining of “big data,” message-centric applications of social media metrics, and sentiment analysis (or opinion mining; Pang & Lee, 2008); see also Chapter 5 of this volume.
+the-content-analysis-guidebook-2e-1	03	While content analysis, with its traditions extending back nearly a century, might be considered the grandparent of all “message analytics,” it has been stretched and adapted to the changing times.
+the-content-analysis-guidebook-2e-1	03	Content analysis has a long history of use in communication, journalism, sociology, psychology, and business.
+the-content-analysis-guidebook-2e-1	03	And content analysis is being used with increasing frequency by a growing array of researchers.
+the-content-analysis-guidebook-2e-1	03	White and Marsh (2006) demonstrate the method’s growing acceptance in library and information science.
+the-content-analysis-guidebook-2e-1	03	Expansions in medical fields, such as nursing, psychiatry, and pediatrics (Neuendorf, 2009), and in political science (Monroe & Schrodt, 2008) have been noted.
+the-content-analysis-guidebook-2e-1	03	The importance of the method to gender studies was recognized in two special issues of the interdisciplinary journal Sex Roles in 2010 and 2011 (Rudy, Popova, & Linz, 2010, 2011).
+the-content-analysis-guidebook-2e-1	03	With the expanding acceptance of content analysis across fields of study, concern has been expressed that quality standards have been slow to be accepted.
+the-content-analysis-guidebook-2e-1	03	De Wever et al.
+the-content-analysis-guidebook-2e-1	04	(2006) have recognized the frequent use Page 4 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	04	of content analysis to analyze transcripts of asynchronous, computer-mediated discussion groups in formal education settings, while noting that “standards are not yet established” (p.
+the-content-analysis-guidebook-2e-1	04	6).
+the-content-analysis-guidebook-2e-1	04	And Strijbos et al.
+the-content-analysis-guidebook-2e-1	04	(2006) have pointed out methodological deficiencies in the application of content analysis to computer-supported collaborative learning.
+the-content-analysis-guidebook-2e-1	04	The explosion of content analysis in various areas of scholarship is demonstrated in Figure 1.1.
+the-content-analysis-guidebook-2e-1	04	Here, we may see the growth of content analysis as a research technique over a period of 50+ years, from 1960 through 2014.
+the-content-analysis-guidebook-2e-1	04	To produce this summary, five scholarly indexes were searched for dissertations, theses, and research articles containing the term content analysis in titles, subjects, or abstracts: ProQuest Dissertations and Theses (PQD&T), PsychInfo, Social Science Citation Index (SSCI), Arts and Humanities Citation Index (AHCI), and Science Citation Index (SCI).1 The graphed lines should be viewed cautiously and interpreted as the outcome of simple searches for a term in publications available since 1960, without contextual information about how the term has been used by the researchers.
+the-content-analysis-guidebook-2e-1	04	That is, a number of studies labeled “content analyses” are actually qualitative text analyses or other studies that do not fit the definition of content analysis assumed in this book.
+the-content-analysis-guidebook-2e-1	04	Further, a portion of the articles counted by the Science Citation Index are actually “content analyses” of chemical compounds; however, a perusal of the searches indicates that no more than 10% of contemporary SCI articles are of this type.
+the-content-analysis-guidebook-2e-1	04	Second, the indexes overlap in their coverage.
+the-content-analysis-guidebook-2e-1	04	For example, a number of psychology journals are indexed in both PsychInfo and the Social Science Citation Index.
+the-content-analysis-guidebook-2e-1	04	Third, it should be noted that some of the growth in content analysis applications is surely due to the expansion in the number of journals indexed (via new journals and the addition of cross-listings).
+the-content-analysis-guidebook-2e-1	05	Page 5 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	05	Figure 1.1 Timeline of Content Analysis Publications by Year SOURCE: ProQuest Dissertations and Theses (PQD&T), PsychInfo, Social Science Citation Index (SSCI), Arts and Humanities Citation Index (AHCI), and Science Citation Index (SCI).
+the-content-analysis-guidebook-2e-1	05	Taking these caveats into account, the evidence is still clear: Never has content analysis received more attention in the research literature than at present.
+the-content-analysis-guidebook-2e-1	05	And never has content analysis been embraced by more disciplines.2 Only the arts and humanities have remained relatively aloof to quantitative content analysis techniques.
+the-content-analysis-guidebook-2e-1	05	The Myths of Content Analysis There have been evident certain misconceptions about the methods of content analysis: Conducting a content analysis is by nature simplistic and substantially easier than conducting other types of research, content analysis is anything a scholar says it is, and anyone can do it without much training or forethought.
+the-content-analysis-guidebook-2e-1	06	It has also Page 6 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	06	been widely assumed that there is little interest in or reason to use content analysis for commercial or other nonacademic research.
+the-content-analysis-guidebook-2e-1	06	Unfortunately, these preconceptions have occasionally been reinforced by academic journals that may fail to hold content analyses to the same standards of methodological rigor as they do other social and behavioral science methods, such as surveys, experiments, and participant observation studies.
+the-content-analysis-guidebook-2e-1	06	Based on over 30 years of involvement in over 200 content analyses, I would like to dispel common myths about this method before providing a full working definition.
+the-content-analysis-guidebook-2e-1	06	Myth 1: Content Analysis Is Limited to Simple Analyses Truth: Content analysis may be as simple—or as complex—as the researcher determines it to be.
+the-content-analysis-guidebook-2e-1	06	It is not necessarily more limited than a survey, experiment, or other type of study.
+the-content-analysis-guidebook-2e-1	06	Each researcher makes decisions as to the scope and complexity of the content-analytic study, while conforming to the rules of good science.
+the-content-analysis-guidebook-2e-1	06	An example of results from a fairly “simple” content analysis is shown in Figure 1.2.
+the-content-analysis-guidebook-2e-1	06	This figure summarizes the findings of Gottschall et al.
+the-content-analysis-guidebook-2e-1	06	(2008), a team of 31 coauthors/coders who inspected folktales from around the world for just one thing—the use of attractiveness descriptors for females versus males.
+the-content-analysis-guidebook-2e-1	06	The study included measures of (a) attractiveness and unattractiveness references (measured via the presence of 58 pre-chosen adjectives and their variants, such as pretty/prettier/prettiest and ugly/uglier/ugliest) and (b) the gender of the character to whom each reference applied (measured via use of personal pronouns).
+the-content-analysis-guidebook-2e-1	06	Additionally, (c) a rough measure of how many characters in each tale were female and male was executed via electronic word searches for pronouns so that attractiveness references could be expressed as proportional to the number of characters of that gender.
+the-content-analysis-guidebook-2e-1	06	So just three measures were developed for this study.
+the-content-analysis-guidebook-2e-1	06	The coder training task was relatively simple, and acceptable intercoder reliability was achieved, even with 31 coders.
+the-content-analysis-guidebook-2e-1	06	Although using an elegantly simple coding scheme, the researchers chose an ambitiously large sample for its application: 90 volumes of traditional folktales from 13 regions around the world.
+the-content-analysis-guidebook-2e-1	06	In total, 8.17 million words in 16,541 single-spaced pages were analyzed.
+the-content-analysis-guidebook-2e-1	06	Figure 1.2 shows the main findings—the female-to-male ratio of “risk” that a character will be referred to with attractiveness terminology.
+the-content-analysis-guidebook-2e-1	06	These figures take into account the rough numbers of females and males in the tales.
+the-content-analysis-guidebook-2e-1	07	Thus, we see that stories from European folktales show the greatest “gender bias”—a female character in these tales is 8.81 times more likely to be referred to as attractive/unattractive than is a male.3 Overall, Page 7 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	07	female characters are 6.0 times more likely to be referred to with regard to attractiveness than are males.
+the-content-analysis-guidebook-2e-1	07	And there is no region of the world that seems to generate folktales with gender parity, or with male predominance, when it comes to attractiveness references (Gottschall et al., 2008).
+the-content-analysis-guidebook-2e-1	07	Figure 1.2 Female–Male Attractiveness Emphasis in World Folktales SOURCE: Adapted from Gottschall et al.
+the-content-analysis-guidebook-2e-1	07	(2008).
+the-content-analysis-guidebook-2e-1	07	Even with such a limited content analysis scheme, broad claims might be made from the findings.
+the-content-analysis-guidebook-2e-1	07	The researchers indicate that the consistency of the results across cultures and world regions “strongly support[s] the evolutionary prediction that greater emphasis on female physical attractiveness will be the rule across human culture areas” and that “the main elements of the beauty myth are no myths” (Gottschall et al., 2008, p 185).
+the-content-analysis-guidebook-2e-1	08	Page 8 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	08	Near the complex end of a simple-to-complex continuum of content analyses might be an ambitious master’s thesis (Smith, 1999) that examined the gender role portrayals of women in popular films from the 1930s, 1940s, and 1990s.
+the-content-analysis-guidebook-2e-1	08	The sampling was extremely problematic, given that no valid lists (i.e., sampling frames) of top box office hits are available for years prior to 1939.
+the-content-analysis-guidebook-2e-1	08	For many years after that date, all that are available are lists of the top five films.
+the-content-analysis-guidebook-2e-1	08	The researcher made the analysis even more complex by measuring 18 variables for each film and 97 variables for each primary or secondary character in each film (the complete coding scheme may be found at The Content Analysis Guidebook Online, CAGO).
+the-content-analysis-guidebook-2e-1	08	Some of the variables were untried in content analysis.
+the-content-analysis-guidebook-2e-1	08	For example, psychologist Eysenck’s (1990) measures of extraversion (e.g., sociable, assertive, sensation-seeking), typically measured on individuals by self-report questionnaire, were applied to film characters, with not always successful results.
+the-content-analysis-guidebook-2e-1	08	One hypothesis, that female portrayals will become less stereotypic over time, resulted in the measurement and analysis of 27 different dependent variables.
+the-content-analysis-guidebook-2e-1	08	With four active coders, the study took six months to complete.
+the-content-analysis-guidebook-2e-1	08	The multifaceted results reflected the complexity and breadth of the study.
+the-content-analysis-guidebook-2e-1	08	The results included such wideranging points as these: • Across the decades (1930s, 1940s, 1990s), there were several significant trends indicating a decrease in stereotypical portrayals of women in films.
+the-content-analysis-guidebook-2e-1	08	• The average body shape for women varied across the decades at a near-significant level, indicating a trend toward a thinner body shape.
+the-content-analysis-guidebook-2e-1	08	• Screen women who exhibited more traditional sex-role stereotyping experienced more negative life events.
+the-content-analysis-guidebook-2e-1	08	• Female characters who exhibited more male sex-role traits and experienced negative life events tended to appear in films that were more successful at the box office.
+the-content-analysis-guidebook-2e-1	08	• Screen women were portrayed somewhat more traditionally in films with greater female creative control (i.e., in direction, writing, producing, or editing; Smith, 1999).
+the-content-analysis-guidebook-2e-1	08	Myth 2: Anyone Can Do Content Analysis; It Doesn’t Take Any Special Preparation Truth: Indeed, anyone can do it—but only with at least some training and with substantial research planning.
+the-content-analysis-guidebook-2e-1	09	Despite the popularity of content analysis, rigorous methodological standards have not always been evident, Page 9 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	09	notably with regard to issues of validity and reliability (Lombard, Snyder-Duch, & Bracken, 2002; Neuendorf, 2009, 2011; Pasadeos et al., 1995).
+the-content-analysis-guidebook-2e-1	09	Even contemporary reviews of content analyses find important standards lacking in many published studies.
+the-content-analysis-guidebook-2e-1	09	For example, an analysis of 133 health media content analyses failed to find a single instance of full reliability assessment and reportage (Neuendorf, 2009), with 38% of studies including no reliability assessment whatsoever.
+the-content-analysis-guidebook-2e-1	09	This figure is comparable to the 31% found by Lombard et al.
+the-content-analysis-guidebook-2e-1	09	(2002) in their review of content analyses in the field of communication.
+the-content-analysis-guidebook-2e-1	09	Coder training is an essential part of all human-coded content analyses, yet meta-analytic reviews of content analyses have revealed deficiencies in this regard—an analysis of 59 content analyses on the information content of advertising noted that “many authors give no information on whether or how coders were trained” (Abernethy & Franke, 1996, p 5), and an analysis of 132 content analyses in the field of consumer behavior/marketing found 48% of studies failing to report any information about coder training (Kolbe & Burnett, 1991).
+the-content-analysis-guidebook-2e-1	09	Other deficiencies identified by Kolbe and Burnett included a lack of research questions or hypotheses (39% of studies), poor sampling (80% were convenience samples), and nonindependence of coders (over 50% of studies).
+the-content-analysis-guidebook-2e-1	09	In order for content analysis to enjoy the same rigor as other research methods, those engaged in such analysis need to take serious stock of their own training and abilities.
+the-content-analysis-guidebook-2e-1	09	Just as no researcher would attempt to execute a true experiment without having studied some widely accepted text on the topic, the content analyst should be guided by one or more accepted reference texts on the methodology (see Neuendorf, 2011).
+the-content-analysis-guidebook-2e-1	09	And, as will become apparent in the chapters that follow, the planning stage of a content analysis may take substantial time and effort.
+the-content-analysis-guidebook-2e-1	09	While the individual who designs a content analysis must have some special knowledge and preparation, a central notion in the methodology of content analysis is that all individuals are potentially useful “human coders” (i.e., people who make judgments about variables as applied to each message unit).
+the-content-analysis-guidebook-2e-1	09	The coding scheme must be so objective and so reliable that, once they are trained, coders from varied backgrounds and with different orientations will generally agree in its application (Neuendorf, 2009).
+the-content-analysis-guidebook-2e-1	09	Clearly, however, each coder must be proficient in the language(s) of the message pool.
+the-content-analysis-guidebook-2e-1	09	This may require some special training for coders.
+the-content-analysis-guidebook-2e-1	09	To analyze natural speech, coders may need to be trained in the nuances of a given dialect.
+the-content-analysis-guidebook-2e-1	09	Before coding television or film content, coders may have to learn about production techniques and other aspects of visual communication.
+the-content-analysis-guidebook-2e-1	09	To code print advertising, coders may need to learn a bit about graphic design.
+the-content-analysis-guidebook-2e-1	10	All of this is in addition to training with the coding scheme, which is a necessary step Page 10 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	10	for all coders.
+the-content-analysis-guidebook-2e-1	10	For analyses that do not use human coders (i.e., those that use CATA), the burden rests squarely on the researcher to establish complete and carefully researched dictionaries or other protocols.
+the-content-analysis-guidebook-2e-1	10	Because the step of making sure coders can understand and reliably apply a scheme is missing, the researcher needs to execute additional checks.
+the-content-analysis-guidebook-2e-1	10	Chapter 5 presents some notions on how this might be done.
+the-content-analysis-guidebook-2e-1	10	Myth 3: The Term Content Analysis Applies to All Examinations of Messages Truth: The term does not apply to every analysis of messages—only those investigations that meet a particular definition.
+the-content-analysis-guidebook-2e-1	10	Calling an investigation a content analysis does not make it so.
+the-content-analysis-guidebook-2e-1	10	There are many forms of analysis—from frivolous to seminal—that may be applied to the human production of messages.
+the-content-analysis-guidebook-2e-1	10	Content analysis is only one type, a technique presented by this book as systematic and quantitative.
+the-content-analysis-guidebook-2e-1	10	Even in the scholarly literature, some contestation exists as to what may be called a content analysis.
+the-content-analysis-guidebook-2e-1	10	On a number of occasions, the term has been applied erroneously (e.g., Council on Interracial Books for Children, 1977; DeJong & Atkin, 1995; Goble, 1997; Hicks, 1992; Thompson, 1996), and at times, studies that warrant the term do not use it (e.g., Bales, 1950; Fairhurst, Rogers, & Sarr, 1987; Thorson, 1989).
+the-content-analysis-guidebook-2e-1	10	The term “qualitative content analysis” has been applied in some fields to a range of nonquantitative analyses of messages (Altheide, 1996; Mayring, 2000; Schreier, 2012; Zhang & Wildemuth, 2009).
+the-content-analysis-guidebook-2e-1	10	Altheide and Schneider (2013) present “ethnographic content analysis,” a blend of objective content analysis and participant observation that is intended to reveal “how a researcher interacts with documentary materials” (p.
+the-content-analysis-guidebook-2e-1	10	5; see also Gormly, 2004).
+the-content-analysis-guidebook-2e-1	10	Fink and Gantz (1996) delineate between “interpretive” and “critical” analyses, the former embracing a qualitative/holistic method, and the latter resting on value judgments derived from ideological theory.
+the-content-analysis-guidebook-2e-1	10	In this book, the working definition of content analysis assumes a quantitative approach.
+the-content-analysis-guidebook-2e-1	10	Quantitative analyses typically rely on the soundness of a priori measurement instruments; qualitative and critical analyses usually rely on the expertise of an expert scholar.
+the-content-analysis-guidebook-2e-1	10	In quantitative content analysis, the empirical process is independent of the particular scholar; in qualitative or critical message analyses, it is not.
+the-content-analysis-guidebook-2e-1	10	That said, it should be noted that the dividing line between quantitative and qualitative might be viewed as “a rather thin and discreet line.
+the-content-analysis-guidebook-2e-1	10	.
+the-content-analysis-guidebook-2e-1	10	.
+the-content-analysis-guidebook-2e-1	10	.
+the-content-analysis-guidebook-2e-1	11	Even the most sophisticated piece of quantitative research remains depen- Page 11 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	11	dent on natural language (words), while most qualitative studies do contain some kind of quantitative information (numbers)” (Schedler & Mudde, 2010, pp.
+the-content-analysis-guidebook-2e-1	11	418–419; see, for example, Weisburd, 2009).
+the-content-analysis-guidebook-2e-1	11	Further, we might consider applying the labels of quantitative and qualitative separately to the phenomenon under investigation and to the analytical strategies used to describe or summarize the phenomenon.
+the-content-analysis-guidebook-2e-1	11	Often, the core task of quantitative measures is to put numerical values, either counts or amounts, to qualities of a phenomenon (e.g., Fukkink & Hermanns, 2009).
+the-content-analysis-guidebook-2e-1	11	Indeed, in survey and experimental research we accept quantitative self-report measures of such human qualities as state depression, extraversion, and communication apprehension.
+the-content-analysis-guidebook-2e-1	11	Similarly, in content analysis, we have seen quantitative measures of such qualities as the framing of a news item or the emotional tone of a political speech.
+the-content-analysis-guidebook-2e-1	11	That is, the phenomenon under investigation, or the constructs being examined, might be very qualitative in nature, and the analyses applied might be indisputably quantitative.
+the-content-analysis-guidebook-2e-1	11	The reverse is also possible, in which quantitative events might be interpreted in a qualitative fashion.
+the-content-analysis-guidebook-2e-1	11	Here, the focus will be on the analytical strategies employed and their underlying assumptions.
+the-content-analysis-guidebook-2e-1	11	A complete review of all the types of qualitative message analyses that may complement quantitative content analysis is beyond the scope of this volume.
+the-content-analysis-guidebook-2e-1	11	But the reader should become aware of some of the main options for such analyses of messages (Lindlof & Taylor, 2011).
+the-content-analysis-guidebook-2e-1	11	An important methodological source for qualitative content analysis of mediated messages is Altheide’s (1996) canonical text (see also Altheide & Schneider, 2013).
+the-content-analysis-guidebook-2e-1	11	At its core, the method relies on identifying thematic patterns in a text (i.e., message or set of messages).
+the-content-analysis-guidebook-2e-1	11	The themes are not imposed upon the text from outside (e.g., via a theoretically informed coding mechanism or past studies) or a priori, but they emerge as the researcher undertakes a close reading of a text.
+the-content-analysis-guidebook-2e-1	11	Once themes are identified, the analyst looks for thematic patterns in the text.
+the-content-analysis-guidebook-2e-1	11	Another useful source is Hijmans’s (1996) typology of “qualitative content analyses” applied to media content.
+the-content-analysis-guidebook-2e-1	11	She presents accurate descriptions of some of the main qualitative analytic methods that have been applied to messages.
+the-content-analysis-guidebook-2e-1	11	Based on descriptions by Hijmans (pp.
+the-content-analysis-guidebook-2e-1	11	103–104) and by Gunter (2000), they are as follows.
+the-content-analysis-guidebook-2e-1	12	Page 12 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	12	Rhetorical Analysis For this historically revered technique, properties of the text (both words and images) are crucial.
+the-content-analysis-guidebook-2e-1	12	The analyst engages in a reconstruction of characteristics of text or image or both, such as the message’s construction, form, metaphors, argumentation structure, and choices.
+the-content-analysis-guidebook-2e-1	12	The emphasis is not so much on what the message says as on how the message is presented.
+the-content-analysis-guidebook-2e-1	12	The message is viewed not as an aesthetic object, but as an artistically structured instrument for communication and persuasion, with consideration given to the interaction among text, source, and audience.
+the-content-analysis-guidebook-2e-1	12	The analysis involves breaking the text down into parts; by understanding how the different parts operate, the analyst develops insights into the overall persuasive strategies used.
+the-content-analysis-guidebook-2e-1	12	There is an assumption that the researcher is a competent rhetorician.
+the-content-analysis-guidebook-2e-1	12	This technique has a very long history, with its principal origins among the Greek philosophers (Aristotle, 1991), and is the legitimate forebearer of many of today’s academic disciplines.
+the-content-analysis-guidebook-2e-1	12	Rhetorical analysis has been widely applied to news content, political speech, advertising, and many other forms of communication (McCroskey, 2005).
+the-content-analysis-guidebook-2e-1	12	Narrative Analysis Informed by narrative theory, the goal of narrative analysis is to understand relationships between a text and social reality (Altman, 2008).
+the-content-analysis-guidebook-2e-1	12	Through all forms of communication, humans tell stories, and narrative is regarded as a basic and universal mode of verbal expression (Smith, 2000).
+the-content-analysis-guidebook-2e-1	12	Via narrative analysis, the scholar can unpack individual experiences and representations in stories and plots (Franzosi, 1998; Riessman, 2008).
+the-content-analysis-guidebook-2e-1	12	This technique involves a description of formal narrative structure.
+the-content-analysis-guidebook-2e-1	12	Attention focuses on characters—their difficulties, choices, conflicts, complications, and developments.
+the-content-analysis-guidebook-2e-1	12	The analysis involves reconstruction of the composition of the narrative.
+the-content-analysis-guidebook-2e-1	12	The assumption is that the researcher is a competent reader of narratives.
+the-content-analysis-guidebook-2e-1	12	One of the most complex and interesting applications of this technique is Propp’s exhaustive analysis of Russian fairy tales (Propp, 1968), which establishes common character roles (e.g., hero, helper, villain, dispatcher), an identifiable linear sequence of elements in the narrative (e.g., initial situation, absentation, interdiction), and particular functions in the narrative (e.g., disguise, pursuit, transfiguration, punishment).
+the-content-analysis-guidebook-2e-1	13	Page 13 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	13	Discourse Analysis This process engages in characteristics of manifest language and word use—description of topics in media texts—through consistency and connection of words to theme analysis of content and the establishment of central terms.
+the-content-analysis-guidebook-2e-1	13	The technique aims at typifying media representations (e.g., communicator motives, ideology).
+the-content-analysis-guidebook-2e-1	13	The focus is on the researcher as competent language user.
+the-content-analysis-guidebook-2e-1	13	Gunter (2000) identifies van Dijk’s Racism and the Press, published in 1991, as a clear example of a large-scale discourse analysis.
+the-content-analysis-guidebook-2e-1	13	According to Gunter, van Dijk analyzes the “semantic macrostructures,” or the overall characteristics of meanings, with regard to ethnic minorities in the news media (p.
+the-content-analysis-guidebook-2e-1	13	88), concluding that minority groups are depicted as problematic.
+the-content-analysis-guidebook-2e-1	13	Discourse analysis has been a popular method for analyzing public communication, with analyses ranging from the macroscopic to the very microscopic.
+the-content-analysis-guidebook-2e-1	13	Duncan (1996) examined the 1992 New Zealand National Kindergarten Teachers’ Collective Employment Contract Negotiations and identified two discourses—“Children First” and “For the Sake of the Children.” Both discourses were evident in arguments used by each side in the labor negotiations, in arguments for teacher pay and benefits by the teachers’ representatives and in arguments against such expenditures by employers and government representatives.
+the-content-analysis-guidebook-2e-1	13	Duncan’s article presents numerous direct quotes from the negotiations to support her point of view.
+the-content-analysis-guidebook-2e-1	13	Typical of this method, she points out that her analysis “is one reading of the texts, and that there will be numerous other readings possible” (p.
+the-content-analysis-guidebook-2e-1	13	161).
+the-content-analysis-guidebook-2e-1	13	Structuralist or Semiotic Analysis The focus here is on deep meanings of messages.
+the-content-analysis-guidebook-2e-1	13	The technique aims at discovering deep structures, latent meanings, and the signifying process through signs, codes, and binary oppositions.
+the-content-analysis-guidebook-2e-1	13	The assumption is that the researcher is a competent member of the culture.
+the-content-analysis-guidebook-2e-1	13	Structural semiotic analysis is informed by a theory of signs (Peirce, 1931/1958).
+the-content-analysis-guidebook-2e-1	13	According to semiotics, meaning is not only an outcome of a relationship between signifier and signified but also of the relationships between signs in thinking and language (Saussure, 1974).
+the-content-analysis-guidebook-2e-1	13	The aim of semiotic analysis is to identify linguistic structures (e.g., rules of language and culture) that organize relationships between signs in a communication process (Eco, 1976; Hodge & Kress, 1988; Saussure, 1974).
+the-content-analysis-guidebook-2e-1	14	Page 14 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	14	Semiotics has been a valuable technique for examining cultural artifacts.
+the-content-analysis-guidebook-2e-1	14	Christian Metz’s (1974) classic text, A Semiotics of the Cinema, applies the wide range of semiotic techniques to narrative film.
+the-content-analysis-guidebook-2e-1	14	He provides a syntagmatic analysis (i.e., one that examines relationships between segments [syntagms] in the text of the film) for the French film, Adieu Philippine, indicating the structure of the film in shots, scenes, sequences, and the like.
+the-content-analysis-guidebook-2e-1	14	He also offers a detailed semiotic analysis of the self-reflexive “mirror construction” of Federico Fellini’s semiautobiographical film, 8-1/2.
+the-content-analysis-guidebook-2e-1	14	Interpretative Analysis The focus of this technique is on the formation of theory from the observation of messages and the coding of those messages.
+the-content-analysis-guidebook-2e-1	14	With its roots in social scientific inquiry, it involves theoretical sampling; analytical categories; cumulative, comparative analysis; and the formulation of types or conceptual categories.
+the-content-analysis-guidebook-2e-1	14	The methodology is clearly spelled out, but it differs from scientific inquiry in its wholly qualitative nature and its cumulative process, whereby the analyst is in a constant state of discovery and revision.
+the-content-analysis-guidebook-2e-1	14	The researcher is assumed to be a competent observer.
+the-content-analysis-guidebook-2e-1	14	Many of the systems of analysis developed by such interpretative methods are empirical and detailed and in fact are more precise and challenging than most content analyses (e.g., Berger, 1998, 2014).
+the-content-analysis-guidebook-2e-1	14	With only minor adjustment, many are appropriate for use in content analysis as well.
+the-content-analysis-guidebook-2e-1	14	In addition to these qualitative message analysis types reviewed by Hijmans (1996), several others deserve mention.
+the-content-analysis-guidebook-2e-1	14	Conversation Analysis Conversation analysis is a technique for analyzing naturally occurring conversations, used by social scientists in the disciplines of psychology, communication, and sociology (Sudnow, 1972).
+the-content-analysis-guidebook-2e-1	14	The procedure has been described as a “rigorously empirical approach which avoids premature theory construction and employs inductive methods .
+the-content-analysis-guidebook-2e-1	14	.
+the-content-analysis-guidebook-2e-1	14	.
+the-content-analysis-guidebook-2e-1	14	to tease out and describe the way in which ordinary speakers use and rely on conversational skills and strategies” (Kottler & Swartz, 1993, pp.
+the-content-analysis-guidebook-2e-1	14	103–104).
+the-content-analysis-guidebook-2e-1	15	Most typically, it relies on transcribed conversaPage 15 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	15	tions.
+the-content-analysis-guidebook-2e-1	15	The technique generally falls within the rubric of ethnomethodology, scholarly study in which the precise and appropriate methods emerge from within the process of study, with the clearly subjective involvement of the investigator.
+the-content-analysis-guidebook-2e-1	15	Examples of its applications have included an analysis of doctor–patient interaction (Manning & Ray, 2000) and an in-depth analysis of a notorious interview of Vice President George Bush by television reporter Dan Rather as they jockeyed for position in order to control the flow of a “turbulent” interview (Nofsinger, 1988/1989).
+the-content-analysis-guidebook-2e-1	15	Critical Analysis Critical analysis, often conducted in a tradition of cultural studies, has been a widely used method for the analysis of media messages (Newcomb, 1987).
+the-content-analysis-guidebook-2e-1	15	Critical analysis is informed by critical theory and Marxist criticism of capitalism and neoliberalism.
+the-content-analysis-guidebook-2e-1	15	The aim of critical theory in the study of communication is to identify structures of power that maintain social differences between classes, genders, and races (Habermas, 1981, 1987).
+the-content-analysis-guidebook-2e-1	15	One of the foundational principles of critical theory of the “Frankfurt School” has been to search for practical solutions to the problem of human emancipation and “liberate human beings” from the cultural, political, and economic conditions that enslave humans and undermine true democracy (Horkheimer, 1982; Horkheimer & Adorno, 1972).
+the-content-analysis-guidebook-2e-1	15	The area of film studies provides a good example of a fully developed, theoretically sound literature that primarily uses the tools of critical analysis (e.g., Cooper, 2010; Lyman, 1997).
+the-content-analysis-guidebook-2e-1	15	For example, Strong’s (1996) essay about how Native Americans are “imaged” in two mid-1990s media forms—Disney Studio’s Pocahontas and Paramount’s The Indian in the Cupboard—is influenced heavily by her own roles as mother, musician—American raised during a period when “playing Indian” was a childhood rite of passage—and anthropologist long interested in White America’s representations of Native Americans.
+the-content-analysis-guidebook-2e-1	15	She acknowledges these various roles and perspectives, provides precise details to back her assertions (including many lines and song lyrics from the movies), and gives summative statements that bring the details into line with cultural frameworks.
+the-content-analysis-guidebook-2e-1	15	For example, she concludes that “Disney has created a New Age Pocahontas to embody our millennial dreams for wholeness and harmony, while banishing our nightmares of savagery without and emptiness within” (p.
+the-content-analysis-guidebook-2e-1	15	416).
+the-content-analysis-guidebook-2e-1	16	Page 16 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	16	Normative Analysis Some analyses are explicitly normative or proscriptive (e.g., Legg, 1996).
+the-content-analysis-guidebook-2e-1	16	For example, a guide to Stereotypes, Distortions and Omissions in US.
+the-content-analysis-guidebook-2e-1	16	History Textbooks: A Content Analysis Instrument for Detecting Racism and Sexism (Council on Interracial Books for Children, 1977), compiled by 32 educators and consultants, provides checklists for history textbook coverage of African Americans, Asian Americans, Chicanos, Native Americans, Puerto Ricans, and women.
+the-content-analysis-guidebook-2e-1	16	For each group, an instrument is presented with criteria for parents and teachers to use when examining children’s history texts.
+the-content-analysis-guidebook-2e-1	16	For instance, in the Native American checklist, the following criteria are included: The myth of “discovery” is blatantly Eurocentric.
+the-content-analysis-guidebook-2e-1	16	.
+the-content-analysis-guidebook-2e-1	16	.
+the-content-analysis-guidebook-2e-1	16	.
+the-content-analysis-guidebook-2e-1	16	War and violence were not characteristic of Native nations.
+the-content-analysis-guidebook-2e-1	16	.
+the-content-analysis-guidebook-2e-1	16	.
+the-content-analysis-guidebook-2e-1	16	.
+the-content-analysis-guidebook-2e-1	16	The Citizenship Act of 1924 was not a benevolent action .
+the-content-analysis-guidebook-2e-1	16	.
+the-content-analysis-guidebook-2e-1	16	.
+the-content-analysis-guidebook-2e-1	16	and the BIA [Bureau of Indian Affairs] is a corrupt and inefficient bureaucracy controlling the affairs of one million people.
+the-content-analysis-guidebook-2e-1	16	(pp.
+the-content-analysis-guidebook-2e-1	16	84–85) The guide is certainly well intended and a powerful tool for social change.
+the-content-analysis-guidebook-2e-1	16	Its proscriptive approach, however, does not fit most definitions of content analysis.
+the-content-analysis-guidebook-2e-1	16	Similarly, in their article, “Evaluation Criteria and Indicators of Quality for Internet Resources,” Wilkinson, Bennet, and Oliver (1997) offer a list of 125 questions to ask about a web site.
+the-content-analysis-guidebook-2e-1	16	Their goal is to pinpoint characteristics that indicate accuracy of information, ease of use, and aesthetic qualities of Internet material.
+the-content-analysis-guidebook-2e-1	16	The work is a normative prescription for a “good” web site.
+the-content-analysis-guidebook-2e-1	16	Although they call their proposal a content analysis, it does not meet the definition given in this book.
+the-content-analysis-guidebook-2e-1	16	Computers and Qualitative Message Analysis In recent decades, computer adjuncts have been developed to support the tasks of these various qualitative methods.
+the-content-analysis-guidebook-2e-1	16	NVivo, a qualitative counterpart to quantitative CATA programs, is used to provide detailed markup, retrieval, and description of textual and related documents (Bazeley & Jackson, 2013).
+the-content-analysis-guidebook-2e-1	16	It is based on the organization of coded text via a system of concept nodes, grouped hierarchically in a tree structure, which is displayed by the program.
+the-content-analysis-guidebook-2e-1	17	Because qualitative methods emphasize researchers being the “research instruPage 17 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	17	ment” for data collection and data analysis, the qualitative uses of NVivo are usually in the form of managing data and assisting qualitative coding and memoing.
+the-content-analysis-guidebook-2e-1	17	It is unlike quantitative analyses in which researchers construct or use built-in algorithms to mine textual data.
+the-content-analysis-guidebook-2e-1	17	While NVivo has added quantitative supplements to its repertoire over the years, its core utility remains in support of qualitative methods (Bazeley & Jackson, 2013).
+the-content-analysis-guidebook-2e-1	17	An example may be seen in a study by Creed, DeJordy, and Lok (2010), who used NVivo to assist in their narrative analysis of in-depth interview responses by 10 gay, lesbian, bisexual, and transgender ministers serving in two mainline Protestant denominations in the United States.
+the-content-analysis-guidebook-2e-1	17	They used an inductive narrative analysis, moving “iteratively between the data, the emerging themes, and existing theory in several phases” (p.
+the-content-analysis-guidebook-2e-1	17	1342).
+the-content-analysis-guidebook-2e-1	17	Through these techniques, they developed a model of “identity work” for the ministers, with eight first-level constructs (e.g., healing and accepting, challenging orthodoxy from within) that merged into three second-level microprocesses (e.g., identity reconciliation work).
+the-content-analysis-guidebook-2e-1	17	In this and similar studies, computer applications such as NVivo bring coherence to what otherwise would be a daunting—if not impossible—task of making sense of complex message content.
+the-content-analysis-guidebook-2e-1	17	Myth 4: Content Analysis Is for Academic Use Only Truth: Not so.
+the-content-analysis-guidebook-2e-1	17	Certainly, the majority of content analyses have been conducted by academics for scholarly purposes.
+the-content-analysis-guidebook-2e-1	17	However, there has been growing interest among commercial researchers and communication practitioners in particular applications of content analysis.
+the-content-analysis-guidebook-2e-1	17	Whitney, Wartella, and Kunkel (2009) have provided a thorough consideration of reasons why governmental agencies, media institutions, issue advocates, and the general public can find utility in content analysis.
+the-content-analysis-guidebook-2e-1	17	Content analysis is often used in applied, nonacademic situations.
+the-content-analysis-guidebook-2e-1	17	For example, law firms have hired academics to conduct content analyses of news coverage of their high-profile clients, to be used as evidence in conjunction with change-of-venue motions (i.e., excessive and negative coverage may warrant moving a court case to another city in order to obtain a fair trial; McCarty, 2001) or to establish particular patterns of news coverage that may refute plaintiff claims of information availability.
+the-content-analysis-guidebook-2e-1	18	In response to criticisms, a southern daily newspaper hired a journalism scholar to systematically document Page 18 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	18	coverage of the local African American community (Riffe, Lacy, & Fico, 2014).
+the-content-analysis-guidebook-2e-1	18	In 2009, the US.
+the-content-analysis-guidebook-2e-1	18	Secret Service National Threat Assessment Center (NTAC) engaged the expertise of The National Academies and the committee of experts it convened to explore the utility of a variety of message-focused methods—including content analysis—for the prediction of threat outcomes.
+the-content-analysis-guidebook-2e-1	18	As part of a legal settlement with the ACLU to address poor police–civilian relations that culminated in three days of civil unrest in Cincinnati, Ohio, the city of Cincinnati funded a RAND Corporation study of traffic stops that had been recorded via vehicle-mounted cameras.
+the-content-analysis-guidebook-2e-1	18	Dixon et al.
+the-content-analysis-guidebook-2e-1	18	(2008) used communication accommodation theory (CAT) as a template for the analysis of the “dashcam” footage.
+the-content-analysis-guidebook-2e-1	18	With random sampling stratified by the combination of officer/driver race(s), the study detected that (a) Black drivers were more likely to experience extensive policing (i.e., longer stops); (b) the communication quality of White drivers was more positive (i.e., accommodating) than that of Black drivers (although statistical controls indicated that some of this was due to the greater length of the stops for Black drivers); and (c) officers’ communication was more positive (i.e., more accommodating) when the officer and driver were of the same race.
+the-content-analysis-guidebook-2e-1	18	The findings have clear implications for communication skills training for police officers and for community intervention programs that might ease police–civilian tensions.
+the-content-analysis-guidebook-2e-1	18	Internal corporate research initiatives sometimes include content analyses.
+the-content-analysis-guidebook-2e-1	18	The marketing research unit of a large-city newspaper systematically compared its own coverage of regional issues with that provided by local television news.
+the-content-analysis-guidebook-2e-1	18	Organizational communication consultants often include a content analysis of recorded messages (e.g., emails, memos) in their audit of the communication patterns within the organization.
+the-content-analysis-guidebook-2e-1	18	Rittenhouse Rankings, an investor-relations firm, has used content analysis of annual CEO letters to effectively predict the following year’s stock prices for 100 top companies (Blumenthal, 2013).
+the-content-analysis-guidebook-2e-1	18	And the clinical diagnostic tools of criterion-based content analysis (e.g., PCAD) have been used in nonacademic settings by psychologists and legal professionals (Gottschalk & Bechtel, 2008).
+the-content-analysis-guidebook-2e-1	18	Increasingly, methods of content analysis are included by marketing research and public opinion firms as part of their template of research offerings, ranging from coding of open-ended responses on surveys to analyses of news coverage.
+the-content-analysis-guidebook-2e-1	18	Some firms even specialize in custom content analyses, such as Talkhouse LLC, which has supplied its CATPAC III software to General Motors suppliers for the monitoring of the impact of GM Super Bowl ads.
+the-content-analysis-guidebook-2e-1	18	And Social Science Automation offers software and analyses with its Profiler Plus Text Coding Platform; its services have been engaged by both government and private-sector clients.
+the-content-analysis-guidebook-2e-1	19	Page 19 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	19	A Six-Part Definition of Content Analysis This book assumes that content analysis is conducted within the scientific method but with certain additional characteristics that place it in a unique position as a primary message-centric methodology.
+the-content-analysis-guidebook-2e-1	19	Box 1.1 Defining Content Analysis Some of the main players in the development of quantitative message analysis present their points of view: Berelson (1952, p 18): Content analysis is a research technique for the objective, systematic, and quantitative description of the manifest content of communication.
+the-content-analysis-guidebook-2e-1	19	Stone et al.
+the-content-analysis-guidebook-2e-1	19	(1966, p 5, with credit given to Dr.
+the-content-analysis-guidebook-2e-1	19	Ole Holsti): Content analysis is any research technique for making inferences by systematically and objectively identifying specified characteristics within text.
+the-content-analysis-guidebook-2e-1	19	Carney (1971, p 52): The general purpose technique for posing questions to a “communication” in order to get findings which can be substantiated.
+the-content-analysis-guidebook-2e-1	19	.
+the-content-analysis-guidebook-2e-1	19	.
+the-content-analysis-guidebook-2e-1	19	.
+the-content-analysis-guidebook-2e-1	19	[T]he “communication” can be anything: A novel, some paintings, a movie, or a musical score—the technique is applicable to all alike and not only to analysis of literary materials.
+the-content-analysis-guidebook-2e-1	19	Kassarjian (1977, p 9): [After reviewing definitions to date, t]hese researchers and others agree that the distinguishing characteristics of content analysis are that it must be objective, systematic, and quantitative.
+the-content-analysis-guidebook-2e-1	19	Weber (1990, p 9): Content analysis is a research method that uses a set of procedures to make valid inferences from text.
+the-content-analysis-guidebook-2e-1	19	Berger (1998, p 23): Content analysis .
+the-content-analysis-guidebook-2e-1	19	.
+the-content-analysis-guidebook-2e-1	19	.
+the-content-analysis-guidebook-2e-1	19	is a research technique that is based on measuring the amount of something (violence, negative portrayals of women, or whatever) in a representative sampling of some massmediated popular art form.
+the-content-analysis-guidebook-2e-1	19	Smith (2000, p 314): Content analysis is a technique used to extract desired information from a body of material (usually verbal) by systematically and objectively identifying specified characteristics of the material .
+the-content-analysis-guidebook-2e-1	19	.
+the-content-analysis-guidebook-2e-1	19	.
+the-content-analysis-guidebook-2e-1	19	[thereby] yielding unbiased results that can be reproduced by other qualified investigators.
+the-content-analysis-guidebook-2e-1	20	Content analysis differs from clinical interpretation, which is more holistic and provisional, and for which specific criteria are not Page 20 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	20	made explicit in advance.
+the-content-analysis-guidebook-2e-1	20	Ahuvia (2001, p 139): “Content analysis” will be used as a .
+the-content-analysis-guidebook-2e-1	20	.
+the-content-analysis-guidebook-2e-1	20	.
+the-content-analysis-guidebook-2e-1	20	general term for methodologies that code text into categories and then count the frequencies of occurrences within each category.
+the-content-analysis-guidebook-2e-1	20	Krippendorff (2013, p 24): Content analysis is a research technique for making replicable and valid inferences from texts (or other meaningful matter) to the contexts of their use.
+the-content-analysis-guidebook-2e-1	20	Riffe, Lacy, & Fico (2014, p 19): Quantitative content analysis is the systematic and replicable examination of symbols of communication, which have been assigned numeric values according to valid measurement rules, and the analysis of relationships involving those values using statistical methods, to describe the communication, draw inferences about its meaning, or infer from the communication to its context, both of production and consumption.
+the-content-analysis-guidebook-2e-1	20	Babbie (2013, p 330): The study of recorded human communications.
+the-content-analysis-guidebook-2e-1	20	This book: Content analysis is a summarizing, quantitative analysis of messages that follows the standards of the scientific method (including attention to objectivity–intersubjectivity, a priori design, reliability, validity, generalizability, replicability, and hypothesis testing based on theory) and is not limited as to the types of variables that may be measured or the context in which the messages are created or presented.
+the-content-analysis-guidebook-2e-1	20	Box 1.1 presents some alternative definitions of content analysis for the sake of comparison.
+the-content-analysis-guidebook-2e-1	20	More details on this book’s definition are presented in the discussion that follows.
+the-content-analysis-guidebook-2e-1	20	1.
+the-content-analysis-guidebook-2e-1	20	Content Analysis as Following the Standards of the Scientific Method Perhaps the most distinctive characteristic that differentiates content analysis from other, more qualitative or interpretive message analyses is the attempt to meet the standards of the scientific method (Bird, 1998; Klee, 1997); by most definitions, it fits the positivism paradigm of social research (Gunter, 2000).4 The goal of the scientific method is generalizable knowledge, with the concomitant functions of description, prediction, explanation, and control (Hanna, 1969; Kaplan, 1964).
+the-content-analysis-guidebook-2e-1	21	Page 21 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	21	A commitment to the scientific method includes attending to such criteria as the following: Objectivity–Intersubjectivity A major goal of any scientific investigation is to provide a description or explanation of a phenomenon in a way that avoids the biases of the investigator.
+the-content-analysis-guidebook-2e-1	21	Thus, objectivity is desirable.
+the-content-analysis-guidebook-2e-1	21	However, as the classic work The Social Construction of Reality (Berger & Luckman, 1966) points out, there is no such thing as true objectivity—“knowledge” and “facts” are what are socially agreed upon.
+the-content-analysis-guidebook-2e-1	21	According to this view, all human inquiry is inherently subjective, but still we must strive for consistency among inquiries.
+the-content-analysis-guidebook-2e-1	21	We do not ask “Is it true?” but rather “Do we agree it is true?” Scholars sometimes refer to this standard as intersubjectivity (Babbie, 1986, p 27).
+the-content-analysis-guidebook-2e-1	21	An A Priori Design Although an a priori (i.e., before the fact) design is actually a part of the task of meeting the requirement of objectivity–intersubjectivity, it is given its own listing here to provide emphasis.
+the-content-analysis-guidebook-2e-1	21	Too often, a so-called content analysis report describes a study in which variables were chosen and “measured” after all the messages were observed.
+the-content-analysis-guidebook-2e-1	21	This wholly inductive approach violates the guidelines of scientific endeavor.
+the-content-analysis-guidebook-2e-1	21	All decisions on variables, their measurement, and coding rules must be made before the final measurement process begins.
+the-content-analysis-guidebook-2e-1	21	In the case of human coding, the codebook and coding form must be constructed in advance.
+the-content-analysis-guidebook-2e-1	21	In the case of computer coding in CATA, the dictionary or other coding protocol should be established a priori.
+the-content-analysis-guidebook-2e-1	21	However, the self-limiting nature of this “normal science” approach should be mentioned.
+the-content-analysis-guidebook-2e-1	21	As Kuhn’s (1970) seminal work on paradigms has pointed out, deduction based on past research, theories, and bodies of evidence within the current popular paradigm does not foster innovation.
+the-content-analysis-guidebook-2e-1	21	Content analysis has a bit of this disadvantage, with the insistence that coding schemes be developed a priori.
+the-content-analysis-guidebook-2e-1	21	Still, creativity and innovation can thrive within the method.
+the-content-analysis-guidebook-2e-1	21	As described in Chapter 4, a lot of exploratory work can and should be done before a final coding scheme is “set in stone.” The entire process may be viewed as a combination of induction and deduction.
+the-content-analysis-guidebook-2e-1	22	Page 22 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	22	Reliability Reliability has been defined as the extent to which a measuring procedure yields the same results on repeated trials (Carmines & Zeller, 1979).
+the-content-analysis-guidebook-2e-1	22	When human coders are used in content analysis, this translates to intercoder reliability, or level of agreement among two or more coders.
+the-content-analysis-guidebook-2e-1	22	In content analysis, reliability is paramount.
+the-content-analysis-guidebook-2e-1	22	Without acceptable levels of reliability, content analysis measures are meaningless.
+the-content-analysis-guidebook-2e-1	22	Chapter 6 addresses this important issue in detail.
+the-content-analysis-guidebook-2e-1	22	Validity Validity refers to the extent to which an empirical measure adequately reflects what humans agree on as the real meaning of a concept (Babbie, 2013, p 151).
+the-content-analysis-guidebook-2e-1	22	Generally, it is addressed with the question “Are we really measuring what we want to measure?” Although in content analysis the researcher is the boss, making final decisions on what concepts to measure and how to measure them, there are a number of good guidelines available for assessing and improving validity (Carmines & Zeller, 1979).
+the-content-analysis-guidebook-2e-1	22	Chapter 5 gives a more detailed discussion.
+the-content-analysis-guidebook-2e-1	22	Generalizability The generalizability of findings is the extent to which they may be applied to other cases, usually to a larger set that is the defined population from which a study’s sample has been drawn.
+the-content-analysis-guidebook-2e-1	22	After completing a poll of 300 city residents, the researchers obviously hope to generalize their findings to all residents of the city.
+the-content-analysis-guidebook-2e-1	22	Likewise, in a study of 800 personal ads in newspapers, Kolt (1996) generalized his findings to all personal ads in US.
+the-content-analysis-guidebook-2e-1	22	newspapers in general.
+the-content-analysis-guidebook-2e-1	22	He was in a good position to do so because he (a) randomly selected US.
+the-content-analysis-guidebook-2e-1	22	daily newspapers, (b) randomly selected dates for specific issues to analyze, and then (c) systematically random sampled personal ads in each issue.
+the-content-analysis-guidebook-2e-1	22	In Chapter 3, the options for selecting representative samples from populations will be presented.
+the-content-analysis-guidebook-2e-1	23	Page 23 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	23	Replicability The replication of a study is a safeguard against overgeneralizing the findings of one particular research endeavor.
+the-content-analysis-guidebook-2e-1	23	Replication involves repeating a study with different cases or in a different context, checking to see if similar results are obtained each time (Babbie, 2013, p 7).
+the-content-analysis-guidebook-2e-1	23	Whenever possible, research reports should provide enough information about the methods and protocols so that others are free to conduct replications.
+the-content-analysis-guidebook-2e-1	23	Throughout this book, the assumption is made that full reportage of methods is optimal, for both academic and commercial research.
+the-content-analysis-guidebook-2e-1	23	As Hogenraad and McKenzie (1999) caution, content analyses are sometimes at a unique disadvantage with regard to replication.
+the-content-analysis-guidebook-2e-1	23	Certain messages are historically situated, and repeated samplings are not possible, as with their study of political speeches leading up to the formation of the European Union.
+the-content-analysis-guidebook-2e-1	23	They propose an alternative—bootstrap replication—which compares and pools multiple random subsamples of the original data set.
+the-content-analysis-guidebook-2e-1	23	Hypothesis Testing Based on Theory The scientific method is generally considered to be hypothetico-deductive.
+the-content-analysis-guidebook-2e-1	23	That is, from theory, one or more hypotheses (conjectural statements or predictions about the relationship among variables) are derived.
+the-content-analysis-guidebook-2e-1	23	Each hypothesis is tested deductively: Measurements are made for each of the variables, and relationships among them are examined statistically to see if the predicted relationship holds true.
+the-content-analysis-guidebook-2e-1	23	If so, the hypothesis is supported and lends further support to the theory from which it was derived.
+the-content-analysis-guidebook-2e-1	23	If not, the hypothesis fails to receive support, and the theory is called into question to some extent.
+the-content-analysis-guidebook-2e-1	23	Ultimately, theory may be revised in the face of nonconfirming evidence.
+the-content-analysis-guidebook-2e-1	23	If existing theory is not strong enough to warrant a prediction, a sort of fallback position is to offer one or more research questions.
+the-content-analysis-guidebook-2e-1	23	A research question poses a query about possible relationships among variables.
+the-content-analysis-guidebook-2e-1	23	In the deductive scientific model, hypotheses and research questions are both posed before data are collected.
+the-content-analysis-guidebook-2e-1	23	Chapter 4 presents examples of hypotheses and research questions appropriate to content analysis.
+the-content-analysis-guidebook-2e-1	24	Page 24 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	24	2.
+the-content-analysis-guidebook-2e-1	24	The Message as the Unit of Analysis, the Unit of Data Collection, or Both The unit in a research study is the individual “thing” that is the subject of study—what or whom is studied.
+the-content-analysis-guidebook-2e-1	24	Frequently, it is useful to distinguish between the unit of data collection (sometimes referred to as the unit of observation; Babbie, 2013) and the unit of analysis, although in many studies, these two things are the same.
+the-content-analysis-guidebook-2e-1	24	The unit of data collection is the element on which each variable is measured.
+the-content-analysis-guidebook-2e-1	24	The unit of analysis is the element on which data are analyzed and for which findings are reported.
+the-content-analysis-guidebook-2e-1	24	In most social and behavioral science investigations, the individual person is both the unit of data collection and the unit of analysis.
+the-content-analysis-guidebook-2e-1	24	For example, when a survey of city residents is conducted to measure opinions toward the president and the mayor, let’s say, the unit of data collection is the individual respondent—the person.
+the-content-analysis-guidebook-2e-1	24	That is, telephone interviews may be conducted, and normally, each person responds alone.
+the-content-analysis-guidebook-2e-1	24	The variables (e.g., attitude toward the president, attitude toward the mayor, gender, age) are measured on each unit.
+the-content-analysis-guidebook-2e-1	24	The unit of analysis is also typically the individual person.
+the-content-analysis-guidebook-2e-1	24	That is, in the data set, each respondent’s answers will constitute one line of data, and statistical analyses will be conducted on the data set, with n equaling the number of people responding.
+the-content-analysis-guidebook-2e-1	24	When “average rating of confidence in the president” is reported as 6.8 on a 0-to-10 scale, that’s the mean based on n respondents.
+the-content-analysis-guidebook-2e-1	24	Sometimes, the unit of data collection and the unit of analysis are not the same.
+the-content-analysis-guidebook-2e-1	24	For example, a study of marital discord may record interactions between married partners.
+the-content-analysis-guidebook-2e-1	24	The unit of data collection may be the “turn” in verbal interaction: Each time an individual speaks, the tone and substance of his or her turn may be coded.
+the-content-analysis-guidebook-2e-1	24	However, the ultimate goal of the study may be to compare the interactions of those couples who have received intervention counseling and those who have not.
+the-content-analysis-guidebook-2e-1	24	Thus, the unit of analysis may be the dyad, pooling information about all turns and interactions for each married pair.
+the-content-analysis-guidebook-2e-1	24	In content analysis, the unit of data collection or the unit of analysis—or both—must be a message unit.
+the-content-analysis-guidebook-2e-1	24	Quite simply, there must be communication content as a primary subject of the investigation for the study to be deemed a content analysis.
+the-content-analysis-guidebook-2e-1	24	In the marital-discord example just described, the unit of data collection is a message unit (an interaction turn), and the unit of analysis is not.
+the-content-analysis-guidebook-2e-1	24	It may be called a content analysis.
+the-content-analysis-guidebook-2e-1	24	Chapter 3 provides more examples of unitizing.
+the-content-analysis-guidebook-2e-1	25	Page 25 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	25	3.
+the-content-analysis-guidebook-2e-1	25	Content Analysis as Quantitative The goal of any quantitative analysis is to produce counts of key categories and measurements of the amounts of other variables (Fink, 2009).
+the-content-analysis-guidebook-2e-1	25	For both counts and amounts, there is a numerical process.
+the-content-analysis-guidebook-2e-1	25	A quantitative content analysis has as its goal a numerically based summary of a chosen message set.
+the-content-analysis-guidebook-2e-1	25	It is neither a gestalt impression nor a fully detailed description of a message or message set.
+the-content-analysis-guidebook-2e-1	25	There is often confusion between what is considered quantitative and what is considered empirical.
+the-content-analysis-guidebook-2e-1	25	Empirical observations are those based on real, apprehendable phenomena.
+the-content-analysis-guidebook-2e-1	25	Accordingly, both quantitative and qualitative investigations may be empirical.
+the-content-analysis-guidebook-2e-1	25	What, then, is not empirical? Efforts to describe theory and conditions without making observations of events, behaviors, and other “real” aspects of the world, such as abstract theorizing, many portions of the discipline of philosophy, and (perhaps surprisingly) certain types of scholarship in mathematics (which is, of course, quite quantitative in focus) might be considered nonempirical.
+the-content-analysis-guidebook-2e-1	25	Much of the social and behavioral science literature is based on empirical work, which may be quantitative or qualitative.
+the-content-analysis-guidebook-2e-1	25	As noted earlier, we may distinguish between the quantitative or qualitative nature of the analysis and the quantitative or qualitative attributes of the phenomenon under examination.
+the-content-analysis-guidebook-2e-1	25	Clearly, qualities of a message are routinely subject to quantification (Smith, 2000).
+the-content-analysis-guidebook-2e-1	25	Very often, a study that might be characterized as “qualitative” is actually quite quantitative—the phenomenon being studied is what is qualitative in nature.
+the-content-analysis-guidebook-2e-1	25	Farrell, Wallis, and Evans (2007) conducted individual and focus group interviews concerning attitudes toward nursing programs and, as they put it, “analyzed the qualitative data using a standardized codebook and content analysis” (p.
+the-content-analysis-guidebook-2e-1	25	267).
+the-content-analysis-guidebook-2e-1	25	And in a study of lower-level service workers’ commentaries on the experience of part-time work, Walsh (2007) collected open-ended survey responses, and the “qualitative comments were analysed with respect to [23 discrete] categories and themes and were decomposed in relation to their frequency of occurrence” (p.
+the-content-analysis-guidebook-2e-1	25	163).
+the-content-analysis-guidebook-2e-1	25	In these cases, quantitative analyses are applied to what the researchers quite properly view as qualitative information.
+the-content-analysis-guidebook-2e-1	25	It should be made clear at the outset that this book takes the viewpoint that critical and qualitative analyses that are empirical are typically extremely useful to the content analyst.
+the-content-analysis-guidebook-2e-1	25	They have the potential to provide a highly valid source of detailed or “deep” information about a text.
+the-content-analysis-guidebook-2e-1	26	(Note that the term text is a preferred term in many critical analyses and denotes not just written text but also any other message type that is considered in Page 26 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	26	its entirety.
+the-content-analysis-guidebook-2e-1	26	For example, the text of a film includes its dialog, its visuals, production techniques, music, characterizations, and anything else of meaning presented in the film.) The empiricism of a careful and detailed critical analysis is one of its prime strengths and may produce such a lucid interpretation of the text as to provide us with a completely new encounter with the text.
+the-content-analysis-guidebook-2e-1	26	Such an analysis may bring us into the world of the text (e.g., into what is called the diegesis of a film, “the sum of a film’s denotation: the narration itself, but also the fictional space and time dimensions implied in and by the narrative, and consequently the characters, the landscapes, the events, and other narrative elements” [Metz, 1974, p 98]).
+the-content-analysis-guidebook-2e-1	26	It may illuminate the intentions of the source of the text, or it may allow us to view the text through the eyes of others who may experience the text (e.g., as in providing an understanding of a child’s view of a favorite TV program, something that may be essential to a full appreciation of child-centric content).
+the-content-analysis-guidebook-2e-1	26	When approaching a text—a message or message set—the researcher needs to evaluate his or her needs and the outcomes possible from both quantitative (i.e., content analysis) and nonquantitative analyses.
+the-content-analysis-guidebook-2e-1	26	For example, to identify and interpret pacifist markers in the film Saving Private Ryan, a critical analysis, perhaps with a Marxist approach, is in order.
+the-content-analysis-guidebook-2e-1	26	To establish the prevalence of violent acts in top-grossing films of the 2000s, a content analysis is more appropriate.
+the-content-analysis-guidebook-2e-1	26	The content analysis uses a broader brush and is typically more generalizable.
+the-content-analysis-guidebook-2e-1	26	As such, it is also typically less in-depth and less detailed.
+the-content-analysis-guidebook-2e-1	26	As noted above, a concerted pairing of quantitative content analysis with qualitative or critical message analysis has obvious advantages, given the complementary goals of each (Hardy, Harley, & Phillips, 2004; Neuendorf, 2004; Stepchenkova, Kirilenko, & Morrison, 2009).
+the-content-analysis-guidebook-2e-1	26	This outlook coincides nicely with the view presented by Gray and Densten (1998): “Quantitative and qualitative research may be viewed as different ways of examining the same research problem” (p.
+the-content-analysis-guidebook-2e-1	26	420).
+the-content-analysis-guidebook-2e-1	26	This triangulation of methods “strengthens the researcher’s claims for the validity of the conclusions drawn where mutual confirmation of results can be demonstrated” (p.
+the-content-analysis-guidebook-2e-1	26	420).5 Such triangulation is unfortunately relatively rare (e.g., Hymans, 2010; Pinto & McKay, 2006; Southall et al., 2008) and not always embraced by a particular discipline.
+the-content-analysis-guidebook-2e-1	26	Indeed, Phelan and Shearer (2009) described their analyses as “bastardised” in that they supplemented traditional discourse analysis with some quantification.
+the-content-analysis-guidebook-2e-1	26	One study combined quantitative content analysis and semiotic analysis to assess gender portrayals in drug advertisements in an Irish medical publication (Curry & O’Brien, 2006).
+the-content-analysis-guidebook-2e-1	26	Another examined storytelling in Taiwanese and European American families, combining ethnographic fieldwork with content-analytic coding of audio and video recordings of naturally occurring talk in the home (Miller et al., 1997).
+the-content-analysis-guidebook-2e-1	27	In another example, Page 27 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	27	Kumar (2005) combined quantitative content analysis of news coverage of the Abu Ghraib incident with qualitative historical contextual analysis that helped explain the dynamics of the political and media interactions relevant to the case.
+the-content-analysis-guidebook-2e-1	27	(See also Lieberman et al., 2009, for a “fusion” of quantitative experimental research and critical message analyses.) 4.
+the-content-analysis-guidebook-2e-1	27	Content Analysis as Summarizing As noted in the previous point, a content analysis summarizes rather than reports all details concerning a message set.
+the-content-analysis-guidebook-2e-1	27	This is consistent with a nomothetic approach to scientific investigations (i.e., seeking to generate generalizable conclusions from an aggregate of cases), rather than an idiographic approach (i.e., focusing on a full and precise conclusion about a particular case, as in a case study).
+the-content-analysis-guidebook-2e-1	27	An idiographic study seeks to fully describe a single artifact or case from a phenomenological perspective and to connect the unique aspects of the case with more general truths or principles.
+the-content-analysis-guidebook-2e-1	27	A nomothetic study hopes to identify generalizable findings, usually from multiple cases, and demands “specific and well-defined questions that in order to answer them it is desirable to adopt standardized criteria having known .
+the-content-analysis-guidebook-2e-1	27	.
+the-content-analysis-guidebook-2e-1	27	.
+the-content-analysis-guidebook-2e-1	27	characteristics” (Te’eni, 1998).
+the-content-analysis-guidebook-2e-1	27	Idiographic study implies conclusions that are unique, nongeneralizable, subjective, rich, and well-grounded; nomothetic study implies conclusions that are broadly based, generalizable, objective, summarizing, and inflexible.
+the-content-analysis-guidebook-2e-1	27	The goal of some message analyses, not deemed to be quantitative content analyses, is a type of microdocumenting.
+the-content-analysis-guidebook-2e-1	27	Historians have contributed a number of examples of very precise, fully explicated analyses that rely on original textual sources.
+the-content-analysis-guidebook-2e-1	27	Because these analyses are based on texts, we might be tempted to call them content analyses.
+the-content-analysis-guidebook-2e-1	27	But some of them display an obvious attempt to report all possible details across a wide variety of units of data collection rather than to summarize information for a chosen unit of data collection or analysis.
+the-content-analysis-guidebook-2e-1	27	One example is Kohn’s (1973) book on Russia during World War I, in which he professes to attempt “an exhaustive inquiry into the vital statistics of Russia” (p.
+the-content-analysis-guidebook-2e-1	27	3), ultimately to assess the economic and noneconomic consequences of the war on Russian society.
+the-content-analysis-guidebook-2e-1	27	The work is largely a reportage of numerical facts taken from a variety of textual sources.
+the-content-analysis-guidebook-2e-1	27	Another example, the book Plantation Slaves of Trinidad, 1783–1816, brings the reader into the daily lives of those Caribbean slaves during the nation’s slave period of that time (John, 1988).
+the-content-analysis-guidebook-2e-1	27	Aggregate figures on slave mortality and childbearing are presented side by side with drawings of slave life on the Trinidad plantations.
+the-content-analysis-guidebook-2e-1	28	Also typical of a qualitative analysis of text, Creed, DeJordy, and Lok (2010) present “exemplars from the data” as their findings—these are extended verbatim quotes from Page 28 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	28	in-depth interviews, with no summarization.
+the-content-analysis-guidebook-2e-1	28	Hesse-Biber, Dupuis, and Kinder (1997) used the qualitative analysis computer program, HyperRESEARCH, to identify, index (which they term code), and search a broad mix of photographs, text samples, audio segments, and video segments.
+the-content-analysis-guidebook-2e-1	28	The emphasis was on cataloging discrete exemplars of desired content in a manner that made their retrieval and comparison easy.
+the-content-analysis-guidebook-2e-1	28	For example, after indexing is complete, the researchers might query the program to produce all examples that have been tagged “expression of self-esteem” (p.
+the-content-analysis-guidebook-2e-1	28	7).
+the-content-analysis-guidebook-2e-1	28	These cases may be examined and cross-indexed according to other characteristics, but the responsibility for making sense of these interwoven networks of similarities rests with the analyst, and there is no goal of providing a summary of the complexities of the text.
+the-content-analysis-guidebook-2e-1	28	In contrast, the quantitative content analysis summarizes characteristics across a set of messages.
+the-content-analysis-guidebook-2e-1	28	For example, in a study of television news coverage of Belgian automobile crashes, Beullens, Roe, and Van den Bulck (2008) provided a neat summary for all 2005 news broadcasts dealing with traffic accidents from the top two television channels.
+the-content-analysis-guidebook-2e-1	28	They found that the most prominent “contributing factors” mentioned were weather (11.8%), alcohol use (7.1%), and speeding (6.4%).
+the-content-analysis-guidebook-2e-1	28	Further, 48% of stories were framed as human interest, while 47% were framed as responsibility-oriented.
+the-content-analysis-guidebook-2e-1	28	Throughout their findings, the results summarized the state of news reporting across the sample of 297 stories.
+the-content-analysis-guidebook-2e-1	28	5.
+the-content-analysis-guidebook-2e-1	28	Content Analysis as Applicable to All Contexts The term content analysis is not reserved for studies of mass media or for any other type of message content or context.
+the-content-analysis-guidebook-2e-1	28	As long as other pertinent characteristics apply (e.g., quantitative, summarizing), the study of any type of message pool may be deemed a content analysis.
+the-content-analysis-guidebook-2e-1	28	The messages may be mediated—that is, having some message reproduction or transmittal device interposed between source and receiver.
+the-content-analysis-guidebook-2e-1	28	Or they may be nonmediated—that is, experienced face to face.
+the-content-analysis-guidebook-2e-1	28	Although not attempting to create an exhaustive typology of communication purposes and context, the sections to follow give some examples of the range of applications of the techniques of content analysis.
+the-content-analysis-guidebook-2e-1	29	Page 29 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	29	Individual Messaging Some analyses examine the creation of messages by a single individual, with the typical goal of making some inference to that source (Chapter 2 will provide further discussion regarding limits to the ability to make inferences from content analysis findings).
+the-content-analysis-guidebook-2e-1	29	In psychology, there is a growing use of content analysis of naturally produced text and speech as a type of psychometric instrument (Gottschalk, 1995; Gottschalk & Bechtel, 2008; Horowitz, 1998; Tully, 1998).
+the-content-analysis-guidebook-2e-1	29	This technique analyzes statements made by an individual to diagnose psychological disorders and tendencies, to measure psychological traits of the source, or to assess the credibility of the source (Doris, 1994).
+the-content-analysis-guidebook-2e-1	29	Nearly all these efforts stem from the work of Philip Stone (Stone et al., 1966) in the Harvard Department of Social Relations.
+the-content-analysis-guidebook-2e-1	29	His “General Inquirer” computer program was the first to apply content-analytic techniques to free-speech words (see “Milestones in Content Analysis History” at The Content Analysis Guidebook Online, CAGO).
+the-content-analysis-guidebook-2e-1	29	Rosenberg and others (e.g., Rosenberg & Tucker, 1979) applied the computer technique to the language of schizophrenics, with the goal of better diagnosis.
+the-content-analysis-guidebook-2e-1	29	In an example of a further refinement of such procedures, Broehl and McGee (1981) analyzed the writings of historical figures—three British lieutenants serving during the Indian Mutiny of 1957 to 1958—and on this basis developed psychological profiles for the officers.
+the-content-analysis-guidebook-2e-1	29	Even the Watergate tapes have been studied using content analysis to gain insights into the underlying psychological motives of the individuals involved (Weintraub & Plant, as cited in Broehl & McGee, 1981, p 288).
+the-content-analysis-guidebook-2e-1	29	Others in the field of psychology have continued to develop computer analyses that produce diagnoses from written or spoken text.
+the-content-analysis-guidebook-2e-1	29	For example, Gottschalk, Stein, and Shapiro (1997) compared results from standard psychometric tests, such as the MMPI (Minnesota Multiphasic Personality Inventory), with content analysis results from a CATA analysis of transcripts of five-minute speeches.
+the-content-analysis-guidebook-2e-1	29	Their study of 25 new psychiatric outpatients found strong construct validity—the speech analyses were highly correlated with corresponding questionnaire outcomes.
+the-content-analysis-guidebook-2e-1	29	They point out the potential value in being able to use ordinary spoken or written material for an initial, rapid diagnostic appraisal that can easily remain unobtrusive (i.e., the individual does not have to submit to a lengthy questionnaire administration; p 427).
+the-content-analysis-guidebook-2e-1	29	The content analysis scheme used—the 16-part Gottschalk-Gleser Content Analysis Scales—became a software program (PCAD) developed and validated over a period of many years.
+the-content-analysis-guidebook-2e-1	30	Page 30 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	30	Another application of content analysis to the individual as message generator is the common method of coding responses to open-ended questionnaire items and in-depth interviews (Gray & Densten, 1998).
+the-content-analysis-guidebook-2e-1	30	For example, Farrow et al.
+the-content-analysis-guidebook-2e-1	30	(2009) coded open-ended responses in a survey of Irish coroners’ attitudes toward suicide.
+the-content-analysis-guidebook-2e-1	30	Although the first steps in this process usually include a qualitative review of the message pool and the development of an emergent coding scheme based on what’s represented in the pool, it must be remembered that the true content analysis portion is the subsequent, careful application of the a priori coding scheme to the message pool.
+the-content-analysis-guidebook-2e-1	30	In the fields of linguistics, history, and literature, some attempts have been made at analyzing individual authors or other sources.
+the-content-analysis-guidebook-2e-1	30	In recent decades, CATA analyses have been conducted either to describe a source’s style, to verify a questionable source, or to identify an unknown source (Floud, 1977; Olsen, 1993).
+the-content-analysis-guidebook-2e-1	30	For example, Elliott and Valenza’s (1996) “Shakespeare Clinic” has developed computer tests for Shakespeare authorship, and Martindale and McKenzie (1995) used CATA to confirm James Madison’s authorship of The Federalist.
+the-content-analysis-guidebook-2e-1	30	Content analysis may be applied to nonverbal communication of the individual as well.
+the-content-analysis-guidebook-2e-1	30	Magai et al.
+the-content-analysis-guidebook-2e-1	30	(2006) used a facial affect coding scheme to measure emotional experience in a study of age-related differences in experience and expressed affect and emotion regulatory skills.
+the-content-analysis-guidebook-2e-1	30	They utilized the Maximally Discriminative Facial Movement Coding System (MAX), introduced by Izard (1979).
+the-content-analysis-guidebook-2e-1	30	Another popular system, the Facial Action Coding System (FACS; Ekman & Friesen, 1978; Ekman, Friesen, & Hager, 2002) is a rich system for human coding of facial “action units,” marked by very manifest motions such as “nostril wings widen and raise” or “inner and/or central portion of brow lowers slightly,” which are intended to link up with overall expressions of emotion (although FACS does not ask the coder to make such judgments).
+the-content-analysis-guidebook-2e-1	30	Interpersonal and Group Messaging This book assumes a definition of interpersonal communication that acknowledges the intent of the messaging to reach and be understood by a particular individual.
+the-content-analysis-guidebook-2e-1	30	This may occur face to face, or it may be mediated, as in the cases of telephoning, emailing, or social media messaging.
+the-content-analysis-guidebook-2e-1	30	It may occur in a dyad or a small group.
+the-content-analysis-guidebook-2e-1	31	To study face-to-face group processes, Bales (1950) developed a content analysis scheme that calls for the Page 31 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	31	coding of each communication act.
+the-content-analysis-guidebook-2e-1	31	A verbal act is “usually the simple subject–predicate combination,” whereas a nonverbal act is “the smallest overt segment of behavior that has ‘meaning’ to others in the group” (Bales et al., 1951, p 462).
+the-content-analysis-guidebook-2e-1	31	Each act is coded into one of 12 categories: (a) shows solidarity, (b) shows tension release, (c) agrees, (d) gives suggestion, (e) gives opinion, (f) gives orientation, (g) shows antagonism, (h) shows tension, (i) disagrees, (j) asks for suggestion, (k) asks for opinion, or (l) asks for orientation.
+the-content-analysis-guidebook-2e-1	31	Bales’s scheme has been widely used and elaborated on (Bales & Cohen, 1979) and has also been adapted for analyzing human interaction in mass media content (Greenberg, 1980; Neuendorf & Abelman, 1987).
+the-content-analysis-guidebook-2e-1	31	Box 1.2 Analyzing Communication in Crisis Perpetrator and Negotiator Interpersonal Exchanges Most standoffs between police and perpetrators are resolved nonviolently.
+the-content-analysis-guidebook-2e-1	31	An analysis of 137 crisis hostage incidents handled by the New York City Police Department revealed that in 91% of the cases, neither hostages nor hostage takers were killed (Rogan & Hammer, 1995, p 554).
+the-content-analysis-guidebook-2e-1	31	Nonetheless, those crisis situations that end violently—such as the 1993 Branch Davidian conflagration in Waco, Texas—focus attention on the need to better understand the negotiation process.
+the-content-analysis-guidebook-2e-1	31	There is interest among scholars and police professionals alike in studying the communication content of negotiations in crisis situations so that outcomes may be predicted and negative outcomes prevented.
+the-content-analysis-guidebook-2e-1	31	Rogan and Hammer (1995) had such a goal for their content analysis of audio recordings of three authentic crisis negotiations obtained from the FBI training academy.
+the-content-analysis-guidebook-2e-1	31	They looked at message affect—a combination of message valence and language intensity—across eight phases of each negotiation process.
+the-content-analysis-guidebook-2e-1	31	The unit of data collection was the uninterrupted talking turn.
+the-content-analysis-guidebook-2e-1	31	Each turn was coded by human coders for positive–negative valence and for Donohue’s (1991) five correlates of language intensity: (a) obscure words, (b) general metaphors, (c) profanity and sex, (d) death statements, and (e) expanded qualifiers.
+the-content-analysis-guidebook-2e-1	31	The analysis was highly systematic and achieved good reliability (i.e., agreement between independent coders).
+the-content-analysis-guidebook-2e-1	31	Total “message affect” scores were calculated for perpetrator and negotiator for each of the eight time periods in each negotiation.
+the-content-analysis-guidebook-2e-1	32	In all three situations, the negotiator’s message profile remained positive throughout, Page 32 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	32	whereas the perpetrator’s score became more strongly negative during Periods 2 and 3.
+the-content-analysis-guidebook-2e-1	32	Eventually, between Periods 6 and 8, the perpetrator’s message affect shifted to a positive valence, approaching that of the negotiator.
+the-content-analysis-guidebook-2e-1	32	In the one successful negotiation studied, the perpetrator’s scores remained high and positive; in the two unsuccessful incidents (one culminating in the perpetrator’s suicide), the perpetrator’s scores began an unrelenting slide to intense negativity at Period 6 or 7.
+the-content-analysis-guidebook-2e-1	32	The researchers point out certain limitations of the study—primarily, that the analysis was limited to message affect, with no consideration of other characteristics of the communicators, no examination of substantive or relational communication content, and so on.
+the-content-analysis-guidebook-2e-1	32	Nevertheless, just based on message affect, the results are striking.
+the-content-analysis-guidebook-2e-1	32	By looking at the charted message affect scores, you can visualize the process of negotiation success or failure.
+the-content-analysis-guidebook-2e-1	32	Although currently not useful for real-time application to ongoing crisis situations, this content analysis technique shows promise for the development of such applications.
+the-content-analysis-guidebook-2e-1	32	And researching past negotiation successes and failures provides practitioners insight into the dynamics of the process.
+the-content-analysis-guidebook-2e-1	32	As Rogan and Hammer (1995) note, “Ultimately, such insight could enable a negotiator to more effectively control a perpetrator’s level of emotional arousal, such that a negotiator could take actions to reduce a perpetrator’s highly negative and intense emotionality in an effort to negate potentially violent behavior” (p.
+the-content-analysis-guidebook-2e-1	32	571), perhaps the ultimate useful application of the technique of content analysis.
+the-content-analysis-guidebook-2e-1	32	Box 1.3 The Variety of Content Analysis Religious TV—Tapping Message Characteristics, Ranging From Communicator Style to Dollar Signs In the 1980s, religious broadcasting reached a peak of popularity with the rapid growth of “televangelism” (Frankl, 1987).
+the-content-analysis-guidebook-2e-1	32	Concerned with a growing perception of religious broadcasting as invasive and inordinately focused on fund-raising, the organization of Roman Catholic broadcasters, UNDA-USA, commissioned a set of content analyses.
+the-content-analysis-guidebook-2e-1	32	During the mid-1980s, researchers at Cleveland State University conducted an extensive five-part project.
+the-content-analysis-guidebook-2e-1	33	All the components of the project were quantitative content analyses, and they drew on Page 33 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	33	a wide array of theories and research perspectives.
+the-content-analysis-guidebook-2e-1	33	A set of 81 episodes of religious programs provided the content to be analyzed.
+the-content-analysis-guidebook-2e-1	33	These were three randomly sampled episodes for each of the top religious television or cable programs, as determined by an index of availability in a random sample of 40 US.
+the-content-analysis-guidebook-2e-1	33	towns and cities.
+the-content-analysis-guidebook-2e-1	33	These programs ranged from talk format shows, such as The 700 Club, to televangelist programs like Jim Bakker to narrative forms, such as the soap opera Another Life and the children’s stop-motion animated “daily lesson” program, Davey and Goliath.
+the-content-analysis-guidebook-2e-1	33	Different teams of coders were trained for the five types of analysis: 1.
+the-content-analysis-guidebook-2e-1	33	The demography of religious television With the unit of data collection and analysis the individual character (real or fictional), a dozen demographic variables were assessed (based on previous content analyses of TV characters, such as Greenberg [1980] and Gerbner et al.
+the-content-analysis-guidebook-2e-1	33	[1980]), including social age (child, adolescent, young adult, mature adult, elderly), occupation, and religious affiliation.
+the-content-analysis-guidebook-2e-1	33	An example of the results was the finding that 47% of the characters were mature adults, with 37% being young adults.
+the-content-analysis-guidebook-2e-1	33	Children constituted only 7% of the sample, with the elderly at only 5% (Abelman & Neuendorf, 1984a).
+the-content-analysis-guidebook-2e-1	33	2.
+the-content-analysis-guidebook-2e-1	33	Themes and topics on religious television Here, the unit of data collection was a period of time: the five-minute interval.
+the-content-analysis-guidebook-2e-1	33	At the end of each five-minute period, a checklist coding form was completed by the coder, with 60 measures indicating simple presence or absence of a given social, political, or religious topic within all verbalizations in the period (pulling from existing analyses of religious communication, eg., Hadden & Swann, 1981).
+the-content-analysis-guidebook-2e-1	33	Also, both explicit and implied appeals for money were recorded at the end of each five-minute period.
+the-content-analysis-guidebook-2e-1	33	Overall, $328.13 was explicitly requested of the viewer per hour across the sample of religious programs (Abelman & Neuendorf, 1985a, 1985b).
+the-content-analysis-guidebook-2e-1	33	3.
+the-content-analysis-guidebook-2e-1	34	Interaction analysis of religious television content Using a scheme derived and adapted from Bales (1950), Borke (1969), and Greenberg (1980), in- Page 34 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	34	terpersonal interactions among characters on religious television were examined.
+the-content-analysis-guidebook-2e-1	34	The unit of data collection was each verbal utterance (act), which was coded as falling into one of 20 modes (e.g., offering information, seeking support, attacking, evading).
+the-content-analysis-guidebook-2e-1	34	The results suggested age and gender differences in interaction patterns; most interactions were male dominated, and the elderly were often shown as conflict-producing individuals who were the frequent targets of guidance from those who were younger (Neuendorf & Abelman, 1987).
+the-content-analysis-guidebook-2e-1	34	4.
+the-content-analysis-guidebook-2e-1	34	Communicator style of televangelists Drawing on the considerable interpersonal communication literature on communicator style, notably the work of Robert Norton (1983), this aspect of the project targeted the 14 televangelists in the program sample and used as the unit of data collection each verbal utterance within a monologue.
+the-content-analysis-guidebook-2e-1	34	Each utterance was coded for a variety of characteristics, including mode (similar to the interaction coding scheme), vocal intensity, pace, and facial nonverbal intensity.
+the-content-analysis-guidebook-2e-1	34	Based on an overall intensity index, the top three “most intense” televangelists were James Robison, Robert Schuller, and Ernest Angley (Neuendorf & Abelman, 1986).
+the-content-analysis-guidebook-2e-1	34	5.
+the-content-analysis-guidebook-2e-1	34	Physical contact on religious television programming Drawing on work in nonverbal communication (e.g., Knapp, 1978), this portion of the content analyses examined physical touch.
+the-content-analysis-guidebook-2e-1	34	The unit of data collection was the instance of nonaccidental physical contact.
+the-content-analysis-guidebook-2e-1	34	Characteristics of the initiator and recipient of the touching were tapped, as were type of touch (religious in nature, nonreligious), anatomical location of the touch, and the recipient’s reaction to the touch.
+the-content-analysis-guidebook-2e-1	34	A sample result was that there was a clear similarity with real-life touching along gender lines: Males were the primary initiators of physical contact, and it tended to be rather formal and ritualistic (i.e., a substantial portion of the contact was religious in nature, such as healing; Abelman & Neuendorf, 1984b).
+the-content-analysis-guidebook-2e-1	35	Page 35 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	35	Organizational Messaging Content analysis has been used less frequently for profiling messages within a defined organization than it has in other contexts (Tangpong, 2011).
+the-content-analysis-guidebook-2e-1	35	More often, messages within an organization have been scrutinized using more qualitative techniques (Stohl & Redding, 1987).
+the-content-analysis-guidebook-2e-1	35	Nevertheless, an assortment of content analyses in the organizational context have used a variety of techniques.
+the-content-analysis-guidebook-2e-1	35	Organizational applications of content analysis have included the analysis of open-ended responses to employee surveys (DiSanza & Bullis, 1999), the word network analysis of voicemail (Rice & Danowski, 1991), the use of CATA to analyze levels of narcissism among CEOs of Fortune 100 corporations (Spangler et al., 2012), and the application of interpersonal interaction coding to manager–subordinate control patterns (Fairhurst et al., 1987).
+the-content-analysis-guidebook-2e-1	35	Developing a novel coding scheme, Larey and Paulus (1999) analyzed the transcripts of brainstorming discussion groups of four individuals looking for unique ideas.
+the-content-analysis-guidebook-2e-1	35	They found that interactive groups were less successful in generating unique ideas than were “nominal,” noninteractive groups.
+the-content-analysis-guidebook-2e-1	35	Increasingly, content analysis has been used to identify patterns of communication from the organization to various publics or constituencies (e.g., Bravo et al., 2013), but these messages are more properly thought of as mass, rather than organizational, in nature.
+the-content-analysis-guidebook-2e-1	35	Mass Messaging Mass messaging is the creation of messages that are intended for a relatively large, undifferentiated audience.
+the-content-analysis-guidebook-2e-1	35	These messages are most commonly mediated (e.g., via television, newspaper, radio, online), but they do not necessarily have to be, as in the case of a public speech.
+the-content-analysis-guidebook-2e-1	35	Mass messages have been heavily studied by sociologists, social psychologists, communication scientists, marketing and advertising scholars, and others.
+the-content-analysis-guidebook-2e-1	35	Fully 34.8% of the mass communication articles published during 1995 in Journalism & Mass Communication Quarterly, one of the most prominent mass communication journals, were content analyses (Riffe & Freitag, 1997).
+the-content-analysis-guidebook-2e-1	35	The range of types of investigations is staggering, although some areas of study are much better represented in the content analysis literature than others; for instance, studies of journalistic coverage are common, whereas studies of films are relatively rare.
+the-content-analysis-guidebook-2e-1	36	Page 36 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	36	Applied Contexts In addition to the aforementioned means of dividing up message contexts, we might also consider such applied contexts as health communication, political communication, and social media, all of which transcend the distinctions of interpersonal, group, organizational, and mass communication.
+the-content-analysis-guidebook-2e-1	36	That is, content analyses within the health context might include analyses of doctor–patient interaction (interpersonal), the flow of email among hospital employees (organizational), and images of medical professionals on television (mass; Berlin Ray & Donohew, 1990).
+the-content-analysis-guidebook-2e-1	36	Yet all these varied studies would be informed by a clear grasp of the norms, values, behaviors, legal constraints, and business practices within the health care environment.
+the-content-analysis-guidebook-2e-1	36	Thus, special consideration of such applied contexts is useful.
+the-content-analysis-guidebook-2e-1	36	A number of these are presented in Chapter 9.
+the-content-analysis-guidebook-2e-1	36	Some applications of content analysis may be highly practical.
+the-content-analysis-guidebook-2e-1	36	Rather than attempting to answer questions of theoretical importance, some analyses are aimed at building predictive power within a certain message arena.
+the-content-analysis-guidebook-2e-1	36	Box 1.2 highlights one such study.
+the-content-analysis-guidebook-2e-1	36	Rogan and Hammer (1995) applied a scheme to actual crisis negotiation incidents, such as hostage taking.
+the-content-analysis-guidebook-2e-1	36	Their findings offer insight into message patterns that may predict successful and unsuccessful resolutions to crisis incidents.
+the-content-analysis-guidebook-2e-1	36	Another applied context is that of religious television.
+the-content-analysis-guidebook-2e-1	36	Box 1.3 describes a set of studies that took into consideration the special nature of religion on television during a time of critical discourse.
+the-content-analysis-guidebook-2e-1	36	A variety of communication and religious perspectives informed the analyses, ranging from interpersonal communication theories to practical considerations of religious mass media.
+the-content-analysis-guidebook-2e-1	36	6.
+the-content-analysis-guidebook-2e-1	36	All Message Characteristics Are Available to Content Analyze This book takes a broad view of what types of messages and message characteristics may be analyzed.
+the-content-analysis-guidebook-2e-1	37	A few clarifications on terminology are in order: The Use of the Term “Content” As Smith (2000) points out, “The term ‘content’ in content analysis is something of a misnomer because verbal Page 37 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	37	materials may be examined for content, for form (e.g., style, structure), function, or sequence of communications” (p.
+the-content-analysis-guidebook-2e-1	37	314).
+the-content-analysis-guidebook-2e-1	37	Similarly, Morgan and Shanahan (2010, p 351) note that the terminology “message system analysis,” used by scholar George Gerbner in the 1960s, was more inclusive than the term content analysis—“Gerbner specifically meant to point out that the entirety of a message system is what matters.” Thus, we should take a liberal view of the term content in “content analysis,” extending it to all message characteristics.
+the-content-analysis-guidebook-2e-1	37	Manifest Versus Latent Content Early content analyses tended to concentrate on manifest content, the “elements that are physically present and countable” (Gray & Densten, 1998, p 420).
+the-content-analysis-guidebook-2e-1	37	An alternative is to also consider the latent content, consisting of unobserved concept(s) that “cannot be measured directly but can be represented or measured by one or more .
+the-content-analysis-guidebook-2e-1	37	.
+the-content-analysis-guidebook-2e-1	37	.
+the-content-analysis-guidebook-2e-1	37	indicators” (Hair et al., 2010, p 614).
+the-content-analysis-guidebook-2e-1	37	These two types of content might be seen as analogous to “surface” and “deep” structures of language and have their roots in Freud’s interpretations of dreams.6 Other scholarship has compared manifest content to denotative meanings and latent content to connotative meanings (Ahuvia, 2001; Berelson, 1952; Eco, 1976).
+the-content-analysis-guidebook-2e-1	37	Although the early definition of content analysis by Berelson (1952) indicated that it is ordinarily limited to manifest content only, many have attempted to measure the more subtle aspects of message meaning.
+the-content-analysis-guidebook-2e-1	37	As Ahuvia (2001, p 141) notes, manifest and latent measures look at different aspects of the message.
+the-content-analysis-guidebook-2e-1	37	Manifest analysis examines obvious and straightforward aspects (e.g., Does the ad claim that the car has greater than 100 horsepower?), while latent analysis examines the subtler aspects (e.g., Does the ad position the car as powerful?).
+the-content-analysis-guidebook-2e-1	37	Content analyses commonly include measures of manifest characteristics of messages, such as many of Baruh’s (2009) measures applied to reality TV programming—whether a scene’s setting was public or private, whether partial or full nudity was shown, and whether personal financial information was disclosed, for example.
+the-content-analysis-guidebook-2e-1	37	The measurement of latent constructs is typically more problematic.
+the-content-analysis-guidebook-2e-1	37	At least two different approaches have been used.
+the-content-analysis-guidebook-2e-1	37	The first is a direct attempt to measure a latent characteristic via coder assessment.
+the-content-analysis-guidebook-2e-1	38	For example, Page 38 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	38	Perrin’s (2005) analysis of letters to the editor of major US.
+the-content-analysis-guidebook-2e-1	38	newspapers focused on an assessment of the degree of authoritarianism and antiauthoritarianism in the writings, finding an increase in both following the 9/ 11 attacks.
+the-content-analysis-guidebook-2e-1	38	A second approach to the measurement of latent constructs in content analysis is to use multiple measures (often ones that are quite manifest) in concert, much as in survey and experimental research, standard selfreport scales measuring global latent constructs (e.g., state depression) are comprised of multiple specific items.
+the-content-analysis-guidebook-2e-1	38	For example, in the Smith (1999) study, the latent construct, “sexism,” was measured by 27 manifest variables that tapped “stereotypic images of women,” extracted from a variety of theoretic works (largely from feminist literature) and critical, qualitative analyses of film (e.g., Haskell, 1987).
+the-content-analysis-guidebook-2e-1	38	In the case of Ghose and Dou’s (1998) study of Internet web sites, the latent variable, “interactivity,” was represented by 23 manifest variables that are easily measurable, such as presence or absence of a key word search, electronic couponing, online contests, and downloading of software.
+the-content-analysis-guidebook-2e-1	38	Kinney (2006) used principal components analysis to group 35 manifest measures of word usage in news articles covering the charitable choice policy innovation aspect of the 1996 welfare law.
+the-content-analysis-guidebook-2e-1	38	The discovered “latent” themes were further interpreted by an independent panel of scholars.
+the-content-analysis-guidebook-2e-1	38	And, Van Gorp (2005, 2007) has approached content analysis of news coverage from the perspective that the construct of news “framing” can be considered a “latent message from the journalist” and that “sequences of manifest variables can represent” this latent construct (2005, pp.
+the-content-analysis-guidebook-2e-1	38	487–488).
+the-content-analysis-guidebook-2e-1	38	Scholars have empirically identified a tendency toward unreliability of human coding associated with measures of latent constructs (vs.
+the-content-analysis-guidebook-2e-1	38	manifest constructs; Carlyle, Slater, & Chakroff, 2008; Manganello et al., 2010), and some have questioned whether quantitative content analysis can even properly measure latent constructs (e.g., Ahuvia, 2001).
+the-content-analysis-guidebook-2e-1	38	In fact, early work by Berelson (1952) suggested that the focus of quantitative content analysis is manifest meaning, while qualitative content analysis is necessarily focused on latent meaning, a distinction that is further supported by Schreier (2012).
+the-content-analysis-guidebook-2e-1	38	Potter and Levine-Donnerstein (1999) have delineated between two types of latent content—“pattern” and “projective.” Pattern content “focuses on patterns in the content itself,” while projective content “shifts the focus more onto coders’ interpretations of the meaning of the content” (p.
+the-content-analysis-guidebook-2e-1	38	259).
+the-content-analysis-guidebook-2e-1	39	An example of the former would Page 39 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	39	be mode of dress of a female political candidate (e.g., formal suit, soft feminine suit, dress, casual), which would be established by a coder examining combinations, or patterns, of types of clothing.
+the-content-analysis-guidebook-2e-1	39	An example of the latter would be the candidate’s rhetorical style (e.g., exhortive, bureaucratic, emotional, informative), which would require the coder to access his or her own preexisting mental schema in order to make a judgment.
+the-content-analysis-guidebook-2e-1	39	According to Potter and Levine-Donnerstein, both types of latent content rely on “content cues and coder schema”—the distinction is which of the two is emphasized.
+the-content-analysis-guidebook-2e-1	39	Gray and Densten (1998) promote the use of latent constructs as a way of integrating quantitative content analysis and qualitative message analysis.
+the-content-analysis-guidebook-2e-1	39	They used both methods to study locus of control, the broad latent concept from Rotter’s internal/external locus of control construct: An individual holding a more external locus of control feels that his or her life events are the product of circumstances beyond his or her personal control (p.
+the-content-analysis-guidebook-2e-1	39	426).
+the-content-analysis-guidebook-2e-1	39	Their findings indicate a surprising correspondence between quantitative and qualitative methods in the discovery of new locus-of-control dimensions reflected in a variety of very specific manifest indicators.
+the-content-analysis-guidebook-2e-1	39	A number of researchers have criticized any dependence on the manifest–latent dichotomy, noting the often fuzzy distinction between the two (Potter & Levine-Donnerstein, 1999; Riffe, Lacy, & Fico, 2014; Shapiro & Markoff, 1997).
+the-content-analysis-guidebook-2e-1	39	It is perhaps more useful to think of a continuum from “highly manifest” to “highly latent” and to address issues of subtlety of measurement for those message aspects that are very latent and therefore a challenge in achieving objective and reliable measurement.
+the-content-analysis-guidebook-2e-1	39	Content/Substance Versus Form Characteristics Many scholars have differentiated between content and form elements of a message (Berelson, 1952; Huston & Wright, 1983; Naccarato & Neuendorf, 1998) or work of art (Tolhurst, 1985).
+the-content-analysis-guidebook-2e-1	39	Content attributes—sometimes more appropriately called substance characteristics—are those that may appear or exist in any medium.
+the-content-analysis-guidebook-2e-1	39	They are generally able to survive the translation from medium to medium.
+the-content-analysis-guidebook-2e-1	39	Form attributes—often called formal features, although there’s usually nothing formal about them in the colloquial sense—are those that are relevant to the medium through which the message is sent.
+the-content-analysis-guidebook-2e-1	39	They are in a sense contributed by the particular medium or form of communication.
+the-content-analysis-guidebook-2e-1	40	For example, the examination of self-disclosure by women to other women has been analyzed for movie charPage 40 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	40	acters (Capwell, 1997).
+the-content-analysis-guidebook-2e-1	40	The same measures of level and type of self-disclosure could be used to analyze naturally occurring discussions between real women, interactions between characters on TV programs or commercials, or relationship building between characters in novels.
+the-content-analysis-guidebook-2e-1	40	The measures are content/substance measures, applicable regardless of the medium.
+the-content-analysis-guidebook-2e-1	40	On the other hand, measurements of the type of camera shot (e.g., close-up vs.
+the-content-analysis-guidebook-2e-1	40	long shot) used when self-disclosure occurs in a film is a measure of form, or how the content is treated in a particular medium.
+the-content-analysis-guidebook-2e-1	40	Even though the distinction between substance and form is an important one, the primary focus should not be on placing each variable in one category or the other.
+the-content-analysis-guidebook-2e-1	40	Some variables may be on the fine line between the two types, exhibiting characteristics of each.
+the-content-analysis-guidebook-2e-1	40	What’s important is that both substance and form characteristics of messages ought to be considered for every content analysis conducted.
+the-content-analysis-guidebook-2e-1	40	Form characteristics are often extremely important mediators of the content elements.
+the-content-analysis-guidebook-2e-1	40	Huston and Wright (1983) have summarized how formal features of TV influence the cognitive processing of TV content, notably for children.
+the-content-analysis-guidebook-2e-1	40	This speaks once again to the importance of the content analyst becoming well versed in the norms and syntax of any medium he or she chooses to study.
+the-content-analysis-guidebook-2e-1	40	Text Analysis Versus Other Types of Content Analysis You’ll notice that some of the classic definitions of content analysis shown in Box 1.1 apply the term only to analyses of text (i.e., written or transcribed words).
+the-content-analysis-guidebook-2e-1	40	The view presented in this book is not so limiting.
+the-content-analysis-guidebook-2e-1	40	Content analysis may be conducted on written text, transcribed speech, verbal interactions, visual images, characterizations, nonverbal behaviors, sound events, or any other message type.
+the-content-analysis-guidebook-2e-1	40	In this book, the term content analysis encompasses all such studies; the terms text analysis or text content analysis refer to the specific type of content analysis that focuses on written or transcribed words.
+the-content-analysis-guidebook-2e-1	40	Historically, content analyses did begin with examinations of written text.
+the-content-analysis-guidebook-2e-1	40	And text analysis remains a vibrant part of content analysis research, both human-coded analyses and increasingly popular computer-aided text analyses (Roberts, 1997b; Gottschalk & Bechtel, 2008).
+the-content-analysis-guidebook-2e-1	40	Those seeking more information on the historical trends in content analysis that saw expansion beyond the written word are advised to read “Milestones in Content Analysis History” at the CAGO.
+the-content-analysis-guidebook-2e-1	41	Page 41 of 42 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-1	41	Notes for Chapter 1 1.
+the-content-analysis-guidebook-2e-1	41	It should be noted that terminologies for content analyses have become increasingly fluid.
+the-content-analysis-guidebook-2e-1	41	For example, the term sentiment analysis, a special form of computer-aided text analysis (Liu, 2010), appears for the first time in the PQD&T database in 2003.
+the-content-analysis-guidebook-2e-1	41	By 2011, it occurs regularly, but unfortunately is undetectable in searches for “content analysis,” or even “text analysis.” 2.
+the-content-analysis-guidebook-2e-1	41	Additionally, a search of Google Scholar revealed exponential growth in online articles that include the term content analysis, with an increase from approximately 6,000 sources dated 1997 to over 97,000 citations for 2015.
+the-content-analysis-guidebook-2e-1	41	3.
+the-content-analysis-guidebook-2e-1	41	Although they note this as a limitation, Gottschall et al.
+the-content-analysis-guidebook-2e-1	41	(2008) made the choice to lump adjectives denoting attractive and unattractive together, forming an overall measure of “attractiveness references.” They contend that this may actually understate the disproportion of female–male attractiveness emphasis.
+the-content-analysis-guidebook-2e-1	41	“When these attributes are separated, 15% of male ‘hits’ are for adjectives associated with unattractiveness, compared with just 5% of female ‘hits’” (p.
+the-content-analysis-guidebook-2e-1	41	184).
+the-content-analysis-guidebook-2e-1	41	4.
+the-content-analysis-guidebook-2e-1	41	According to Gunter (2000), the “overriding objective” of the positivism paradigm is to “prove or disprove hypotheses and ultimately to establish universal laws of behaviour through the use of numerically defined and quantifiable measures analogous to those used by the natural sciences” (p.
+the-content-analysis-guidebook-2e-1	41	4).
+the-content-analysis-guidebook-2e-1	41	5.
+the-content-analysis-guidebook-2e-1	41	There is a difference between triangulation, which refers to the testing of the same hypotheses or research questions with different methodologies, and mixed method approaches, in which different research hypotheses or questions within a study are addressed using different methodologies.
+the-content-analysis-guidebook-2e-1	41	6.
+the-content-analysis-guidebook-2e-1	41	According to Gregory (1987), “Freud’s approach to the interpretation of dreams was by way of the method of free association [from which Freud’s psychoanalysis procedures would evolve].
+the-content-analysis-guidebook-2e-1	41	.
+the-content-analysis-guidebook-2e-1	41	.
+the-content-analysis-guidebook-2e-1	41	.
+the-content-analysis-guidebook-2e-1	41	As in psychoanalysis proper, the subject is required to relax and allow his mind to wander freely from elements in the dream to related ideas, recollections, or emotional reactions which they may chance to suggest” (p.
+the-content-analysis-guidebook-2e-1	41	274).
+the-content-analysis-guidebook-2e-1	41	The dream as reported was termed the manifest content by Freud, and the dream’s underlying thoughts and wishes Freud called the latent content.
+the-content-analysis-guidebook-2e-1	42	https://doi.org/10.4135/9781071802878 Page 42 of 42 The Content Analysis Guidebook pgbrk

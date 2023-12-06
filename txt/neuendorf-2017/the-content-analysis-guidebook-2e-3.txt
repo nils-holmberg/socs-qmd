@@ -1,0 +1,506 @@
+the-content-analysis-guidebook-2e-3	00	Sage Research Methods The Content Analysis Guidebook For the most optimal reading experience we recommend using our website.
+the-content-analysis-guidebook-2e-3	00	A free-to-view version of this content is available by clicking on this link, which includes an easy-to-navigate-and-search-entry, and may also include videos, embedded datasets, downloadable datasets, interactive questions, audio content, and downloadable tables and resources.
+the-content-analysis-guidebook-2e-3	00	Author: Kimberly A Neuendorf Pub.
+the-content-analysis-guidebook-2e-3	00	Date: 2019 Product: Sage Research Methods DOI: https://doi.org/10.4135/9781071802878 Methods: Content analysis, Measurement, Coding Keywords: films, film Disciplines: Business and Management, Communication and Media Studies, Political Science and International Relations, Psychology, Social Policy and Public Policy, Sociology Access Date: November 26, 2023 Publishing Company: SAGE Publications, Inc City: Thousand Oaks Online ISBN: 9781071802878 © 2019 SAGE Publications, Inc All Rights Reserved.
+the-content-analysis-guidebook-2e-3	01	pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	01	Message Units and Sampling This chapter introduces the initial methodological decisions necessary in content analytic research.
+the-content-analysis-guidebook-2e-3	01	Various types of units are considered, showing the range of choices in selecting the unit or units for a given study.
+the-content-analysis-guidebook-2e-3	01	There is discussion of proper probability sampling techniques, including simple random sampling, systematic sampling, cluster sampling, stratified sampling, and multistage sampling.
+the-content-analysis-guidebook-2e-3	01	Issues of access to sampling frames and message archive options are explored.
+the-content-analysis-guidebook-2e-3	01	Units In content analysis, a unit is an identifiable message or message component that (a) serves as the basis for identifying the population and drawing a sample, (b) is the component on which variables are measured, and/ or (c) serves as the basis for reporting analyses.
+the-content-analysis-guidebook-2e-3	01	Units can be words, characters, themes, time periods, statements or turns in an interaction, or any other outcome of “breaking up a ‘communication’ into bits” (Carney, 1971, p 52).
+the-content-analysis-guidebook-2e-3	01	As indicated in Chapter 1, these units may be identified as units of data collection and/or units of analysis.
+the-content-analysis-guidebook-2e-3	01	Further, we need to identify units of sampling, which are those messages or message components that are, of course, sampled from a population.
+the-content-analysis-guidebook-2e-3	01	These three types of units are not always the same; very often, the unit of sampling is not the same as the unit of data collection, as in Verhoeven’s (2008) study of Dutch nonfiction medical television.
+the-content-analysis-guidebook-2e-3	01	His content analysis involved sampling TV episodes (unit of sampling), with a primary unit of data collection as the “statement,” or stream of uninterrupted talking, within the episode.
+the-content-analysis-guidebook-2e-3	01	In the 76 episodes sampled, there were 7,242 statements identified and coded.
+the-content-analysis-guidebook-2e-3	01	Lombard et al.
+the-content-analysis-guidebook-2e-3	01	(1996) used a random sampling of time periods, dates, and television channels (units of sampling) to obtain a good representative sample of television programming.
+the-content-analysis-guidebook-2e-3	01	From this body of content, they analyzed certain variables for each episode.
+the-content-analysis-guidebook-2e-3	01	For other, more microscopic variables, each randomly selected 10-second time interval within the episode (“timepoint”) was used as the unit of data collection, and other units of data collection were also employed (e.g., the segment, the shot, the transition, the single frame).
+the-content-analysis-guidebook-2e-3	01	Weyls (2001) collected news stories dealing with adult entertainment from the LexisNexis online database and analyzed each story (unit of sampling and unit of data collection) using the text analysis computer program, Diction (Hart, 2000b).
+the-content-analysis-guidebook-2e-3	02	His ultimate goal, however, was to track changes in coverage by year (unit of analysis), Page 2 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	02	and his results were presented solely in that way.
+the-content-analysis-guidebook-2e-3	02	Janstova (2006) was interested in comparing the films of Australian cinema auteur Jane Campion with films of other filmmakers with regard to thematic characteristics of the film overall, the principal characters in the films, and the production techniques employed.
+the-content-analysis-guidebook-2e-3	02	Her unit of sampling was the full narrative film.
+the-content-analysis-guidebook-2e-3	02	Her units of data collection and subsequent analyses were the film, the major or lead character, and the five-minute time interval.
+the-content-analysis-guidebook-2e-3	02	Table 3.1 Comparing Units of Sampling, Data Collection, and Analysis Study Unit(s) of Sampling Unit(s) of Data Collection Unit(s) of Analysis Lombard et al.
+the-content-analysis-guidebook-2e-3	02	(1996) Time, date, channel Episode, time interval, and so on Episode, time interval, and so on Weyls (2001) News story News story Year Janstova (2006) Film Film, character, five-minute interval Film, character, five-minute interval Table 3.1 contains a summary of the various units decided upon in the Lombard et al., Weyls, and Janstova studies.
+the-content-analysis-guidebook-2e-3	02	Two different perspectives exist regarding the unitization (i.e., the segmenting into units) of messages.
+the-content-analysis-guidebook-2e-3	02	They correspond to the classic distinction between etic and emic (as in “phonetic” and “phonemic”; Headland, Pike, & Harris, 1990).
+the-content-analysis-guidebook-2e-3	02	Some debate has occurred over the precise difference between these two epistemological perspectives.
+the-content-analysis-guidebook-2e-3	02	However, the general notion is one of etic referring to scientifically generated knowledge and emic denoting subjective knowledge or experience (thus, an etic approach seems more consistent with the techniques of content analysis).
+the-content-analysis-guidebook-2e-3	02	We may profit by considering both etic and emic approaches to unitizing.
+the-content-analysis-guidebook-2e-3	02	As Berry (1990) notes, “Etic units and classifications are available in advance, rather than determined during the analysis.
+the-content-analysis-guidebook-2e-3	02	Emic units must be discovered, not predicted” (p.
+the-content-analysis-guidebook-2e-3	02	85).
+the-content-analysis-guidebook-2e-3	02	Just as critical content analytic variables may be discovered as well as prescribed by the researcher (see Chapter 4’s discussion of emergent variables), so also may units emerge from the pool of messages.
+the-content-analysis-guidebook-2e-3	02	Through immersion in the message pool, the researcher may discover what units make sense within the world of those messages.
+the-content-analysis-guidebook-2e-3	02	Berry would refer to these as derived etic units (i.e., derived from an emic process).
+the-content-analysis-guidebook-2e-3	02	The only caveat is this: Actual content analysis coding should not commence until the final unit(s) of sampling and data collection have been defined, after the emic discovery process.
+the-content-analysis-guidebook-2e-3	03	Page 3 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	03	Although the researcher is ultimately the boss, so to speak, there might be pragmatic or methodological reasons for choosing one type of unit over another.
+the-content-analysis-guidebook-2e-3	03	For example, Gottschalk (1995) and colleagues found the verbal clause to be the best unit of data collection—the one that is assessed for the presence or absence of many key markers in their psychiatrically-based coding scheme.
+the-content-analysis-guidebook-2e-3	03	Their rejected alternatives included the word, the sentence, the paragraph, and the message as a whole.
+the-content-analysis-guidebook-2e-3	03	In their case, the clause was found to be the smallest identifiable unit for which they could reliably code for their desired variables, thus providing maximal variance for these measures across the entire unit of sampling (a full five-minute spoken message from one individual).1 The sampling unit should be large enough to well represent the phenomenon under investigation.
+the-content-analysis-guidebook-2e-3	03	For example, Gottschalk and Bechtel (1993; 2008) report that a verbal selection of 85 to 90 words is adequate for psychiatric diagnostic guidance purposes; with fewer than that, the results may be unreliable.
+the-content-analysis-guidebook-2e-3	03	Hill and Hughes (1997) used a rather unique and complicated ultimate unit of data collection—the thread of discussion, or the entire conversation, found in discussions by USENET newsgroups dedicated to US.
+the-content-analysis-guidebook-2e-3	03	politics.
+the-content-analysis-guidebook-2e-3	03	They were interested in the dynamics of the interaction—sampling and examining individual postings would not provide the full information they desired.
+the-content-analysis-guidebook-2e-3	03	The unitizing task will most probably pose different challenges in different media or modes of message delivery.
+the-content-analysis-guidebook-2e-3	03	Keith, Schwalbe, and Silcock (2010) discuss the challenges of conducting content analyses of war images across print, broadcast, and online news media, identifying obstacles to the study of content across these platforms.
+the-content-analysis-guidebook-2e-3	03	For example, they noted that images, fairly easily coded for frequency of occurrence and prominence in print and static online forms, were a much bigger challenge for such coding in moving image form.
+the-content-analysis-guidebook-2e-3	03	Unitizing a Continuous Stream of Information There is evidence that human actions are experienced by an observer (e.g., a coder) as coherent units, with clear beginnings and endings, and that there generally is consensus as to where those breakpoints are (Newtson, Engquist, & Bois, 1977, p 849).
+the-content-analysis-guidebook-2e-3	03	That said, attempts to allow coders the authority to unitize continuous content—to separate a stream of actions into discrete units of data collection—have been met with mixed results.
+the-content-analysis-guidebook-2e-3	03	For example, Abelman and Neuendorf (1987) attempted to train coders to identify individual topic changes in discussions presented in religious TV programming.
+the-content-analysis-guidebook-2e-3	04	Coders were not able to do this reliably, due Page 4 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	04	in large part to the fluidity of the conversations.
+the-content-analysis-guidebook-2e-3	04	A reasonable level of agreement for unitizing was not reached, and the researchers opted instead to use researcher-imposed time-based units—five-minute intervals.
+the-content-analysis-guidebook-2e-3	04	Thus, while viewing, the coders would pause every five minutes, according to the video counter, and indicate on a coding form the occurrence or nonoccurrence of several dozen topics.
+the-content-analysis-guidebook-2e-3	04	Morris (2009) chose a rather challenging approach to unitizing humor content from the DVD collection Indecision 2004, which contains all footage of The Daily Show’s coverage of the 2004 US.
+the-content-analysis-guidebook-2e-3	04	political conventions.
+the-content-analysis-guidebook-2e-3	04	The unitizing task was to “organize the units by each joke or satirical comment that was arranged around a cohesive target, which was typically a person or party” (p.
+the-content-analysis-guidebook-2e-3	04	83).
+the-content-analysis-guidebook-2e-3	04	Noting the limitations of this unitizing process, Morris further refined the task by including as units of data collection only those jokes or comments that elicited audience laughter (although with regard to the reliability of this process, we should note that the researcher did not execute a statistical unitizing reliability assessment, which would have been a plus).
+the-content-analysis-guidebook-2e-3	04	In a review of conference proceedings in the area of computer-supported collaborative learning (CSCL), Strijbos et al.
+the-content-analysis-guidebook-2e-3	04	(2006) found widespread vagueness in the descriptions of what units were used in the various studies and a general lack of presentation of arguments for choosing specific units for data collection and analysis.
+the-content-analysis-guidebook-2e-3	04	They called for greater rigor in the process of “segmentation” for CSCL asynchronous emails and demonstrated the application of reliability assessment for this important unitizing step.
+the-content-analysis-guidebook-2e-3	04	Attempts to train coders to reliably unitize when easily definable and discrete events must be extracted from a continuous stream of content tend to be fairly successful.
+the-content-analysis-guidebook-2e-3	04	Greenberg (1980) headed a large-scale content analysis project with more than 50 coders, most of whom were charged with identifying unique instances in TV content of such actions as antisocial behaviors, prosocial behaviors, sex-role behaviors, and verbal interactions.
+the-content-analysis-guidebook-2e-3	04	Wurtzel and Lometti (1984) reported success at reliable coder unitization of violent acts in television programming in their commercial research endeavors (i.e., social research at the ABC television network).
+the-content-analysis-guidebook-2e-3	04	Others achieving success at unitizing include researchers conducting interaction analysis.
+the-content-analysis-guidebook-2e-3	04	As Folger, Hewes, and Poole (1984) note, “social interaction can be unitized into a variety of segments” ranging from 300 milliseconds to the entire theme of an interaction between two speakers (p.
+the-content-analysis-guidebook-2e-3	04	118).
+the-content-analysis-guidebook-2e-3	04	Selecting the “act” as his unit of data collection, Bales (1950) had a good rationale: The act is “the smallest discriminable segment of verbal or nonverbal behavior” that a coder could code “under conditions of continuous serial scoring” (p.
+the-content-analysis-guidebook-2e-3	04	37).
+the-content-analysis-guidebook-2e-3	05	Sometimes, coders may necessarily be unitizing as they code, notably in cases where a unit represents the Page 5 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	05	presence or occurrence of a particular status or event.
+the-content-analysis-guidebook-2e-3	05	For example, Dozier et al.
+the-content-analysis-guidebook-2e-3	05	(2005) coded each instance of cigarette smoking as it occurred in a sample of feature films, something that could not be unitized in advance.
+the-content-analysis-guidebook-2e-3	05	And Kaye and Sapolsky (2009) had as a primary coding task the identification of instances of “profane language” use in prime-time cable programming.
+the-content-analysis-guidebook-2e-3	05	They appropriately reported the intercoder reliability of this unit identification with a Scott’s pi (.94).
+the-content-analysis-guidebook-2e-3	05	Whenever researchers or coders are required to identify message units separately from the coding of those units, a unique layer of reliability assessment is in order—the unitizing reliability.
+the-content-analysis-guidebook-2e-3	05	A carefully executed example that instituted this layer is Baruh’s (2009) study featuring a content analysis of reality television programming.
+the-content-analysis-guidebook-2e-3	05	In order to identify the desired unit of data collection (the scene), the following definition was used: “Each instance of change in time, space, or participants taking a major role in a given interaction was coded as a new scene” (p.
+the-content-analysis-guidebook-2e-3	05	198).
+the-content-analysis-guidebook-2e-3	05	Baruh reported the unitizing reliability to be “very good” (with a Krippendorff’s alpha of .92).
+the-content-analysis-guidebook-2e-3	05	After unitizing, each scene was then coded for a variety of variables.
+the-content-analysis-guidebook-2e-3	05	Unfortunately, such reportage of unitizing reliability is relatively rare, and standards have not been widely accepted for statistical assessment of unitizing reliability.
+the-content-analysis-guidebook-2e-3	05	The formal assessment of unitizing reliability has only just begun to become a salient concern for content analysts, with Krippendorff (2013) at the forefront in calling for this assessment as a standard.
+the-content-analysis-guidebook-2e-3	05	Chapter 6 of this volume will consider this assessment further.
+the-content-analysis-guidebook-2e-3	05	Defining the Population The population is the realm of inquiry for an investigation—the set of units to which the researcher wishes to generalize their findings.
+the-content-analysis-guidebook-2e-3	05	The researcher gets to define the population for the study, a decision that typically originates with theory but is tempered with practical considerations.
+the-content-analysis-guidebook-2e-3	05	The population is the set of units being studied.
+the-content-analysis-guidebook-2e-3	05	For content analysis, this is usually a set of messages; it may, however, be a population of people, whose messages are then collected and analyzed, as is often the case in psychological, psychiatric, and interpersonal communication applications of content analysis and in content analyses of open-ended survey responses, focus group discussions, or in-depth interviewing responses (e.g., Lockyer, 2005; Stevens et al., 2004).
+the-content-analysis-guidebook-2e-3	05	Once the population is defined, it must serve as the basis for any sampling.
+the-content-analysis-guidebook-2e-3	06	Sparkman (1996) identified a host of serious violations of this precept in his study of 163 US.-based Page 6 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	06	advertising content analyses published between 1977 and 1993.
+the-content-analysis-guidebook-2e-3	06	He found 97% of the articles to be based on samples that included regional and local advertising, yet almost all reported to be studies of “national” advertising.
+the-content-analysis-guidebook-2e-3	06	Sparkman reported on research showing significant differences in key variables among various regional and local ad populations, indicating that the location of the collection of the sample of ads will heavily influence the nature of the supposedly national sample.
+the-content-analysis-guidebook-2e-3	06	Again, if the population is defined as national print ads, then the sample needs to be taken from a known collection of national print ads and should not include other types of ads.
+the-content-analysis-guidebook-2e-3	06	The defined population may be quite large, such as all books ever published.
+the-content-analysis-guidebook-2e-3	06	It might be of a more limited size, such as parent–child interactions among participants at a specific co-op day care facility.
+the-content-analysis-guidebook-2e-3	06	It may be narrowly defined, such as all female-directed feature films released in the United States in 2015.
+the-content-analysis-guidebook-2e-3	06	Lee and Hwang (1997) purposely limited their population—and therefore their sample—to movie ads in the Los Angeles Times for two specific years, 1963 and 1993.
+the-content-analysis-guidebook-2e-3	06	For their study of female images, they had a clear rationale for the limitations they placed on their population definition (Los Angeles as home to the movie industry, 1963 and 1993 as key years in feminist history).
+the-content-analysis-guidebook-2e-3	06	With a small population, there may be no need to draw a smaller, representative sample of the population.
+the-content-analysis-guidebook-2e-3	06	Rather, all cases in the population may be included in the study, which would then be called a census.
+the-content-analysis-guidebook-2e-3	06	For example, Neuendorf et al.
+the-content-analysis-guidebook-2e-3	06	(2010), in their study of the portrayal of women in James Bond films, opted to study all female characters in all 20 Bond movies in release at the time of the analysis.
+the-content-analysis-guidebook-2e-3	06	More commonly, the population is quite large (we like to generate knowledge about broad-ranging and important things, after all), and a sample is drawn from it.
+the-content-analysis-guidebook-2e-3	06	For future reference, Table 3.2 allows us to learn some of the basic research and statistical terminology that is applied to characteristics of populations and samples.
+the-content-analysis-guidebook-2e-3	06	Note that in all instances, a characteristic of the sample is intended to be an estimate of the corresponding characteristic of the population; it is only an estimate, as we typically do not have measures for all elements or cases in the population, and the sample “stands in” for that population.
+the-content-analysis-guidebook-2e-3	06	For example, the mean of a variable ¯ in a sample (M or X) is an estimate of the mean of that variable in the population that the sample represents (µ).
+the-content-analysis-guidebook-2e-3	06	Note that a “case” is a particular instance of a unit (e.g., The unit of sampling and data collection might be “the John Ford-directed Western movie”; individual cases would then be The Searchers [1956] and Cheyenne Autumn [1964]).
+the-content-analysis-guidebook-2e-3	07	Page 7 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	07	Table 3.2 Basic Research and Statistical Terminology Applicable to Populations and Samples Sometimes, a population is defined by criteria set by the researcher, but she or he has no notion ahead of time as to how many messages might be in the population.
+the-content-analysis-guidebook-2e-3	07	For example, Breen (1997) searched the LexisNexis database for all newspaper articles in major papers during certain time periods between 1991 and 1994 that included the key search terms catholic and priest or clergy within two words of each other.
+the-content-analysis-guidebook-2e-3	07	The search resulted in a set of articles that served as the population from which he then drew a sample.
+the-content-analysis-guidebook-2e-3	07	Jasperson et al.
+the-content-analysis-guidebook-2e-3	07	(1998) used a similar procedure to extract from LexisNexis all relevant stories over a sevenmonth period in 19 selected US.
+the-content-analysis-guidebook-2e-3	07	newspapers.
+the-content-analysis-guidebook-2e-3	07	They used a detailed search string aimed at locating stories about the US.
+the-content-analysis-guidebook-2e-3	07	budget deficit.
+the-content-analysis-guidebook-2e-3	08	This resulted in an N of 42,695, from which they pulled a simple random sample of n = 10,000.2 Keenan’s (1996a) study of network TV news coverage of public relations used the Television News Archive at Vanderbilt University as the initial sampling frame, executing a search for the terms public relations and PR Page 8 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	08	for the period 1980 through 1995.
+the-content-analysis-guidebook-2e-3	08	A total of 79 stories were identified, and this entire population was studied in a census content analysis.
+the-content-analysis-guidebook-2e-3	08	Miller, Fullmer, and Walls (1996) analyzed all 995 journal articles obtained in a search for the key word mainstreaming in the ERIC (Education Resources Information Center) database in their census of messages.
+the-content-analysis-guidebook-2e-3	08	And Kirilenko and Stepchenkova (2012) computer text analyzed all 4,043 New York Times articles published from 1995 through 2010 that contained the search terms climate change or global warming.
+the-content-analysis-guidebook-2e-3	08	For content analyses of hard-to-find messages, such as historical documents, the population may be defined by the accessibility of materials.
+the-content-analysis-guidebook-2e-3	08	Shapiro, Markoff, and Weitman (1973) collected as many documents as they could to study communication at the beginning of the French Revolution (specifically, from the year 1789), resulting in a collection that included “virtually all the extant .
+the-content-analysis-guidebook-2e-3	08	.
+the-content-analysis-guidebook-2e-3	08	.
+the-content-analysis-guidebook-2e-3	08	documents produced by the Nobles and commoners at the final stage of the electoral process, and carried to Versailles” (p.
+the-content-analysis-guidebook-2e-3	08	177).
+the-content-analysis-guidebook-2e-3	08	Occasionally, messages that we think ought to be fully indexed are not, and we have to punt, so to speak.
+the-content-analysis-guidebook-2e-3	08	Rothbaum and Xu (1995) studied popular songs dealing with parents and their adult children and, unable to locate a useful index of such songs to serve as a sampling frame, surveyed students for nominations.
+the-content-analysis-guidebook-2e-3	08	This, then, became a study of “popular songs perceived by undergraduates to be about parents and their adult children.” Note that another, much more laborious but appropriate technique would have been to select a very large probability sample from a general list of popular songs (e.g., Billboard’s rankings) and then screen for relevant songs.
+the-content-analysis-guidebook-2e-3	08	Technological advances have made the definition of the population more problematic in many instances.
+the-content-analysis-guidebook-2e-3	08	First, multiple delivery systems are often available for a given content type.
+the-content-analysis-guidebook-2e-3	08	For example, music videos may be viewed on broadcast TV, on cable, on video or DVD, or (most often) online from a variety of sources, and this wide range of delivery modes makes the definition of a population of “music videos” a more complicated task.
+the-content-analysis-guidebook-2e-3	08	Second, the dynamic or fluid nature of some communication content may make the population definition difficult.
+the-content-analysis-guidebook-2e-3	08	This fluidity may arise from changing content, such as web sites that are frequently updated (McMillan, 2000; Weare & Lin, 2000) or constantly changing social network content (Patchin & Hinduja, 2010).
+the-content-analysis-guidebook-2e-3	08	Researchers have typically addressed this issue via repeated samplings.
+the-content-analysis-guidebook-2e-3	08	On the other hand, fluidity may also stem from user operation.
+the-content-analysis-guidebook-2e-3	08	This challenge may be addressed by taking a sample of users and then recording the messages that are received—or created—by these users.
+the-content-analysis-guidebook-2e-3	09	For example, content analyses of video games have generally adopted the practice of recording gaming sessions to be used as the content, rather than attempting to create a hypothetical population of all potential content for a given game (e.g., Haninger & Page 9 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	09	Thompson, 2004; Martins et al., 2009; Weber et al., 2009; see Chapter 7 for a fuller discussion).
+the-content-analysis-guidebook-2e-3	09	And some studies of online content have unobtrusively recorded users’ web activity (e.g., Danaher et al., 2006; Jansen & Spink, 2006; Mastro, Eastin, & Tamborini, 2002).
+the-content-analysis-guidebook-2e-3	09	Defining a population may be particularly problematic for online content.
+the-content-analysis-guidebook-2e-3	09	While the Internet offers “the sirensong promise of abundant data” (Karpf, 2012, p 648), there are challenges that go along with such abundance.
+the-content-analysis-guidebook-2e-3	09	In the age of “big data,” many “populations” of messages may exist that are nearly impossible to define.
+the-content-analysis-guidebook-2e-3	09	With the ability of researchers to “scrape” huge quantities of online content according to specified parameters, this raises the question of exactly what the population of content was that was being scraped (i.e., what are the effective boundaries of the Internet?).
+the-content-analysis-guidebook-2e-3	09	Further, exactly how do the search parameters then define a subset of that population, creating the “actual” population for the researcher’s study? Further, given the fluidity of Internet content (see Karpf, 2012, for a discussion of “Internet time”), the boundaries of any given online population can change by the moment.
+the-content-analysis-guidebook-2e-3	09	As Karpf suggests, researchers may need to resort to “kludgy” (i.e., inelegant but useful) solutions when dealing with online population definition.
+the-content-analysis-guidebook-2e-3	09	Cross-Sectional Versus Longitudinal Populations Studies are often classified as cross-sectional—examining a phenomenon at one point in time—versus longitudinal—examining a phenomenon over time.
+the-content-analysis-guidebook-2e-3	09	This is essentially part of the decision of population definition.
+the-content-analysis-guidebook-2e-3	09	Does the researcher wish to study a snapshot of the state of online pornography, for example, or do they wish to study the trends and changes over time? Examples of cross-sectional content analyses include de Groot et al.’s (2006) study of text and photographic themes in managerial forewords of the 2003 annual reports of Dutch and British corporations and Mastro and Stern’s (2003) analysis of representations of race in US.
+the-content-analysis-guidebook-2e-3	09	TV commercials as of 2001.
+the-content-analysis-guidebook-2e-3	09	Although no study has confirmed it, there seems to be much more longitudinal work being done in content analysis today (Luke, Caburnay, & Cohen, 2011), assuredly stimulated by the ease of digital access to older content.
+the-content-analysis-guidebook-2e-3	09	Longitudinal analyses of news coverage was rarer before the advent of LexisNexis and other online news archives, and certainly content analyses of classic films were nearly nonexistent before the introduction of home video (e.g., Campbell, 2012; Janstova, 2006; Neuendorf et al., 2010; Smith, 1999).
+the-content-analysis-guidebook-2e-3	09	For example, Spicer’s (2012) comprehensive study of all Western movies directed by John Ford, including films released between 1939 and 1964, would not have been feasible before the fairly recent release of the full complement of these films to DVD and streaming.
+the-content-analysis-guidebook-2e-3	10	Page 10 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	10	Additional examples of studies that have defined an over-time population, and therefore have executed a longitudinal study, include Verhoeven’s (2008) study of Dutch medical television between 1961 and 2000; Langdon’s (2012) content analysis of sexual references in popular US.
+the-content-analysis-guidebook-2e-3	10	music lyrics between 1970 and 2009; Marks et al.’s (2007) study of newspaper coverage of medical and agricultural biotechnology over a 12-year period in the United States and the United Kingdom (using LexisNexis and Factiva news databases); Messner et al.’s (2014) study analyzing source referencing for Wikipedia entries on nutritional health topics over a five-year period ending in 2011; and De Wever et al.’s (2010) experimental study of the differential impact of specified roles in online discussion groups, in which online messages collected over a three-week period were content analyzed.
+the-content-analysis-guidebook-2e-3	10	Availability-Based Versus Exposure-Based Populations One basic distinction for population choice in content analysis is that of whether the pool of messages will be all those available to receivers or those most often attended to or consumed by receivers.
+the-content-analysis-guidebook-2e-3	10	This distinction can be called availability-based versus exposure-based population definition.
+the-content-analysis-guidebook-2e-3	10	An availability-based procedure defines the population as the set of messages available to receivers, usually specified with regard to a given medium at a given time.
+the-content-analysis-guidebook-2e-3	10	For example, the population of television/cable content might be defined as all programs appearing on all broadcast and cable networks carried on Comcast during a specified time period, such as January through March 2016.
+the-content-analysis-guidebook-2e-3	10	An exposure-based approach defines the population as messages attended to by receivers, often based on the frequency of exposure.
+the-content-analysis-guidebook-2e-3	10	For example, a television/cable program population may consist of the 25 top rated TV/cable programs for 2016.
+the-content-analysis-guidebook-2e-3	10	An example of an availability-based population is Spicer’s (2012) content analysis of all American Western movies directed by John Ford, constituting all content of that particular type that is “available” to potential viewers, regardless of the relative popularity of the various films.
+the-content-analysis-guidebook-2e-3	10	And Kunkel et al.
+the-content-analysis-guidebook-2e-3	10	(1995) used this approach in their “what’s on” method of constructing composite week samples for their National Television Violence Study.
+the-content-analysis-guidebook-2e-3	10	Examples of exposure-based populations seem to be increasing in occurrence in our current age of incredible information availability.
+the-content-analysis-guidebook-2e-3	11	That is, the study of a full availability-based population of TV/cable programming is not very feasible—imagine constructing a meaningful composite week of TV/cable offerings, with well over 1,000 Page 11 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	11	channels available to the typical cable household! Instead, many researchers choose an exposure-based criterion for definition of their population (e.g., Fernandez-Villanueva et al., 2009).
+the-content-analysis-guidebook-2e-3	11	For example, Xue and Ellzey (2009) studied ads in the three top-selling women’s and the three top-selling men’s magazines, as determined by single-issue sales data provided by the Audit Bureau of Circulations.
+the-content-analysis-guidebook-2e-3	11	Jordan and Manganello (2009) have provided further distinctions among sampling choices for availabilitybased and exposure-based populations in studies of media content.
+the-content-analysis-guidebook-2e-3	11	For availability-based populations, key sampling options are (a) samples based on composite time periods and (b) samples based on search engines.
+the-content-analysis-guidebook-2e-3	11	For exposure-based populations, key sampling options are (a) samples based on popularity statistics and (b) samples based on survey data (often of a very specific audience).
+the-content-analysis-guidebook-2e-3	11	Decisions as to these sampling types are obviously linked to the researcher’s definition of the population.
+the-content-analysis-guidebook-2e-3	11	The option of using online search engines, in particular, needs to be considered an integral part of population definition.
+the-content-analysis-guidebook-2e-3	11	The search terms that are selected in part define the population, and so their selection is a critical moment in the content analysis research process.
+the-content-analysis-guidebook-2e-3	11	Stryker et al.
+the-content-analysis-guidebook-2e-3	11	(2006) point out the need for the “validation” of database search terms and introduce a “method to measure the quality of a search phrase according to two criteria: recall (its ability to accurately call up items of interest) and precision (ability to avoid extraneous ones)” (p.
+the-content-analysis-guidebook-2e-3	11	413).
+the-content-analysis-guidebook-2e-3	11	This type of careful examination of the impact of search term selection is currently rather unique and ought to be encouraged.
+the-content-analysis-guidebook-2e-3	11	In multistage sampling, the apparent population types may be mixed.
+the-content-analysis-guidebook-2e-3	11	For example, in Cooper’s (2016) study of newspaper stories about urban agriculture, she first defined a population of publications—the top 25 US.
+the-content-analysis-guidebook-2e-3	11	newspapers in circulation, as determined by the Alliance for Audited Media.
+the-content-analysis-guidebook-2e-3	11	This first stage was clearly an exposure-based approach.
+the-content-analysis-guidebook-2e-3	11	Her second stage, selecting all news stories appearing in these newspapers over a 10-year period that included any of several validated search terms for urban agriculture was an availabilitybased decision, not discriminating between well-read stories and lesser-read stories.
+the-content-analysis-guidebook-2e-3	11	The theoretic framework guiding a content analysis should be considered when making decisions on population definition.
+the-content-analysis-guidebook-2e-3	11	Clearly, an availability-based approach is particularly appropriate when the content analyst is applying theories of message production or is concerned with linking content analysis data to source data.
+the-content-analysis-guidebook-2e-3	11	On the other hand, an exposure-based approach is consistent with theories of message effects and particularly useful when the researcher is concerned with linking content analysis data with receiver outcomes.
+the-content-analysis-guidebook-2e-3	12	Page 12 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	12	Archives An archive is a collection of messages, usually well indexed.
+the-content-analysis-guidebook-2e-3	12	This is to be distinguished from the index itself, which simply lists the titles and/or other identifying information about the messages.
+the-content-analysis-guidebook-2e-3	12	An archive contains the messages in their entireties.
+the-content-analysis-guidebook-2e-3	12	We should also differentiate between archives and results of online searches.
+the-content-analysis-guidebook-2e-3	12	A Google search will readily identify hundreds of thousands of “hits” for a given search string, but the outcome should not be considered an archive.
+the-content-analysis-guidebook-2e-3	12	An amazing variety of archives exists.
+the-content-analysis-guidebook-2e-3	12	In the past, annotated lists of archives appeared in print, such as Reruns on File: A Guide to Electronic Media Archives (Godfrey, 1992), Untapped Sources: America’s Newspaper Archives and History (Vanden Heuvel, 1991), and Historical Information Systems (Metz, Van Cauwenberghe, & van der Voort, 1990).
+the-content-analysis-guidebook-2e-3	12	Now, most archives are accessible online, and searches for archives are also done online.
+the-content-analysis-guidebook-2e-3	12	The LexisNexis database referred to earlier is a prime example of a fully indexed online archive, a combination of a legal research service (“Lexis”) and perhaps the world’s largest database of full-text news and business publications (“Nexis”; Emanuel, 1997).
+the-content-analysis-guidebook-2e-3	12	Two valid alternatives to LexisNexis for collection of archived news stories are Factiva and Thomson Reuters’ NewsRoom (“VIP Report,” 2007), with others available (e.g., ProQuest Historical Newspapers; Armstrong & Boyle, 2011) and free online options offering attractive alternatives, such as Google News.3 However, LexisNexis has probably been the most used for longitudinal content analyses of news coverage.
+the-content-analysis-guidebook-2e-3	12	The service uses a Boolean search protocol, which is quite flexible and widely understood.
+the-content-analysis-guidebook-2e-3	12	Nevertheless, there are limitations that the user needs to be aware of.
+the-content-analysis-guidebook-2e-3	12	The search process treats singular and plural forms of a word as the same, which is not always desirable (e.g., a search for the sports team the “Cleveland Browns” will also find every use of the words brown and browns, including the color, “hash browns,” and references to individuals with the surname Brown).
+the-content-analysis-guidebook-2e-3	12	Each search is limited to 1,000 hits, and each download is limited to 200 articles.
+the-content-analysis-guidebook-2e-3	12	Not all publications began contributing to the LexisNexis database at the same time, so the date of first coverage needs to be examined for each publication studied.
+the-content-analysis-guidebook-2e-3	12	Further, LexisNexis and all other news archives suffered a limiting setback with the 2001 US.
+the-content-analysis-guidebook-2e-3	13	Supreme Court ruling on The New York Times v Tasini, which held that publications such as The New York Times cannot license the works of freelance writers when they submit issues of their publication to electronic databases such as LexisNexis without negotiating payment to Page 13 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	13	the freelancers.
+the-content-analysis-guidebook-2e-3	13	As a result, many freelance-written articles were removed from such databases at that time (2001), and subsequently, the comprehensiveness of the archived collections has been called into question (Freeman, 2001).4 Further, there are two versions of LexisNexis, and the user needs to be aware of the differences between them.
+the-content-analysis-guidebook-2e-3	13	LexisNexis Academic is a database widely available through academic libraries that does not require individual subscription.
+the-content-analysis-guidebook-2e-3	13	LexisNexis.com is a commercially marketed service that requires paid subscription.
+the-content-analysis-guidebook-2e-3	13	Generally, the academic version has more limited holdings than those found in the commercial version.
+the-content-analysis-guidebook-2e-3	13	A recent investigation (Cooper, 2016) compared the two versions for their holdings of the top 25 US.
+the-content-analysis-guidebook-2e-3	13	daily newspapers (identified by average circulation, as reported by the Alliance for Audited Media).
+the-content-analysis-guidebook-2e-3	13	LexisNexis Academic included coverage for only eight of the 25, while LexisNexis.com covered 18 of the 25.5 Additional practical guidance for the use of LexisNexis and other news databases in news media content analysis research is available at The Content Analysis Guidebook Online (CAGO).
+the-content-analysis-guidebook-2e-3	13	Other types of message content are also being archived online.
+the-content-analysis-guidebook-2e-3	13	In 1996, Silicon Valley entrepreneur Brewster Kahle founded the Internet Archive, a nonprofit activist organization devoted to developing a “digital library” providing “universal access to all knowledge” (archive.org/about/bios.php).
+the-content-analysis-guidebook-2e-3	13	The Internet Archive’s projects include the Open Library, a collection of more than eight million e-books (more than one million of them available for free distribution) and the “Wayback Machine,” an archive of web sites, which as of early 2016 contained over 460 billion URLs.
+the-content-analysis-guidebook-2e-3	13	However, full-text searching is not presently available, limiting the user’s ability to download and analyze large sets of online content.
+the-content-analysis-guidebook-2e-3	13	In the fields of linguistics, languages, history, literature, and related fields, archives are often referred to as corpora.
+the-content-analysis-guidebook-2e-3	13	Each corpus (or “body”) is typically a set of written materials representing a particular era and place.
+the-content-analysis-guidebook-2e-3	13	A classic example is Milic’s (1995) Century of Prose Corpus, a compilation of samples of British English text written by 120 authors between 1680 and 1780.
+the-content-analysis-guidebook-2e-3	13	A corpus may be the collected works of one writer (e.g., Edmund Spenser) and may include a “concordance” or search facility that generates linkages between texts based on common topics or terms.
+the-content-analysis-guidebook-2e-3	13	Digital humanities scholars working with corpora have established standards for the electronic storage and transfer of texts, called the TEI standards (Text Encoding Initiative; Ide & Sperberg-McQueen, 1995).
+the-content-analysis-guidebook-2e-3	13	Storing texts in electronic form allows complex applications that were not possible before the texts could be studied and summarized via computer.
+the-content-analysis-guidebook-2e-3	14	For example, Lowe and Matthews (1995) used the complex Radial Basis Function neural network technique to compare texts written by William Shakespeare and his contemporary John Fletcher and were able to shed light on the probable authorship of disputPage 14 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	14	ed texts.
+the-content-analysis-guidebook-2e-3	14	The Google Books Ngram Viewer corpus is an online archive of words and phrases (i.e., n-grams) extracted from millions of English-language books written over the past five centuries (Lin et al., 2012), representing the content of over 6% of all books ever published.
+the-content-analysis-guidebook-2e-3	14	This corpus has allowed the analysis of linguistic and sentiment trends over time as indicated via published writing.
+the-content-analysis-guidebook-2e-3	14	For example, Bentley et al.
+the-content-analysis-guidebook-2e-3	14	(2014) found a positive correlation between their “literary misery index” and a moving average of the annual US.
+the-content-analysis-guidebook-2e-3	14	economic misery index (comprised of inflation and unemployment rates) over the last decade.
+the-content-analysis-guidebook-2e-3	14	Their findings suggest that “millions of books published every year average the authors’ shared economic experiences over the past decade” (p.
+the-content-analysis-guidebook-2e-3	14	1).
+the-content-analysis-guidebook-2e-3	14	There are literally thousands of message archives out there.
+the-content-analysis-guidebook-2e-3	14	Think of any peculiar type of message content—from Three Stooges films to movie scripts6 to letters written home by Civil War soldiers—and there’s an archive for it.
+the-content-analysis-guidebook-2e-3	14	The Internet has exploded our access to archives, both online databases and other, physical archives.
+the-content-analysis-guidebook-2e-3	14	CAGO includes summaries for and links to additional archives and corpora.
+the-content-analysis-guidebook-2e-3	14	Some additional selected examples will show the range of options.
+the-content-analysis-guidebook-2e-3	14	• WordNet and EuroWordNet (Alonge et al., 1998; Fellbaum, 1998; Pollach, 2012; Vossen, 1998) are collections of words, organized in semantic networks, in which the meanings of nouns, verbs, adjectives, and adverbs are represented by links to other words and sets of words.
+the-content-analysis-guidebook-2e-3	14	Useful to those who study linguistics quantitatively (i.e., who work in the area of computational linguistics), these lexical databases are available online.
+the-content-analysis-guidebook-2e-3	14	They may serve a variety of functions, including providing bases for construction of CATA dictionaries (Pollach, 2012).
+the-content-analysis-guidebook-2e-3	14	• The ERIC (Education Resources Information Center) database is composed of over 1.5 million documents of relevance to the field of education.
+the-content-analysis-guidebook-2e-3	14	It is an online digital archive, sponsored by the Institute of Education Sciences of the United States Department of Education, with items in the collection dating back to 1966.
+the-content-analysis-guidebook-2e-3	14	• Archives of survey and interview data that include open-ended responses may be useful to linguists, psychologists, and others.
+the-content-analysis-guidebook-2e-3	14	The Henry A Murray Research Center at Harvard University has hundreds of data sets related to the lives of women available online for secondary analysis.
+the-content-analysis-guidebook-2e-3	14	• The Vanderbilt Television News Archive at Vanderbilt University in Tennessee is the world’s most complete collection of television news, containing every evening news broadcast by the major US.
+the-content-analysis-guidebook-2e-3	14	networks since 1968.
+the-content-analysis-guidebook-2e-3	14	Abstracts are available and can be analyzed using computer text analysis (e.g., Iyengar & Simon, 1993).
+the-content-analysis-guidebook-2e-3	14	And for a fee, custom compilation video recordings may be ordered.
+the-content-analysis-guidebook-2e-3	15	For ex- Page 15 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	15	ample, Melican (2009) obtained recordings of all stories about Hurricane Katrina broadcast on CNN, ABC, NBC, or FOX from two days before the storm struck land to a week into the crisis (August 27, 2005–September 8, 2005).
+the-content-analysis-guidebook-2e-3	15	• The archives of the Netherlands Institute for Sound and Vision “collects, preserves and opens the audiovisual heritage” of the Netherlands.
+the-content-analysis-guidebook-2e-3	15	The institute has archived and makes available to researchers and the general public “over 70 percent of the Dutch audiovisual heritage” (“The Netherlands Institute for Sound and Vision,” nd.).
+the-content-analysis-guidebook-2e-3	15	The collection contains more than 750,000 hours of television, radio, music, and film.
+the-content-analysis-guidebook-2e-3	15	This collection served as the base for population definition and as the sampling frame for Verhoeven’s (2008) study of medical nonfiction programming on Dutch television.
+the-content-analysis-guidebook-2e-3	15	The Evaluation of Archives Although the Internet has exponentially increased our ability to locate and access message archives, it is an unpoliced source of information, and many so-called archives (online or offline) are the selective collections of individuals.
+the-content-analysis-guidebook-2e-3	15	For example, numerous online joke archives exist that are simply collections of users’ favorite jokes.
+the-content-analysis-guidebook-2e-3	15	Even legitimate message archives may not be definitive or complete collections; for example, the Gish Collection at Bowling Green State University is composed solely of the materials bequeathed to the university by sisters Dorothy and Lillian Gish, major stars of US.
+the-content-analysis-guidebook-2e-3	15	silent film.
+the-content-analysis-guidebook-2e-3	15	This difference between comprehensive and selective message archives is important.
+the-content-analysis-guidebook-2e-3	15	When an archive is selective, that limitation may then narrow the definition of the population (e.g., as in “a study of the Gish Collection at Bowling Green State University”).
+the-content-analysis-guidebook-2e-3	15	Lee and Peterson (1997) consider the issue of content analyzing archived messages, cautioning that these messages are typically gathered for another purpose by other researchers.
+the-content-analysis-guidebook-2e-3	15	They recommend a careful initial screening of some cases from the archive to determine whether the archived materials are suitable to the task at hand.
+the-content-analysis-guidebook-2e-3	15	They provide an excellent review of content analyses that have used archives in the field of clinical psychology.
+the-content-analysis-guidebook-2e-3	15	They identify several distinct advantages to using archived messages that seem appropriate to most content analyses: • Longitudinal (over-time) studies may be conducted retrospectively.
+the-content-analysis-guidebook-2e-3	15	For example, Peterson, Seligman, and Vaillant (1988) analyzed attributional style (i.e., the pattern of attributing causes to outcomes) for historically archived essays completed by returning World War II soldiers.
+the-content-analysis-guidebook-2e-3	15	They were able to show a relationship between the men’s attributional style and their state of health 35 years later.
+the-content-analysis-guidebook-2e-3	16	Page 16 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	16	Genovese (2002, p 101) compared Ohio high school entrance exams from the 1902 to 1913 period and Ohio ninth-grade proficiency tests of the late 1990s.
+the-content-analysis-guidebook-2e-3	16	His results suggest that the early exams demanded deep declarative knowledge of culturally valued information but expected only simple interrelations between facts, while the later exams expected complex interrelations between concepts but only superficial knowledge of culturally valued information.
+the-content-analysis-guidebook-2e-3	16	And Diels and Gorton (2014) obtained the full texts of televised US.
+the-content-analysis-guidebook-2e-3	16	presidential debates from 1960 through 2012 from the online archive The American Presidency Project.
+the-content-analysis-guidebook-2e-3	16	They used a combination of human coding and the CATA program Diction to analyze the level of abstract scientific thinking in the debates over time.
+the-content-analysis-guidebook-2e-3	16	• Content analysis may be conducted on messages from sources who are not readily accessible otherwise (e.g., US.
+the-content-analysis-guidebook-2e-3	16	presidents, Hall of Fame athletes).
+the-content-analysis-guidebook-2e-3	16	Simonton (1981, 1994, 2003a, 2006) has used this historiometric technique extensively, studying psychological attributes of famous composers, scientists, writers, and politicians from archived texts in his studies of greatness and leadership.
+the-content-analysis-guidebook-2e-3	16	• Various archived materials allow the study of messages at a variety of levels—the individual, the family, the organization, the nation.
+the-content-analysis-guidebook-2e-3	16	Access to cultural-level messages (e.g., mass media products, political statements) can aid in cross-cultural investigations, of which there have been many in recent years.
+the-content-analysis-guidebook-2e-3	16	Sampling Sampling is the process of selecting a subset of cases for study from the larger population.
+the-content-analysis-guidebook-2e-3	16	Fink and Gantz (1996) provide a nice capsule description of the options: “For the social science tradition, generalizing from the sample to the population is important.
+the-content-analysis-guidebook-2e-3	16	As a result, probability sampling serves as the ideal.
+the-content-analysis-guidebook-2e-3	16	When constrained (e.g., by time or money), social scientists turn to nonprobability samples” (p.
+the-content-analysis-guidebook-2e-3	16	117).
+the-content-analysis-guidebook-2e-3	16	Probability Sampling For a content analysis to be generalizable to some population of messages, the sample for the analysis should be randomly selected—that is, constitute a probability sample.
+the-content-analysis-guidebook-2e-3	16	The requirements are identical to those for conducting a random sample for a survey of individuals.
+the-content-analysis-guidebook-2e-3	17	Randomness may be defined as follows: Every element (case) in the population must have an equal chance of being selected.7 Page 17 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	17	This process typically requires itemizing all cases in the population.
+the-content-analysis-guidebook-2e-3	17	This list is called a sampling frame.
+the-content-analysis-guidebook-2e-3	17	Often, such lists can be generated from message archives.
+the-content-analysis-guidebook-2e-3	17	Harwood (1999) used Nielsen audience ratings obtained from trade publications to create his sampling frame of television programs.
+the-content-analysis-guidebook-2e-3	17	Ward (1995) used Nielsen ratings specifically for children aged 2 through 11 in her study of prime-time sexuality.
+the-content-analysis-guidebook-2e-3	17	Zullow (1991) used the Billboard “Hot 100” charts to sample popular songs from the years 1955 to 1989.
+the-content-analysis-guidebook-2e-3	17	A sampling frame does not exist for every population.
+the-content-analysis-guidebook-2e-3	17	For example, An and Kim (2007) acknowledged the lack of an ideal sampling frame for their study of web advertising in the United States and Korea.
+the-content-analysis-guidebook-2e-3	17	Therefore, they chose to sample from lists of top brands prepared by BusinessWeek for the US.
+the-content-analysis-guidebook-2e-3	17	sample, and the Korean Culture and Information (KCI) database for the Korean sample.
+the-content-analysis-guidebook-2e-3	17	In essence, they redefined their population as the web sites on these two “credible” lists.
+the-content-analysis-guidebook-2e-3	17	Appropriately, they executed a systematic sample with a random start from each list.
+the-content-analysis-guidebook-2e-3	17	Noting the absence of a “complete directory of blogs,” Trammell and Keshelashvili (2005) used a variation on an exposure-based approach to population definition by using blog popularity rankings by the now inactive tracking system Popdex as their sampling frame.
+the-content-analysis-guidebook-2e-3	17	They used a threshold of 100 inbound links from other blogs, resulting in a list of 209 single-authored “A-list” blogs.
+the-content-analysis-guidebook-2e-3	17	If a sampling frame list cannot be generated due to the over-time accumulation of content, as in the case of phone calls coming into a crisis hotline, news stories being broadcast on local radio, or comments on a social media site, then some type of flow of occurrence may be identified.
+the-content-analysis-guidebook-2e-3	17	Then, systematic sampling becomes the logical choice (e.g., choosing every 10th call to the hot line or every 10th radio news story within randomly selected time periods).
+the-content-analysis-guidebook-2e-3	17	When an archive and a list of such content does not exist, the sampling may need to occur in real time.
+the-content-analysis-guidebook-2e-3	17	In instances where individuals or groups will be generating messages that will then be analyzed, sampling may require a two-step process: (a) sampling the individuals or groups and (b) sampling messages generated by those individuals or groups.
+the-content-analysis-guidebook-2e-3	17	For the first part, the issues are similar to those facing survey and experimental researchers: How does one constitute a representative sample of people in general? Or of employees? Or some other target population of people? For the second part, either the sampling frame or flow-of-occurrence technique might be considered, depending on the types of messages to be analyzed (emails might be listed and then sampled; arguments might be better sampled as they occur, eg., recording every third disagreement).
+the-content-analysis-guidebook-2e-3	17	It’s important to note the importance of executing probability sampling from populations at two stages for this type of work—what we will learn to call multistage sampling.
+the-content-analysis-guidebook-2e-3	18	Page 18 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	18	There are several types of probability sampling techniques available.
+the-content-analysis-guidebook-2e-3	18	All rely on two basic forms, simple random sampling and/or systematic sampling.
+the-content-analysis-guidebook-2e-3	18	Simple Random Sampling Two types of simple random sampling (SRS) exist: (a) pulling cases “out of a hat”—quite literally, if we cut up a printed sampling frame into separate slips of paper (one case per slip) and draw slips from a box, we may achieve SRS; (b) if the sampling frame is numbered, then we may use a table of random numbers or a random number generator to pick cases.
+the-content-analysis-guidebook-2e-3	18	With SRS, we have the choice of using sampling with replacement or without replacement.
+the-content-analysis-guidebook-2e-3	18	Sampling with replacement would mean that for the “out of a hat” technique, we’d put the selected case back in the hat, and it might be drawn again.
+the-content-analysis-guidebook-2e-3	18	For the numbered-list technique, it would mean that if the same number came up twice in the table of random numbers, we would select the same case a second time.
+the-content-analysis-guidebook-2e-3	18	Why would we go through such a strange and tedious process as sampling with replacement? Technically, sampling with replacement better meets the requirement of every case having an equal chance of being selected.
+the-content-analysis-guidebook-2e-3	18	To illustrate, imagine a situation in which the population consists of 500 cases.
+the-content-analysis-guidebook-2e-3	18	On the first pick, each case has a 1/500 chance of being selected.
+the-content-analysis-guidebook-2e-3	18	On the second pick without replacement, each case has a 1/499 chance; on the third pick, a 1/498 chance; and so on.
+the-content-analysis-guidebook-2e-3	18	With replacement, every pick carries a 1/500 chance for each case.
+the-content-analysis-guidebook-2e-3	18	Sampling with replacement does not make sense in many situations—for example, in selecting individuals to interview by telephone.
+the-content-analysis-guidebook-2e-3	18	But it does make a great deal of sense for some content analysis applications.
+the-content-analysis-guidebook-2e-3	18	For example, one study of race portrayals in children’s TV commercials (Larson, 2002) coded commercials as many times as they appeared in a time-based sample, “inasmuch as every exposure to a commercial is an ‘impression’” (p.
+the-content-analysis-guidebook-2e-3	18	227) for the viewers.
+the-content-analysis-guidebook-2e-3	18	When selecting days of the week and cable or TV channels in a multistage method for randomly selecting TV show episodes (e.g., Lombard et al., 1996), there is obvious “replacement” (e.g., multiple Tuesdays may be selected; the cable network Bravo may be sampled more than once).
+the-content-analysis-guidebook-2e-3	19	Page 19 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	19	Systematic Sampling Systematic sampling consists of selecting every xth case, either from the sampling frame list or in some flow of occurrence over time.
+the-content-analysis-guidebook-2e-3	19	For example, a researcher may select every 15th message posted to an Internet discussion group.
+the-content-analysis-guidebook-2e-3	19	For systematic sampling to be considered a probability-based procedure, it is assumed that the process begins with a random start, between 1 and x A couple of considerations are important to this type of sampling.
+the-content-analysis-guidebook-2e-3	19	First, a skip interval must be established—the “x” in xth.
+the-content-analysis-guidebook-2e-3	19	If the size of the population is known, then the skip interval is N/n.
+the-content-analysis-guidebook-2e-3	19	For example, with a population of 10,000 cases and a desired sample size of 500, we would calculate a skip interval of (population N) 10, 000 = = 20 (sample n) 500 So we would select every 20th case, with a random start between cases 1 and 20.
+the-content-analysis-guidebook-2e-3	19	The second consideration has to do with how the skip interval relates to the sampling frame.
+the-content-analysis-guidebook-2e-3	19	If there is periodicity in the frame or in the flow of occurrence of cases that matches up with the skip interval, then the representativeness of the sample is threatened.
+the-content-analysis-guidebook-2e-3	19	For example, if the sampling frame is a sequential list of top 50 US.
+the-content-analysis-guidebook-2e-3	19	box office films for each year, and the skip interval just happens to turn out to be 50, then it is certain that the sample will not represent all the top 50 films but only one specific ranking (1st, 25th, 30th, or whatever).
+the-content-analysis-guidebook-2e-3	19	If there is some such type of periodicity to a sampling frame, then the utility of basic systematic sampling is threatened.
+the-content-analysis-guidebook-2e-3	19	A clear example of systematic sampling is Newhagen, Cordes, and Levy’s (1995) study of email responses to NBC Nightly News’s invitation to respond during a series on new technologies.
+the-content-analysis-guidebook-2e-3	19	After screening for irrelevant messages, they chose every sixth message from a population of 3,200, for an n of 650.
+the-content-analysis-guidebook-2e-3	19	All the other probability sampling options are variations on these two themes (i.e., SRS and systematic sampling).
+the-content-analysis-guidebook-2e-3	19	The primary variations follow.
+the-content-analysis-guidebook-2e-3	20	Page 20 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	20	Cluster Sampling This includes any probability sampling in which a group or set of messages is sampled together, usually for logistic reasons.
+the-content-analysis-guidebook-2e-3	20	For example, Lin (1997) collected a full week of broadcast network prime-time TV commercials, with the month and week randomly selected.
+the-content-analysis-guidebook-2e-3	20	Stratified Sampling With this type of probability sampling, the sampling frame is segmented according to categories on some variable(s) of prime interest to the researcher.
+the-content-analysis-guidebook-2e-3	20	This segmentation or stratification ensures appropriate representation for the various groupings when the subsamples are based on the size of the groupings in the population.
+the-content-analysis-guidebook-2e-3	20	As Babbie (2013) notes, the researcher ensures “that appropriate numbers of elements [cases] are drawn from homogeneous subsets of that population” (p.
+the-content-analysis-guidebook-2e-3	20	212).
+the-content-analysis-guidebook-2e-3	20	Statistically, stratified sampling reduces the sampling error for the stratifying variable to zero.
+the-content-analysis-guidebook-2e-3	20	Smith’s (1999) study of women in film is a simple example of stratified sampling.
+the-content-analysis-guidebook-2e-3	20	Interested in comparing women’s role portrayals during the Golden Age of Hollywood (the 1930s and 1940s) with contemporary images (the 1990s), she stratified according to decade.
+the-content-analysis-guidebook-2e-3	20	She first constructed three different sampling frames of the top box office films featuring women, one for each of the target decades, and then conducted a systematic sample for each of the three strata.
+the-content-analysis-guidebook-2e-3	20	In nonproportionate stratified sampling, the sizes of the sample groupings are not proportionate to their relative sizes in the population.
+the-content-analysis-guidebook-2e-3	20	As a result, the sample groupings become like samples of separate populations and may not be pooled for a full-sample analysis unless statistical adjustments are made.
+the-content-analysis-guidebook-2e-3	20	But that’s not usually a problem, given the goal of stratification.
+the-content-analysis-guidebook-2e-3	20	For example, Breen (1997) used a nonproportionate stratified sample of 100 news articles from each of seven different time periods.
+the-content-analysis-guidebook-2e-3	20	His goal was to compare the seven periods, not to describe the pooled set, so ensuring a reasonable sample size for each of the seven periods was the proper decision.
+the-content-analysis-guidebook-2e-3	20	Similarly, Prominski’s (2006) content analysis compared indigenous Russian women’s magazines and those of foreign origin, sampling an equal number of magazine issues from each of the two defined strata, regardless of their respective frequency of appearance in actuality.
+the-content-analysis-guidebook-2e-3	21	Page 21 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	21	Multistage Sampling This includes any probability sampling technique in which two or more sampling steps are used.
+the-content-analysis-guidebook-2e-3	21	This is quite common in media content analysis, as when media outlets are first sampled (e.g., a set of top men’s magazines), then particular appearances of these media outlets are sampled (e.g., a set of issues of these magazines), and then perhaps particular content occurrences are sampled (e.g., a set of ads in these issues).
+the-content-analysis-guidebook-2e-3	21	Hill and Hughes (1997) employed a two-stage sampling technique.
+the-content-analysis-guidebook-2e-3	21	They first randomly sampled newsgroups from a sampling frame, a list derived from USENET.
+the-content-analysis-guidebook-2e-3	21	Then, they randomly sampled threads of discussion from those newsgroups selected.
+the-content-analysis-guidebook-2e-3	21	In another good example, Hale, Fox, and Farmer (1996) sampled senate campaigns from a complete list they generated.
+the-content-analysis-guidebook-2e-3	21	Then, they used the Political Commercial Archive at the University of Oklahoma to randomly select ads from each of the selected campaigns.
+the-content-analysis-guidebook-2e-3	21	Combinations of Probability Sampling Techniques Very common in content analysis studies, especially those that examine mass media content, is the use of some combination of probability sampling techniques.
+the-content-analysis-guidebook-2e-3	21	For example, Danielson and Lasorsa (1997) used a stratified, multistage, cluster sampling technique in their study of symbolic content in sentences on the front pages of The New York Times and Los Angeles Times over a 100-year period.
+the-content-analysis-guidebook-2e-3	21	They stratified by newspaper, randomly selected 10 days per year, and then randomly selected sets of 10 sentences (clusters) from the front page of each day’s issue.
+the-content-analysis-guidebook-2e-3	21	Composite Sampling As noted earlier, one technique for sampling from an availability-based population is to construct a composite sample (Jordan & Manganello, 2009).
+the-content-analysis-guidebook-2e-3	21	The composite sample notion as applied to news media has been carefully examined by Riffe, Lacy, and their associates (e.g., Riffe, Lacy, & Fico, 2014).
+the-content-analysis-guidebook-2e-3	21	Riffe et al.
+the-content-analysis-guidebook-2e-3	21	(1996) studied the efficiency (i.e., the degree to which the sample represents the population with a relatively small n) of several sample types.
+the-content-analysis-guidebook-2e-3	21	They used a known population of ABC and CBS newscasts from the Vanderbilt Archive descriptions and were able to statistically assess the “success” of various samples.
+the-content-analysis-guidebook-2e-3	22	They found the most effi- Page 22 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	22	cient sampling method for weekday TV network news to be stratification by month, then SRS of two days per month.
+the-content-analysis-guidebook-2e-3	22	This sample type was identified as more efficient than SRSs of various sizes or quarterly composite weeks (i.e., stratified by day of week, such that for each quarter, seven days are randomly selected—one Sunday, one Monday, and so on).
+the-content-analysis-guidebook-2e-3	22	Similarly, Riffe, Lacy, and Drager (1996) drew a variety of samples from a studied population of one year of Time magazines (N = 52 issues).
+the-content-analysis-guidebook-2e-3	22	They found the greatest efficiency for a composite year of 12 issues, one from each month (i.e., stratification by month), over SRSs of 6, 8, 10, 12, 14, and 16 issues.
+the-content-analysis-guidebook-2e-3	22	These researchers have also shown the superiority of constructed/composite week samples over SRS for daily newspapers (Riffe, Aust, & Lacy, 1993) and the advantage of stratification by month to create a composite year over SRS when studying consumer magazines (Lacy, Riffe, & Randle, 1998).
+the-content-analysis-guidebook-2e-3	22	Others have also explored the efficiency of composite samples; Luke and colleagues (2011) used Monte Carlo bootstrap sampling to determine the number of constructed weeks necessary to accurately estimate one- and five-year population values in a study of newspaper health stories.
+the-content-analysis-guidebook-2e-3	22	They found that sampling a minimum of six constructed weeks was most efficient for both time frames.
+the-content-analysis-guidebook-2e-3	22	The constructed/composite week approach to sampling has also been applied to blogs (Buis & Carpenter, 2009) and to prime-time television and cable programming (Kaye & Sapolsky, 2009; Mastro & Behm-Morawitz, 2005; Mastro & Ortiz, 2008).
+the-content-analysis-guidebook-2e-3	22	It seems that for news content, daily and monthly variations in key variables are important to tap so that stratification by day or month might be appropriate.
+the-content-analysis-guidebook-2e-3	22	These cyclic variations are important to consider for all sampling.
+the-content-analysis-guidebook-2e-3	22	For example, movies are noted for their seasonal shifts (e.g., summer blockbusters, the holiday family films), and therefore, a sample of movies should perhaps include films released at different times of the year.
+the-content-analysis-guidebook-2e-3	22	Nonprobability Sampling Nonprobability samples, those generated by nonrandom techniques, are undesirable and should be used only when no other options exist.
+the-content-analysis-guidebook-2e-3	22	We may not generalize findings from a nonprobability sample to a population.
+the-content-analysis-guidebook-2e-3	22	There are several common types.
+the-content-analysis-guidebook-2e-3	23	Page 23 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	23	Convenience Sampling This method relies on the selection of readily available cases.
+the-content-analysis-guidebook-2e-3	23	Kolbe and Burnett (1991) noted the unfortunate prevalence of convenience sampling among consumer behavior content analyses—their review found 80.5% to be based on convenience samples.
+the-content-analysis-guidebook-2e-3	23	And Babbie (2013, p 190) notes that the technique is an “extremely risky sampling method for social research.” Sometimes, it’s unclear as to why the researcher did not use probability sampling, as in Simoni’s (1996) convenience sample study of 24 psychology textbooks.
+the-content-analysis-guidebook-2e-3	23	Sometimes, it’s clear that the researchers would have difficulty obtaining the message content from a probability sample of sources.
+the-content-analysis-guidebook-2e-3	23	For instance, Schneider, Wheeler, and Cox (1992) analyzed interview responses from 97 panel groups in three financial organizations, something that would be difficult to demand of a strictly random sample of people.
+the-content-analysis-guidebook-2e-3	23	Garcia and Milano’s (1990) study of erotic videos is a good example of the use of nonprobability sampling when there is difficulty in creating a reasonable sampling frame.
+the-content-analysis-guidebook-2e-3	23	Without a master list of erotic videos, they sent each of their 40 coders (students) to video rental establishments.
+the-content-analysis-guidebook-2e-3	23	The researchers admit that their technique of instructing the coders to go to the adult section of the shop and “select the first film they saw” (p.
+the-content-analysis-guidebook-2e-3	23	96) was not random.
+the-content-analysis-guidebook-2e-3	23	Purposive or Judgment Sampling This type of sampling involves the researcher making a decision as to what cases he or she deems appropriate to include in the sample.
+the-content-analysis-guidebook-2e-3	23	For example, Fan and Shaffer (1989) selected handwritten essays for text analysis on the basis of legibility.
+the-content-analysis-guidebook-2e-3	23	Graham, Kamins, and Oetomo (1993) selected print ads from three countries on the basis of recency and of whether they advertised “product pairs”—matching German and Japanese products (for example, an ad for a German auto would be matched with an ad for a Japanese auto).
+the-content-analysis-guidebook-2e-3	23	Quota Sampling This technique is rather like a nonprobability stratified sample.
+the-content-analysis-guidebook-2e-3	23	Key variable categories are identified, and then a certain number of cases from each category are included in the study.
+the-content-analysis-guidebook-2e-3	24	A common example of quota samPage 24 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	24	pling in survey research is the mall intercept: Interviewers employed by marketing research firms to interview shoppers are instructed to get a certain number of targeted consumers, such as 20 females with children or 20 males over 40.
+the-content-analysis-guidebook-2e-3	24	Web site research has been plagued by the difficulty in establishing a population and a sampling frame; therefore, studies of the web may fall back on nonprobability sampling.
+the-content-analysis-guidebook-2e-3	24	In a typical example, Ghose and Dou (1998) sampled 101 Internet “presence sites,” with half of them expert-reviewed Lycos Top 5% sites and half of them not rated as top sites.
+the-content-analysis-guidebook-2e-3	24	Although the sample encompassed “a wide spectrum of product categories” (p.
+the-content-analysis-guidebook-2e-3	24	36), there was no attempt at true random selection, and the results are therefore not generalizable to a larger population of web sites.
+the-content-analysis-guidebook-2e-3	24	Sample Size Unfortunately, there is no universally accepted set of criteria for selecting the size of a sample.
+the-content-analysis-guidebook-2e-3	24	A too-common practice is to base sample size on work by others in the area (e.g., Beyer et al., 1996; Slattery, Hakanen, & Doremus, 1996).
+the-content-analysis-guidebook-2e-3	24	However, better methods for determining a proper sample size exist.
+the-content-analysis-guidebook-2e-3	24	Some research has tested various sample sizes for specific applications of content analysis.
+the-content-analysis-guidebook-2e-3	24	Beginning with Stempel’s (1952) identification of two systematically selected composite weeks being sufficient to represent a full year of newspaper issues, a number of studies have examined samples from known populations of media messages.
+the-content-analysis-guidebook-2e-3	24	Lacy, Robinson, and Riffe (1995) used 320 different samples taken from 52 issues of each of two weekly newspapers.
+the-content-analysis-guidebook-2e-3	24	They found samples of 12 (stratified by month) and 14 (SRS) issues to adequately represent the population in general.
+the-content-analysis-guidebook-2e-3	24	However, they caution that acceptable sample size varied by newspaper and by the variable(s) examined.
+the-content-analysis-guidebook-2e-3	24	A more generalized method of determining the desired sample size is to calculate it using formulas for standard error and confidence intervals.
+the-content-analysis-guidebook-2e-3	24	The desired n is derived from two things: (a) the desired confidence interval around a given sample mean and (b) the estimated variance for the variable in the population.
+the-content-analysis-guidebook-2e-3	24	The technique assumes a probability sample.
+the-content-analysis-guidebook-2e-3	25	Box 3.1 provides relevant explanations and formulas, and Table 3.3 summarizes the estimated needed sample sizes for selected confidence intervals for one particular simple Page 25 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	25	instance—a binomial (dichotomous or two-choice) variable, expressed as a percentage.
+the-content-analysis-guidebook-2e-3	25	The formula used to develop these sample size examples is shown as (d) in Box 3.1.
+the-content-analysis-guidebook-2e-3	25	Table 3.3 Summary of Necessary Sample Sizes for Selected Confidence Intervals Sampling Error 95% Level of Confidence 99% Level of Confidence ± 2% 2,404 4,160 ± 3% 1,087 1,852 ± 5% 384 665 ± 10% 96 167 Let’s imagine that our primary variable of interest is whether political ads are negative (i.e., attacking the opposition) or not.
+the-content-analysis-guidebook-2e-3	25	From Table 3.3, we see that to have a sample that will guarantee us a finding on our variable plus-or-minus 5% at the 95% level of confidence, we need to analyze at least 384 randomly selected political ads.
+the-content-analysis-guidebook-2e-3	25	Put differently, with a probability sample of 384 or more, we can be 95% confident that our statistic may be generalized to the population parameter, plus or minus 5%; we can be 95% confident that the true population percentage is within 5% of what we find in the sample.8 Notice that a substantial sample size is needed to ensure a small confidence interval (e.g., plus or minus 2%).
+the-content-analysis-guidebook-2e-3	25	And it should be noted that the needed sample size would be even greater for variables that are not simple dichotomies.
+the-content-analysis-guidebook-2e-3	25	It’s interesting to note that although such large samples present coding challenges for studies that use human coders, computer text analysis programs can make short work of a big sample.
+the-content-analysis-guidebook-2e-3	25	Bear in mind that the efficiency of computer analysis may be tempered by the machine’s inability to measure a great many things.
+the-content-analysis-guidebook-2e-3	25	These trade-offs between human or manual coding and computer coding will be further discussed in Chapter 5.
+the-content-analysis-guidebook-2e-3	26	Page 26 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	26	Full Reportage There should be full reportage of all aspects of unitizing, population definition, and sampling in the write-up of a content analysis.
+the-content-analysis-guidebook-2e-3	26	The units of sampling, data collection, and data analysis should be identified, as well as the process of unitizing when appropriate.
+the-content-analysis-guidebook-2e-3	26	The population should be defined, the sampling frame should be explained, and the choice of sampling strategy should be explicated (both type of sampling and sample size).
+the-content-analysis-guidebook-2e-3	26	Box 3.1 Standard Error and Confidence Intervals Roughly, a standard error (SE) is a measure of dispersion for a hypothetical distribution of sample means for a given variable (i.e., it is equivalent to a standard deviation for the sampling distribution).
+the-content-analysis-guidebook-2e-3	26	The SE allows us to calculate a confidence interval around a particular sample mean.
+the-content-analysis-guidebook-2e-3	26	This confidence interval tells us how confident or certain we are that the true population mean (µ) falls within a given range.
+the-content-analysis-guidebook-2e-3	26	For example, if we report that the results of a content analysis show average length of shot in a US.
+the-content-analysis-guidebook-2e-3	26	TV commercial to be “2.1 seconds, plus or minus 0.5 seconds at the 95% confidence level,” this also means that we are 95% certain that the true population mean is between 1.6 and 2.6 seconds.
+the-content-analysis-guidebook-2e-3	26	This process is based on the idea that many different sample means will cluster normally around the true population mean in the sampling distribution.
+the-content-analysis-guidebook-2e-3	26	A confidence interval is constructed by multiplying the SE by a given weighting (e.g., 1.0, 1.96, 2.58), based on the normal distribution, thus creating what is called a sampling error, and then adding and subtracting this value around the sample mean.
+the-content-analysis-guidebook-2e-3	26	Some commonly reported confidence intervals are listed here: Confidence Level Confidence Interval [Mean ± (Sampling Error)] 68% Mean ± (1.0 × SE) 95% Mean ± (1.96 × SE) 99% Mean ± (2.58 × SE) There are two main formulas for the SE: (a) one for interval or ratio data (i.e., continuous, numeric data; see Chapter 5 for a fuller description) and (b) one for binomial (dichotomous or two-category) measures.
+the-content-analysis-guidebook-2e-3	27	(a): SE = √ σ2 n (b): P×Q √ n Where: Page 27 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	27	σ2 = the population variance n = sample size P = proportion “affirmative” for a binomial in the population Q = proportion “negative” for a binomial in the population And: (P + Q = 1) Using these formulas and guidelines, we may construct formulas for desired sample sizes (Kachigan, 1986, pp.
+the-content-analysis-guidebook-2e-3	27	157–158; Voelker, Orton, & Adams, 2001)—again, both for (c) interval or ratio and (d) binomial measures.
+the-content-analysis-guidebook-2e-3	27	(c): n= ( zcσ samp.
+the-content-analysis-guidebook-2e-3	27	error ) 2 (d): ( zc n = (P × Q) samp.
+the-content-analysis-guidebook-2e-3	27	error ) 2 Where: zc = the appropriate normal distribution weighting (e.g., 1.96 for 95% confidence) σ = estimate of population standard deviation (sd) samp.
+the-content-analysis-guidebook-2e-3	27	error = the sampling error desired P × Q = (.5)(.5) = (.25), the most conservative case estimating the population proportions for P and Q There is only one difficulty in using these formulas to set a needed sample size n We don’t know the population parameters, σ or P and Q Therefore, we must make an estimate as to what the population variance might be.
+the-content-analysis-guidebook-2e-3	27	In a binomial case (Example d), what is typically used is the most conservative case, in which P = .50 and Q = .50 (this results in the largest possible P × Q and therefore the largest estimate of needed sample size).
+the-content-analysis-guidebook-2e-3	27	In a case of a variable measured at the interval or ratio level (Example c), this task is more difficult, and some prior knowledge about the status of the variable in the population is useful.
+the-content-analysis-guidebook-2e-3	27	If the measure has been used in a similar sample, then that sample’s standard deviation can be used as an estimate of the population sd.
+the-content-analysis-guidebook-2e-3	27	(This is typically adjusted by multiplying the sample variance by an adjustment coefficient such as n/[n–1].) As an example, let’s imagine that we want to generalize from a sample to the population of newspaper headlines about a political figure, and our variable of interest is a binomial: whether or not a positive descriptor is applied to the politician in the headline.
+the-content-analysis-guidebook-2e-3	28	Let’s say that we’d like to be able to generalize plus or minus three Page 28 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	28	percentage points at the 95% confidence level.
+the-content-analysis-guidebook-2e-3	28	To calculate, n = (P × Q) ( n = (.5 × .5) 2 zc samp.
+the-content-analysis-guidebook-2e-3	28	error ) ( 1.96 .03 ) 2 n = 1, 067 Thus, we would need a sample of 1,067 headlines in order to make a statement such as, “We are 95% certain that the true population proportion of headlines about the mayor that are positive is 50%, plus or minus 3%—that is, between 47% and 53%.” For an example of how this would work with a metric (interval or ratio) variable, let’s imagine that we’ve assessed the verbal intensity of interpersonal utterances on a 0-to-10 scale.
+the-content-analysis-guidebook-2e-3	28	Let’s assume that we wish to have a 99% confidence interval of plus or minus one point on the 0-to-10 scale and that based on past research we estimate the population standard deviation to be 5.0.
+the-content-analysis-guidebook-2e-3	28	To calculate, n= n= ( 2 zcσ samp.
+the-content-analysis-guidebook-2e-3	28	error ( 2.58 × 5 2 1 ) ) n = 166.4 So with a sample size of 167 or more utterances, we would be able to report our mean verbal intensity plus or minus 1 point at the 99% level of confidence.
+the-content-analysis-guidebook-2e-3	28	It should be noted that alternative formulas exist, some of which require knowledge of population size (N).
+the-content-analysis-guidebook-2e-3	28	Further, a number of online sample size calculators are available, rendering this demonstration as simply that—a demonstration.
+the-content-analysis-guidebook-2e-3	28	Notes for Chapter 3 1.
+the-content-analysis-guidebook-2e-3	28	The by-clause analysis affords greater variability than if the entire message was used as the unit of data collection.
+the-content-analysis-guidebook-2e-3	28	For example, a verbal message consisting of 20 clauses may obtain an anxiety score of 20 rather than just 0 or 1—the score can range between 0 and the number of clauses in the message.
+the-content-analysis-guidebook-2e-3	29	Page 29 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	29	2.
+the-content-analysis-guidebook-2e-3	29	This n of 10,000 was further reduced to 8,742 by a precision screening process designed to remove irrelevant stories picked up by the search algorithm.
+the-content-analysis-guidebook-2e-3	29	The Jasperson et al.
+the-content-analysis-guidebook-2e-3	29	(1998) article is a model of full reportage for both the search process and the screening.
+the-content-analysis-guidebook-2e-3	29	3.
+the-content-analysis-guidebook-2e-3	29	For a cross-sectional study of current, “breaking” news, there are a number of potential alternatives to LexisNexis, Factiva, and NewsRoom.
+the-content-analysis-guidebook-2e-3	29	Habel, Liddon, and Stryker (2009), based on a Pew Internet & American Life Report on Online News, used the top news search engines Google News, Yahoo! News, CNN, and MSNBC for their study of online news coverage of the HPV vaccine.
+the-content-analysis-guidebook-2e-3	29	They cite additional research that has found such online engines and aggregators to “trump .
+the-content-analysis-guidebook-2e-3	29	.
+the-content-analysis-guidebook-2e-3	29	.
+the-content-analysis-guidebook-2e-3	29	LexisNexis for breaking news and rapid retrieval” (p.
+the-content-analysis-guidebook-2e-3	29	402).
+the-content-analysis-guidebook-2e-3	29	And Weaver and Bimber (2008) conducted a head-to-head comparison of LexisNexis and Google News for finding newspaper stories, concluding that LexisNexis missed a substantial portion of the stories because it is “blind to wire stories,” which they view as an important limitation.
+the-content-analysis-guidebook-2e-3	29	4.
+the-content-analysis-guidebook-2e-3	29	Since around 1995, publishers have widely used “all-rights contracts” that ask writers to grant permission to use their work in all existing formats and all formats not yet invented or imagined (Masur, 2001).
+the-content-analysis-guidebook-2e-3	29	But LexisNexis continues to note in its database documentation that not all articles that originally appeared in the publications they archive are available via their database.
+the-content-analysis-guidebook-2e-3	29	5.
+the-content-analysis-guidebook-2e-3	29	Surprisingly, one of the eight covered by the academic version was not covered by the commercial version (Orange County Register).
+the-content-analysis-guidebook-2e-3	29	Of the top 25 desired newspapers, the ones with LexisNexis Academic coverage were, in order of decreasing circulation, the following: The Wall Street Journal, USA Today, The New York Times, The Washington Post, Houston Chronicle, Minneapolis Star Tribune, Tampa Bay Times, and Orange County Register.
+the-content-analysis-guidebook-2e-3	29	The newspapers with LexisNexis.com coverage were The Wall Street Journal, USA Today, The New York Times, Los Angeles Times, San Jose Mercury News, New York Post, The Washington Post, Chicago Tribune, The Dallas Morning News, The Denver Post, Newsday, Houston Chronicle, The Philadelphia Inquirer, The Arizona Republic, Minneapolis Star Tribune, Tampa Bay Times, San Diego Union-Tribune, and Detroit Free Press.
+the-content-analysis-guidebook-2e-3	29	The newspapers with no coverage in either version of LexisNexis were New York Daily News, Chicago Sun-Times, The Newark Star-Ledger, The Oregonian, The Cleveland Plain Dealer, and The Seattle Times.
+the-content-analysis-guidebook-2e-3	29	6.
+the-content-analysis-guidebook-2e-3	29	The Internet Movie Script Database (IMSDb) purports to be “the web’s largest movie script resource,” with over 1,000 screenplays archived.
+the-content-analysis-guidebook-2e-3	29	Walker et al.
+the-content-analysis-guidebook-2e-3	29	(2011) has used this archive for an intriguing function that extends beyond content analysis by using it as a basis for machine learning of character linguistic style.
+the-content-analysis-guidebook-2e-3	30	They have “automatically creat[ed] ‘character voices’ based on a corpus-based statistical expressive language genPage 30 of 31 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-3	30	eration engine that is trained on the IMSDb corpus of film screen plays” (p.
+the-content-analysis-guidebook-2e-3	30	110).
+the-content-analysis-guidebook-2e-3	30	7.
+the-content-analysis-guidebook-2e-3	30	In some instances, this may be a known but not necessarily equal chance of being selected.
+the-content-analysis-guidebook-2e-3	30	8.
+the-content-analysis-guidebook-2e-3	30	The formulas presented in this section may also be used to calculate confidence intervals around basic content analysis findings, something which is highly recommended.
+the-content-analysis-guidebook-2e-3	30	As with survey and experimental reportage, however, this still seems to be the exception rather than the rule.
+the-content-analysis-guidebook-2e-3	31	https://doi.org/10.4135/9781071802878 Page 31 of 31 The Content Analysis Guidebook pgbrk

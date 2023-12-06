@@ -1,0 +1,910 @@
+the-content-analysis-guidebook-2e-5	00	Sage Research Methods The Content Analysis Guidebook For the most optimal reading experience we recommend using our website.
+the-content-analysis-guidebook-2e-5	00	A free-to-view version of this content is available by clicking on this link, which includes an easy-to-navigate-and-search-entry, and may also include videos, embedded datasets, downloadable datasets, interactive questions, audio content, and downloadable tables and resources.
+the-content-analysis-guidebook-2e-5	00	Author: Kimberly A Neuendorf Pub.
+the-content-analysis-guidebook-2e-5	00	Date: 2019 Product: Sage Research Methods DOI: https://doi.org/10.4135/9781071802878 Methods: Content analysis, Measurement, Coding Keywords: precision, accuracy, errors Disciplines: Business and Management, Communication and Media Studies, Political Science and International Relations, Psychology, Social Policy and Public Policy, Sociology Access Date: November 26, 2023 Publishing Company: SAGE Publications, Inc City: Thousand Oaks Online ISBN: 9781071802878 © 2019 SAGE Publications, Inc All Rights Reserved.
+the-content-analysis-guidebook-2e-5	01	pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	01	Measurement and Validity This chapter includes an introduction to measurement theory and to the important measurement standards of validity, reliability, and precision.
+the-content-analysis-guidebook-2e-5	01	The practical aspects of measurement in content analysis are discussed, with contrasts between human1 and computer coding (i.e., most commonly, computer-aided text analysis, or CATA)2 .
+the-content-analysis-guidebook-2e-5	01	The chapter elaborates the process of constructing codebooks (i.e., the operational definitions for all variables) and coding forms for human coding (forms created as handy recording formats, corresponding to the codebook).
+the-content-analysis-guidebook-2e-5	01	The construction of dictionaries for text analysis is considered, as well as procedures for computer-driven text analyses without dictionaries.
+the-content-analysis-guidebook-2e-5	01	The chapter also presents guidelines for comparing and selecting a text analysis computer program or platform (e.g., Diction, LIWC, Profiler Plus, Yoshikoder; also see Resource 1).
+the-content-analysis-guidebook-2e-5	01	Further, the process of validation for both human and computer coding is examined.
+the-content-analysis-guidebook-2e-5	01	Defining Measurement Perhaps the clearest definition of measurement is provided us by S S Stevens’s (1951) classic treatment: “Measurement is the assignment of numerals to objects or events according to rules” (p.
+the-content-analysis-guidebook-2e-5	01	1).
+the-content-analysis-guidebook-2e-5	01	In content analysis, we simply need to think of objects or events that are message units.
+the-content-analysis-guidebook-2e-5	01	The emphasis on numerals and rules is consistent with the goals of content analysis as outlined earlier in this book.
+the-content-analysis-guidebook-2e-5	01	This chapter is devoted to the development of the rules by which numerals are assigned.
+the-content-analysis-guidebook-2e-5	01	Measurement theory (or classical test theory) assumes that there is a “true” value for each variable on each case, the value that we are trying to discover.
+the-content-analysis-guidebook-2e-5	01	In the measurement process, we are usually unable to discover the exact true value due to a variety of sources of error.
+the-content-analysis-guidebook-2e-5	01	This simple idea has often been expressed as a formula: m=t+e That is, a measured score is the result of a true score and an error score.
+the-content-analysis-guidebook-2e-5	01	Our job in creating measures is to minimize the e (error) component.
+the-content-analysis-guidebook-2e-5	01	For example, there is a so-called true number of aggressive acts in a single episode of Game of Thrones, given a precise definition of aggressive act in a codebook.
+the-content-analysis-guidebook-2e-5	02	The number that is measured will very likely be Page 2 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	02	close to this true number, but it may not be exact.
+the-content-analysis-guidebook-2e-5	02	Contributing to this inexactness will be things such as coder misinterpretations (a coder may not have read the codebook carefully and does not realize that she or he should have coded a shove as an aggressive act), coder inattention (e.g., a coder fails to pause the video when a coworker arrives with lunch, missing one instance of aggression), coder fatigue (e.g., a coder is too tired and just stares at the screen incomprehendingly), and recording errors (e.g., a coder records a 15 when he or she intended to enter 18).
+the-content-analysis-guidebook-2e-5	02	Such errors may be either random error or nonrandom error.
+the-content-analysis-guidebook-2e-5	02	Random error consists of errors that are unsystematic.
+the-content-analysis-guidebook-2e-5	02	With random error, sometimes the measurement is too high, and sometimes it’s too low, generally summing to zero.
+the-content-analysis-guidebook-2e-5	02	This is a threat to reliability.
+the-content-analysis-guidebook-2e-5	02	Some of the examples just given would likely be random errors (e.g., recording errors may be as likely to be too high as too low).
+the-content-analysis-guidebook-2e-5	02	Nonrandom error is also called bias and is a threat to accuracy.
+the-content-analysis-guidebook-2e-5	02	It involves a systematic bias to a measuring procedure.
+the-content-analysis-guidebook-2e-5	02	For example, if the coder misinterpretation of what counts as aggression is not clarified, the coder may systematically undercode acts of aggression.
+the-content-analysis-guidebook-2e-5	02	Validity, Reliability, Accuracy, and Precision This section covers several key standards for good measurement: validity, reliability, accuracy, and precision.
+the-content-analysis-guidebook-2e-5	02	Validity Validity is the extent to which a measuring procedure represents the intended—and only the intended—concept.
+the-content-analysis-guidebook-2e-5	02	In thinking about validity, we ask the question “Are we measuring what we want to measure?” Reliability Reliability is the extent to which a measuring procedure yields the same results on repeated trials.
+the-content-analysis-guidebook-2e-5	02	This includes several types, including the notions of internal consistency of multiple indicators (as in a scale or index) and several types of coder reliability (see Chapter 6).
+the-content-analysis-guidebook-2e-5	02	The latter is particularly relevant to human-coded content analysis in that a measure is not valuable if it can be conducted only once or by only one particular person.
+the-content-analysis-guidebook-2e-5	03	Page 3 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	03	Accuracy Accuracy is the extent to which a measuring procedure is free of bias (nonrandom error).
+the-content-analysis-guidebook-2e-5	03	Precision Precision is the fineness of distinction made between categories or levels of a measure.
+the-content-analysis-guidebook-2e-5	03	For example, measuring a character’s age in years is more precise than measuring in decades.
+the-content-analysis-guidebook-2e-5	03	Precision is generally a good thing, but extreme precision may be counterproductive.
+the-content-analysis-guidebook-2e-5	03	That is, measuring age in days is technically more precise than measuring in years but is likely to be too tedious and error prone to be useful.
+the-content-analysis-guidebook-2e-5	03	(Could you report your own age in days?3) How the Standards Interrelate In a general sense, validity is the standard of having a “good” measurement.
+the-content-analysis-guidebook-2e-5	03	Validity may be seen as encompassing the criteria of reliability, accuracy (freedom from bias—nonrandom error), and precision.
+the-content-analysis-guidebook-2e-5	03	That is, a measure cannot be valid if it is not reliable, accurate, and relatively precise.
+the-content-analysis-guidebook-2e-5	03	On the other hand, a measure may be reliable, accurate, or precise and still not be valid.
+the-content-analysis-guidebook-2e-5	03	Figure 5.1 shows a graphical way of thinking about these several things that contribute to validity—reliability, accuracy, and precision.
+the-content-analysis-guidebook-2e-5	03	The targets are adaptations and extensions of ideas presented by Babbie (2013), Carmines and Zeller (1979), and Fink (2009).4 Each target shows a model of attempts to measure a variable—to hit the bull’s-eye.
+the-content-analysis-guidebook-2e-5	03	Each “rifle shot” may be thought of as an attempt to measure the variable for one case.
+the-content-analysis-guidebook-2e-5	03	A shot located far from the center of the bull’s-eye indicates a measurement that is inaccurate, missing the true score by a sizeable amount.
+the-content-analysis-guidebook-2e-5	03	The caliber of the bullet indicates the measure’s precision, with a smaller hole indicating a more precise measure.
+the-content-analysis-guidebook-2e-5	03	Target A presents what we always hope to achieve, a valid measure—one that is reliable (the shots are closely clustered), accurate (the shots are near the center of the bull’s-eye), and precise (the shots are small enough to show fine-grain distinctions).
+the-content-analysis-guidebook-2e-5	03	Target B presents good reliability and precision but poor accuracy, and the validity is therefore suspect.
+the-content-analysis-guidebook-2e-5	04	Target C shows good precision but low reliability and moderate accuracy, Page 4 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	04	thus threatening the overall validity.
+the-content-analysis-guidebook-2e-5	04	Target D displays an instance in which both reliability and accuracy are low, a clearly invalid attempt at measurement.
+the-content-analysis-guidebook-2e-5	04	Last, Target E shows a one-shot attempt (hence, no reliability assessed) in which the measure is very imprecise.
+the-content-analysis-guidebook-2e-5	04	The large-caliber bullet does hit the bull’s-eye, but it also takes out much of the rest of the target.
+the-content-analysis-guidebook-2e-5	04	This undesirable outcome is similar to, for example, measuring age with just two categories—under 60 and 60+.
+the-content-analysis-guidebook-2e-5	04	Although we might be very accurate and reliable in our effort, the measure is too gross to be useful.
+the-content-analysis-guidebook-2e-5	04	There’s very little we could do with such an imprecise measure, and the validity is therefore poor.
+the-content-analysis-guidebook-2e-5	05	(Did we measure what we wanted to measure? Probably not.) Page 5 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	06	Figure 5.1 Comparing Reliability, Accuracy, and Precision Page 6 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	06	Types of Validity Assessment Beyond assessing the reliability of measures (dealt with in detail in Chapter 6) and selecting measures that are as precise as is reasonably possible, there are several other ways of assessing elements of validity for a measure.
+the-content-analysis-guidebook-2e-5	06	Some of these go beyond simple accuracy and the targets shown in Figure 5.1, asking such metaphorical questions as “Will my shooting be the same on other targets as well?” (replicability); “Can I generalize my shooting to other targets or other situations?” (external validity); “Is this the right target?” (internal validity); and “Does the target cover everything I want to hit?” (content validity).
+the-content-analysis-guidebook-2e-5	06	Internal Validity and External Validity Some methodologists make a distinction between internal and external validity.
+the-content-analysis-guidebook-2e-5	06	Internal validity is what was previously explained in Chapter 4 as the matchup of a conceptual definition and an operational definition (measurement)—that is, are we measuring what we set out to measure? In contrast, external validity, also referred to as generalizability, relates to whether the results of a measure can be extrapolated to other settings, times, and so on.
+the-content-analysis-guidebook-2e-5	06	To assess external validity, we may consider the representativeness of the sample (whether it is a random/probability sample of an identified population; see Chapter 3 for a discussion of probability sampling), as well as whether the content analysis measurement process is true to life, a factor that is called ecological validity.5 (For instance, coding theatrical feature films on a large screen would be more valid than coding from a thumbnail image on a computer screen.) And full reportage of all content analysis procedures—dictionaries, complete codebooks, additional protocols for message handling, and so on—is important to ensure replicability, the ability of others to repeat the study with a different set of messages.
+the-content-analysis-guidebook-2e-5	06	Replicability is highly desirable, and the existence of successful replications supports the measures’ external validity.6 However, few content analysis schemes are used repeatedly (see, eg., De Wever et al., 2006).
+the-content-analysis-guidebook-2e-5	06	A notable exception is described in Abernethy and Franke’s (1996) meta-analysis of the 59 studies completed by that time using Resnik and Stern’s (1977) information in advertising coding scheme.
+the-content-analysis-guidebook-2e-5	06	Face Validity This is the extent to which a measure—“on the face of things”—seems to tap the desired concept.
+the-content-analysis-guidebook-2e-5	07	This Page 7 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	07	sounds deceptively simple; in fact, face validity checks can be very informative.
+the-content-analysis-guidebook-2e-5	07	This requires that the researcher take a step back, so to speak, and examine the measures freshly and as objectively as possible.
+the-content-analysis-guidebook-2e-5	07	He or she may also wish to have others review the measures, with no introduction to the purpose of the study, and have them indicate what they think is being measured, a kind of back translation from operationalization to conceptualization.
+the-content-analysis-guidebook-2e-5	07	It’s instructive to take a “WYSIWYG” (what you see is what you get) approach to face validity.
+the-content-analysis-guidebook-2e-5	07	If we say we’re measuring verbal aggression, then we expect to see measures of yelling, insulting, harassing, and the like.
+the-content-analysis-guidebook-2e-5	07	We do not expect to find measures of lying; although a negative verbal behavior, it doesn’t seem to fit the “aggression” portion of the concept.
+the-content-analysis-guidebook-2e-5	07	(Of course, this will depend on the precise conceptual definition of verbal aggression.) Or if we say we’re measuring “affection,” but our measure counts only a few terms such as affection, love, fondness, and devotion in a text, we will not capture all the nuances of affection (a content validity issue).
+the-content-analysis-guidebook-2e-5	07	Criterion Validity This is the extent to which a measure taps an established standard or important behavior that is external to the measure7 (Carmines & Zeller, 1979; Elder, Pavalko, & Clipp, 1993; White & Marsh, 2006).
+the-content-analysis-guidebook-2e-5	07	This criterion validity may either be concurrent (the standard or behavior exists at the same time as the measure) or predictive (the standard or behavior occurs after the measure).
+the-content-analysis-guidebook-2e-5	07	In an example of a concurrent criterion validity check, Pershad and Verma (1995) used as their standard the clinical diagnoses of schizophrenia for individuals whose open-ended responses to inkblots were content analyzed.
+the-content-analysis-guidebook-2e-5	07	In an instance of predictive criterion validity assessment, Gottschalk and his colleagues provide good examples—their “hope” content analysis scale, applied to verbal samples collected from individuals, significantly predicted patient follow-through on recommendations to seek psychiatric treatment (Gottschalk, 1995, p 121).
+the-content-analysis-guidebook-2e-5	07	“Hope” scores also predicted survival time of cancer patients.
+the-content-analysis-guidebook-2e-5	07	In total, Gottschalk and colleagues (Gottschalk, 1995; Gottschalk & Bechtel, 1993; Gottschalk & Gleser, 1969) used four different types of criterion measures to validate their measures of psychological constructs through the content analysis of verbal samples: (a) psychological, (b) physiological, (c) pharmacological, and (d) biochemical.
+the-content-analysis-guidebook-2e-5	08	For instance, to validate their anxiety scale, they looked at the relationship between individuals’ Page 8 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	08	scores on that scale and (a) their diagnoses by clinical psychologists and (b) their blood pressures and skin temperatures at the times their speech samples were collected.
+the-content-analysis-guidebook-2e-5	08	The researchers conducted experiments (c) administering tranquilizers, validating lower anxiety scores for the treatment groups.
+the-content-analysis-guidebook-2e-5	08	They also found their content analysis anxiety scale to be validated by (d) the presence of greater plasma-free fatty acids (established by blood tests) for those with higher anxiety scores.
+the-content-analysis-guidebook-2e-5	08	It is important to note that Gottschalk and Gleser reported making revisions as needed in their content analysis scales as the validation process evolved.
+the-content-analysis-guidebook-2e-5	08	Potter and Levine-Donnerstein (1999) draw a distinction between an “expert” standard for coding and a “norm/ intersubjectivity” standard.8 Using an expert as a criterion validity check may be useful, as demonstrated in Laver, Benoit, and Garry’s (2003) comparison of their custom dictionary-based computer text analysis protocol with independent “expert survey” results for British and Irish political party manifestos.
+the-content-analysis-guidebook-2e-5	08	However, it should be remembered that according to the definitions and criteria presented in this book, total reliance on an expert standard to judge reliability and validity is inconsistent with the goals of content analysis.
+the-content-analysis-guidebook-2e-5	08	(Remember that a content analysis scheme needs to be usable by a wide variety of coders, not just a few experts.) The second standard, looking to a norm or an intersubjectively agreed-on standard, is highly consistent with the notion of reliability, but it does not inform us about other aspects of validity.
+the-content-analysis-guidebook-2e-5	08	As part of their research on the sexual content of television, Manganello et al.
+the-content-analysis-guidebook-2e-5	08	(2010) used responses by adolescent viewers as a criterion in attempting to validate several human-coding schemes that had been used in previous research.
+the-content-analysis-guidebook-2e-5	08	They asked young respondents to view the same scenes that had previously been coded in several different content analyses of sex on TV and found generally good correspondence for two of the three coding schemes examined.
+the-content-analysis-guidebook-2e-5	08	Not surprisingly, viewer/coder correspondence was greater for measures that were more manifest.9 Bligh, Kohles, and Meindl (2004) used human coding as a validation technique for their use of the CATA program Diction to analyze President George W Bush’s rhetoric and the media coverage before and after the events of 9/11.
+the-content-analysis-guidebook-2e-5	08	They found good correspondence for some dictionary measures (e.g., use of language denoting faith, collectives, patriotism), but poor correspondence for others (e.g., ambivalence).
+the-content-analysis-guidebook-2e-5	09	Page 9 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	09	Content Validity This type of validity is the extent to which the measure reflects the full domain of the concept being measured (Carmines & Zeller, 1979).
+the-content-analysis-guidebook-2e-5	09	For example, Smith (1999) tried to tap a wide variety of aspects of female sex-role stereotyping in film characters.
+the-content-analysis-guidebook-2e-5	09	She measured 27 characteristics, traits, and behaviors that had been identified in past research as associated primarily with women (e.g., preparing food and drink, shopping, holding clerical- and service-oriented occupations, displaying an orientation toward home and family), with a goal of covering all important parts of the construct.
+the-content-analysis-guidebook-2e-5	09	Construct Validity This is the extent to which a measure is related to other measures (constructs) in a way consistent with hypotheses derived from theory (Carmines & Zeller, 1979).
+the-content-analysis-guidebook-2e-5	09	Construct validity may be either convergent (an expected relationship is found between the measure and a validating measure) or discriminant (an expectation of no relationship between the measure and a validating measure is confirmed).
+the-content-analysis-guidebook-2e-5	09	Gottschalk (Gottschalk & Bechtel, 2008) developed his psychometric content analytic measures (e.g., hope, depression, anxiety, hostility, cognitive impairment) with the thought always in mind as to whether the measures would relate as they theoretically should with other variables.
+the-content-analysis-guidebook-2e-5	09	All measures that Gottschalk and Bechtel (1993) attempted with content analysis were first “thoroughly defined,” and then a “set of construct-validation studies had to be carried out to ascertain exactly what this verbal behavior analysis procedure was measuring” (Gottschalk, 1995, p 9).
+the-content-analysis-guidebook-2e-5	09	Although many scholars cite the need for the establishment of construct validity in content analysis (e.g., Folger et al., 1984; Grimmer & Stewart, 2013; McAdams & Zeldow, 1993; Short et al., 2010), good examples of the process are relatively few.
+the-content-analysis-guidebook-2e-5	09	One area of content analysis for which construct validation has been widely used is that of thematic content analysis (see Chapter 2); a good example is McKay’s (1992) detailed description of the construct validation of his affiliative trust–mistrust measure (to be applied to TAT, or thematic apperceptive, stories).
+the-content-analysis-guidebook-2e-5	09	The validation process is more fully developed for noncontent analytic measures, and these can be used for exemplification purposes.
+the-content-analysis-guidebook-2e-5	10	Several compilation books from social psychology, political science, and commuPage 10 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	10	nication (Boyle, Saklofske, & Matthews, 2015; Robinson, Shaver, & Wrightsman, 1991, 1999; Rubin, Palmgreen, & Sypher, 1994; Rubin et al., 2009) present excellent documentation for dozens of standard selfreport measures.
+the-content-analysis-guidebook-2e-5	10	(Tellingly, no comparable source for content analysis coding schemes exists.) For example, the self-report Humor Orientation Scale (HOS; see Rubin et al., 2009) was developed by Steven and Melanie Booth-Butterfield (1991) to tap individual differences in the production of humorous communication.
+the-content-analysis-guidebook-2e-5	10	The 16-item additive index uses a five-point Likert-type response scale.
+the-content-analysis-guidebook-2e-5	10	Studies have found the HOS to be internally consistent (with Cronbach’s alpha reliabilities ranging from .88 to .93).
+the-content-analysis-guidebook-2e-5	10	In terms of validity, a series of studies has found the HOS to be related to other constructs in predicted ways.
+the-content-analysis-guidebook-2e-5	10	For example, humor orientation (HO) has been positively correlated with general sense of humor, extraversion, and cheerfulness (Wrench & McCroskey, 2001), and in the health care context, with coping efficacy and emotional expressivity (Wanzer, Booth-Butterfield, & Booth-Butterfield, 2005).
+the-content-analysis-guidebook-2e-5	10	HO has been found to be negatively related to seriousness and bad mood (Wrench & McCroskey, 2001).
+the-content-analysis-guidebook-2e-5	10	Neuendorf et al.
+the-content-analysis-guidebook-2e-5	10	(2015) found adult sons’ HO to be related negatively to their fathers’ relational satisfaction.
+the-content-analysis-guidebook-2e-5	10	This network of relationships conforms to the theoretic expectations for the measure, thus building its construct validity.
+the-content-analysis-guidebook-2e-5	10	The full process of validation must be conducted over a series of studies, testing different relationships between the measure in question and other indicators, which is almost unheard of in content analyses.
+the-content-analysis-guidebook-2e-5	10	Early on, Janis (1949) bemoaned the fact that so many content analyses seemed to be unique, not using measures that had been used before.
+the-content-analysis-guidebook-2e-5	10	Therefore, he said, with each study, the issue of validation “begins de novo” (begins anew; pp.
+the-content-analysis-guidebook-2e-5	10	74–75).
+the-content-analysis-guidebook-2e-5	10	The situation seems to have changed little in 65 years.
+the-content-analysis-guidebook-2e-5	10	Validation Procedures in Content Analysis Validation in Human-Coded Analyses Some interesting attempts have been made to validate human interaction coding schemes, starting early on, including Bales’s (1950) interaction process analysis system (IPA), Stiles’s (1980) taxonomy of verbal response modes (VRM), and Fisher’s (1970) decision proposal coding system.
+the-content-analysis-guidebook-2e-5	10	Poole and Folger (1981) tested the validity assumption that a coding scheme should relate to the meanings of the utterances as judged by the interactants, a variation on construct validity that they call representational validity.
+the-content-analysis-guidebook-2e-5	11	Using regression Page 11 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	11	procedures on multidimensional spaces for the coding schemes and for the respondents’ space, they found good support for the notion that the IPA dimensions and Fisher’s (1970) scheme dimensions relate to the dimensions of judgments by interactants.10 Conversely, Stiles (1980) found no support for validity in his investigation of how dimensions of overall observer ratings of speaker behavior relate to dimensions derived from IPA and VRM coding.
+the-content-analysis-guidebook-2e-5	11	In a content analysis of the news coverage of US.
+the-content-analysis-guidebook-2e-5	11	senators’ initial campaigns for office, Hill, Hanna, and Shafqat (1997) executed a series of construct validity tests of their ideology measure that found it to be related as predicted to national, regional, and state partisan group ideologies and to roll call votes of the senators.
+the-content-analysis-guidebook-2e-5	11	Validation in CATA Analyses Short et al.
+the-content-analysis-guidebook-2e-5	11	(2010) have provided a comprehensive protocol for validity assessment of CATA, with a demonstration included.
+the-content-analysis-guidebook-2e-5	11	They identify specific steps to be taken in the process of validation, including tests for content validity, external validity, dimensionality, and predictive validity (plus reliability).
+the-content-analysis-guidebook-2e-5	11	Short and his colleagues recommend constructing CATA dictionaries by first using theory or a conceptual definition to generate a list of terms representing a construct, in deductive fashion.
+the-content-analysis-guidebook-2e-5	11	They suggest then taking the inductive step of generating a word frequency list from preliminary content and having multiple coders independently choose other words representing the construct of interest, with their judgments subjected to an intercoder reliability test.
+the-content-analysis-guidebook-2e-5	11	The inductive words can then be added to the deductive terms to provide a thorough representation of the content area for actual coding—providing content validity.
+the-content-analysis-guidebook-2e-5	11	To establish external validity or generalizability of content, they suggest comparing results across multiple sampling frames.
+the-content-analysis-guidebook-2e-5	11	To assess dimensionality, they recommend keeping word lists representing a multi-dimensional construct separate and then conducting tests on results to see if subdimensions should remain separate or be collapsed.
+the-content-analysis-guidebook-2e-5	11	And to establish predictive validity, the scholars suggest relating results to dependent variables of interest not captured by content analysis.
+the-content-analysis-guidebook-2e-5	11	To illustrate these steps, the article culminates with an application of the validation procedures to the concept of “entrepreneurial orientation” as found in corporate shareholder letters.
+the-content-analysis-guidebook-2e-5	11	At the content validity stage, the authors first generated six dictionaries (autonomy, innovativeness, proactiveness, competitive aggressiveness, risk taking, and an additional inductive dictionary) to represent the construct.
+the-content-analysis-guidebook-2e-5	12	They then sampled from both S&P 500 firms and Russell 2000 stock index firms to provide a comparison coding group for external validiPage 12 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	12	ty assessment.
+the-content-analysis-guidebook-2e-5	12	For dimensionality, the authors compared results across the six dictionaries and two sample frames in a correlation matrix.
+the-content-analysis-guidebook-2e-5	12	Finally, they related these variables to measures of firm performance to establish (criterion) predictive validity, using multiple regression analyses.
+the-content-analysis-guidebook-2e-5	12	In their discussion, Short et al.
+the-content-analysis-guidebook-2e-5	12	consider other potential validation considerations (such as discriminant validity) and the utility of supplementing CATA with human coding as a way to further validate constructs.
+the-content-analysis-guidebook-2e-5	12	In practice, other research teams have applied validation techniques to the construction of CATA dictionaries, in addition to the validation of internal dictionaries for CATA programs (in particular, PCAD and LIWC; see Box 5.4).
+the-content-analysis-guidebook-2e-5	12	Lin, Hsieh, and Chuang (2009) developed an automatic text-coding procedure for the identification of the “genre” of an online discussion thread; the computer coding compared favorably with expert judges’ assessments.
+the-content-analysis-guidebook-2e-5	12	Spangler et al.
+the-content-analysis-guidebook-2e-5	12	(2012) provide a demonstration of a rigorous methodology for developing and validating CATA measures, using as their exemplar a set of messages generated by Fortune 100 CEOs and tapping the construct of narcissism.
+the-content-analysis-guidebook-2e-5	12	In addition to assessments of content validity, discriminant validity, and convergent validity, they included a cross-validation step.
+the-content-analysis-guidebook-2e-5	12	This valuable addition of cross-validation involved applying their scheme to a second, independent sample from their population and checking for similarities of outcomes.
+the-content-analysis-guidebook-2e-5	12	Ethics in Content Analysis Ethics is an important component in the research process, regardless of the methodology.
+the-content-analysis-guidebook-2e-5	12	Nevertheless, it is unusual to encounter ethical critiques of content analyses—perhaps because so many of them conduct unobtrusive analyses of message content that is publicly available.
+the-content-analysis-guidebook-2e-5	12	Therefore, issues of informed consent and review by an Institutional Review Board (i.e., a human subjects panel) are often moot.
+the-content-analysis-guidebook-2e-5	12	Obviously, when the content being analyzed has been generated for the researcher by individuals or entities, as in psychometric measures, coding of open-ended survey responses, or the study of human interaction in the laboratory, then these considerations do indeed come into play.
+the-content-analysis-guidebook-2e-5	12	Other ethical concerns in content analysis are explored by Signorielli (2009), who reminds us that researchers of all stripes need to pay attention to the ethics of “honest” data analysis and reporting.
+the-content-analysis-guidebook-2e-5	12	And she lays out the ethical importance of coder debriefing, as some content may have negative receiver effects (e.g., “slasher” films).
+the-content-analysis-guidebook-2e-5	13	Such effects might accrue even for coders, particularly if they are coding “blind” to the research goals, Page 13 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	13	in which case they may be particularly prone to exposure outcomes.
+the-content-analysis-guidebook-2e-5	13	Operationalization Operationalization is the process of developing measures.
+the-content-analysis-guidebook-2e-5	13	It’s “the construction of actual, concrete measurement techniques” (Babbie, 1995, p 5).11 For content analysis, this means the construction of a coding scheme, which is either a set of dictionaries (for text analysis) or a set of measures in a codebook (for nontext analysis).
+the-content-analysis-guidebook-2e-5	13	And in order to meet the standards of validity, the operationalizations should in all instances match the conceptual definitions.
+the-content-analysis-guidebook-2e-5	13	Many of the guidelines for good operationalization in survey and experimental research apply directly to measurement in content analysis as well.
+the-content-analysis-guidebook-2e-5	13	Most of the specific applications of such guidelines that follow are particular to the construction of measures for human coding.
+the-content-analysis-guidebook-2e-5	13	In designing the categories or levels that will be used for a given measure, the researcher should try to achieve several things: categories or levels that are exhaustive and mutually exclusive and an appropriate level of measurement.
+the-content-analysis-guidebook-2e-5	13	Categories or Levels That Are Exhaustive There must be an appropriate code for each case coded.
+the-content-analysis-guidebook-2e-5	13	This means that the categories “other” and “unable to determine” should frequently be included.
+the-content-analysis-guidebook-2e-5	13	For example, the following set of categories are not exhaustive: Background for Magazine Article Headline 1.
+the-content-analysis-guidebook-2e-5	13	White 2.
+the-content-analysis-guidebook-2e-5	13	Photograph 3.
+the-content-analysis-guidebook-2e-5	13	Drawing or painting This measure gives no provision for a solid color background.
+the-content-analysis-guidebook-2e-5	13	There also might be other backgrounds that we can’t readily think of—an “other” category is an important catchall.
+the-content-analysis-guidebook-2e-5	14	Page 14 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	14	Categories or Levels That Are Mutually Exclusive There should be only one appropriate code for each case coded.
+the-content-analysis-guidebook-2e-5	14	If there is the possibility of multiple codes, then these ought to be broken down into separate measures.
+the-content-analysis-guidebook-2e-5	14	For example, the coding of Internet banner ads’ “primary strategy of promotion” in the following manner would result in validity and reliability problems.
+the-content-analysis-guidebook-2e-5	14	Primary Strategy of Promotion 0.
+the-content-analysis-guidebook-2e-5	14	No strategy of promotion 1.
+the-content-analysis-guidebook-2e-5	14	More informational than emotional: There is more factual information on products or services than appeals to feelings in the advertisement.
+the-content-analysis-guidebook-2e-5	14	2.
+the-content-analysis-guidebook-2e-5	14	More emotional than informational: There is more content appealing to emotions than factual information in the advertisement.
+the-content-analysis-guidebook-2e-5	14	3.
+the-content-analysis-guidebook-2e-5	14	Product shown: The product or service is shown in the advertisement to demonstrate its quality and utility.
+the-content-analysis-guidebook-2e-5	14	4.
+the-content-analysis-guidebook-2e-5	14	Problem solving: The advertisement poses a problem that could be solved through using the product or accepting the service.
+the-content-analysis-guidebook-2e-5	14	5.
+the-content-analysis-guidebook-2e-5	14	Image advertising: The advertisement is designed to enhance prestige of the product or service without giving concrete details about the product or service.
+the-content-analysis-guidebook-2e-5	14	6.
+the-content-analysis-guidebook-2e-5	14	Product comparison: The advertisement compares, implicitly or explicitly, the advertised brand with at least one other competing product or service.
+the-content-analysis-guidebook-2e-5	14	The categories are not mutually exclusive; one banner ad may easily be coded as having more than one of the features listed.
+the-content-analysis-guidebook-2e-5	14	A more appropriate way to measure these features would be as separate indicators—indeed, separate variables as shown below.
+the-content-analysis-guidebook-2e-5	14	This kind of checklist approach to coded variables can be useful in many situations.12 Informational or Emotional Appeal 1.
+the-content-analysis-guidebook-2e-5	14	More informational than emotional: There is more factual information of products or services than appeals to feelings in the advertisement.
+the-content-analysis-guidebook-2e-5	14	2.
+the-content-analysis-guidebook-2e-5	15	More emotional than informational: There is more content appealing to emotions than factual inforPage 15 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	15	mation in the advertisement.
+the-content-analysis-guidebook-2e-5	15	3.
+the-content-analysis-guidebook-2e-5	15	Unable to determine Product Display 1.
+the-content-analysis-guidebook-2e-5	15	Product shown: The product or service is shown in the advertisement to demonstrate its quality and utility.
+the-content-analysis-guidebook-2e-5	15	0.
+the-content-analysis-guidebook-2e-5	15	Product is not shown.
+the-content-analysis-guidebook-2e-5	15	Problem-Solving Approach 1.
+the-content-analysis-guidebook-2e-5	15	Problem solving: The advertisement poses a problem that could be solved through using the product or accepting the service.
+the-content-analysis-guidebook-2e-5	15	0.
+the-content-analysis-guidebook-2e-5	15	No problem-solving approach is used.
+the-content-analysis-guidebook-2e-5	15	Image Advertising 1.
+the-content-analysis-guidebook-2e-5	15	Image advertising: The advertisement is designed to enhance prestige of the product or service without giving concrete details about the product or service.
+the-content-analysis-guidebook-2e-5	15	0.
+the-content-analysis-guidebook-2e-5	15	Image advertising is not used.
+the-content-analysis-guidebook-2e-5	15	Product Comparison 1.
+the-content-analysis-guidebook-2e-5	15	Product comparison: The advertisement compares, implicitly or explicitly, the advertised brand with at least one other competing product or service.
+the-content-analysis-guidebook-2e-5	15	0.
+the-content-analysis-guidebook-2e-5	15	Product comparison is not used.
+the-content-analysis-guidebook-2e-5	16	Page 16 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	16	An Appropriate Level of Measurement Each variable should be measured with categories that are at the highest level of measurement possible, given the goals of the measure.
+the-content-analysis-guidebook-2e-5	16	Stevens (1951) presents the now-classic four levels of measurement, in order of increasing sophistication.
+the-content-analysis-guidebook-2e-5	16	1.
+the-content-analysis-guidebook-2e-5	16	The “lowest” level of measurement is called nominal.
+the-content-analysis-guidebook-2e-5	16	A nominal measure consists of a set of categories that are distinct from one another.
+the-content-analysis-guidebook-2e-5	16	The use of numbers is for labeling only—words or letters would work just as well.
+the-content-analysis-guidebook-2e-5	16	The order of the categories is arbitrary, and reordering the categories makes no difference in the meaning of the measurement scale.
+the-content-analysis-guidebook-2e-5	16	Box 5.1 shows an example of a codebook for human-coded content analysis of female characters in James Bond films.
+the-content-analysis-guidebook-2e-5	16	This codebook includes a number of examples of nominal measures, such as those for good or bad, race, accent, hair color, the various weapons possessed/used, and status at the end of the film.
+the-content-analysis-guidebook-2e-5	16	Box 5.2 shows an example of the coding form that matches the codebook.
+the-content-analysis-guidebook-2e-5	16	There’s more about that later in the chapter.
+the-content-analysis-guidebook-2e-5	16	2.
+the-content-analysis-guidebook-2e-5	16	An ordinal measurement scale consists of a set of categories that are rank ordered on some continuum.
+the-content-analysis-guidebook-2e-5	16	The use of numbers is for maintaining the proper ordering, but the numbers do not signify equal intervals between the groups.
+the-content-analysis-guidebook-2e-5	16	The numbers cannot be used as numbers in an ordinary sense—we cannot perform arithmetic functions on them.
+the-content-analysis-guidebook-2e-5	16	For example, the “height” variable in the sample codebook in Box 5.1 is measured at the ordinal level.
+the-content-analysis-guidebook-2e-5	16	Those characters coded as being 3, tall are assumed to be taller than those coded as 2, medium height, who are assumed to be taller than those coded as 1, short.
+the-content-analysis-guidebook-2e-5	16	But we cannot say that the difference between 1, short and 2, medium is the same as the difference between 2, medium and 3, tall.
+the-content-analysis-guidebook-2e-5	16	Nor do we assume a consistent difference between characters coded in two different categories: Two characters thought by a coder to be about 5’4” and 6’1” would be coded 2 and 3 respectively.
+the-content-analysis-guidebook-2e-5	16	So would two characters evaluated to be about 5’7” and 5’8”.
+the-content-analysis-guidebook-2e-5	16	So the intervals between the categories are not truly equal.
+the-content-analysis-guidebook-2e-5	16	Last, we should not calculate an average height, using the ordinal 1-to-3 scale, given that an ordinal measure does not support such arithmetic operations (i.e., What would “the average character height was 2.2” mean?).
+the-content-analysis-guidebook-2e-5	16	In addition to height, the sample codebook contains a number of other ordinal scale measures, including role, hair length, and physical appearance.
+the-content-analysis-guidebook-2e-5	16	3.
+the-content-analysis-guidebook-2e-5	16	An interval measurement scale consists of categories or levels represented by numbers that are quantitative or numeric that signify distances between the categories that are known and typically equal.
+the-content-analysis-guidebook-2e-5	17	An interval Page 17 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	17	measure differs from the usual use of numbers only in that its zero point is arbitrary (zero does not correspond to a total lack of the concept being measured).
+the-content-analysis-guidebook-2e-5	17	The classic example is the temperature scale of degrees Fahrenheit (Stevens, 1951).
+the-content-analysis-guidebook-2e-5	17	Zero is arbitrary, not corresponding to a complete “lack of heat,” and indeed, below-zero measurements are possible.
+the-content-analysis-guidebook-2e-5	17	Yet the difference between, say, 50° F and 55° F is the same as the difference between 60° F and 65° F And an average temperature may be calculated.
+the-content-analysis-guidebook-2e-5	17	However, because of the lack of a so-called true or meaningful zero point, two Fahrenheit temperatures may not be expressed as a ratio; for instance, 70° F is not twice as warm as 35° F There is one measure in the Box 5.1 codebook that might be considered interval (although other researchers might reasonably contest this and call it ordinal)—the nine-point body shape measurement scale.
+the-content-analysis-guidebook-2e-5	17	If the intervals between the nine different drawings can be assumed to be of fairly equal magnitude (in body size or weight), then this would be an interval measure.
+the-content-analysis-guidebook-2e-5	17	There is no meaningful zero point to the nine-point scale (nor could there be given the nature of the measure).
+the-content-analysis-guidebook-2e-5	17	So while we could reasonably calculate an average body shape rating, we would not sensibly be able to say that a character with Body Shape 8 was twice as large as one with Body Shape 4.
+the-content-analysis-guidebook-2e-5	17	4.
+the-content-analysis-guidebook-2e-5	17	The “highest” level of measurement is called ratio.
+the-content-analysis-guidebook-2e-5	17	A ratio measurement scale consists of categories or levels represented by numbers that are quantitative or numeric in the ordinary sense, including a true or meaningful zero point.
+the-content-analysis-guidebook-2e-5	17	The differences between the numbers are known and typically equal, and two values on the scale may be expressed as a ratio.
+the-content-analysis-guidebook-2e-5	17	For example, one measure from the sample codebook in Box 5.1 is constructed to be ratio: chronological age.
+the-content-analysis-guidebook-2e-5	17	There is a true zero possible (a newborn baby), we may calculate an average age in years, and ratios are possible (such as a 70-year-old who is twice as old as a 35-year-old).
+the-content-analysis-guidebook-2e-5	17	Other ratio measures in the codebook are the tallies of mild sexual contact and strong sexual contact with Bond.
+the-content-analysis-guidebook-2e-5	17	Box 5.1 Sample Codebook Female Characters in James Bond Films Unit of Data Collection: Each female character depicted in each Bond film who speaks in the film to any other character, or who does not speak but is introduced by another character, or who does not speak but is shown and referred to by another character, or is shown in close-up (i.e., head shot or head and shoulders shot), or engages in any codable sexual behavior.
+the-content-analysis-guidebook-2e-5	18	When judging whether the female character speaks or is Page 18 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	18	referred to, the coder must be able to both hear the female character and see that character’s mouth moving as she speaks, or must hear her name when she is introduced or referred to.
+the-content-analysis-guidebook-2e-5	18	In addition, only females who appear to be over the age of 18 will be coded (no teenagers or children).
+the-content-analysis-guidebook-2e-5	18	Other Coding Instructions: Do not code the opening or closing credits.
+the-content-analysis-guidebook-2e-5	18	For all coding, use only the information available to you as a viewer (i.e., do not use information you might have as a fan of Bond films, a fan of a particular actor, etc.).
+the-content-analysis-guidebook-2e-5	18	Code a female character’s use of weapons only from the point at which she becomes a codable character—that is, if early in the film, a group of undifferentiated (and uncodable) females are carrying guns, and then later one of them becomes codable because she kisses Bond, do not go back and code her earlier gun-carrying behavior.
+the-content-analysis-guidebook-2e-5	18	Also, if information about a female character changes throughout the film (e.g., she gets her hair cut), code the character as she is at the end of the film (this rule does not apply to Item 4, “Good or bad.”).
+the-content-analysis-guidebook-2e-5	18	Finally, please code with the subtitles/closed captioning (English) on.
+the-content-analysis-guidebook-2e-5	18	Film ID: On each code sheet, enter the film’s ID number from the Film ID list.
+the-content-analysis-guidebook-2e-5	18	Film Title: Enter a short version of the film’s title.
+the-content-analysis-guidebook-2e-5	18	Year of Film: Please indicate the year the film was released.
+the-content-analysis-guidebook-2e-5	18	The coder can refer to the Film ID table.
+the-content-analysis-guidebook-2e-5	18	Coder ID: Indicate the individual who coded, according to the Coder ID list.
+the-content-analysis-guidebook-2e-5	18	Date: Fill in the date that the coding form was completed, in the following format: mm/dd/yy.
+the-content-analysis-guidebook-2e-5	18	1.
+the-content-analysis-guidebook-2e-5	18	Female Character Name/Description: If the character’s name is provided, list this name (e.g., Octopussy, Holly Goodhead, Tiffany Case, Pussy Galore, etc.).
+the-content-analysis-guidebook-2e-5	18	If the character’s name is not provided, give a brief and discriminating description of the character (e.g., the front counter girl with blond hair and red dress).
+the-content-analysis-guidebook-2e-5	18	2.
+the-content-analysis-guidebook-2e-5	18	Female Character ID: Give each character a unique number, beginning with 1 and proceeding upward without duplication within each film.
+the-content-analysis-guidebook-2e-5	18	These numbers should correspond to the character’s first appearance in the film.
+the-content-analysis-guidebook-2e-5	18	That is, the first codable female in Goldfinger will be 1, the second codable female who appears will be 2, and so forth.
+the-content-analysis-guidebook-2e-5	18	The first codable female in Octopussy will be 1, the second will be 2, and so on.
+the-content-analysis-guidebook-2e-5	19	Page 19 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	19	3.
+the-content-analysis-guidebook-2e-5	19	Role: Indicate whether the female character has a minor, medium, or a major part in the Bond film.
+the-content-analysis-guidebook-2e-5	19	1.
+the-content-analysis-guidebook-2e-5	19	Minor: If in the film the female character is peripheral to the action, having five or fewer lines (complete sentences or phrases that are part of a dialogue), then the character will be noted as minor.
+the-content-analysis-guidebook-2e-5	19	2.
+the-content-analysis-guidebook-2e-5	19	Medium: If in the film the female character has more than five lines but does not appear to be a major character, then the character will be considered a medium one.
+the-content-analysis-guidebook-2e-5	19	3.
+the-content-analysis-guidebook-2e-5	19	Major: If in the film the female character is featured in a significant portion of the film (including but not limited to the film’s “Bond girls”), then the character will be listed as major.
+the-content-analysis-guidebook-2e-5	19	4.
+the-content-analysis-guidebook-2e-5	19	Good or Bad: Evaluate the moral position of the character, and indicate whether the character changes during the film.
+the-content-analysis-guidebook-2e-5	19	“Good” indicates the character is on the side of the protagonist(s), including Bond; “bad” indicates the character is on the side of the antagonist(s) and/or is in opposition to the protagonist(s).
+the-content-analysis-guidebook-2e-5	19	1.
+the-content-analysis-guidebook-2e-5	19	Starts off as good but turns bad 2.
+the-content-analysis-guidebook-2e-5	19	Starts off as bad but turns good 3.
+the-content-analysis-guidebook-2e-5	19	Is bad throughout the entire film 4.
+the-content-analysis-guidebook-2e-5	19	Is good throughout the entire film 99.
+the-content-analysis-guidebook-2e-5	19	Unable to determine good vs.
+the-content-analysis-guidebook-2e-5	19	bad 5.
+the-content-analysis-guidebook-2e-5	19	Chronological Age: Report or estimate the character’s chronological age in years.
+the-content-analysis-guidebook-2e-5	19	Record a single figure, not a range.
+the-content-analysis-guidebook-2e-5	19	If unable to determine, code as 99.
+the-content-analysis-guidebook-2e-5	19	6.
+the-content-analysis-guidebook-2e-5	19	Race: Enter the number corresponding with the apparent racial identification of the character.
+the-content-analysis-guidebook-2e-5	19	1.
+the-content-analysis-guidebook-2e-5	19	Caucasian 2.
+the-content-analysis-guidebook-2e-5	19	African American, African 3.
+the-content-analysis-guidebook-2e-5	19	Asian 4.
+the-content-analysis-guidebook-2e-5	19	Native American (including those of Native South American, Native Central American, Native Mexican, and Aboriginal Canadian (Inuit)extraction) 5.
+the-content-analysis-guidebook-2e-5	19	Arab, Middle Eastern 88.
+the-content-analysis-guidebook-2e-5	19	Other 99.
+the-content-analysis-guidebook-2e-5	20	Unable to determine race Page 20 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	20	7.
+the-content-analysis-guidebook-2e-5	20	Hispanic Ethnicity: Indicate whether the female character is of Hispanic background (i.e., from a family with its roots in the Spanish-speaking cultures of Mexico, Central America, South America, relevant countries in the Caribbean, or Spain).
+the-content-analysis-guidebook-2e-5	20	1.
+the-content-analysis-guidebook-2e-5	20	Hispanic 2.
+the-content-analysis-guidebook-2e-5	20	Not Hispanic 99.
+the-content-analysis-guidebook-2e-5	20	Unable to determine Hispanic ethnicity 8.
+the-content-analysis-guidebook-2e-5	20	Accent: Indicate the female character’s accent.
+the-content-analysis-guidebook-2e-5	20	1.
+the-content-analysis-guidebook-2e-5	20	US.
+the-content-analysis-guidebook-2e-5	20	(All accents derived from the United States, including standard, Southern, Boston, New York) 2.
+the-content-analysis-guidebook-2e-5	20	European 3.
+the-content-analysis-guidebook-2e-5	20	Asian 4.
+the-content-analysis-guidebook-2e-5	20	Middle Eastern 5.
+the-content-analysis-guidebook-2e-5	20	Hispanic 88.
+the-content-analysis-guidebook-2e-5	20	Other 99.
+the-content-analysis-guidebook-2e-5	20	Unable to determine accent 9.
+the-content-analysis-guidebook-2e-5	20	Hair Color: Indicate what color hair the female character has.
+the-content-analysis-guidebook-2e-5	20	1.
+the-content-analysis-guidebook-2e-5	20	Blonde (all shades from the palest blond to dark blonde) 2.
+the-content-analysis-guidebook-2e-5	20	Red (all shades from the lightest red to deep red) 3.
+the-content-analysis-guidebook-2e-5	20	Light Brown (mostly brown with some blonde highlights) 4.
+the-content-analysis-guidebook-2e-5	20	Medium Brown (brown with no blonde highlights) 5.
+the-content-analysis-guidebook-2e-5	20	Dark Brown (brown and almost appearing black) 6.
+the-content-analysis-guidebook-2e-5	20	Black 7.
+the-content-analysis-guidebook-2e-5	20	Gray (all or predominantly gray) 8.
+the-content-analysis-guidebook-2e-5	20	White (i.e., as found in older adults, not bleached) 88.
+the-content-analysis-guidebook-2e-5	20	Other 99.
+the-content-analysis-guidebook-2e-5	20	Unable to determine hair color 10.
+the-content-analysis-guidebook-2e-5	21	Hair Length: Indicate the length of the female character’s hair, according to the following categories: Page 21 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	21	1.
+the-content-analysis-guidebook-2e-5	21	Short (hair lies above or just past female’s ears) 2.
+the-content-analysis-guidebook-2e-5	21	Medium (hair lies at or just above or just below female’s shoulders) 3.
+the-content-analysis-guidebook-2e-5	21	Long (hair lies to the middle of female’s back) 4.
+the-content-analysis-guidebook-2e-5	21	Very long (hair lies past female’s waist) 99.
+the-content-analysis-guidebook-2e-5	21	Unable to determine hair length 11.
+the-content-analysis-guidebook-2e-5	21	Glasses: Indicate whether the female character is shown wearing glasses all the time, some of the time, or never.
+the-content-analysis-guidebook-2e-5	21	This does not include sunglasses, unless they appear to be prescription.
+the-content-analysis-guidebook-2e-5	21	1.
+the-content-analysis-guidebook-2e-5	21	Never wears glasses 2.
+the-content-analysis-guidebook-2e-5	21	Wears glasses intermittently (occasionally wears glasses, eg., for reading) 3.
+the-content-analysis-guidebook-2e-5	21	Wears glasses all of the time 12.
+the-content-analysis-guidebook-2e-5	21	Height: Indicate whether the female character is short (5’3” or less), medium (5’4”–5’7”), or tall (5’8” or greater) without heels.
+the-content-analysis-guidebook-2e-5	21	Assess this with the assumption that Bond is approximately 6 feet tall.
+the-content-analysis-guidebook-2e-5	21	1.
+the-content-analysis-guidebook-2e-5	21	Short 2.
+the-content-analysis-guidebook-2e-5	21	Medium 3.
+the-content-analysis-guidebook-2e-5	21	Tall 99.
+the-content-analysis-guidebook-2e-5	21	Unable to determine height (e.g., character is always seated, never stands up) 13.
+the-content-analysis-guidebook-2e-5	21	Body Shape: (from Thompson & Gray, 1995) Using these female figures, indicate the number that best matches the body-shape of the female character.
+the-content-analysis-guidebook-2e-5	22	Page 22 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	22	99.
+the-content-analysis-guidebook-2e-5	22	Unable to determine body size (e.g., character’s body is never shown) 14.
+the-content-analysis-guidebook-2e-5	22	Physical Appearance: Indicate whether the female character is extremely attractive (professional model status), attractive (very pleasant looking, above average), average (pleasant looking but average in looks), below average (not pleasant looking, below average looks), extremely unattractive (extremely unpleasant looking, or considered homely).
+the-content-analysis-guidebook-2e-5	22	1.
+the-content-analysis-guidebook-2e-5	22	Extremely Attractive 2.
+the-content-analysis-guidebook-2e-5	22	Attractive 3.
+the-content-analysis-guidebook-2e-5	22	Average 4.
+the-content-analysis-guidebook-2e-5	22	Below Average 5.
+the-content-analysis-guidebook-2e-5	22	Extremely Unattractive 15.
+the-content-analysis-guidebook-2e-5	22	Verbal Expressions of Love for Bond: Indicate whether a female character in any part of the film verbally refers to her own feelings of love toward James Bond, and whether it appears to be an honest declaration of love.
+the-content-analysis-guidebook-2e-5	22	1.
+the-content-analysis-guidebook-2e-5	22	No, does not refer to loving Bond 2.
+the-content-analysis-guidebook-2e-5	23	Yes, refers to loving Bond and appears to mean it Page 23 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	23	3.
+the-content-analysis-guidebook-2e-5	23	Yes, refers to loving Bond but lies 16.
+the-content-analysis-guidebook-2e-5	23	& 17.
+the-content-analysis-guidebook-2e-5	23	Sexual Contacts With Bond: Count and indicate the amount of sexual contact the character shares with Bond.
+the-content-analysis-guidebook-2e-5	23	Mild sexual contact is defined as kissing while standing or seated.
+the-content-analysis-guidebook-2e-5	23	Strong sexual contact is defined as implied sexual activity, with the characters appearing to have had or about to have some form of direct sexual contact.
+the-content-analysis-guidebook-2e-5	23	Record the number of occurrences of each type for each female character (e.g., if a female kisses Bond twice, it would be coded as mild sexual contact with Bond = 2 (occurred twice); if there was no strong sexual contact with Bond, it would be coded as strong sexual contact with Bond = 0).
+the-content-analysis-guidebook-2e-5	23	18.
+the-content-analysis-guidebook-2e-5	23	Attempt to Kill Bond: Indicate whether a female character attempts to kill Bond and whether this occurs in any proximity to a Bond sexual encounter.
+the-content-analysis-guidebook-2e-5	23	0.
+the-content-analysis-guidebook-2e-5	23	Does not try to kill Bond 1.
+the-content-analysis-guidebook-2e-5	23	Tries to kill Bond before sexual activity 2.
+the-content-analysis-guidebook-2e-5	23	Tries to kill Bond during sexual activity 3.
+the-content-analysis-guidebook-2e-5	23	Tries to kill Bond shortly after sexual activity 4.
+the-content-analysis-guidebook-2e-5	23	Attempts to kill Bond but there was no sexual activity proximate to the attempt 99.
+the-content-analysis-guidebook-2e-5	23	Unable to determine 19.
+the-content-analysis-guidebook-2e-5	23	Weapons Possessed and/or Used by Female Characters: Indicate which weapon(s) the female character has in her possession at any point in the film after she becomes codable and how she uses or does not use them.
+the-content-analysis-guidebook-2e-5	23	Note that a threat to use does not constitute use.
+the-content-analysis-guidebook-2e-5	23	For example, brandishing a gun is having a gun, but not using it (coded 1), while shooting a gun constitutes using it (coded 2).
+the-content-analysis-guidebook-2e-5	23	19.1.
+the-content-analysis-guidebook-2e-5	23	Gun 0.
+the-content-analysis-guidebook-2e-5	23	Female does not have a gun 1.
+the-content-analysis-guidebook-2e-5	23	Female has it, but does not use it 2.
+the-content-analysis-guidebook-2e-5	23	Female uses it 19.2.
+the-content-analysis-guidebook-2e-5	24	Blunt-object weapon Page 24 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	24	0.
+the-content-analysis-guidebook-2e-5	24	Female does not have a blunt-object weapon 1.
+the-content-analysis-guidebook-2e-5	24	Female has it, but does not use it 2.
+the-content-analysis-guidebook-2e-5	24	Female uses it 19.3.
+the-content-analysis-guidebook-2e-5	24	Sharp-object weapon 0.
+the-content-analysis-guidebook-2e-5	24	Female does not have a sharp-object weapon 1.
+the-content-analysis-guidebook-2e-5	24	Female has it, but does not use it 2.
+the-content-analysis-guidebook-2e-5	24	Female uses it 19.4.
+the-content-analysis-guidebook-2e-5	24	Poison 0.
+the-content-analysis-guidebook-2e-5	24	Female does not have poison 1.
+the-content-analysis-guidebook-2e-5	24	Female has it, but does not use it 2.
+the-content-analysis-guidebook-2e-5	24	Female uses it 19.5.
+the-content-analysis-guidebook-2e-5	24	Explosives/explosion 0.
+the-content-analysis-guidebook-2e-5	24	Female does not have explosives 1.
+the-content-analysis-guidebook-2e-5	24	Female has them, but does not use them 2.
+the-content-analysis-guidebook-2e-5	24	Female uses them 19.6.
+the-content-analysis-guidebook-2e-5	24	Animals as weapon(s) 0.
+the-content-analysis-guidebook-2e-5	24	Female does not have “animal weapon(s)” 1.
+the-content-analysis-guidebook-2e-5	24	Female has it/them, but does not use it/them 2.
+the-content-analysis-guidebook-2e-5	24	Female uses it/them 19.7.
+the-content-analysis-guidebook-2e-5	24	Hand-to-hand combat (e.g., martial arts, strangulation) 0.
+the-content-analysis-guidebook-2e-5	24	Female does not display ability to engage in HTH combat 1.
+the-content-analysis-guidebook-2e-5	24	Female displays ability, but does not use it 2.
+the-content-analysis-guidebook-2e-5	24	Female uses HTH techniques 20.
+the-content-analysis-guidebook-2e-5	25	Status at End of Film: For each female character coded, indicate her status at the end of the film in the following manner: Page 25 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	25	1.
+the-content-analysis-guidebook-2e-5	25	Alive and appears to continue on with Bond 2.
+the-content-analysis-guidebook-2e-5	25	Presumed alive but not with Bond 3.
+the-content-analysis-guidebook-2e-5	25	Presumed dead 4.
+the-content-analysis-guidebook-2e-5	25	Explicitly shown to be dead 88.
+the-content-analysis-guidebook-2e-5	25	Other Note: This is an abbreviated version of the coding scheme used for Neuendorf et al.
+the-content-analysis-guidebook-2e-5	25	(2010).
+the-content-analysis-guidebook-2e-5	25	Box 5.2 Sample Coding Form Female Characters in James Bond Films Film ID _______________ Film Title _________________ Year of Film_______ Coder ID ______________ Date _____________________ 1.
+the-content-analysis-guidebook-2e-5	25	Female Character Name/Description 2.
+the-content-analysis-guidebook-2e-5	25	Female Character ID 3.
+the-content-analysis-guidebook-2e-5	25	Role 4.
+the-content-analysis-guidebook-2e-5	25	Good or Bad 5.
+the-content-analysis-guidebook-2e-5	25	Chronological Age 6.
+the-content-analysis-guidebook-2e-5	26	Race Page 26 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	26	7.
+the-content-analysis-guidebook-2e-5	26	Hispanic Ethnicity 8.
+the-content-analysis-guidebook-2e-5	26	Accent 9.
+the-content-analysis-guidebook-2e-5	26	Hair Color 10.
+the-content-analysis-guidebook-2e-5	26	Hair Length 11.
+the-content-analysis-guidebook-2e-5	26	Glasses 12.
+the-content-analysis-guidebook-2e-5	26	Height 13.
+the-content-analysis-guidebook-2e-5	26	Body Shape 14.
+the-content-analysis-guidebook-2e-5	26	Physical Appearance 15.
+the-content-analysis-guidebook-2e-5	26	Verbal Expressions of Love for Bond 16.
+the-content-analysis-guidebook-2e-5	26	Mild Sexual Contacts With Bond 17.
+the-content-analysis-guidebook-2e-5	26	Strong Sexual Contacts With Bond 18.
+the-content-analysis-guidebook-2e-5	26	Attempt to Kill Bond 19.
+the-content-analysis-guidebook-2e-5	26	Female Use of Weapons: 19.1.
+the-content-analysis-guidebook-2e-5	27	Gun Page 27 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	27	19.2.
+the-content-analysis-guidebook-2e-5	27	Blunt-Object Weapon 19.3.
+the-content-analysis-guidebook-2e-5	27	Sharp-Object Weapon 19.4.
+the-content-analysis-guidebook-2e-5	27	Poison 19.5.
+the-content-analysis-guidebook-2e-5	27	Explosives 19.6.
+the-content-analysis-guidebook-2e-5	27	Animals as Weapon(s) 19.7.
+the-content-analysis-guidebook-2e-5	27	HTH Combat 20.
+the-content-analysis-guidebook-2e-5	27	Status at End of Film The typical application of dictionaries in CATA results in ratio measurements.
+the-content-analysis-guidebook-2e-5	27	For example, using the Diction program, a text may obtain a tenacity score ranging from zero (if no tenacity dictionary words are counted) to a high numeric score (e.g., 55, if many tenacity words are counted).
+the-content-analysis-guidebook-2e-5	27	Novice researchers often make the mistake of believing that the level of measurement is attached to the variable, rather than to a particular measure of a variable.
+the-content-analysis-guidebook-2e-5	27	However, a given variable may be measured at different levels.
+the-content-analysis-guidebook-2e-5	27	Notice that in the sample codebook in Box 5.1, character age is measured in at the ratio level (“estimate the character’s chronological age in years”); however, other coding schemes may measure character age at the ordinal level (e.g., 1 = child, portrayed as 12 years or younger; 2 = adolescent, portrayed as 12 to 19 years; 3 = young adult, portrayed as 20 to 39 years; 4 = mature adult, portrayed as 40 to 64 years; 5 = senior, portrayed as 65 years or older).
+the-content-analysis-guidebook-2e-5	27	Alternatives to Stevens’s (1951) four levels of measurement have been proposed.
+the-content-analysis-guidebook-2e-5	27	Cicchetti et al.
+the-content-analysis-guidebook-2e-5	28	(2006) call into question the four levels, particularly challenging whether interval and ratio are indeed different, and at the Page 28 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	28	same time propose splitting the ordinal type of measurement in two.
+the-content-analysis-guidebook-2e-5	28	They differentiate between “continuousordinal,” which is pretty much the traditional ordinal measure, and “dichotomous-ordinal,” in which there is a special category that denotes absence of a particular quality or trait.
+the-content-analysis-guidebook-2e-5	28	They hold that the dichotomous-ordinal measure should be used for variables when the discrepancy between two coders is “more serious when there is confusion between presence and absence than when there is not” (p.
+the-content-analysis-guidebook-2e-5	28	558).
+the-content-analysis-guidebook-2e-5	28	One alternative to Stevens that may help the researcher clarify her or his goals is offered by Fink (2009).
+the-content-analysis-guidebook-2e-5	28	His “counts and amounts” approach has the researcher identify, for each variable, whether the goal is to count how many cases occur in each category or to identify a level or amount of a concept as tapped by the measure.
+the-content-analysis-guidebook-2e-5	28	A single measure may provide the raw materials for counts, amounts, or both.
+the-content-analysis-guidebook-2e-5	28	For example, the measure of wearing glasses in the sample codebook in Box 5.1 (0 = never wears glasses, 1 = wears glasses intermittently, 3 = wears glasses all of the time) can provide only a count for each of the three categories (e.g., 168 characters never wear glasses, 12 wear intermittently, 15 wear all the time).
+the-content-analysis-guidebook-2e-5	28	The measure of chronological age can provide both counts and amounts, although counts are unlikely to be very useful (e.g., three characters are exactly 35 years of age).
+the-content-analysis-guidebook-2e-5	28	Rather, this measure is likely to provide an amount (e.g., average age = 32 years, ranging from 18 to 72), which might be broken down by another variable (e.g., by role: average age for minor role characters = 37.2, average for medium role = 33.4, average age for major role = 26.7).
+the-content-analysis-guidebook-2e-5	28	Expanding Terminology and Merging Traditions: Big Data, Text Mining, Natural Language Processing, Computational Linguistics, Sentiment Analysis/Opinion Mining, and CATA Before moving to a focused discussion of CATA (Computer-Aided [or -Assisted] Text Analysis), it will be useful to clarify some terminology that often intersects with (or is confused with) CATA.
+the-content-analysis-guidebook-2e-5	28	There has been a proliferation of terms applied to the ever-expanding menu of options for analyzing message content with computer algorithms.
+the-content-analysis-guidebook-2e-5	28	It’s interesting to note how quite different research traditions have converged in the 21st century, providing both expanding options and blurred lines of what is considered what.
+the-content-analysis-guidebook-2e-5	28	As computer scientists have become interested in “teaching” computers to handle human language, the opportunities to use computer power to acquire and process messages for various purposes have grown tremendously.
+the-content-analysis-guidebook-2e-5	29	Page 29 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	29	These advancements in our ability to collect and analyze large quantities of text has coincided with the era of big data.
+the-content-analysis-guidebook-2e-5	29	This term is applied to data sets that are too voluminous or complex for traditional methods of analysis and include such wide-ranging types as business transactions (e.g., all purchases made on Amazon for the past five years), government documentation (e.g., all marriage licenses in Kentucky), and scientific data (e.g., all meteorological data for North America over the last 100 years).
+the-content-analysis-guidebook-2e-5	29	Lewis, Zamith, and Hermida (2013, p 34) focus particularly on the “data trails” that humans create, characterizing big data as “the overwhelming volume of information produced by and about human activity, made possible by the growing ubiquity of mobile devices, tracking tools, always-on sensors, and cheap computing storage.” Big data includes text, of course, so all tweets from 2015 or all text and images in Wikipedia at a given point in time might be considered big data opportunities as well.
+the-content-analysis-guidebook-2e-5	29	Data mining is the term applied to the use of computational processes to discover patterns in (usually) big data.
+the-content-analysis-guidebook-2e-5	29	It is a bottom-up counterpart to the top-down procedures of traditional statistical analyses, applying algorithms that “build patterns, clarifying the pattern as each case is submitted for processing” (Nisbet, Elder, & Miner, 2009, p xxiii).
+the-content-analysis-guidebook-2e-5	29	One of the best-known or popular examples of data mining is in the arena of social media metrics, which analyze people’s online behavior with a decidedly business-oriented point of view.
+the-content-analysis-guidebook-2e-5	29	Social media metrics include such marketing markers as (number of) friends, followers, uploads, likes, geographic locations, and posts (“buzz”).
+the-content-analysis-guidebook-2e-5	29	When the data are text, the term text mining tends to be employed rather than data mining.
+the-content-analysis-guidebook-2e-5	29	Bholat et al.
+the-content-analysis-guidebook-2e-5	29	(2015) explain, “Text mining is similar to reading in that both activities involve extracting meaning from strings of letters,” but text mining is different from reading in two regards: First, computer-enabled approaches can process and summarise far more text than any person has time to read.
+the-content-analysis-guidebook-2e-5	29	And second, such approaches may be able to extract meaning from text that is missed by human readers, who may overlook certain patterns because they do not conform to prior beliefs and expectations.
+the-content-analysis-guidebook-2e-5	29	(p.
+the-content-analysis-guidebook-2e-5	29	1) Text mining may involve either unsupervised machine learning or supervised machine learning.
+the-content-analysis-guidebook-2e-5	29	Unsupervised machine learning involves discovering (meaningful) patterns in unstructured texts, while supervised machine learning begins with researchers “training” a computer algorithm by human classification of a set of texts (often iteratively) and the algorithm recognizing relationships between the researchers’ classifications and words typical of texts in those classes.
+the-content-analysis-guidebook-2e-5	30	Leetaru (2012) provides a thorough introduction to the basic assumptions and processes of text mining, including collecting text, preparing text content for analysis, and simple “vocabPage 30 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	30	ulary” analyses.
+the-content-analysis-guidebook-2e-5	30	He also provides an overview of the main ways that computers execute topic extraction and the most common machine learning algorithms that are used.
+the-content-analysis-guidebook-2e-5	30	Natural language processing (NLP) is one of the general methods for analyzing big text data.
+the-content-analysis-guidebook-2e-5	30	Basically, NLP is the use of computers to process natural language.
+the-content-analysis-guidebook-2e-5	30	This really began with the goal of computer scientists to train algorithms to “understand” human language, which intersects with the field of artificial intelligence (AI; McCarthy & Boonthum-Denecke, 2012).
+the-content-analysis-guidebook-2e-5	30	In fact, early expressed goals of NLP included the integrating of speech recognition capability with NLP to produce systems that were able to understand human spoken language (Bates & Weischedel, 1993).13 Further, NLP goals have included the practical and useful: “to translate languages, to get information from the web on text data banks so as to answer questions, to carry on conversations with machines, so as to get advice about, say, investments” (Sattikar & Kulkarni, 2012, p 6).
+the-content-analysis-guidebook-2e-5	30	Thus, NLP encompasses much beyond the purview of someone seeking to content analyze messages.
+the-content-analysis-guidebook-2e-5	30	From its early days, NLP has experienced a tension between the linguists who provided the grounding for the field and the computational specialists who fired its growth and diversification (Dale, 2010).
+the-content-analysis-guidebook-2e-5	30	Most commonly today, for those interested in content analysis, NLP implies the use of computers to “make sense” of a set of texts in a way that does not impose a priori rules or guidelines.
+the-content-analysis-guidebook-2e-5	30	Applications have diversified to include what seems to be text mining—analyzing large quantities of text to discover meaningful patterns.
+the-content-analysis-guidebook-2e-5	30	There are a number of free NLP toolkits available online, which can give even the novice user a good idea of what potential there is in exploratory NLP.
+the-content-analysis-guidebook-2e-5	30	These include the Stanford Topic Modeling Toolbox (nlp.stanford.edu/software/tmt/tmt-0.4/), MALLET (Machine Learning for Language Toolkit; mallet.cs.umass.edu/), and RTextTools (www.rtexttools.com).
+the-content-analysis-guidebook-2e-5	30	While the view of this textbook is that these processes are more data mining (or text mining) than conventional CATA, the tools can be extremely useful.
+the-content-analysis-guidebook-2e-5	30	For example, submitting large sets of text for NLP processing can provide “discovered” groupings of terms that might assist in the dictionary-building process for subsequent custom CATA analyses (see Bholat et al., 2015).
+the-content-analysis-guidebook-2e-5	30	It should be noted that some content analysis procedures, and in particular some CATA programs (e.g., PCAD), assume that the content being analyzed is natural language—that is, naturally occurring speech or writing as opposed to responses to prompted survey or experimental protocols or cultural products (such as song lyrics).
+the-content-analysis-guidebook-2e-5	30	Shah, Cappella, and Neuman (2015, p 7) view online big data as naturally occurring and note that computational analyses of big data offer a “welcome counterpoint and potential triangulation” of traditional methods.
+the-content-analysis-guidebook-2e-5	30	The field of corpus linguistics is particularly interested in studying “real-life” natural language that has been collected in a body of text (the corpus; Pollach, 2012).
+the-content-analysis-guidebook-2e-5	31	The application of the words natural lanPage 31 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	31	guage to these purposes is not quite the same as NLP, which is less concerned with the naturalness of the content and more concerned with the computer processing of the communicative content.
+the-content-analysis-guidebook-2e-5	31	Computational linguistics, a term adopted in the field of linguistics to refer to the use of computers for linguistic analyses, is often treated as an equivalent term to NLP.
+the-content-analysis-guidebook-2e-5	31	However, some scholars rightly point out that not all NLP involves a full linguistic approach.
+the-content-analysis-guidebook-2e-5	31	That is, while NLP and text mining in general clearly analyze words and often employ the “tagging” of words by part of speech (e.g., noun, verb, function word), a full linguistic analysis is usually not forthcoming.
+the-content-analysis-guidebook-2e-5	31	Many NLP/text mining applications take a “bag-of-words” approach, organizing text documents by word frequencies and co-occurrences while disregarding such factors as word order and grammar.
+the-content-analysis-guidebook-2e-5	31	One particular application of NLP has grown tremendously in popularity in recent years.
+the-content-analysis-guidebook-2e-5	31	Sentiment analysis, sometimes called opinion mining, is the extraction of positive and/or negative opinions from (unstructured) text (Pang & Lee, 2008).
+the-content-analysis-guidebook-2e-5	31	It is the darling of computer text analysis in the 2010s and has become an integral tool for PR and business professionals.
+the-content-analysis-guidebook-2e-5	31	Consumer comments about the latest iPhone made on Amazon or posts entered on Metacritic about the newest James Bond film or last week’s Twitter content about Donald Trump might all be mined for public sentiment.
+the-content-analysis-guidebook-2e-5	31	What is referred to as “sentiment analysis” in key contemporary research literatures (e.g., Liu, 2010, 2012) clearly has its conceptual and methodological roots in the branch of psychometrics that uses text analysis to infer psychological states, emotions, and motivations of the text’s source from naturally occurring speech (e.g., Lieberman, 2008; Lieberman & Goldstein, 2006; Smith, 1992; see also Chapter 2).
+the-content-analysis-guidebook-2e-5	31	One can find a range of types of analyses called sentiment analysis, from simplistic word counts based on decisions by software programmers as to what is positive and what is negative to applications of well-validated CATA schemes, applying dictionaries from LIWC, for example.
+the-content-analysis-guidebook-2e-5	31	Mike Thelwall’s SentiStrength program (see Resource 1) offers a good compromise position, with basic positive and negative measures that had initial validation but are open to adaptation; for example, Thelwall and Buckley (2013) added topic-specific words to the general SentiStrength lexicon14 to improve the program’s performance in their study of tweets concerning the 2011 UK.
+the-content-analysis-guidebook-2e-5	31	riots and the 2011 UK.
+the-content-analysis-guidebook-2e-5	31	Alternative Vote referendum.
+the-content-analysis-guidebook-2e-5	31	Finally, CATA is, quite simply, any instance of the application of computer algorithms to digitized text to produce some summarizing output (either data from multiple texts or data-based conclusions about a single text).
+the-content-analysis-guidebook-2e-5	31	So CATA and NLP, computational linguistics, or text mining may co-occur.
+the-content-analysis-guidebook-2e-5	31	And all sentiment analyses essentially use some type of CATA.
+the-content-analysis-guidebook-2e-5	31	Further, the use of NLP-type analyses is nearly the same as using a CATA program that provides “emergent coding” (see following section).
+the-content-analysis-guidebook-2e-5	32	Although they derive from different epistePage 32 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	32	mological and substantive lines of study, these types of analysis have blended together in many ways.
+the-content-analysis-guidebook-2e-5	32	One distinction that might be made between typical content analysis/CATA and NLP-type analyses is one of logical reasoning.
+the-content-analysis-guidebook-2e-5	32	Bholat et al.
+the-content-analysis-guidebook-2e-5	32	(2015, p 1) draw a distinction between the deduction of most dictionary-based text mining (i.e., most CATA) on the one hand and the abduction of the typical methods of NLP and related text mining protocols.
+the-content-analysis-guidebook-2e-5	32	Abduction attempts to derive the best explanation for a particular event based on a set of data without making prior assumptions and without attempting to generalize to other cases.
+the-content-analysis-guidebook-2e-5	32	CATA (Computer-Aided Text Analysis) As noted earlier, content analysis is often focused solely on messages, but may alternately be focused on message sources, as with psychometric indicators.
+the-content-analysis-guidebook-2e-5	32	Correspondingly, many CATA programs are oriented to analyze the messages, while others are designed to provide information about the sources (e.g., PCAD).
+the-content-analysis-guidebook-2e-5	32	And some CATA programs are clearly based on the goal of obtaining nomothetic information (e.g., data about many newspaper articles), and others assume an idiographic goal (e.g., PCAD providing detailed information about a single individual’s psychiatric state; however, we should note that data from numerous single cases may be aggregated, thereby more closely conforming to the summarizing goal of content analysis).
+the-content-analysis-guidebook-2e-5	32	The content analyst has several options when considering a computer-based analysis of text: They may (a) use a packaged CATA program that provides standard output with its preset, internal dictionaries; (b) use a CATA program that allows for the creation of custom protocols/dictionaries; (c) use CATA in the process of developing emergent dictionaries from the text; (d) employ a CATA program that uses the textual content itself to automatically develop emergent coding results; or (e) include on the content analysis team a computational specialist who can write code to apply custom analyses.
+the-content-analysis-guidebook-2e-5	32	For this last option (e), the possibilities range from developing a full custom analysis with such programming languages as Python (Bird, Klein, & Loper, 2009), to using a coding platform such as Profiler Plus (socialscience.net/tech/profilerplus.aspx).
+the-content-analysis-guidebook-2e-5	32	Profiler Plus is a “general purpose text analytics (Natural Language Processing) system” that allows for multi-pass, rule-based analyses of text, relying on substantial researcher input and specification rather than machine learning.
+the-content-analysis-guidebook-2e-5	32	First, text is broken into sentences and tokenized, with parts of speech and lemmas assigned.
+the-content-analysis-guidebook-2e-5	32	Additional codes can be specified by the researcher.
+the-content-analysis-guidebook-2e-5	33	Unlike typical CATA programs, which rely on simple word appearances, programming using the Profiler Plus platform al- Page 33 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	33	lows for analyses of both word/punctuation appearance and word/punctuation context—that is, how words are used within the text—coming closer to the notion of teaching the computer to “read” text.
+the-content-analysis-guidebook-2e-5	33	The platform’s developer offers numerous coding schemes that have already been created for work with government agencies, such as Leadership Trait Analysis and Conceptual/Integrative Complexity.
+the-content-analysis-guidebook-2e-5	33	Custom coding schemes may also be devised.
+the-content-analysis-guidebook-2e-5	33	Profiler Plus is extremely flexible and robust, but does require substantial researcher input for any analysis.
+the-content-analysis-guidebook-2e-5	33	Much effort has been expended developing fully automatic computer schemes that measure both manifest and latent variables in text, beginning in the mid-1960s with Philip Stone’s General Inquirer (Stone et al., 1966; see also The Content Analysis Guidebook Online (CAGO) for “Milestones in Content Analysis History”).
+the-content-analysis-guidebook-2e-5	33	Sections to follow will examine critical issues for such CATA schemes, a set of techniques that have become so common that it’s rare to find a text content analysis today that does not use some type of CATA.
+the-content-analysis-guidebook-2e-5	33	The typical computer-coding analysis is limited to text only; conversely, the typical human-coding scheme looks beyond text analysis.
+the-content-analysis-guidebook-2e-5	33	In fact, when human coders are asked to engage in text analysis, it’s usually as part of a larger study of static or moving images (e.g., Michelson, 1996), an analysis of transcriptions of the spoken word (e.g., Langdon, 2012), or a study that uses computer text analysis for some measures and supplements them with human coding for content that is more latent (e.g., Franke, 2000).
+the-content-analysis-guidebook-2e-5	33	There are a number of indispensable volumes that provide background on the development of particular applications of CATA: Roberts’s (1997b) broad-based, edited volume is probably the best historical starting point.
+the-content-analysis-guidebook-2e-5	33	Weber (1990) is useful for the basics of text analysis in general and also for a historical perspective.
+the-content-analysis-guidebook-2e-5	33	West’s pair of volumes (2001a, 2001b) trace the theory, method, practice, and applications of CATA in communication and public opinion at the turn of the millennium.
+the-content-analysis-guidebook-2e-5	33	Popping (2000) provides a useful overview from a general social science perspective.
+the-content-analysis-guidebook-2e-5	33	Gottschalk (1995), Smith (1992), and Markel (1998) are standards for psychological and psychiatric applications of CATA.
+the-content-analysis-guidebook-2e-5	33	Gottschalk and Bechtel’s 2008 collection of applications of their PCAD CATA program for the measurement of psychological and psychiatric constructs shows a fascinating range, including the study of threatening communications from FBI case files, the assessment of mental function in multiple sclerosis patients, and the investigation of life meaningfulness among those with chronic somatic disease.
+the-content-analysis-guidebook-2e-5	33	Hart’s two collected volumes of applications of his Diction CATA program show its breadth of applications in both the public sphere and the corporate world (Hart, 2014a, 2014b)—including the discourse of top stand-up comedians, the development of blog genres, hubristic language among corporate CEOs, and optimistic language in annual reports, along with the more typical political communication applications.
+the-content-analysis-guidebook-2e-5	33	And Mehl and Gill (2010) provide a useful review of the use of CATA for online research.
+the-content-analysis-guidebook-2e-5	34	Page 34 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	34	As detailed in Chapter 7, automatic computer coding of nontext message features remains relatively undeveloped.
+the-content-analysis-guidebook-2e-5	34	The state of the art consists primarily of systems that assist in accessing, storing, retrieving, unitizing, manipulating, annotating, and otherwise preparing the visual content for coding.
+the-content-analysis-guidebook-2e-5	34	The future possibilities are limitless (Evans, 2000), but for now, true automatic systems are very limited in scope and usefulness.
+the-content-analysis-guidebook-2e-5	34	One promising example is Zhu et al.’s (2013) use of facial-recognition software along with custom CATA analysis to study social media images of Barack Obama and Mitt Romney during the 2012 presidential election.
+the-content-analysis-guidebook-2e-5	34	One exceptional use of computer coding to assess nontext content is Simonton’s (1980a, 1980b, 1984, 1987, 1994, 2003b, 2010) computer content analyses of musical melodies.
+the-content-analysis-guidebook-2e-5	34	Although only the broader definitions of communication (e.g., Watzlawick et al., 1967) would consider the melodic structure of music to be message content, there’s much to be learned from Simonton’s systematic, over-time construction of musical dictionaries of melody variations, transitions, keys, instrumentations, and motifs.
+the-content-analysis-guidebook-2e-5	34	One important lesson is that coding music is like coding in another language; one must first learn the language before one is able to construct a valid coding scheme.
+the-content-analysis-guidebook-2e-5	34	Another is the patience and tenacity required to develop and test a valid and valuable set of dictionaries over a period of years.
+the-content-analysis-guidebook-2e-5	34	Dictionaries for Text Analysis A dictionary is a set of words, phrases, parts of speech, or other word-based indicators (e.g., word length, number of syllables) that is used as the basis for a search of texts.
+the-content-analysis-guidebook-2e-5	34	Usually, a number of dictionaries are used in a single study, each serving as a measure of a different concept.
+the-content-analysis-guidebook-2e-5	34	For example, the more than 70 internal dictionaries provided in Pennebaker, Booth, and Francis’s LIWC program (Linguistic Inquiry and Word Count; 2015) measure such constructs as certainty, achievement, sadness, and past-tense verbs.
+the-content-analysis-guidebook-2e-5	34	The development of dictionaries, whether they are custom or internal to a particular CATA program, is typically a long, iterative, and painstaking process.
+the-content-analysis-guidebook-2e-5	34	All researchers planning to build their own dictionaries should be prepared for this.
+the-content-analysis-guidebook-2e-5	34	Pennebaker (2011) reports that his dictionary-building process for LIWC took three years rather than the expected three weeks.
+the-content-analysis-guidebook-2e-5	34	Some programs, such as WordStat, have dictionary-building tools to help organize the task of creating custom dictionaries, but the process is still arduous.
+the-content-analysis-guidebook-2e-5	34	Custom Dictionaries Dictionaries constructed by the researcher are called custom dictionaries.
+the-content-analysis-guidebook-2e-5	35	Following the guidelines of Chapter Page 35 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	35	4, variables may be selected from theory, past research, researcher immersion in the message pool, and so on.
+the-content-analysis-guidebook-2e-5	35	For example, I have used up to 157 different custom word sets (dictionaries) for a single CATA analysis.
+the-content-analysis-guidebook-2e-5	35	By using a large number of narrowly defined dictionaries (e.g., newspaper and its synonyms; television and its synonyms), the researcher has the option of creating a variety of flexible index combinations of the dictionaries.
+the-content-analysis-guidebook-2e-5	35	For instance, the “newspaper” and “television” dictionary measures might both contribute to an additive index of “mass media.” Internal Dictionaries Internal dictionaries and protocols, most often developed by the author(s) of the computer program being used, range from simple readability indicators to complex dictionaries intended to measure very latent, unobservable constructs (e.g., an affiliation motive or an uncertainty orientation; Smith, 1992).
+the-content-analysis-guidebook-2e-5	35	Basic readability was perhaps the first standard mode of measurement for text, originating before computer text analysis.
+the-content-analysis-guidebook-2e-5	35	A number of readability indexes have been developed (Friedman & Hoffman-Goetz, 2006), all intended to measure the complexity of the writing style (a form measure), often reported as the level of education needed to read the text (e.g., eighth-grade level).
+the-content-analysis-guidebook-2e-5	35	Even basic word-processing software such as Microsoft Word includes a readability analysis.
+the-content-analysis-guidebook-2e-5	35	Danielson, Lasorsa, and Im (1992) used a computer version of the common Flesch Reading Ease Score to compare readability of novels and print news stories over a 100-year period.
+the-content-analysis-guidebook-2e-5	35	A typical readability measure, the Flesch includes both average sentence length (a syntactic measure) and average word length (a semantic measure).
+the-content-analysis-guidebook-2e-5	35	Danielson et al.
+the-content-analysis-guidebook-2e-5	35	found a clear divergence in the trends for readability of novels and news—novels have become easier to read, whereas news has become harder to read (due primarily to the use of longer words).
+the-content-analysis-guidebook-2e-5	35	Other internal dictionaries attempt to measure more specific concepts.
+the-content-analysis-guidebook-2e-5	35	The earliest, and perhaps most eclectic, collection of internal dictionaries for computer text analysis was the original General Inquirer (see Resource 1).
+the-content-analysis-guidebook-2e-5	35	As described elsewhere, there is a rich tradition of using text content analysis of speech and writing samples to measure psychological traits and states via internal, standard dictionaries and protocols, ultimately applied via computer analysis (Gottschalk, 1995; Gottschalk & Bechtel, 2008; Pennebaker, 2011; Pennebaker & Francis, 1999; Smith, 1992).
+the-content-analysis-guidebook-2e-5	36	Some of the most widely used CATA programs are designed to measure Page 36 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	36	linguistic aspects of speech and psychometric variables as applied to message sources.
+the-content-analysis-guidebook-2e-5	36	Boxes 5.3 and 5.4 detail the development and applications of two popular CATA programs that have well-developed internal dictionaries, Diction and LIWC.
+the-content-analysis-guidebook-2e-5	36	Box 5.3 The Evolution of a Dictionary Set: Political Speech Analysis With Diction Rod Hart’s perspective on his Diction (Hart, 1997; 2000b; 2014a; 2014b) computer text program is a good framework from which to view all uses of CATA: [Diction] is no listener .
+the-content-analysis-guidebook-2e-5	36	.
+the-content-analysis-guidebook-2e-5	36	.
+the-content-analysis-guidebook-2e-5	36	but merely a quick-witted hearer, one who gathers and codifies political sayings but who is without the conceptual apparatus necessary to translate iteration into ideation, hearing into listening.
+the-content-analysis-guidebook-2e-5	36	This hearer .
+the-content-analysis-guidebook-2e-5	36	.
+the-content-analysis-guidebook-2e-5	36	.
+the-content-analysis-guidebook-2e-5	36	is thus no better a scholar than the team of scholars it joins, but, equally, it allows that team to hear political sounds that could not have been heard without its assistance.
+the-content-analysis-guidebook-2e-5	36	(Hart, 1985, pp.
+the-content-analysis-guidebook-2e-5	36	97–98) Beginning around 1980, Hart took on the task of “teaching” the computer to “hear” the aspects of political speech in which he was interested.
+the-content-analysis-guidebook-2e-5	36	He devised dictionary word lists for four main features of language he deemed highly relevant to the study of political discourse: certainty, realism, activity, and optimism.
+the-content-analysis-guidebook-2e-5	36	His dictionaries were an amalgam of previous word lists, drawing on critical perspectives and political philosophy, as well as his own expertise.
+the-content-analysis-guidebook-2e-5	36	Each of the four was constituted of a number of subscale dictionaries (e.g., optimism = praise + satisfaction + inspiration – adversity – negation).
+the-content-analysis-guidebook-2e-5	36	All told, the 27 subscales encompassed about 3,000 search words.
+the-content-analysis-guidebook-2e-5	36	Over the years, the subscale dictionaries evolved—some were dropped, others were combined, some were expanded, and one main dictionary was added (commonality).
+the-content-analysis-guidebook-2e-5	36	Today, the collection stands at 31 dictionaries, five “master” dictionaries, and 10,000 search words.
+the-content-analysis-guidebook-2e-5	36	One important feature of Hart’s efforts has been to establish so-called normal ranges of scores on all of the main dictionaries and subscales.
+the-content-analysis-guidebook-2e-5	36	For years, these ranges were based solely on a large collection of political texts.
+the-content-analysis-guidebook-2e-5	36	In Diction 7, normative profiles are provided for a wider array of text types, including poetry, advertising, and TV scripts.
+the-content-analysis-guidebook-2e-5	37	(However, the collections of texts on which these normative ranges are based vary in size Page 37 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	37	and do not appear to be randomly selected from identified populations.
+the-content-analysis-guidebook-2e-5	37	Thus, comparisons with these bases should be made cautiously.) Hart’s prepared dictionaries do not exclude the possibility of custom dictionaries.
+the-content-analysis-guidebook-2e-5	37	In their study of the 1996 presidential debates, Hart and Jarvis (1997) supplemented Diction’s internal dictionaries with six custom dictionaries: patriotic terms, party references, voter references, leader references, religious terms, and irreligious terms.
+the-content-analysis-guidebook-2e-5	37	And in his analysis of intermedia agenda setting in business news, Ragas (2014) developed custom dictionaries to measure constructs related to corporate proxy contests, including such issues as corporate governance, acquisitions, and litigation.
+the-content-analysis-guidebook-2e-5	37	Hart’s approach has culminated in the 2013 volume Political Tone: How Leaders Talk and Why (Hart, Childers, & Lind), which argues for the centrality of communicative tone (operationalized as word choice) in affecting the perceptions of others.
+the-content-analysis-guidebook-2e-5	37	In this volume, the authors describe such overarching categorizations as accommodating tone, urgent tone, resilient tone, and neighborly tone.
+the-content-analysis-guidebook-2e-5	37	Diction 7 has been applied to a wide range of political speech topics, including presidential press conferences, TV commercials during presidential elections, and governors’ state-of-the-state addresses (Hart, 2014b).
+the-content-analysis-guidebook-2e-5	37	Box 5.4 The (Not-So) Secret Life of LIWC Inspired by the early CATA programs such as Philip Stone’s General Inquirer and in need of an automated method to detect important differences among essays written by individuals who had undergone traumatic experiences, social psychologist James Pennebaker and programmer/psychologist Martha Francis began work on the LIWC program (Linguistic Inquiry and Word Count) in 1991 (Pennebaker, 2011; Pennebaker & Francis, 1999).
+the-content-analysis-guidebook-2e-5	37	Over several years, they developed dozens of dictionaries based on lexical categorization of words—dictionaries that discriminated among the trauma essays.
+the-content-analysis-guidebook-2e-5	38	LIWC2015 uses dictionaries totaling nearly 4,500 words to count the occurrence of words representing a range of linguistic dimensions (e.g., prepositions, articles, personal pronouns), relativity dimensions (references to time, space, motion), psychological constructs (e.g., affective processes, such as anger; cognitive processes, such as inhibition; sensory and perceptual processes, such as hearing; and social processes, such as family), personal concerns (e.g., rePage 38 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	38	ligion, sexuality), paralinguistic dimensions (e.g., fillers, nonfluencies), and punctuation categories (e.g., periods, question marks).
+the-content-analysis-guidebook-2e-5	38	Some of the constructs in LIWC have been validated against human judges/coders, and these results are shown on the LIWC web site.
+the-content-analysis-guidebook-2e-5	38	Further, normed or “base-rate” figures for the dictionaries have been established and are available on the web site, with norms for emotional writing, control writing, science articles, blogs, novels, and talking.
+the-content-analysis-guidebook-2e-5	38	As with Diction, the samples used to construct these norms might be viewed critically.
+the-content-analysis-guidebook-2e-5	38	Pennebaker’s own work with Cindy Chung (2009) has repeatedly used LIWC to study natural language use in two ways: to examine individuals’ social, emotional, and psychological states through their use of function words (pronouns, articles, conjunctions, prepositions, and auxiliary verbs) and emotion words, as well as to examine the content of their messages through their use of nouns, regular verbs, adjectives, and adverbs (pp.
+the-content-analysis-guidebook-2e-5	38	453–454).
+the-content-analysis-guidebook-2e-5	38	Pennebaker (2011) admits that LIWC and other word-counting programs are “remarkably stupid,” unable to recognize irony or sarcasm (they are “singularly lacking in a sense of humor,” p 8), and they fail to capture the context of language, which can be critical.
+the-content-analysis-guidebook-2e-5	38	Yet over the years, this “stupid” program has led Pennebaker (2011) to discover many unexpected things about how people use their words: Not only were there differences in the ways women and men used words but there were big differences as a function of people’s age.
+the-content-analysis-guidebook-2e-5	38	And social class.
+the-content-analysis-guidebook-2e-5	38	And emotional state, level of honesty, personality type, degree of formality, leadership ability, quality of relationships, and on and on.
+the-content-analysis-guidebook-2e-5	38	Word use was associated with almost every dimension of social psychology that I had ever studied.
+the-content-analysis-guidebook-2e-5	38	Particularly intriguing was that most of the word differences were associated with the most common and forgettable words in the English language.
+the-content-analysis-guidebook-2e-5	38	(p.
+the-content-analysis-guidebook-2e-5	38	16) Devised for one specific task, LIWC has turned out to be useful in an amazing array of applications.
+the-content-analysis-guidebook-2e-5	39	For example, Pennebaker and Chung (2009) applied the LIWC dictionaries to texts authored by al-Qaeda leaders Osama bin Laden and Ayman al-Zawahiri between 1988 and 2006, comparing their speech with that of other extremist groups, concluding that bin Laden increased his cognitive complexity and emotionality after 9/11 and that post–2003 the use of anger and hostility words by both al-Qaeda leaders was much higher than that Page 39 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	39	for other extremist groups.
+the-content-analysis-guidebook-2e-5	39	Stirman and Pennebaker (2001) found that suicidal poets used more I-words in their poetry than did nonsuicidal poets, opening the door to potential detection of suicidal tendencies and suicide prevention.
+the-content-analysis-guidebook-2e-5	39	And the application of LIWC to plays and film scripts has found that playwrights and screenwriters tend to give their characters speech patterns that reflect their own sex—for example, male writers write all their characters, male and female alike, as males would speak, and female writers tend to write all their characters as females would speak (Pennebaker, 2011).
+the-content-analysis-guidebook-2e-5	39	Pennebaker’s work with LIWC has culminated in numerous scholarly publications, and in his 2011 popular nonfiction book The Secret Life of Pronouns: What Our Words Say About Us.
+the-content-analysis-guidebook-2e-5	39	The user should be cautious about using internal dictionaries simply because they are there.
+the-content-analysis-guidebook-2e-5	39	It’s a very attractive proposition to simply sit back and let the program do its work, with handy prewritten dictionaries.
+the-content-analysis-guidebook-2e-5	39	The problem is these handy dictionaries may have nothing to do with the variables the researcher hopes to measure.
+the-content-analysis-guidebook-2e-5	39	The researcher should keep in mind the fact that he or she might be better served by constructing custom dictionaries that meet his or her precise needs.
+the-content-analysis-guidebook-2e-5	39	Dictionaries Emergent From the Data This approach to dictionary construction is to base the lists on actual word frequencies and/or co-occurrences from the messages sample.
+the-content-analysis-guidebook-2e-5	39	For example, Miller, Andsager, and Riechert (1998) conducted a computer text analysis of news releases and elite newspaper coverage concerning the 1996 Republican presidential primary.
+the-content-analysis-guidebook-2e-5	39	They selected for further analyses only those words that appeared high on a frequencies list output from the VBPro program.15 In another example, Pudrovska and Ferree (2004) content analyzed the web sites of 30 transnational women’s NGOs and derived their eight mutually exclusive custom dictionaries (e.g., Reproductive Health, Politics/Law, Global Sisterhood) as emergent from an examination of word frequencies.
+the-content-analysis-guidebook-2e-5	39	Another good example is Kirilenko and Stepchenkova’s (2012) study of The New York Times articles about climate change, in which discourse themes were identified and constructed via factor analysis, and then these emergent themes were tracked across time.
+the-content-analysis-guidebook-2e-5	40	Page 40 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	40	Other Word-Based, Nondictionary Outcomes Some program applications create output that, although based on word occurrences and co-occurrences, does not use dictionaries in the typical sense.
+the-content-analysis-guidebook-2e-5	40	For example, the program CATPAC (see Resource 1) is designed to conduct semantic network analysis.
+the-content-analysis-guidebook-2e-5	40	Traditional network analysis is a method of connecting nodes (people or groups) on the basis of communication patterns measured by surveys; semantic network analysis is a method of connecting frequently occurring words based on their co-occurrence.
+the-content-analysis-guidebook-2e-5	40	Based also on the principles of neural network analysis (modeling the connections within the human brain), CATPAC identifies the most frequently occurring words in a text, ignoring standard and custom “stop words,” such as simple articles like a, the, and and.
+the-content-analysis-guidebook-2e-5	40	Based on co-occurrences of the frequently occurring words, the program conducts a cluster analysis to produce a dendrogram, which is output that graphically shows the levels of co-occurrence.
+the-content-analysis-guidebook-2e-5	40	It also conducts a multidimensional scaling analysis (MDS) of the co-occurrence matrix (and presents the map in color and 3-D, if you have the glasses).
+the-content-analysis-guidebook-2e-5	40	CATA Versus Human Coding Head-to-head comparisons of CATA and human-coded content analyses are few.
+the-content-analysis-guidebook-2e-5	40	Conway’s (2006) direct comparison using newspaper articles during the 2002 Texas gubernatorial primary confirmed his summary of past research: CATA was best at simple word counts and less effective for more “nuanced” coding.
+the-content-analysis-guidebook-2e-5	40	CATA analyses are attractive because of their speed and inherent reliability, but there are drawbacks.
+the-content-analysis-guidebook-2e-5	40	One caution is the issue of “black box” measurement.
+the-content-analysis-guidebook-2e-5	40	Many CATA programs do not reveal the precise nature of their measures or how they constructed their internal dictionaries.
+the-content-analysis-guidebook-2e-5	40	Most CATA programs do not include disambiguation procedures (e.g., differentiating among well the adverb, well the adjective, well the interjection, and well the noun), nor do they accommodate meaningful negation (e.g., “He was not a wealthy man” might be coded as denoting wealth rather than the absence of it).
+the-content-analysis-guidebook-2e-5	40	The researcher enters text into a veritable black box from which output emerges.
+the-content-analysis-guidebook-2e-5	40	This mystery analysis is typically due to the proprietary nature of the commercially available programs (e.g., Gottschalk & Bechtel, 1993; Hart, 1997).
+the-content-analysis-guidebook-2e-5	40	The Diction program is a bit more forthcoming than most in providing word lists for its dictionaries, but the documentation still does not reveal the algorithms by which the dictionary words are combined for each score.
+the-content-analysis-guidebook-2e-5	41	It’s the position of this book that Page 41 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	41	the user should be fully informed as to the substance of dictionaries and how they might be applied.
+the-content-analysis-guidebook-2e-5	41	Overall, this book agrees with the assessment of CATA by Grimmer and Stewart: “Automated methods .
+the-content-analysis-guidebook-2e-5	41	.
+the-content-analysis-guidebook-2e-5	41	.
+the-content-analysis-guidebook-2e-5	41	are no substitute for careful thought and close reading and require extensive and problem-specific validation” (2013, p 267).
+the-content-analysis-guidebook-2e-5	41	Selection of a Computer Text Content Analysis Program The options for computer text content analysis have expanded tremendously in the past two decades.
+the-content-analysis-guidebook-2e-5	41	There are several dozen options, with additions and revisions appearing regularly.
+the-content-analysis-guidebook-2e-5	41	For that reason, the reader should consult CAGO for updates.
+the-content-analysis-guidebook-2e-5	41	Yoshikoder is a featured CATA program for this book.
+the-content-analysis-guidebook-2e-5	41	It is simple and straightforward, appropriate to many content analysis tasks, is a good choice for the novice analyst, and is available as a free download.
+the-content-analysis-guidebook-2e-5	41	Resource 1 presents a brief how-to introduction for Yoshikoder.
+the-content-analysis-guidebook-2e-5	41	CAGO provides links and additional materials relevant to this versatile, do-it-yourself program.
+the-content-analysis-guidebook-2e-5	41	A very good way of helping assess whether a program is useful for a particular purpose is to collect a few examples of available publications or web site reports that detail research projects that have used the program.
+the-content-analysis-guidebook-2e-5	41	Resource 1 and CAGO contain limited bibliographies for each program that can help in this task.
+the-content-analysis-guidebook-2e-5	41	Resource 1 provides a chart comparing many of the most used and most useful computer programs designed for the quantitative content analysis of text.
+the-content-analysis-guidebook-2e-5	41	Table R1.1 indicates each software’s platform(s) and whether it is freeware and/or available as a free demo.
+the-content-analysis-guidebook-2e-5	41	The additional headers for this chart are good bases on which to compare features: Number of Cases or Units Analyzed Some programs are designed to process only one text case at a time, a very tedious process for large-scale projects.
+the-content-analysis-guidebook-2e-5	41	Others will batch the texts and analyze each in turn, providing per-unit data from one run.
+the-content-analysis-guidebook-2e-5	42	Page 42 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	42	Word Descriptives This column indicates whether some type of word descriptives are provided.
+the-content-analysis-guidebook-2e-5	42	The most basic quantitative output available from the programs is a word count, reporting the frequency of each word occurring in a text or a set of texts.
+the-content-analysis-guidebook-2e-5	42	Most often, words are also sorted in order of descending frequency.
+the-content-analysis-guidebook-2e-5	42	Often, a type/token ratio is reported, indicating the number of unique words divided by the total number of words.
+the-content-analysis-guidebook-2e-5	42	An alphabetized list of all words in the analysis may be provided.
+the-content-analysis-guidebook-2e-5	42	KWIC or Concordance KWIC stands for “key word in context.” A concordance is essentially the same thing in this application, indicating the searching and identification of all cases of a word or phrase, shown in context.
+the-content-analysis-guidebook-2e-5	42	A KWIC output displays the contexts of the located strings.
+the-content-analysis-guidebook-2e-5	42	For example, a KWIC search of Charles Dickens’s novel David Copperfield for the word tears would include the following: • I had never before seen Agnes cry.
+the-content-analysis-guidebook-2e-5	42	I had seen tears in her eyes.
+the-content-analysis-guidebook-2e-5	42	• Again she repressed the tears that had begun to flow.
+the-content-analysis-guidebook-2e-5	42	Each KWIC or concordance gives us a better understanding of the use of the search term than would be granted by a raw dictionary count.
+the-content-analysis-guidebook-2e-5	42	And notice that a dictionary count would fail to indicate that the second instance of tears is one in which the character did not cry.
+the-content-analysis-guidebook-2e-5	42	But KWIC or concordance output is more qualitative than true content analysis and does not provide the by-unit data or summaries that are expected of a quantitative technique.
+the-content-analysis-guidebook-2e-5	42	Dictionaries This column indicates whether internal (“standard” or “built-in”) dictionaries are provided by the program and/ or whether custom (user-created) dictionaries are accommodated.
+the-content-analysis-guidebook-2e-5	43	Page 43 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	43	Multiple Languages This denotes whether at least one language other than English can be handled by the program.
+the-content-analysis-guidebook-2e-5	43	Emergent Coding Some programs provide an analysis of text that is not dictionary-dependent but instead creates patterns that emerge from the text at hand.
+the-content-analysis-guidebook-2e-5	43	Most such emergent-coding protocols are based on word frequencies or co-occurrences of terms.
+the-content-analysis-guidebook-2e-5	43	Graphical Presentation If a program provides some type of graphical presentation of the CATA findings, then this is noted in this column.
+the-content-analysis-guidebook-2e-5	43	Human Coding All measures for human content analysis coding need to be fully explicated in a document called a codebook.
+the-content-analysis-guidebook-2e-5	43	The codebook corresponds to a coding form, which provides spaces appropriate for recording the codes for all variables measured.
+the-content-analysis-guidebook-2e-5	43	Together, the codebook and coding form (i.e., the coding scheme) should stand alone as a protocol for content-analyzing messages.
+the-content-analysis-guidebook-2e-5	43	As described earlier, Boxes 5.1 and 5.2 contain simple examples of a paired codebook and coding form for measuring demographic and other descriptive information about characters appearing in moving-image media.
+the-content-analysis-guidebook-2e-5	43	Codebooks and Coding Forms The goal in creating codebooks and coding forms is to make the set so complete and unambiguous as to almost eliminate the individual differences among coders.
+the-content-analysis-guidebook-2e-5	44	The construction of an original codebook is a rather Page 44 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	44	involved process, with repeated revisions right up until the moment when coding begins.
+the-content-analysis-guidebook-2e-5	44	Even the most mundane details need to be spelled out.
+the-content-analysis-guidebook-2e-5	44	All instructions should be written out carefully and fully.
+the-content-analysis-guidebook-2e-5	44	There should be instructions on what is a codable unit (see the codebook example in Box 5.1) and any other instructions on the coding protocol (e.g., “View the commercial a second time to code characters within the ad”).
+the-content-analysis-guidebook-2e-5	44	A common concern is whether to include exemplars within the codebook in addition to the carefully worded variable explications.
+the-content-analysis-guidebook-2e-5	44	While conventional wisdom is that including exemplars will increase reliability, there also is emerging evidence that there may be a trade-off—validity may be compromised.
+the-content-analysis-guidebook-2e-5	44	In particular, coders may be less likely to code for the presence of an attribute when an example is included in the codebook.
+the-content-analysis-guidebook-2e-5	44	It seems that the example limits the coder’s perception of the variable (thus, changing the codebook materially).
+the-content-analysis-guidebook-2e-5	44	The researcher has some choice on the distribution of measurement details between the codebook and the coding form.
+the-content-analysis-guidebook-2e-5	44	Some choose to put many instructions and details in the coding form, leaving little additional information to be contained in the accompanying codebook.
+the-content-analysis-guidebook-2e-5	44	Naccarato and Neuendorf (1998) went this route, and it resulted in a 12-page coding form, which was a bit unwieldy.
+the-content-analysis-guidebook-2e-5	44	The Naccarato and Neuendorf materials are available for inspection at CAGO.
+the-content-analysis-guidebook-2e-5	44	The more common choice is to include lots of detail in the codebook and to leave the coding form looking like an empty shell or spreadsheet, merely a convenient repository for numeric information.
+the-content-analysis-guidebook-2e-5	44	Lombard et al.
+the-content-analysis-guidebook-2e-5	44	(1996) chose this tack, as may be seen in their materials on the CAGO web site.
+the-content-analysis-guidebook-2e-5	44	Also, the sample codebook and coding form displayed in Boxes 5.1 and 5.2 follow this model.
+the-content-analysis-guidebook-2e-5	44	Note how the coding form uses shorthand versions for variable names and is rather meaningless without the codebook.
+the-content-analysis-guidebook-2e-5	44	Coder Selection The role of the coder should be seen as an integral part of the coding scheme.
+the-content-analysis-guidebook-2e-5	44	As such, coders should be interchangeable; that is, the data generated by the analysis do not vary substantially regardless of which coder is assigned to any given content element.
+the-content-analysis-guidebook-2e-5	44	So, ostensibly, coders might be recruited from any aggregate of typical adults—students, friends, even relatives.
+the-content-analysis-guidebook-2e-5	44	Any a priori requirement in coder qualifications may limit the validity of a coding scheme, particularly with regard to external validity, as well as limit the replicability of the study.
+the-content-analysis-guidebook-2e-5	45	Page 45 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	45	That said, there are instances in which some type of expertise is needed by the coders.
+the-content-analysis-guidebook-2e-5	45	For example, in a content analysis of violent video game content, some gaming experience might be deemed necessary (e.g., Haninger & Thompson, 2004).
+the-content-analysis-guidebook-2e-5	45	For a study of Spanish-language TV content, the coders obviously need to be fluent in Spanish (e.g., Mastro & Ortiz, 2008).
+the-content-analysis-guidebook-2e-5	45	In such situations, coding should still not be dependent on particular individuals, but rather on a certain classification of individuals (e.g., experienced video gamers, Spanish speakers, or individuals with a type of medical qualification) so that coders are still interchangeable within this classification.
+the-content-analysis-guidebook-2e-5	45	This use of expert coders (a) should be treated as exceptional (e.g., providing adequate video game experience might better be part of the coder training protocol) and (b) ought to be clearly reported with substantiation in the content analysis write-up.
+the-content-analysis-guidebook-2e-5	45	Often, a principal investigator of the study serves as a coder.
+the-content-analysis-guidebook-2e-5	45	While this is not recommended practice, it is a logistic fact of content analysis life (in unfunded academic research, at least).
+the-content-analysis-guidebook-2e-5	45	The principal investigator is likely to have biases that might jeopardize reliability and validity; most certainly, she or he will not be blind to the study’s intent.
+the-content-analysis-guidebook-2e-5	45	If the principal investigator is a coder, this should be revealed in the report of the research.
+the-content-analysis-guidebook-2e-5	45	Coder Training Three words describe good coder preparation: Train, train, and train.
+the-content-analysis-guidebook-2e-5	45	Time spent on training is a good investment, both in terms of reliability and efficiency of coder performance.
+the-content-analysis-guidebook-2e-5	45	Dixon et al.’s (2008) study of interactions during police traffic stops involved 30 hours of coder training; this is not unusual.
+the-content-analysis-guidebook-2e-5	45	As part of the training process, the researcher may need to revise the codebook repeatedly until researcher and coders are all comfortable with the coding scheme.
+the-content-analysis-guidebook-2e-5	45	Practice coding can inform the researchers as to the reliability and overall viability of the coding scheme.
+the-content-analysis-guidebook-2e-5	45	Then, revisions may be made before final coding commences.
+the-content-analysis-guidebook-2e-5	45	Coding decisions should be made from information available in the coded message only.
+the-content-analysis-guidebook-2e-5	45	For example, when coding behaviors that are exhibited on television soap operas, coders may not use information they might have from being fans of a show over a period of years (e.g., a character’s divorces, paternity, etc.).
+the-content-analysis-guidebook-2e-5	45	At the same time, it is common practice to allow coders to review the message units as often as they need to extract the maximum information from the content.
+the-content-analysis-guidebook-2e-5	45	Final coding is to be done by each coder individually; at this stage, it is not a consensus-building process.
+the-content-analysis-guidebook-2e-5	45	Consensus is useful only during training, pilot, and revision stages.
+the-content-analysis-guidebook-2e-5	46	Arguments leading to consensus at these Page 46 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	46	earlier stages should be documented in the codebook to enable future efforts to achieve the same level of reliability.
+the-content-analysis-guidebook-2e-5	46	Nor is final coding a democratic, majority-rule situation.
+the-content-analysis-guidebook-2e-5	46	Rather, it is geared to standardize the coders’ techniques.
+the-content-analysis-guidebook-2e-5	46	Their coding methods need to be calibrated so that they view the content in the same way, as they code independently, without discussion or collaboration.
+the-content-analysis-guidebook-2e-5	46	That said, there may be situations in which team coding might be appropriate.
+the-content-analysis-guidebook-2e-5	46	If the coding task is particularly difficult or dependent on spotting a wide range of characteristics, then more pairs of eyes might be employed.
+the-content-analysis-guidebook-2e-5	46	However, in this instance, reliability assessments should still be done, with teams compared with other teams.
+the-content-analysis-guidebook-2e-5	46	(I have personally been involved in only one project where a two-person coding team was deemed necessary and used; it is, and should be, the exception rather than the rule.) What is more common is the practice of splitting up a long, involved coding scheme into sections and training different sets of individual coders on the different sections.
+the-content-analysis-guidebook-2e-5	46	In this way, coders become specialized on one set of variables.
+the-content-analysis-guidebook-2e-5	46	This seems to enhance reliability but requires more coders in total.
+the-content-analysis-guidebook-2e-5	46	Blind coding, in which coders do not know the purpose of the study, is desirable to reduce bias that compromises validity (e.g., Knobloch, 2008).
+the-content-analysis-guidebook-2e-5	46	Of course, the coders need to fully understand the variables and their measures, but preferably they should not be aware of the research questions or hypotheses guiding the investigation.
+the-content-analysis-guidebook-2e-5	46	This is to avoid the coder equivalent of what is termed demand characteristic (Orne, 1975): the tendency of participants in a study to try to give the researcher what he or she wants.
+the-content-analysis-guidebook-2e-5	46	Banerjee et al.
+the-content-analysis-guidebook-2e-5	46	(1999) point out the biasing effect of coder knowledge of variables extraneous to the content analysis (e.g., being aware of the political party of political speakers at a convention) and offer techniques of statistical control for such confounding influences.
+the-content-analysis-guidebook-2e-5	46	The Processes The process of coder training is inextricably linked with the process of codebook development, at least for the development of an original codebook.
+the-content-analysis-guidebook-2e-5	46	The intertwined processes may be long and arduous.
+the-content-analysis-guidebook-2e-5	46	What follows would be the extreme scenario, including all possible points for codebook revision in the process of the creation of an original coding scheme.
+the-content-analysis-guidebook-2e-5	47	Page 47 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	47	The coder debriefing process has proved to be a valuable tool for the long-term evolution of a coding scheme, providing the researcher with possible changes, additions, and deletions based on the experiences of the frontline workers, the coders (e.g., Capwell, 1997; Neuendorf et al., 2010).
+the-content-analysis-guidebook-2e-5	47	As noted earlier, coder debriefing also carries ethical overtones.
+the-content-analysis-guidebook-2e-5	47	It should be noted that during practice coding, there may sometimes be additions made to the coding scheme in a “grounded” process, whereby constructs emerge from the content as salient, the coders take note of this, and the researcher makes the decision to add measures.
+the-content-analysis-guidebook-2e-5	48	Medium Modality and Coding The medium in which the messages to be analyzed are stored or transmitted can have implications for the Page 48 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	48	human-coding process.
+the-content-analysis-guidebook-2e-5	48	In general, it seems appropriate to attempt to code in the same modality in which the messages are created and received (thus, maximizing ecological validity).
+the-content-analysis-guidebook-2e-5	48	So to code popular music, it makes sense to use an audio playback, most likely via computer.
+the-content-analysis-guidebook-2e-5	48	To code naturally occurring interpersonal interaction, high-quality video recording rather than audio recording alone seems to be the logical choice, coming as close to face-to-face as possible.
+the-content-analysis-guidebook-2e-5	48	Coding feature films released in 1953 or later should be done on widescreen or letterboxed versions; the pan-and-scan versions actually have an altered editing pace, and entire characters may be missing from scenes.16 Above all, the researcher needs to know the capabilities and limitations of her or his delivery system.
+the-content-analysis-guidebook-2e-5	48	She or he should test it out before even collecting the message sample.
+the-content-analysis-guidebook-2e-5	48	Some examples of unexpected modality issues that might arise include the following: • Historical images may not be available in their original forms.
+the-content-analysis-guidebook-2e-5	48	For example, ads are sometimes excised from magazines and journals before libraries bind them (Michelson, 1996).
+the-content-analysis-guidebook-2e-5	48	Some older periodicals are available only on microfilm or microfiche, often rendering them only in black and white.
+the-content-analysis-guidebook-2e-5	48	• Accurate measurements of image size and shape may be compromised by different computer screen sizes and different browsers.
+the-content-analysis-guidebook-2e-5	48	• Often, spoken audio messages are transcribed, and text analysis is applied to the transcriptions (e.g., LaBarge, Von Dras, & Wingbermuehle, 1998).
+the-content-analysis-guidebook-2e-5	48	This process misses the paralanguage,17 other nonverbals, music, and other accompanying sounds that might have implications for how the message is normally received.
+the-content-analysis-guidebook-2e-5	48	Index Construction in Content Analysis When two or more measures are combined mathematically into a single indicator, that indicator is called a scale or index.18 Often, more than one measure is used to tap a concept, especially if that concept is broad; therefore, multiple measures are needed to meet the requirement of content validity.
+the-content-analysis-guidebook-2e-5	48	As with surveys and experiments, latent content in content analysis is often measured via multiple indicators of manifest characteristics that when combined in an index can represent a latent state.
+the-content-analysis-guidebook-2e-5	49	For example, Ghose and Dou (1998) Page 49 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	49	measured 23 manifest indicators of the latent construct “interactivity” for web sites that they then combined into a total measure.
+the-content-analysis-guidebook-2e-5	49	Although rarely done to date, standard indexes may be developed for content analysis in the same way scales and indexes are established for survey and experimental purposes (DeVellis, 2012).
+the-content-analysis-guidebook-2e-5	49	This involves a series of data collections, which aids in the refinement of the index over time.
+the-content-analysis-guidebook-2e-5	49	Indexes are routinely used in text content analysis, as most internal and custom dictionaries are, in essence, indexes.
+the-content-analysis-guidebook-2e-5	49	For example, the “tax” custom dictionary used by Miller et al.
+the-content-analysis-guidebook-2e-5	49	(1998) included measures for the following words: flat, mortgage, mortgages, overtaxed, tax, taxable, taxation, taxed, taxer, taxes, taxing, taxpayer, and taxpayers.
+the-content-analysis-guidebook-2e-5	49	The total index was a sum of the frequencies of all the individual word counts.
+the-content-analysis-guidebook-2e-5	49	Dodds and Danforth (2010) used survey ratings on 1,034 words (extracted from Bradley & Lang, 1999) to construct a weighted index of happiness to be applied to bodies of text; their index was a “transparent, non-reactive, population-level hedonometer” (p.
+the-content-analysis-guidebook-2e-5	49	442).
+the-content-analysis-guidebook-2e-5	49	With combined measures from a human-coding analysis, the measures are sometimes adapted from self-report indexes designed for survey or experiment applications.
+the-content-analysis-guidebook-2e-5	49	In this instance, it is appropriate to examine the internal consistency of the group of measures, just as one would do for an index in a survey or experiment.
+the-content-analysis-guidebook-2e-5	49	This involves using a statistic such as Cronbach’s alpha to assess how well the individual measures intercorrelate (Carmines & Zeller, 1979).
+the-content-analysis-guidebook-2e-5	49	For example, Smith (1999) adapted Eysenck’s (1990) three dimensions of personality—extraversion-introversion, neuroticism, and psychoticism—for her study of women’s images in US.
+the-content-analysis-guidebook-2e-5	49	film.
+the-content-analysis-guidebook-2e-5	49	Her 15 individual coded measures (reduced in number from the original Eysenck indexes due to the challenges of objective coding) were summed together to create the three indexes, and the sets were each examined for intercorrelations, using Cronbach’s alpha.
+the-content-analysis-guidebook-2e-5	49	In a study of Chinese television commercials, Zhang (2009) created an additive nine-item collectivist orientation index and a six-item individualistic orientation index, having adapted content analysis measures from a variety of sources, including previous research.
+the-content-analysis-guidebook-2e-5	49	Zhang properly assessed the internal consistency of the two indexes with Cronbach’s alpha.
+the-content-analysis-guidebook-2e-5	49	Perhaps the most problematic issue in index construction for human-coded content analysis is whether to restrict an index to individual measures meeting a certain level of intercoder reliability.
+the-content-analysis-guidebook-2e-5	49	As will be discussed in Chapter 6, intercoder reliability assessment is vital to human coding, and variables that do not achieve a certain level are often dropped from subsequent analyses.
+the-content-analysis-guidebook-2e-5	50	When multiple measures are combined in an index, Page 50 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	50	is it enough that the full index is reliable across coders, or does every individual measure have to meet the criterion? Obviously, those wishing to hold content analysis to the highest standard will choose the latter.
+the-content-analysis-guidebook-2e-5	50	At present, however, the methodological literature does not address this question.
+the-content-analysis-guidebook-2e-5	50	Full Reportage As with other aspects of content analysis methodology, decisions about measurement and validity should be fully reported.
+the-content-analysis-guidebook-2e-5	50	All measures, such as the full coding scheme or the CATA dictionaries, should be provided in the research publication or made available elsewhere (e.g., in an online accompaniment), and essential information about the history of the construction of the measures/codebook should be given (e.g., Eschenfelder, Howard, & Desai, 2005; Grayman, 2009).
+the-content-analysis-guidebook-2e-5	50	All validity assessments should be described (and, certainly, more validity assessments should be conducted in content analysis overall; Valcke & Martens, 2006).
+the-content-analysis-guidebook-2e-5	50	For human coding, the coding process (e.g., whether the coders were blind) and the process of coder training should be revealed.
+the-content-analysis-guidebook-2e-5	50	(By the way, in her review of content analyses of web content conducted prior to the year 2000, McMillan (2000) found that 12 of the 19 studies did not report any coder training.) And any multimeasure indexes or scales should be described.
+the-content-analysis-guidebook-2e-5	50	Notes for Chapter 5 1.
+the-content-analysis-guidebook-2e-5	50	Some researchers prefer the term manual coding to human coding.
+the-content-analysis-guidebook-2e-5	50	2.
+the-content-analysis-guidebook-2e-5	50	The use of computers to quantitatively analyze text has been called many different things over the years—computerized text analysis, automated text analysis, computational text analysis, computer-assisted content analysis, algorithmic coding, and algorithmic text analysis (Mehl & Gill, 2010).
+the-content-analysis-guidebook-2e-5	50	For the sake of simplicity and brevity, this book will use one term—the acronym CATA (computer-aided text analysis)—throughout.
+the-content-analysis-guidebook-2e-5	50	3.
+the-content-analysis-guidebook-2e-5	50	This may actually be achieved easily by asking for date of birth.
+the-content-analysis-guidebook-2e-5	50	4.
+the-content-analysis-guidebook-2e-5	50	This was first gleaned from my notes on a class lecture given by Professor Edward L Fink in 1977, Department of Communication, Michigan State University, East Lansing, Michigan.
+the-content-analysis-guidebook-2e-5	50	5.
+the-content-analysis-guidebook-2e-5	51	Some might argue that ecological validity would require that when the content analysis is motivated by conPage 51 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	51	cerns over effects on receivers, that coding be similar to “naïve” exposure to the content—for example, that all coding of television content be done in real time, without reviewing the material repeatedly and thus discovering nuances of information that would not be noticed the first time.
+the-content-analysis-guidebook-2e-5	51	There are several problems with this argument.
+the-content-analysis-guidebook-2e-5	51	First, in today’s communication environment, most receivers do have control over the speed and repetition of their exposure to messages (with DVRs, online streaming video, the interactivity of the Internet, and even the old-fashioned random access of newspaper reading).
+the-content-analysis-guidebook-2e-5	51	Second, the content analyst’s job may be assumed to be to tap all information that receivers might have access to; although there doesn’t seem to be research on the issue, exercises in my classes have revealed an extraordinary variety in what individuals notice the first time they see film content, versus subsequent viewing of the same content.
+the-content-analysis-guidebook-2e-5	51	And of course, things that people don’t notice may still have an effect on them.
+the-content-analysis-guidebook-2e-5	51	To tap all possible receiver experiences, it may take considerable repetition and effort by an individual coder.
+the-content-analysis-guidebook-2e-5	51	6.
+the-content-analysis-guidebook-2e-5	51	It’s surprising how few reports of human content analysis make the full set of coding materials available.
+the-content-analysis-guidebook-2e-5	51	Some examples of reports that do are Lange, Baker, and Ball (1969), Gottschalk (1995), and the National Television Violence Study (1997).
+the-content-analysis-guidebook-2e-5	51	7.
+the-content-analysis-guidebook-2e-5	51	Janis (1949) phrased it this way: “The validity of a measuring device is usually studied by comparing the results or measures obtained from it with those obtained by another device, the validity of which is already established for measuring the same characteristic” (p.
+the-content-analysis-guidebook-2e-5	51	58).
+the-content-analysis-guidebook-2e-5	51	8.
+the-content-analysis-guidebook-2e-5	51	Potter and Levine-Donnerstein (1999) also introduce an expansion on the manifest-latent content dichotomy, splitting latent into “pattern” and “projective” content.
+the-content-analysis-guidebook-2e-5	51	Pattern-latent content focuses on patterns in the content itself.
+the-content-analysis-guidebook-2e-5	51	Potter and Levine-Donnerstein present the example (from Johnston and White, 1994) of a measure of the mode of dress of female political candidates—formal suit, soft feminine suit, dress, casual, or a combination.
+the-content-analysis-guidebook-2e-5	51	This measure represents pattern content because it requires the coders to consider various combinations of manifest content (i.e., clothing items, such as jackets, scarves, pants) and evaluate how formal or feminine the combinations are (Potter and Levine-Donnerstein, 1999, pp.
+the-content-analysis-guidebook-2e-5	51	259–260).
+the-content-analysis-guidebook-2e-5	51	Projective latent content focuses on coders’ interpretations of the meanings of the content.
+the-content-analysis-guidebook-2e-5	51	The example used (from Signorielli, McLeod, and Healy, 1994) is a five-point measure of attractiveness for characters on MTV, ranging from very attractive to repulsive or ugly.
+the-content-analysis-guidebook-2e-5	51	This measure taps projective latent content because it relies on coders’ individual mental schema.
+the-content-analysis-guidebook-2e-5	51	9.
+the-content-analysis-guidebook-2e-5	52	Ahuvia (2001) proposed two adjuncts to traditional content analysis: “Interpretive content analysis,” proposed specifically to assess connotative meanings of more latent content, with which multiple individuals work Page 52 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	52	collaboratively to evaluate the context of the messages without a predetermined coding scheme; and “reception based content analysis,” which uses representatives of the typical population of receivers for the content under investigation (e.g., teens for a study of popular music) as respondents in a study that asks them to evaluate message content, also without a coding scheme or training.
+the-content-analysis-guidebook-2e-5	52	(This latter procedure is what I have always called a “response study” rather than a survey or content analysis.) It is the standpoint of this text that while these adjuncts can be useful for validation activities, they do not in themselves constitute quantitative content analysis procedures.
+the-content-analysis-guidebook-2e-5	52	10.
+the-content-analysis-guidebook-2e-5	52	The assumption that coding schemes should be validated through an examination of sources’ perceptions of the messages has been called into question by Rogers and Millar (1982), who note that under the “pragmatic” approach to communication, the researcher is concerned with “how behavior means” rather than “what the performer means” (p.
+the-content-analysis-guidebook-2e-5	52	250).
+the-content-analysis-guidebook-2e-5	52	11.
+the-content-analysis-guidebook-2e-5	52	Novice researchers are often confused about the differences among measurement, operationalization, and operational definition (described by Babbie, 1995, p 116, as “a definition that spells out precisely how the concept will be measured”).
+the-content-analysis-guidebook-2e-5	52	For most intents and purposes, measurement and operational definition mean the same thing.
+the-content-analysis-guidebook-2e-5	52	Operationalization is simply the process of developing these measurements.
+the-content-analysis-guidebook-2e-5	52	Throughout this book, measurement will be the primary term used.
+the-content-analysis-guidebook-2e-5	52	12.
+the-content-analysis-guidebook-2e-5	52	For a good example of a coding scheme using this approach, see the Brayack (1998) materials on CAGO.
+the-content-analysis-guidebook-2e-5	52	13.
+the-content-analysis-guidebook-2e-5	52	This, of course, has come to pass, as manifested in most of our smartphones .
+the-content-analysis-guidebook-2e-5	52	.
+the-content-analysis-guidebook-2e-5	52	.
+the-content-analysis-guidebook-2e-5	52	but computer understanding is still far from human.
+the-content-analysis-guidebook-2e-5	52	For example, from the perspective of my own scholarship, I am most amazed at computational folks’ perennial efforts to get computers to “learn” to recognize humor—still not very successfully (e.g., Taylor & Mazlack, 2007).
+the-content-analysis-guidebook-2e-5	52	14.
+the-content-analysis-guidebook-2e-5	52	The word lexicon is the term preferred by some branches of scholarship (e.g., linguistics) for a set of words/terms that serve as the basis for a text analysis search process.
+the-content-analysis-guidebook-2e-5	52	The term used throughout this book for such a word set is dictionary.
+the-content-analysis-guidebook-2e-5	52	15.
+the-content-analysis-guidebook-2e-5	52	The “further analyses” included a fairly sophisticated process of using the VBMap program to place the most frequently occurring words in a multidimensional space based on co-occurrence, then submitting the dimensional coordinates of these words to SPSS for cluster analysis and using the new cluster-based concept sets for a second VBMap analysis.
+the-content-analysis-guidebook-2e-5	52	This final analysis resulted in dimensional coordinates that were plotted in 3-D, creating visual representations of the key concept clusters for news releases and elite press coverage.
+the-content-analysis-guidebook-2e-5	53	Page 53 of 54 The Content Analysis Guidebook pgbrkSage Sage Research Methods © 2017 by SAGE Publications, Inc.
+the-content-analysis-guidebook-2e-5	53	16.
+the-content-analysis-guidebook-2e-5	53	Wide-screen filmmaking began in the United States in 1953, with 20th Century Fox’s release of the CinemaScope epic The Robe.
+the-content-analysis-guidebook-2e-5	53	A variety of wide-screen formats exist, and all of their aspect ratios are wider than the 4:3 ratio that was the US.
+the-content-analysis-guidebook-2e-5	53	television standard for decades, and many are somewhat wider than the 16:9 that is the current wide-screen home television standard (e.g., CinemaScope’s aspect ratio is 2.35:1, width to height).
+the-content-analysis-guidebook-2e-5	53	There are two options for the display of wide-screen movies on a screen not wide enough to accommodate the image.
+the-content-analysis-guidebook-2e-5	53	A letterboxed version of a wide-screen film shows the entire original image, with black bands at the top and bottom of the TV screen to fill any unused space.
+the-content-analysis-guidebook-2e-5	53	A pan-and-scan (or “full-screen”) version crops off the sides of the wide image to fit it to the screen and typically pans and cuts back and forth across the original wide image to capture the action, thus fundamentally changing the editing and mise-enscène (shot framing) of the film.
+the-content-analysis-guidebook-2e-5	53	For example, a sequence in Stanley Kramer’s Guess Who’s Coming to Dinner (1967) shows the Katharine Hepburn and Spencer Tracy characters taking a drive in their car.
+the-content-analysis-guidebook-2e-5	53	In the original version, a long take allows the viewer to see both characters at the same time during their entire meaningful discussion.
+the-content-analysis-guidebook-2e-5	53	The pan-and-scan version cuts back and forth between the two to catch only the speaker so that the listener’s reactions are lost.
+the-content-analysis-guidebook-2e-5	53	17.
+the-content-analysis-guidebook-2e-5	53	Paralanguage consists of all the elements of oral speech that are in addition to the words (i.e., oral behaviors that are not verbal).
+the-content-analysis-guidebook-2e-5	53	It includes such nonverbal elements as speech rate, pitch, intonation, and nonfluencies (e.g., “uh .
+the-content-analysis-guidebook-2e-5	53	.
+the-content-analysis-guidebook-2e-5	53	.”).
+the-content-analysis-guidebook-2e-5	53	18.
+the-content-analysis-guidebook-2e-5	53	This book typically uses the term index rather than scale to designate a simple composite measure, following the terminology of Babbie (2013).
+the-content-analysis-guidebook-2e-5	53	By his definitions, a multiple-item scale is a set of measures that vary in intensity, such as Bogardus’s social distance scale (e.g., “Are you willing to permit Swedes to live in your country?”; “Are you willing to permit Swedes to live in your neighborhood?”; “Would you let your child marry a Swede?”).
+the-content-analysis-guidebook-2e-5	53	The goal is to locate a respondent’s position along a continuum of items that make up the scale.
+the-content-analysis-guidebook-2e-5	53	An index is a more general construction (usually additive) of multiple items.
+the-content-analysis-guidebook-2e-5	53	An additional reason for the use of index over scale is the confusion that sometimes arises with the concept of response scale or measurement scale, the set of responses or coding categories for one variable.
+the-content-analysis-guidebook-2e-5	54	https://doi.org/10.4135/9781071802878 Page 54 of 54 The Content Analysis Guidebook pgbrk
