@@ -3386,10 +3386,11 @@ P value adjustment method: bonferroni </code></pre>
 <span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a><span class="co"># get table</span></span>
 <span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a><span class="co">#print(pd[2])</span></span>
-<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(pd[[<span class="dv">2</span>]], <span class="at">n =</span> <span class="cn">Inf</span>)</span>
-<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
-<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a><span class="fu">write.table</span>(pd[<span class="dv">2</span>], <span class="fu">paste0</span>(<span class="st">&quot;../tmp/haidi-table-v&quot;</span>, <span class="fu">sprintf</span>(<span class="st">&quot;%02d&quot;</span>, i), <span class="st">&quot;.csv&quot;</span>), <span class="at">sep=</span><span class="st">&quot;</span><span class="sc">\t</span><span class="st">&quot;</span>, <span class="at">quot=</span>T, <span class="at">row.names=</span>F)</span>
-<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a><span class="co">#cat(knitr::kable(pd[[2]]))</span></span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(pd[[<span class="dv">2</span>]], <span class="at">n =</span> <span class="cn">Inf</span>)</span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a><span class="co">#</span></span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a><span class="fu">write.table</span>(pd[<span class="dv">2</span>], <span class="fu">paste0</span>(<span class="st">&quot;../tmp/haidi-table-v&quot;</span>, <span class="fu">sprintf</span>(<span class="st">&quot;%02d&quot;</span>, i), <span class="st">&quot;.csv&quot;</span>), <span class="at">sep=</span><span class="st">&quot;</span><span class="sc">\t</span><span class="st">&quot;</span>, <span class="at">quot=</span>T, <span class="at">row.names=</span>F)</span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>`summarise()` has grouped output by &#39;v35_country&#39;. You can override using the
 `.groups` argument.</code></pre>
@@ -4562,7 +4563,7 @@ v35_country        0        1
     2000 replicates)
 
 data:  contingency_table
-p-value = 0.002499
+p-value = 0.003498
 alternative hypothesis: two.sided</code></pre>
 </div>
 </div>
